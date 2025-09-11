@@ -1,4 +1,4 @@
-<img src="assets/banner.jpg" alt="EU5 banner" width="800">
+<img src="asset/banner.jpg" alt="EU5 banner" width="800">
 
 <p align="center">
   <a href="https://steamcommunity.com/workshop/filedetails/?id=2262243033">

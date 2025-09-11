@@ -15,7 +15,7 @@
 
 > **Traduzione realizzata dal gruppo di traduttori amatoriali TWR**
 
-**Versione della mod:**
+**Versione della mod:**  
 **Patch della mod:**
 
 È possibile seguire lo stato di completamento della traduzione su Discord, nel canale [#stato-traduzione](https://discordapp.com/channels/409048447468175370/1376322996381290536).
@@ -37,6 +37,7 @@ Ko-fi: [Ko-fi.com/ZeXoGod](https://ko-fi.com/zexogod)
 ---
 
 ## Elenco traduttori
+ZeXoGod,
 
 ---
 

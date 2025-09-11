@@ -34,7 +34,10 @@ Ko-fi: [Ko-fi.com/ZeXoGod](https://ko-fi.com/zexogod)
 ---
 
 ## Guida per l’installazione
-
+1. Sottoscrivi la mod su Steam Workshop e assicurati che sia abilitata nel launcher.  
+2. Apri **Playsets** e verifica che a destra ci sia una spunta verde.  
+3. Vai su **Game Settings** e imposta la lingua **spagnola**. È la lingua sovrascritta con l’italiano.  
+4. Avvia il gioco.
 
 ---
 

@@ -13,6 +13,7 @@
   </a>
 </p>
 
+> **Traduzione realizzata dal gruppo di traduttori amatoriali TWR**
 
 Versione della mod: 1.16.2.3
 Patch della mod: Settembre v.5
@@ -21,3 +22,8 @@ Patch della mod: Settembre v.5
 
 Vi preghiamo di supportarci nell'acquisto dei nuovi DLC. Quello che per voi è un semplice caffè per noi significa molto, poiché ci permette di tenere vivo questo progetto.
 Ko-fi: [Ko-fi.com/ZeXoGod](https://ko-fi.com/zexogod)
+
+## stato - DLC
+| DLC                         | Stato                             |
+|-----------------------------|-----------------------------------|
+|||

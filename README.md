@@ -15,8 +15,8 @@
 
 > **Traduzione realizzata dal gruppo di traduttori amatoriali TWR**
 
-Versione della mod: 1.16.2.3
-Patch della mod: Settembre v.5
+**Versione della mod:**
+**Patch della mod:**
 
 È possibile seguire lo stato di completamento della traduzione su Discord, nel canale [#stato-traduzione](https://discordapp.com/channels/409048447468175370/1376322996381290536).
 

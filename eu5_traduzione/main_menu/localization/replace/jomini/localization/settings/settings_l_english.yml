@@ -27,7 +27,7 @@
  DISCARD: "Discard"
  APPLY: "Apply"
  SAVE_AND_CLOSE: "OK"
- SETTINGS: "Settings"
+ SETTINGS: "Impostazioni"
  REQUIRES_RESTART: "Requires restart"
  REQUIRE_RESTART_DESCRIPTION: "Some settings will not take effect until you restart the game."
  DISABLED_BECAUSE_IS_SET: "Disabled because '$SETTING_NAME$' is set to '$SETTING_VALUE$'"

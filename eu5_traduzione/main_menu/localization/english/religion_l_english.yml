@@ -1,7 +1,7 @@
 ﻿l_english:
  religious_influence: "Influenza Religiosa"
- religious_influence_catholic: "Papal Influence"
- religious_influence_hussite: "Church Power"
+ religious_influence_catholic: "Influenza Papale"
+ religious_influence_hussite: "Potere della Chiesa"
  religious_influence_lutheran: "Church Power"
  religious_influence_anglican: "Church Power"
  rite_power: "Rite Power"

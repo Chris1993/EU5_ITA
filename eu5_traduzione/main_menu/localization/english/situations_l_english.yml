@@ -6,7 +6,7 @@
  #
  # The Black Death
  #
- black_death: "Black Death"
+ black_death: "Morte Nera"
  black_death_desc: "Father abandoned child, wife husband, one brother another; for this illness seemed to strike through the breath and sight. And so they died. And none could be found to bury the dead for money or friendship. Members of a household brought their dead to a ditch as best they could, without priest, without divine offices ... great pits were dug and piled deep with the multitude of dead. And they died by the hundreds both day and night ... And as soon as those ditches were filled more were dug ..."
  black_death_info: "It Originated in [ROOT.GetVariable('original_outbreak').GetDiseaseOutbreak.GetOrigin.GetName]"
  black_death_monthly: "• This plague will spread to nearby [locations|e], and across trade-routes\n• It will kill many [pops|E], [armies|e] and [characters|E] where it has spread"

@@ -173,7 +173,7 @@
  game_concept_river: "Fiume"
  game_concept_rivers: "Fiumi"
  game_concept_river_desc: "Una [location|e] può avere un Fiume, un corpo d'acqua in movimento.\n\nI Fiumi non sono navigabili dalle [navies|e] ma impongono un malus di combattimento per l'[crossing|e] alle [armies|e] che tentano di entrare in una [location] con un Fiume. Inoltre, aumentano leggermente la [population_capacity|e] di unalocalità."
-
+ 
  game_concept_religion: "Religione"
  game_concept_faith: "Fede"
  game_concept_religions: "Religioni"
@@ -728,7 +728,7 @@
  game_concept_pop_type_list_title: "Elenco delle classi sociali"
  game_concept_pop_type_desc: "$game_concept_pop_type_upper_desc$\n[ShowDatabase('pop_type')]"
 
- game_concept_good: "Buono"
+ game_concept_good: "Merce"
  game_concept_goods: "Merci"
  game_concept_goods_desc: "I beni possono essere sia [raw_materials|e] coltivati, raccolti, estratti, disboscati o cacciati, sia [produced_goods|e] creati principalmente nelle città.\n\n I [food_raw_materials|e] sono anche una fonte di [food|e] beni."
  game_concept_raw_materials: "Materie prime"

@@ -1138,9 +1138,9 @@
  NAVIES_FREED_SINGLE: "The $NAVY$ is now free of the ice."
  NAVIES_FREED_LIST: "The $LIST$ are now free of the ice."
  NAVIES_FREED_NUMBER: "$NUM$ of our navies are now free of the ice."
- UNIT_OWNER_TT: "This unit belongs to [Unit.GetCountry.GetName]"
- ARMY_OWNER_TT: "This army belongs to [Unit.GetCountry.GetName]"
- NAVY_OWNER_TT: "This navy belongs to [Unit.GetCountry.GetName]"
+ UNIT_OWNER_TT: "Questa unità appartiene a [Unit.GetCountry.GetName]"
+ ARMY_OWNER_TT: "Questo esercito appartiene a [Unit.GetCountry.GetName]"
+ NAVY_OWNER_TT: "Questa flotta appartiene a [Unit.GetCountry.GetName]"
  #
  # Combat Imminent
 

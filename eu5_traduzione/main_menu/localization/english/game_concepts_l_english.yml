@@ -1006,7 +1006,7 @@
  game_concept_cabinet_seat: "Posto del Gabinetto"
  game_concept_cabinet_seats: "Posti del Gabinetto"
  game_concept_cabinet_seats_desc: "Questo definisce il numero di [cabinet_members|e] che un [country|e] può impiegare contemporaneamente nel suo [cabinet|e]. Alcuni [advances|e] possono aumentare il numero di $game_concept_cabinet_seats$ disponibili."
- game_concept_cabinet_efficiency: "Efficienza del mobile"
+ game_concept_cabinet_efficiency: "Efficienza del Gabinetto"
  game_concept_cabinet_efficiency_desc: "Si tratta della velocità e dell'efficacia con cui [characters|e] di [cabinet|e] opererà quando viene assegnato ad eseguire [cabinet_actions|e]. È influenzato da [crown_power|e] e [societal_values|e] e può essere modificato anche da [advances|e], [government_reforms|e], [policies|e] e [buildings|e]."
  game_concept_cabinet: "Gabinetto"
  game_concept_cabinet_desc: "$game_concept_cabinet$ è l'assemblea dei funzionari superiori che aiutano a governare [country|e] attraverso [cabinet_actions|e]. Il numero di [cabinet_seats|e] viene aumentato da [advances|e]."
@@ -1159,12 +1159,12 @@
 
 
 
- game_concept_estate_satisfaction: "Soddisfazione dello Stato"
+ game_concept_estate_satisfaction: "Soddisfazione dello Ordine"
  game_concept_estate_satisfaction_short: "Soddisfazione"
  game_concept_estate_satisfaction_desc: "Questo è il grado di soddisfazione di [estate|e] per il modo in cui viene governato [country|e] attualmente. Se è alto, il Paese otterrà dei bonus, ma se è basso, darà delle penalità, e se è abbastanza basso, non potremo assumere [army_levies|e] e [navy_levies|e] da quel [estate].\n\n Questo ha anche un impatto diretto sul [pop_satisfaction|e] dei [pops|e] membri di questo [estate]."
- game_concept_estate_power: "Potenza immobiliare"
+ game_concept_estate_power: "Potere dell'Ordine"
  game_concept_estate_power_desc: "Questo è il potere che un [estate|e] ha in un [country|e]. Dipende molto dalla dimensione di [population|e] dei [pop_types|e] che appartengono al [estate], e da quale [estate_privileges|e] è stato loro assegnato.\n\nAlcuni [pop_types|e] come [ShowPopTypeName('nobles')] ricevono molto più Potere Immobiliare per [pop|e] di quanto non faccia [ShowPopTypeName('slaves')].\n\n $BULLET_WITH_TAB$ Il potere totale di [estates] riduce il [crown_power|e] di [country].\n$BULLET_WITH_TAB$ Il [tax_base|e] di un [location|e] è distribuito in base alle dimensioni, al Potere Immobiliare e al [pop_type] di ogni pop presente."
- game_concept_crown_power: "Potenza della Corona"
+ game_concept_crown_power: "Potere della Corona"
  game_concept_crown_power_desc: "Questo è il potere che la corona ha in un [country|e]. Più grande è, più potente ed efficiente diventa il [country]. Se sono state date troppe [estate_privileges|e] all'[estates|e], questa può essere così bassa che il Paese viene penalizzato.\n\n Ci sono [advances|e] attraverso l'[ages|e] che aumentano l'[crown_power|e], soprattutto quando si avanza nell'[ShowAgeName('age_5_absolutism')]."
  game_concept_estate_tax_base: "Base dell'imposta sul patrimonio"
  game_concept_estate_tax_base_desc: "Ogni [estate|e] guadagna [gold|e] una frazione di [tax_base|e] in ogni [location|e] che dipende dalla sua [estate_power|e] presenza rispetto alle altre [estates]. Questo viene poi ridotto dal [estate_enrichment|e]."
@@ -1219,8 +1219,8 @@
  game_concept_demands: "Richieste"
  game_concept_demand_desc: "Questa è la quantità di [good|e] che [buildings|e] serve per i loro input, quanta [pops|e] ne serve per la loro vita, quanta ne richiedono i vari [constructions|e] e quanta [exports|e] ne viene richiesta a un [market|e]."
 
- game_concept_market_balance: "Equilibrio del mercato"
- game_concept_market_balance_short: "Equilibrio"
+ game_concept_market_balance: "Bilancio del Mercato"
+ game_concept_market_balance_short: "Bilancio"
  game_concept_market_balance_desc: "Il $game_concept_market_balance$ di un [good|e] è la differenza tra il [supply_with_icon|e] e il [demand_with_icon|e] di quel [good] all'interno di un [market_with_icon|e]."
 
  game_concept_market_value: "Valore di mercato"

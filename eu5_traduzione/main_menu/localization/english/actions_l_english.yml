@@ -155,9 +155,9 @@
  train_admiral_desc: "Spend gold to train a new [admiral|e]. They will not be allowed to be a member of our [cabinet|e]."
  train_admiral_effect: "A new [admiral|e] is trained and enters our country."
 
- create_market_desc: "Create a new [market|e] in a target [location|e]. The [price|e] depends on the current [market_access|e] of the [location|e]."
- create_market_select_location: "Choose the [location|e] to create a new [market|e] in"
- get_claim_from_imperial_court: "Authorization for Expansion"
+ create_market_desc: "Crea un nuovo [market|e] nella [location|e] scelta. Il [price|e] dipende dall'attuale [market_access|e] della [location|e]."
+ create_market_select_location: "Scegli la [location|e] per creare un nuovo [market|e] a"
+ get_claim_from_imperial_court: "Autorizzazione all'Espansione"
  get_claim_from_imperial_court_desc: "We can persuade the $imperial_court$ to give us a justification to declare war on our neighbors to expand our influence."
  get_claim_from_imperial_court_tt: "Any neighbor [country|e] that is not our [subject|e] or [ally|e], we have less than #Y 50#! [opinion|e] of, and we do not already have a [ShowCasusBelliName('cb_japanese_clan_expand_authority')] [casus_belli|e] on"
  claim_from_imperial_court_tt: "We will get [ShowCasusBelliName('cb_japanese_clan_expand_authority')] [casus_belli|e] on one of our neighbor's [provinces|e]"
@@ -255,7 +255,7 @@
  
  ADD_TO_IO_TOOLTIP_T: "Add [LocationView.GetLocation.GetNameWithNoTooltip] to [InternationalOrganization.GetNameWithNoTooltip]"
  REMOVE_FROM_IO_TOOLTIP_T: "Remove [LocationView.GetLocation.GetNameWithNoTooltip] from [InternationalOrganization.GetNameWithNoTooltip]"
- add_location_to_international_organization: "Add Location to International Organization"
+ add_location_to_international_organization: "Aggiungi Località all'Organizzazione Internazionale"
  add_location_to_international_organization_tt: "[target_1.GetOnAddedLocation(target)]"
  add_location_to_international_organization_desc: "Adds the selected [location|e] to the specific [international_organization|e]"
  add_location_to_international_organization_select_location: "Select [location|e] to add:"

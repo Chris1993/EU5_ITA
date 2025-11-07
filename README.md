@@ -1,6 +1,6 @@
+<p align="center">
 <img src="asset/banner.jpg" alt="EU5 banner" width="800">
 
-<p align="center">
   <a href="https://steamcommunity.com/workshop/filedetails/?id=3599908727">
     <img alt="Steam Workshop" src="https://img.shields.io/badge/Steam_Workshop-Subscribe-1b2838?style=for-the-badge&logo=steam&logoColor=white">
   </a>
@@ -17,8 +17,8 @@
 
 > **Traduzione realizzata dal gruppo di traduttori amatoriali TWR**
 
-**Versione della mod: 0.1**  
-**Patch della mod: 1.0.0**
+**Versione della mod: 0.2**  
+**Patch della mod: 1.0.2**
 
 È possibile seguire lo stato di completamento della traduzione su Discord, nel canale [#stato-traduzione](https://discordapp.com/channels/409048447468175370/1376322996381290536).
 
@@ -39,7 +39,7 @@ Una volta sottoscritta la mod, assicurati che sia abilitata, la lingua impostata
 ---
 
 ## Elenco traduttori
-ZeXoGod, Darmac, Maurizuc, Zero, Toma, Litore
+ZeXoGod, Darmac, Maurizuc, Zero, Toma, Litore, Turk975
 
 ---
 

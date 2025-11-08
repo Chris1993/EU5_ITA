@@ -23,7 +23,8 @@
 È possibile seguire lo stato di completamento della traduzione su Discord, nel canale [#stato-traduzione](https://discordapp.com/channels/409048447468175370/1376322996381290536).
 
 Vi preghiamo di supportarci nell'acquisto dei nuovi DLC. Quello che per voi è un semplice caffè per noi significa molto, poiché ci permette di tenere vivo questo progetto.
-Ko-fi: [Ko-fi.com/ZeXoGod](https://ko-fi.com/zexogod)
+
+<a href='https://ko-fi.com/W7W31FKJI0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Stato - DLC
 | DLC                         | Stato                             |

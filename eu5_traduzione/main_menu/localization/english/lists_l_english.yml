@@ -23,9 +23,9 @@
  WORKS_OF_ART_SORT_BY_LOCATION: "Sort by the [location|e] of the [work_of_art|e]"
  WORKS_OF_ART_SORT_BY_ARTIST: "Sort by the [artist|e] of the [work_of_art|e]"
  
- sort_location_name: "Click to sort by the name of the [locations|e]"
+ sort_location_name: "Clicca per ordinare in base al nome della [locations|e]"
  GOODS_SOURCE_ENTRY_SORT_BY_LOCATION_NAME: "$sort_location_name$"
- GOODS_SOURCE_ENTRY_SORT_BY_OWNER_NAME: "Sort by the name of the [owner|e] of [locations|e]"
+ GOODS_SOURCE_ENTRY_SORT_BY_OWNER_NAME: "Ordina per nome del [owner|e] delle [locations|e]"
  GOODS_SOURCE_ENTRY_SORT_BY_OUTPUT: "Sort by the [output|e] of the [locations|e]"
 
  REBEL_ENTRY_SORT_BY_LOCATION_NAME: "$sort_location_name$"
@@ -1045,10 +1045,10 @@
 
  custom_search_filter_market_category_name: "@market! Market"
  custom_search_filter_market_presence_group_name: "@market! Markets Presence"
- CUSTOM_SEARCH_FILTER_MARKET_HAS_PRESENCE_NAME: "Has Presence"
- CUSTOM_SEARCH_FILTER_MARKET_HAS_PRESENCE_DESC: "Show only markets where we own locations (in green) or have some trade capacity (in blue)."
- CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_NAME: "Has No Presence"
- CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_DESC: "Show only markets with no presence in our country."
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_PRESENCE_NAME: "Presenti"
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_PRESENCE_DESC: "Mostra solo i mercati in cui possediamo sedi (in verde) o abbiamo una certa capacità commerciale (in blu)."
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_NAME: "Non Presenti"
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_PRESENCE_DESC: "Mostra solo i mercati non presenti nel nostro Paese."
  custom_search_filter_market_with_pops_group_name: "@market! Markets With Pops"
  CUSTOM_SEARCH_FILTER_MARKET_WITH_POPS_NAME: "Has Pops"
  CUSTOM_SEARCH_FILTER_MARKET_WITH_POPS_DESC: "Show only markets with pops from our country."

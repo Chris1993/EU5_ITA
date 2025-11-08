@@ -1147,7 +1147,7 @@
 # Government subtabs
  SUBTAB_GOVERNMENT_ESTATES: "$game_concept_estates$"
  SUBTAB_GOVERNMENT_ESTATES_TT_TITLE: "$game_concept_estates$"
- SUBTAB_GOVERNMENT_ESTATES_TT_TEXT: "This window allows you to attend to the [estates|e] in our [country|e]. Here you can grant or revoke [privileges|e] to manage their [estate_satisfaction|e] or leverage their [estate_power|e]. You can also modify our [government|e] by enacting [reforms|e]."
+ SUBTAB_GOVERNMENT_ESTATES_TT_TEXT: "Questa finestra consente di occuparsi degli [estates|e] nel nostro [country|e]. Qui puoi concedere o revocare i [privileges|e] per gestire la [estate_satisfaction|e] o sfruttare il loro [estate_power|e]. È inoltre possibile modificare il nostro [government|e] promulgando [reforms|e]."
  SUBTAB_GOVERNMENT_ESTATES_TT_FLAVOR_TEXT: ""L'État, c'est moi!""
 
  SUBTAB_GOVERNMENT_PARLIAMENT: "$game_concept_parliament$"

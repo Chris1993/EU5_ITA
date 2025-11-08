@@ -66,7 +66,7 @@
 
  conquest_mission_events.11.title: "I [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Locali Richiedono Collaborazione in [target_province.GetNameWithNoTooltip]"
  conquest_mission_events.11.desc: "I [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] di [target_province.GetName] si sono avvicinati a noi, cercando di ottenere un ruolo all’interno del nostro sistema in cambio della loro lealtà.\n\nIn [target_location.GetName], queste famiglie offrono influenza, risorse, e controllo locale — ma solo in cambio di terre e privilegi. Il loro supporto potrebbe facilitare l’integrazione, ma ad un costo per la gente comune e per la nostra autorità."
- conquest_mission_events.11.a: "Better the devil you know..."
+ conquest_mission_events.11.a: "Meglio il male conosciuto..."
  conquest_mission_events.11.b: "Non detteranno la nostra politica."
  conquest_mission_events.11.c: "Supporta i [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] locali invece."
  conquest_mission_events.11.d: "L’autorità di [target_character.GetShortNameWithNoTooltip] non è in discussione."

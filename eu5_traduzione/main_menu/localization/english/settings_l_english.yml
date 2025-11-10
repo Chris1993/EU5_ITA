@@ -313,6 +313,8 @@
  SETTING_FLATMAP_MODE_FOG_OF_WAR_IGNORE_ZOOM: "Fog of War only"
  SETTING_FLATMAP_MODE_ALWAYS: "Always"
  SETTING_FLATMAP_MODE_NEVER: "Never"
+ SETTING_MAXIMIZE_TICK_SPEED: "Maximize Tick Speed"
+ SETTING_MAXIMIZE_TICK_SPEED_TOOLTIP: "#T $SETTING_MAXIMIZE_TICK_SPEED$#!\nPrioritize CPU usage for tick speed when at maximum game speed instead of keeping a smooth framerate. When activated will also make speed 4 act as speed 5 when deactivated."                                                                                                                                                                                                                                                                                                         
  SETTING_DISABLE_3D_TERRAIN: "Disable 3D Terrain"
  SETTING_DISABLE_3D_TERRAIN_TOOLTIP: "#T $SETTING_DISABLE_3D_TERRAIN$#!\nDisables loading of the 3d terrain to increase performance."
  SETTING_FILL_IN_IMPASSABLE_TERRAIN: "Fill in impassible terrain"

@@ -30,11 +30,11 @@
  WAR_OVERVIEW_BLOCKADED_PERCENT_TOOLTIP: "$NUM$ di $MAX$ porti di @[COUNTRY.GetFlag]! [COUNTRY.GetName] sono [blockaded|e]"
 
  WAR_OVERVIEW_BATTLES_WON: "Battaglie vinte"
- WAR_OVERVIEW_LAND_BATTLES_WON: "Battaglie terrestri vinte"
- WAR_OVERVIEW_NAVAL_BATTLES_WON: "Battaglie navali vinte"
+ WAR_OVERVIEW_LAND_BATTLES_WON: "Battaglie Terrestri vinte"
+ WAR_OVERVIEW_NAVAL_BATTLES_WON: "Battaglie Navali vinte"
  WAR_OVERVIEW_BATTLES_LOST: "Battaglie perse"
- WAR_OVERVIEW_LAND_BATTLES_LOST: "Battaglie terrestri perse"
- WAR_OVERVIEW_NAVAL_BATTLES_LOST: "Battaglie navali perse"
+ WAR_OVERVIEW_LAND_BATTLES_LOST: "Battaglie Terrestri perse"
+ WAR_OVERVIEW_NAVAL_BATTLES_LOST: "Battaglie Navali perse"
 
  WAR_OVERVIEW_LOSSES_TOOLTIP_LINE: "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: [BATTLE_SIDE.GetLosses|Y]@army_strength!"
  WAR_OVERVIEW_LOSSES_TOOLTIP_LINE_NAVAL: "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: [BATTLE_SIDE.GetNavalLosses|Y]@navy_strength!"
@@ -65,7 +65,7 @@
  WAR_ENTHUSIASM_OCCUPIED_LOCATIONS: "[locations|e] [occupied|e] e [besieged|e]: $VAL|+=2%$"
  WAR_ENTHUSIASM_MEN_LOSSES: "Perdite di Uomini: $VAL|+=2%$"
  WAR_ENTHUSIASM_SHIP_LOSSES: "Perdite di Navi: $VAL|+=2%$"
- WAR_ONGOING_BATTLES: "[battles|e] in corso"
+ WAR_ONGOING_BATTLES: "[battles|e] in Corso"
 
  WAR_WARSCORE_TT: "[war_score|e]: [WarLateralView.GetWarScore|2+=/%]\n\n"
  WAR_SORT_LEAD_TT: "Ordina per comando nella [war|e]"
@@ -98,7 +98,7 @@
 
  WAR_BATTLE_TOOLTIP_H: "$NAME$, $DATE$"
  WAR_BATTLE_TOOLTIP_SIZE: "$WIN$@army_strength! vs $LOSS$@army_strength!"
- WAR_BATTLE_TOOLTIP_SC: "Punteggio battaglia: $SCORE|+=2$"
+ WAR_BATTLE_TOOLTIP_SC: "Punteggio Battaglia: $SCORE|+=2$"
  WAR_BATTLE_TOOLTIP_W: "Vincitori: $WIN$\nPerdite: $WINUNITS$"
  WAR_BATTLE_TOOLTIP_L: "Sconfitti: $LOSS$\nPerdite: $LOSSUNITS$"
 
@@ -138,12 +138,12 @@
 
  LEAVE_WAR_REASON_WarEnded: "Guerra terminata"
  LEAVE_WAR_REASON_Annexed: "Annesso da [TARGET_COUNTRY.GetName]"
- LEAVE_WAR_REASON_CountryDoesNotExist: "Il paese non esiste più"
+ LEAVE_WAR_REASON_CountryDoesNotExist: "Il Paese non esiste più"
  LEAVE_WAR_REASON_PeacedOut: "Ha concordato la pace con [TARGET_COUNTRY.GetName]"
  LEAVE_WAR_REASON_WasPeacedOut: "[TARGET_COUNTRY.GetName] ha negoziato un accordo di pace per loro conto"
  LEAVE_WAR_REASON_BecameSubject: "È diventato un suddito di [TARGET_COUNTRY.GetName]"
- LEAVE_WAR_REASON_CivilWar: "È scoppiata una Guerra Civile"
- LEAVE_WAR_REASON_Union: "Ha formato un'[union|e] con [TARGET_COUNTRY.GetName]"
+ LEAVE_WAR_REASON_CivilWar: "È Scoppiata una Guerra Civile"
+ LEAVE_WAR_REASON_Union: "Ha Formato un'[union|e] con [TARGET_COUNTRY.GetName]"
  LEAVE_WAR_REASON_Forced: "Costretto a lasciare la guerra da [TARGET_COUNTRY.GetName]"
  LEAVE_WAR_REASON_Abandoned: "Ha abbandonato il proprio alleato [TARGET_COUNTRY.GetName] nel suo momento di bisogno"
  LEAVE_WAR_REASON_ForcedAbandoned: "Costretto ad abbandonare il proprio alleato [TARGET_COUNTRY.GetName] nel suo momento di bisogno dal proprio sovrano"

@@ -17,8 +17,8 @@
 
 > **Traduzione realizzata dal gruppo di traduttori amatoriali TWR**
 
-**Versione della mod: 0.2**  
-**Patch della mod: 1.0.2**
+**Versione della mod: 0.7**  
+**Patch della mod: 1.0.3**
 
 È possibile seguire lo stato di completamento della traduzione su Discord, nel canale [#stato-traduzione](https://discordapp.com/channels/409048447468175370/1376322996381290536).
 
@@ -40,7 +40,7 @@ Una volta sottoscritta la mod, assicurati che sia abilitata, la lingua impostata
 ---
 
 ## Elenco traduttori
-ZeXoGod, Darmac, Maurizuc, Zero, Toma, Litore, Turk975
+ZeXoGod, Darmac, Maurizuc, Zero, Toma, Litore, Turk975, Robisan, Tosen
 
 ---
 

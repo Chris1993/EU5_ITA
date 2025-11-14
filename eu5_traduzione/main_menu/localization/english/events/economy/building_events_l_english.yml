@@ -1,10 +1,10 @@
 ﻿l_english:
- building.1.title: "University of [new_university.GetNameWithNoTooltip]"
- building.1.desc: "After a series of heated debates turned violent, scholars from the University of [old_university.GetName] have fled to [new_university.GetName] to establish a rival learning institution there.\n\n[old_university.GetNameWithNoTooltip] alumni make up a sizeable portion of the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], and they are petitioning us to clamp down on this education rebellion."
- building.1.a: "Encourage this new learning institution."
- building.1.b: "Instruct the refugees to return to [old_university.GetNameWithNoTooltip]."
+ building.1.title: "Università di [new_university.GetNameWithNoTooltip]"
+ building.1.desc: "Dopo una serie di accesi dibattiti degenerati in violenza, alcuni studiosi dell'Università di [old_university.GetName] sono fuggiti a [new_university.GetName] per fondarvi un'istituzione accademica rivale.\n\nGli ex studenti di [old_university.GetNameWithNoTooltip] costituiscono una parte considerevole del [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] e ci stanno chiedendo di reprimere questa ribellione educativa."
+ building.1.a: "Incoraggia questa nuova istituzione accademica."
+ building.1.b: "Ordina ai rifugiati di tornare a [old_university.GetNameWithNoTooltip]."
  #
- building.2.title: "Town and Gown"
- building.2.desc: "Students from the University of [university.GetName] are under the protection of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], and as such are afforded different rights to the local townsfolk. The two communities living in close proximity often causes distrust, but recently the distrust has escalated into violent riots."
- building.2.a: "Side with the university."
- building.2.b: "Side with the townsfolk."
+ building.2.title: "Città e Accademia"
+ building.2.desc: "Gli studenti dell'Università di [university.GetName] sono sotto la protezione del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] e, in quanto tali, godono di diritti diversi rispetto agli abitanti della città. La convivenza tra le due comunità spesso genera diffidenza, ma di recente questa diffidenza è sfociata in violente rivolte."
+ building.2.a: "Sostieni l'Università."
+ building.2.b: "Sostieni i Cittadini."

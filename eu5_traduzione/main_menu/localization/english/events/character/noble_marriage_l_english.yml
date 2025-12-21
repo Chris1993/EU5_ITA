@@ -1,22 +1,22 @@
 ﻿l_english:
- noble_marriage.1.title: "A [ROOT.GetCountry.GetGovernment.GetConsortTitle] for the [ROOT.GetCountry.GetGovernment.GetRuler.GetName]"
- noble_marriage.1.desc: "As our [ROOT.GetCountry.GetGovernment.GetRulerTitle] is not married, the nobility has expressed a concern over the continuation of our monarchy. One of our most important nobles, [target.GetDynasty.GetDynastyHead.GetName], has proposed that our [ROOT.GetCountry.GetGovernment.GetRulerTitle] marries [target.GetName]"
- noble_marriage.1.a: "This is a good solution!"
- noble_marriage.1.b: "A mere noble can never be [ROOT.GetCountry.GetGovernment.GetConsortTitle]"
-
- noble_marriage.2.title: "A Future [ROOT.GetCountry.GetGovernment.GetConsortTitle]!"
- noble_marriage.2.desc: "As our [ROOT.GetCountry.GetGovernment.GetHeirTitle] is not married, the nobility has expressed a concern over the continuation of our monarchy. One of our most important nobles, [target.GetDynasty.GetDynastyHead.GetName], has proposed that our [ROOT.GetCountry.GetGovernment.GetHeirTitle] marries [target.GetName]"
- noble_marriage.2.a: "This is a good solution!"
- noble_marriage.2.b: "This is an insult to our [ROOT.GetCountry.GetGovernment.GetHeirTitle]."
-
+ noble_marriage.1.title: "Un[ROOT.GetCountry.GetGovernment.GetConsort.Custom('IT_ART_NULL_A')] [ROOT.GetCountry.GetGovernment.GetConsortTitle] per [ROOT.GetCountry.GetGovernment.GetRuler.GetName]"
+ noble_marriage.1.desc: "Poiché [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] nostr[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')] [ROOT.GetCountry.GetGovernment.GetRulerTitle] non è sposato, la nobiltà ha espresso dubbi sulla continuità della monarchia. Uno dei nostri nobili più influenti, [target.GetDynasty.GetDynastyHead.GetName], ha proposto che [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] nostr[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')] [ROOT.GetCountry.GetGovernment.GetRulerTitle] sposi [target.GetName], forse nel tentativo di accrescere il proprio prestigio."
+ noble_marriage.1.a: "Questa è una soluzione accettabile."
+ noble_marriage.1.b: "Un[ROOT.GetCountry.GetGovernment.GetConsort.Custom('IT_ART_NULL_A')] semplice nobile non potrà mai essere [ROOT.GetCountry.GetGovernment.GetConsortTitle]."
+ 
+ noble_marriage.2.title: "Un[ROOT.GetCountry.GetGovernment.GetConsort.Custom('IT_ART_NULL_A')] futur[ROOT.GetCountry.GetGovernment.GetConsort.Custom('IT_ART_O_A')] [ROOT.GetCountry.GetGovernment.GetConsortTitle]!"
+ noble_marriage.2.desc: "Poiché [ROOT.GetCountry.GetGovernment.GetHeir.Custom('IT_ART_TITOLO')] nostr[ROOT.GetCountry.GetGovernment.GetHeir.Custom('IT_ART_O_A')] [ROOT.GetCountry.GetGovernment.GetHeirTitle] non è sposato, la nobiltà palesa preoccupazione per la successione. Uno dei nostri nobili di spicco, [target.GetDynasty.GetDynastyHead.GetName], ha suggerito che il nostro [ROOT.GetCountry.GetGovernment.GetHeirTitle] sposi [target.GetName]."
+ noble_marriage.2.a: "Sembra una soluzione adeguata."
+ noble_marriage.2.b: "Questa proposta offende [ROOT.GetCountry.GetGovernment.GetHeir.Custom('IT_ART_TITOLO')] nostr[ROOT.GetCountry.GetGovernment.GetHeir.Custom('IT_ART_O_A')] [ROOT.GetCountry.GetGovernment.GetHeirTitle]."
+ 
  noble_marriage.3.title: "$noble_marriage.1.title$"
  noble_marriage.3.desc: "$noble_marriage.1.desc$"
- noble_marriage.3.a: "There is no other option!"
- noble_marriage.3.b: "Only one of royal blood will do!"
+ noble_marriage.3.a: "Non vi sono altre opzioni credibili."
+ noble_marriage.3.b: "Sarà accettato solo chi vanta sangue reale."
  
  
- valid_female_of_ruler_dynasty: "Is valid female [character|e] of their [dynasty|e]"
- noble_marriage.4.title: "Closer Ties with the House of [male_target.GetDynasty.GetNameWithNoTooltip]"
- noble_marriage.4.desc: "In an effort to bind their family to [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], [male_target.GetDynasty.GetDynastyHead.GetName], has proposed that he should marry [female_target.GetName]."
- noble_marriage.4.a: "This is good for the [ROOT.GetCountry.GetLongNameWithNoTooltip]!"
- noble_marriage.4.b: "This is an insult!"
+ valid_female_of_ruler_dynasty: "È un [character|e] femminile valido della loro [dynasty|e]"
+ noble_marriage.4.title: "Legami più stretti con la casata [male_target.GetDynasty.GetNameWithNoTooltip]"
+ noble_marriage.4.desc: "Nel palese tentativo di legare la sua famiglia alla [dynasty|e] [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName], [male_target.GetDynasty.GetDynastyHead.GetName] ha proposto di sposare [female_target.GetName]."
+ noble_marriage.4.a: "Questo dovrebbe giovare [ROOT.GetCountry.Custom('IT_Alla')][ROOT.GetCountry.GetLongNameWithNoTooltip]."
+ noble_marriage.4.b: "Questa è un'offesa!"

@@ -1,0 +1,54 @@
+﻿################################################################################################
+
+#####POP
+#IT_POP_I = {
+#	type = pop_type
+#	log_loc_errors = no
+#	text = { localization_key = nobles_IT_POP_I trigger = { pop_type = pop_type:nobles } }
+#	text = { localization_key = clergy_IT_POP_I trigger = { pop_type = pop_type:clergy } }
+#	text = { localization_key = burghers_IT_POP_I trigger = { pop_type = pop_type:burghers } }
+#	text = { localization_key = laborers_IT_POP_I trigger = { pop_type = pop_type:laborers } }
+#	text = { localization_key = soldiers_IT_POP_I trigger = { pop_type = pop_type:soldiers } }
+#	text = { localization_key = peasants_IT_POP_I trigger = { pop_type = pop_type:peasants } }
+#	text = { localization_key = slaves_IT_POP_I trigger = { pop_type = pop_type:slaves } }
+#	text = { localization_key = tribesmen_IT_POP_I trigger = { pop_type = pop_type:tribesmen } }
+#}
+
+#IT_POP_DEI = {
+#	type = pop_type
+#	log_loc_errors = no
+#	text = { localization_key = nobles_IT_POP_DEI trigger = { pop_type = pop_type:nobles } }
+#	text = { localization_key = clergy_IT_POP_DEI trigger = { pop_type = pop_type:clergy } }
+#	text = { localization_key = burghers_IT_POP_DEI trigger = { pop_type = pop_type:burghers } }
+#	text = { localization_key = laborers_IT_POP_DEI trigger = { pop_type = pop_type:laborers } }
+#	text = { localization_key = soldiers_IT_POP_DEI trigger = { pop_type = pop_type:soldiers } }
+#	text = { localization_key = peasants_IT_POP_DEI trigger = { pop_type = pop_type:peasants } }
+#	text = { localization_key = slaves_IT_POP_DEI trigger = { pop_type = pop_type:slaves } }
+#	text = { localization_key = tribesmen_IT_POP_DEI trigger = { pop_type = pop_type:tribesmen } }
+#}
+
+#IT_POP_AI = {
+#	type = pop_type
+#	log_loc_errors = no
+#	text = { localization_key = nobles_IT_POP_AI trigger = { pop_type = pop_type:nobles } }
+#	text = { localization_key = clergy_IT_POP_AI trigger = { pop_type = pop_type:clergy } }
+#	text = { localization_key = burghers_IT_POP_AI trigger = { pop_type = pop_type:burghers } }
+#	text = { localization_key = laborers_IT_POP_AI trigger = { pop_type = pop_type:laborers } }
+#	text = { localization_key = soldiers_IT_POP_AI trigger = { pop_type = pop_type:soldiers } }
+#	text = { localization_key = peasants_IT_POP_AI trigger = { pop_type = pop_type:peasants } }
+#	text = { localization_key = slaves_IT_POP_AI trigger = { pop_type = pop_type:slaves } }
+#	text = { localization_key = tribesmen_IT_POP_AI trigger = { pop_type = pop_type:tribesmen } }
+#}
+
+#IT_POP_DAI = {
+#	type = pop_type
+#	log_loc_errors = no
+#	text = { localization_key = nobles_IT_POP_DAI trigger = { pop_type = pop_type:nobles } }
+#	text = { localization_key = clergy_IT_POP_DAI trigger = { pop_type = pop_type:clergy } }
+#	text = { localization_key = burghers_IT_POP_DAI trigger = { pop_type = pop_type:burghers } }
+#	text = { localization_key = laborers_IT_POP_DAI trigger = { pop_type = pop_type:laborers } }
+#	text = { localization_key = soldiers_IT_POP_DAI trigger = { pop_type = pop_type:soldiers } }
+#	text = { localization_key = peasants_IT_POP_DAI trigger = { pop_type = pop_type:peasants } }
+#	text = { localization_key = slaves_IT_POP_DAI trigger = { pop_type = pop_type:slaves } }
+#	text = { localization_key = tribesmen_IT_POP_DAI trigger = { pop_type = pop_type:tribesmen } }
+#}

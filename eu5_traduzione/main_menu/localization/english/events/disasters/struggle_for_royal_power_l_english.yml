@@ -1,17 +1,17 @@
 ﻿l_english:
- struggle_for_royal_power.1.title: "The Struggle for Royal Power"
- struggle_for_royal_power.1.desc: "Tension between the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and the Sejm has reached a breaking point. The [ROOT.GetCountry.GetGovernment.GetRulerTitle] has become entirely intolerant of the perpetual need to compromise with the Szlachta in order to accomplish even the most minor act of governance, with these nobles finding cause to act against the monarch at every possible turn. The [ROOT.GetCountry.GetGovernment.GetRulerTitle] believes that it is finally time to put an end to the power of the Sejm in [ROOT.GetCountry.GetName]."
- struggle_for_royal_power.1.a: "Wage a war on the Szlachta."
- 
- 
- struggle_for_royal_power.100.title: "Struggle for Royal Power Ends"
- struggle_for_royal_power.100.desc: "After a long struggle involving both political and military conflict, the crisis in [ROOT.GetCountry.GetName] is at an end. There is no longer any doubt as to where the true power in [ROOT.GetCountry.GetName] lies."
- struggle_for_royal_power.100.a: "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] is supreme!"
- struggle_for_royal_power.100.b: "The Sejm is supreme!"
- struggle_for_royal_power.100.c: "This Civil War will be the end of [ROOT.GetCountry.GetName]"
+ struggle_for_royal_power.1.title: "La Lotta per il Potere Reale"
+ struggle_for_royal_power.1.desc: "La tensione tra [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRulerTitle] e il Sejm ha raggiunto un punto di rottura. [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRulerTitle] è diventato completamente intollerante verso la perpetua necessità di scendere a compromessi con la Szlachta per compiere anche il più piccolo atto di governo, dato che questi nobili trovano motivo di agire contro il monarca in ogni occasione possibile. [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')|U] [ROOT.GetCountry.GetGovernment.GetRulerTitle] crede che sia finalmente giunto il momento di porre fine al potere del Sejm [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetName]."
+ struggle_for_royal_power.1.a: "Muovere guerra alla Szlachta."
+
+
+ struggle_for_royal_power.100.title: "Fine della Lotta per il Potere Reale"
+ struggle_for_royal_power.100.desc: "Dopo una lunga lotta che ha comportato conflitti sia politici che militari, la crisi [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetName] è giunta al termine. Non c'è più alcun dubbio su dove risieda il vero potere [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetName]."
+ struggle_for_royal_power.100.a: "[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRulerTitle] è l'autorità suprema!"
+ struggle_for_royal_power.100.b: "Il Sejm è l'autorità suprema!"
+ struggle_for_royal_power.100.c: "Questa guerra civile segnerà la fine [ROOT.GetCountry.Custom('IT_Di')][ROOT.GetCountry.GetNameWithNoTooltip]"
 
  struggle_for_royal_power.10.title: "Konfederacja"
- struggle_for_royal_power.10.desc: "Just as the [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has resolved to remove power from the Sejm, so has the Sejm made its own demands to the [ROOT.GetCountry.GetGovernment.GetRuler.GetName]. Mikolaj Zebrzydowski, Jan Szczesny Herburt, Stanislaw Stadnicki, Aleksander Józef Lisowski and Janusz Radziwill have formed a rokosz, or semi-legal rebellion, in Stezyca and Lublin. The nobles have gathered at the rokosz formed a Konfederacja which outlined demands in 67 articles, demanding the dethronement of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] for breaching the Henrician Articles, and the right for the Sejm to appoint state officials instead of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
- struggle_for_royal_power.10.a: "Try to negotiate with the konfederacja."
- struggle_for_royal_power.10.b: "Reject their demands."
+ struggle_for_royal_power.10.desc: "Proprio mentre [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRuler.GetName] ha deciso di togliere potere al Sejm, anche il Sejm ha avanzato le proprie richieste verso [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Mikolaj Zebrzydowski, Jan Szczesny Herburt, Stanislaw Stadnicki, Aleksander Józef Lisowski e Janusz Radziwill hanno formato un rokosz, ovvero una ribellione semi-legale, a Stezyca e Lublino. I nobili riuniti nel rokosz hanno formato una Konfederacja delineando le loro pretese in 67 articoli, chiedendo la detronizzazione di [ROOT.GetCountry.GetGovernment.GetRuler.GetName] per aver violato gli Articoli Enriciani, e il diritto per il Sejm di nominare i funzionari statali al posto del[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_LA')] propri[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')] [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
+ struggle_for_royal_power.10.a: "Cerca di negoziare con la Konfederacja."
+ struggle_for_royal_power.10.b: "Rifiuta le loro richieste."
  

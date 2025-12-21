@@ -1,28 +1,28 @@
-﻿l_english: 
-  curse_of_stefan_uros_iii.1.title: "The Curse of [GetCountry('SER').GetNameWithNoTooltip]"
-  curse_of_stefan_uros_iii.1.desc: "Dire times are upon us! The curse of [GetCharacter('ser_stefan_decanski').GetName] has gripped our nation, our courtiers and advisors speak of the end of an era, and the plunging of our great country in a dark period..."
-  curse_of_stefan_uros_iii.1.a: "This cannot be the end, not like this..."
-
-  curse_of_stefan_uros_iii.2.title: "A New Era for [GetCountry('SER').GetNameWithNoTooltip]"
-  curse_of_stefan_uros_iii.2.desc: "The blue skies above our great nation shine once more with the gleeful delight of hope and a new day. Despite the recent troubles and superstitions, we have overcome all obstacles and our people have emerged victorious and more resilient than ever!"
-  curse_of_stefan_uros_iii.2.a: "United and stronger we move forward."
-
-  curse_of_stefan_uros_iii.3.title: "Demands for Autonomy"
-  curse_of_stefan_uros_iii.3.desc: "Recent shifts in our crumbling administration have led to many dissenting voices rising up to usurp their independence from our banner. The latest petitions for representation and local autonomy come from [target_province.GetName]. Word has spread that our authority has waned, and as a result, they have come bearing arms, making absurd demands, and speaking of a foreign concept known as freedom."
-  curse_of_stefan_uros_iii.3.a: "They shall have it."
-  curse_of_stefan_uros_iii.3.b: "Introduce them to the local concept of the whip!"
-
-  curse_of_stefan_uros_iii.4.title: "Neighbors as Vultures"
-  curse_of_stefan_uros_iii.4.desc: "The conniving scoundrels at the court of [target_country.GetName] have wasted no time scheming and preparing to devour our territory, at the first sight of our perceived weakness. This vulture-like policy will not be tolerated and we must remind them what makes the [GetCountry('SER').GetLongName] a force to be reckoned with."
-  curse_of_stefan_uros_iii.4.a: "Let them try!"
-
-  curse_of_stefan_uros_iii.5.title: "Peasant Uprising"
-  curse_of_stefan_uros_iii.5.desc: "Our waning authority during these turbulent times has emboldened the peasantry across our nation to demand financial aid and uplifting at the expense of the court. Peasant leaders in [target_location.GetName] have pressed forth their demands under the threat of widespread devastation and vexation!"
-  curse_of_stefan_uros_iii.5.a: "We do not negotiate with peasants!"
-  curse_of_stefan_uros_iii.5.b: "Surely we can reach a middle ground?"
-
-  curse_of_stefan_uros_iii.6.title: "Province Declares Independence!"
-  curse_of_stefan_uros_iii.6.desc: "The bottom-feeding shadow-dwellers in [target_location.GetName] have dared show their claws and raise their heads against our authority. In a most grotesque display of false authority, they declared themselves separate from the crown and even placed their bid for our throne!"
-  curse_of_stefan_uros_iii.6.a: "Their remains will help grow prosperity across our fields!"
-  curse_of_stefan_uros_iii.6.b: "Leave them be..."
-  people_of_target_province_will_declare_war_on_us_tt: "The people of [target_province.GetNameWithNoTooltip] will declare [war|e] on us!"
+﻿l_english:
+ curse_of_stefan_uros_iii.1.title: "La Maledizione della [GetCountry('SER').GetNameWithNoTooltip]"
+ curse_of_stefan_uros_iii.1.desc: "Tempi terribili sono arrivati! La maledizione di [GetCharacter('ser_stefan_decanski').GetName] ha attanagliato la nostra nazione, i nostri cortigiani e consiglieri parlano della fine di un'era e dell'affondamento del nostro grande paese in un periodo oscuro..."
+ curse_of_stefan_uros_iii.1.a: "Questa non può essere la fine, non in questo modo..."
+ 
+ curse_of_stefan_uros_iii.2.title: "Una Nuova Era per la [GetCountry('SER').GetNameWithNoTooltip]"
+ curse_of_stefan_uros_iii.2.desc: "I cieli azzurri sopra la nostra grande nazione risplendono ancora una volta con la gioiosa speranza di un nuovo giorno. Nonostante i recenti problemi e le superstizioni, abbiamo superato tutti gli ostacoli e il nostro popolo è emerso vittorioso e più resiliente che mai!"
+ curse_of_stefan_uros_iii.2.a: "Uniti e più forti andiamo avanti."
+ 
+ curse_of_stefan_uros_iii.3.title: "Richieste di Autonomia"
+ curse_of_stefan_uros_iii.3.desc: "I recenti cambiamenti nella nostra amministrazione in rovina hanno portato molte voci di dissenso a sollevarsi per usurpare la propria indipendenza dal nostro vessillo. Le ultime petizioni per la rappresentanza e l'autonomia locale provengono da [target_province.GetName]. Si è sparsa la voce che la nostra autorità è diminuita, e di conseguenza, sono venuti armati, facendo richieste assurde e parlando di un concetto straniero noto come libertà."
+ curse_of_stefan_uros_iii.3.a: "L'avranno."
+ curse_of_stefan_uros_iii.3.b: "Presentiamogli il concetto locale della frusta!"
+ 
+ curse_of_stefan_uros_iii.4.title: "I Vicini come Avvoltoi"
+ curse_of_stefan_uros_iii.4.desc: "Gli scaltri furfanti alla corte di [target_country.GetName] non hanno perso tempo a complottare e prepararsi a divorare il nostro territorio, al primo segno della nostra percepita debolezza. Questa politica da avvoltoi non sarà tollerata e dobbiamo ricordare loro ciò che rende il [GetCountry('SER').GetLongName] una forza da non sottovalutare."
+ curse_of_stefan_uros_iii.4.a: "Lasciamoli pure provare!"
+ 
+ curse_of_stefan_uros_iii.5.title: "Rivolta Contadina"
+ curse_of_stefan_uros_iii.5.desc: "La nostra autorità in declino durante questi tempi turbolenti ha incoraggiato i contadini di tutta la nostra nazione a chiedere aiuti finanziari e miglioramenti a spese della corte. I capi contadini a [target_location.GetName] hanno portato avanti le loro richieste sotto la minaccia di devastazione e molestie diffuse!"
+ curse_of_stefan_uros_iii.5.a: "Non negoziamo con i contadini!"
+ curse_of_stefan_uros_iii.5.b: "Sicuramente possiamo trovare una via di mezzo?"
+ 
+ curse_of_stefan_uros_iii.6.title: "La Provincia Dichiara l'Indipendenza!"
+ curse_of_stefan_uros_iii.6.desc: "Gli ignobili parassiti che strisciano nell'ombra a [target_location.GetName] hanno osato mostrare gli artigli e alzare la testa contro la nostra autorità. In una manifestazione grottesca di falsa autorità, si sono dichiarati separati dalla corona e hanno persino avanzato la loro candidatura per il nostro trono!"
+ curse_of_stefan_uros_iii.6.a: "I loro resti aiuteranno a far crescere la prosperità nei nostri campi!"
+ curse_of_stefan_uros_iii.6.b: "Lasciamoli stare..."
+ people_of_target_province_will_declare_war_on_us_tt: "La popolazione di [target_province.GetNameWithNoTooltip] ci dichiarerà [war|e]!"

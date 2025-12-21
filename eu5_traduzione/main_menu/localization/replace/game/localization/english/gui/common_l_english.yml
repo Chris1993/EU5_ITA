@@ -12,7 +12,7 @@
  OK_BUTTON: "Ok"
  CANCEL_BUTTON: "Indietro"
  FLAG_BUTTONS: "\nLeft-click: Open Government Window   -   Right-click: Go to Capital    -   Double click: Go to Capital and Open Government Window"
- DEFAULT_TEXT: "default" 
+ DEFAULT_TEXT: "default"
  HARDWARE_CHECKER_INTRO: "The following errors have been found:\n\n"
  HARDWARE_CHECKER_ENDING: "\nYou may experience problems or poor performance when playing if you do not meet the minimum requirements."
  HARDWARE_CHECKER_RAM: "$JOM_BULLET_WITH_TAB$Not enough RAM, the minimum is 16GB.\n"

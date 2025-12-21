@@ -1,22 +1,22 @@
 ﻿l_english:
- STATIC_MODIFIER_NAME_volcanic_soil: "Volcanic Soil"
+ STATIC_MODIFIER_NAME_volcanic_soil: "Terreno vulcanico"
 
- volcano_events_weak.title: "Smoke on the Mountain"
- volcano_events_weak.desc: "The prominent mountain at the edge of [ROOT.GetLocation.GetName] has been releasing smoke in a long column for several days, but today it suddenly erupted, spewing ash and lava that incinerate and destroy everything in their path. The destruction has not broken the spirit of the people of [ROOT.GetLocation.GetNameWithNoTooltip], but without assistance, it will be challenging for them to regain their former strength."
- volcano_events_weak.a: "There was nothing we could have done."
- volcano_events_weak.b: "Rush to their help."
-
- volcano_events_minor.title: "The Beginning of Fire"
- volcano_events_minor.desc: "The volcano in [ROOT.GetLocation.GetName] has erupted with great intensity, spewing out long streams of lava and an enormous cloud of ash that leaves a path of destruction on its wake.\n\nThere people of [ROOT.GetLocation.GetNameWithNoTooltip] are fighting for their lives and villages, it is time to send them all the support we can spare."
- volcano_events_minor.a: "Nature has punished us."
- volcano_events_minor.b: "We will not be broken."
-
- volcano_events_major.title: "Fire and Fury"
- volcano_events_major.desc: "In the blackness that engulfed the night, fire lit streams copiously gushed down the hill of the great mountain like an open wound, their harsh redness impossible to ignore. A glowing avalanche of volcanic ash followed them like an impatient hunter, its open mouth eager to devour everything in its path until its hunger is finally satiated.\n\nThere was no hope for the unlucky people of [ROOT.GetLocation.GetName] as most of the countryside, and many villages have disappeared under the lava. The fury of the mountain is unbound and only this court can put a stop to the devastation."
- volcano_events_major.a: "Even the ground is against us."
- volcano_events_major.b: "We will rebuild."
-
- volcano_events_catastrophic.title: "The Wrath of the Mountain"
- volcano_events_catastrophic.desc: "The insignificant inhabitants of [ROOT.GetLocation.GetName] found themselves utterly powerless in the face of nature's fury. Without the slightest hint of warning, numerous villages scattered across the landscape were completely obliterated, caught in the catastrophic eruption of the volcano that loomed ominously above them.\n\nThe mountain's wrath descended with relentless force forming an avalanche of volcanic ash eager to engulf everything in its path. Many glowing tongues of lava spewed forth from the heart of the mountain, burning and destroying everything in their path.\n\nAs the landscape transformed before their very eyes, it became painfully clear to the people of [ROOT.GetLocation-.GetNameWithNoTooltip] that there is little that can be done to face this desolation."
- volcano_events_catastrophic.a: "All is lost."
- volcano_events_catastrophic.b: "There is still hope."
+ volcano_events_weak.title: "Fumo sulla Montagna"
+ volcano_events_weak.desc: "L'imponente montagna ai margini di [ROOT.GetLocation.GetName], da diversi giorni, rilascia fumo in una lunga colonna, ma oggi è improvvisamente eruttata, sputando cenere e lava che inceneriscono e distruggono tutto ciò che incontrano sul loro cammino. La distruzione non ha spezzato lo spirito degli abitanti di [ROOT.GetLocation.GetNameWithNoTooltip], ma senza assistenza, sarà difficile per loro ritrovare la forza di un tempo."
+ volcano_events_weak.a: "Non avremmo potuto fare nulla."
+ volcano_events_weak.b: "Corriamo in loro aiuto."
+ 
+ volcano_events_minor.title: "L'Inizio del Fuoco"
+ volcano_events_minor.desc: "Il vulcano a [ROOT.GetLocation.GetName] è eruttato con grande intensità, riversando lunghi fiumi di lava e un'enorme nuvola di cenere che lascia una scia di distruzione al suo passaggio.\n\nLa gente di [ROOT.GetLocation.GetNameWithNoTooltip] sta lottando per la propria vita e per i propri villaggi, è ora di inviare loro tutto il supporto possibile."
+ volcano_events_minor.a: "La natura ci ha puniti."
+ volcano_events_minor.b: "Non ci arrenderemo."
+ 
+ volcano_events_major.title: "Fuoco e Furia"
+ volcano_events_major.desc: "Nell'oscurità che avvolgeva la notte, fiumi di fuoco si sono riversati copiosamente lungo la collina della grande montagna come una ferita aperta, il cui rosso intenso era impossibile da ignorare. Una valanga incandescente di cenere vulcanica li ha seguiti come un cacciatore impaziente, con la bocca spalancata, desiderosa di divorare tutto ciò che incontra sul suo cammino finché la sua fame è stata finalmente saziata.\n\nNon c'è speranza per gli sfortunati abitanti di [ROOT.GetLocation.GetName], poiché gran parte della campagna e molti villaggi sono scomparsi sotto la lava. La furia della montagna è sfrenata e solo questa corte può porre fine alla devastazione."
+ volcano_events_major.a: "Anche la terra è contro di noi."
+ volcano_events_major.b: "Ricostruiremo."
+ 
+ volcano_events_catastrophic.title: "L'Ira della Montagna"
+ volcano_events_catastrophic.desc: "Gli insignificanti abitanti di [ROOT.GetLocation.GetName] si sono ritrovati completamente impotenti di fronte alla furia della natura. Senza il minimo preavviso, numerosi villaggi sparsi per il territorio sono stati completamente spazzati via, travolti dalla catastrofica eruzione del vulcano che incombeva minacciosamente su di loro.\n\nL'ira della montagna si è abbattuta con forza implacabile formando una valanga di cenere vulcanica desiderosa di inghiottire tutto ciò che incontrava sul suo cammino. Molte lingue di lava incandescente sono fuoriuscite dal cuore della montagna, bruciando e distruggendo tutto ciò che ha incontrato.\n\nMentre il paesaggio si è trasformato davanti ai loro occhi, è diventato dolorosamente chiaro alla gente di [ROOT.GetLocation.GetNameWithNoTooltip] che c'era ben poco che si potesse fare per affrontare questa desolazione."
+ volcano_events_catastrophic.a: "Tutto è perduto."
+ volcano_events_catastrophic.b: "C'è ancora speranza."

@@ -1,4 +1,4 @@
 ﻿l_english:
- kritarchy_events.1.title: "Judicial Conclave Concluded"
- kritarchy_events.1.desc: "The supreme court has finished debating on which judge should be elected as the new [ROOT.GetCountry.GetGovernment.GetRulerTitle]. The cabinet is excited to celebrate [successor_character.GetName] as the new leader of [ROOT.GetCountry.GetName]."
- kritarchy_events.1.a: "May [successor_character.GetHerHis] rule be of wisdom."
+ kritarchy_events.1.title: "Conclave Giudiziario Concluso"
+ kritarchy_events.1.desc: "La Corte Suprema ha terminato il dibattito su quale giudice debba essere eletto come nuovo [ROOT.GetCountry.GetGovernment.GetRulerTitle]. Il governo è entusiasta di celebrare [successor_character.GetName] come nuovo leader [ROOT.GetCountry.Custom('IT_Di')][ROOT.GetCountry.GetName]."
+ kritarchy_events.1.a: "Possa il suo operato essere improntato alla saggezza."

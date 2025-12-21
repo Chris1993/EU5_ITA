@@ -1,54 +1,54 @@
 ﻿l_english:
- decline_of_majapahit.1.title: "The Decline of [ROOT.GetCountry.GetNameWithNoTooltip]"
- decline_of_majapahit.1.desc: "The [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetFlavorRank] in its death throes. Once the center of a vast network of [ShowSubjectTypeName('vassal')] kingdoms and [ShowSubjectTypeName('tributary')] states, [ROOT.GetCountry.GetNameWithNoTooltip] now has little power beyond [ROOT.GetCountry.GetCapital.GetName]. Merchants are increasingly visiting our [ShowReligionAdjective('sunni')] rivals and the religion is slowly entrenching itself in the north of [ShowAreaName('java_area')]. Worse, internal struggles over the succession threaten to tear the remnants of the [ROOT.GetCountry.GetFlavorRank] apart from the inside."
- decline_of_majapahit.1.a: "These are dark times."
- maj_disaster_tt: "If we do not contain the Spread of [ShowReligionGroupName('muslim')] in our country, converted [locations|e] might eventually revolt as $DEM$."
-
- decline_of_majapahit.2.title: "Disloyalty to [ROOT.GetCountry.GetNameWithNoTooltip]"
- decline_of_majapahit.2.desc: "The rulers of [maj_tributary_country.GetName] have been increasingly ignoring [ROOT.GetCountry.GetAdjective] rule. They have now crossed the line into outright defiance, withholding tribute and disrespecting our emissaries."
- decline_of_majapahit.2.a: "They will regret this."
- decline_of_majapahit.2.b: "Make concessions to restore their loyalty."
-
- decline_of_majapahit.3.title: "Eclipse of [ROOT.GetCountry.GetNameWithNoTooltip]"
- decline_of_majapahit.3.desc: "In not-so-distant past, the [ROOT.GetCountry.GetLongName] used to be the sole hegemon of [ShowRegionName('indonesia_region')]. Unfortunately, those glory days are long gone and there is plethora of states that garner more respect in our waters. One such nation is the [target_country.GetLongName], a state that is throwing us an informal challenge."
- decline_of_majapahit.3.a: "Justify a campaign of retribution."
- decline_of_majapahit.3.b: "Focus on our internal issues."
-
- decline_of_majapahit.4.title: "Local Discontent"
- decline_of_majapahit.4.desc: "The [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in [target_province.GetName] are up in arms, feuding with the local Adipati's forces. The local garrison is unable to contain the rebellion and the province is in a state of chaos."
- decline_of_majapahit.4.a: "Wait it out."
- decline_of_majapahit.4.b: "Appease the rebels with gold."
-
- decline_of_majapahit.5.title: "Pretender Challenges the Throne"
- decline_of_majapahit.5.desc: "Struggles over the succession have become commonplace in [ROOT.GetCountry.GetName]. On this occasion a Prince named [target_character.GetName] has gathered an army and begun [target_character.GetHerHis] march to the capital to overthrow the [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
- decline_of_majapahit.5.a: "We will crush this upstart."
-
- maj_every_pop_in_capital_province: "Every [pop|e] in the [capital|e] [province|e], [ROOT.GetCountry.GetCapital.GetProvince.GetName]:"
-
- decline_of_majapahit.6.title: "[target_religion.GetAdjectiveWithNoTooltip] Flight to [target_province.GetNameWithNoTooltip]"
- decline_of_majapahit.6.desc: "The [target_religion.GetAdjective] establishment is slowly being rooted out by the encroachment of the [target_religion2.GetAdjective] traders. Each day, more and more of the common folk convert to [target_religion2.GetGroup.GetName] and within [ROOT.GetCountry.GetName], it is no longer [target_religion.GetNameWithNoTooltip] that constitutes the majority. The process has had an unprecedented impact on the [ROOT.GetCountry.GetFlavorRank] and its society, causing widespread anxiety in the [target_religion.GetAdjectiveWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Many of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are calling this the end of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] rule and are fleeing to the [target_province.GetName]."
- decline_of_majapahit.6.a: "Is this the empire's downfall?"
-
- decline_of_majapahit.7.title: "Adipati of [target_location.GetNameWithNoTooltip] Converts"
- decline_of_majapahit.7.desc: "Our local governor in [target_location.GetName] has chosen to convert to [ShowReligionName('sunni')]. It is believed that the impetus for such a rash decision was a miracle conducted by a local [ShowReligionGroupAdjective('muslim')] saint. We, however, believe that it is but a clever political decision to gain the favor of the [ShowReligionAdjectiveWithNoTooltip('sunni')] merchants."
- decline_of_majapahit.7.a: "Let us hope the governor will not try anything more radical."
-
- decline_of_majapahit.8.title: "An Offer of Aid"
- decline_of_majapahit.8.desc: "The situation in [ROOT.GetCountry.GetName] is dire, but it seems that all is not yet lost. A group of wealthy [ShowReligionGroupAdjective('muslim')] merchants have approached the [ROOT.GetCountry.GetGovernment.GetRulerTitle] with an offer. They will pay us handsomely for trading privileges in our ports and guarantees to practice their religion freely with [ROOT.GetCountry.GetName]. The Bhattara Saptaprabhu warns that the instability of the empire may attract our people to the merchants' foreign faith, discarding the founding traditions of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] empire. Silver, however, makes for its own counter-argument."
- decline_of_majapahit.8.a: "Their help is most welcome."
- decline_of_majapahit.8.b: "We need not accept aid from heathens!"
- maj_muslim_aid_impact: "While [ShowModifier('maj_muslim_aid')], the '$death_of_hayan_wuruk.6.title$' [event|e] will fire three times as often."
-
- decline_of_majapahit.100.title: "A New Dawn for [ROOT.GetCountry.GetNameWithNoTooltip]"
- decline_of_majapahit.100.desc: "Against all odds, [ROOT.GetCountry.GetName] has emerged from decades of turmoil and decline as a newly resurgent power. A stable [ROOT.GetCountry.GetGovernment.GetCourtTitle], loyal subjects, and a common [ROOT.GetCountry.GetReligion.GetAdjective] faith bolster our resolve as we remember the oath of [target_character.GetName]: that one day [ROOT.GetCountry.GetNameWithNoTooltip] will rule all of Nusantara."
- decline_of_majapahit.100.a: "We have returned from the brink."
- decline_of_majapahit_timer_tt: "At least 10950 days have passed since the start of [ShowDisasterName('decline_of_majapahit')] [disaster|e]. [ROOT.GetCountry.MakeScope.VarRemaining('decline_of_majapahit_timer')] days left." 
-
- decline_of_majapahit.101.title: "Rise of $MTM$"
- decline_of_majapahit.101.desc: "The [target_religion.GetAdjective] [ROOT.GetCountry.GetLongName] has proven itself unable to govern even its holdings on [ShowAreaName('java_area')]. Pressured from all sides and with the benefits of conversion, the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] decision-makers have chosen to convert to [ROOT.GetCountry.GetReligion.GetName]. Though this may help end the [ShowDisasterName('decline_of_majapahit')], this is also sure to forever tarnish the prestige of [ROOT.GetCountry.GetName]."
- decline_of_majapahit.101.a: "We had to do what we had to do."
-
- decline_of_majapahit.102.title: "Rise of [target_country.GetNameWithNoTooltip]"
- decline_of_majapahit.102.desc: "The increasingly autonomous [ShowReligionGroupAdjective('muslim')] community have found a champion in the renegade prince [target_character.GetName] who is said to be distantly related to the [ROOT.GetCountry.GetAdjective] ruling family. [target_character.GetNameWithNoTooltip] has not only declared the independence of the [target_country.GetAdjective] [target_country.GetFlavorRank], but also seeks to seize the throne of [ROOT.GetCountry.GetNameWithNoTooltip] for himself. Bound by our many struggles, there is little that we can do while [target_country.GetNameWithNoTooltip] gathers its strength."
- decline_of_majapahit.102.a: "Traitors! Face them on the battlefield!"
- decline_of_majapahit.102.b: "We will reconquer those territories in due time."
+ decline_of_majapahit.1.title: "Il Declino [ROOT.GetCountry.Custom('IT_Di')][ROOT.GetCountry.GetNameWithNoTooltip]"
+ decline_of_majapahit.1.desc: "[ROOT.GetCountry.Custom('IT_ART_RANGO')|U][ROOT.GetCountry.GetFlavorRank] [ROOT.GetCountry.GetAdjective] ha le ore contate. Un tempo centro di una vasta rete di regni [ShowSubjectTypeName('vassal')] e stati [ShowSubjectTypeName('tributary')], [ROOT.GetCountry.GetNameWithNoTooltip] ora ha poco potere oltre a [ROOT.GetCountry.GetCapital.GetName]. I mercanti visitano sempre più i nostri rivali [ShowReligionAdjective('sunni')] e la religione si sta lentamente radicando nel nord dell'[ShowAreaName('java_area')]. Peggio ancora, le lotte interne per la successione minacciano di lacerare i resti [ROOT.GetCountry.Custom('IT_DEL_TITOLO')][ROOT.GetCountry.GetFlavorRank] dall'interno."
+ decline_of_majapahit.1.a: "Questi sono tempi oscuri."
+ maj_disaster_tt: "Se non conteniamo la diffusione dell'[ShowReligionGroupName('muslim')] nel nostro paese, le [locations|e] convertite potrebbero eventualmente rivoltarsi come $DEM$."
+ 
+ decline_of_majapahit.2.title: "Slealtà verso [ROOT.GetCountry.GetNameWithNoTooltip]"
+ decline_of_majapahit.2.desc: "I governanti di [maj_tributary_country.GetName] hanno sempre più ignorato il dominio [ROOT.GetCountry.GetAdjective]. Ora hanno oltrepassato il limite arrivando a una vera e propria sfida, negando il tributo e mancando di rispetto ai nostri emissari."
+ decline_of_majapahit.2.a: "Se ne pentiranno."
+ decline_of_majapahit.2.b: "Fare concessioni per ripristinare la loro lealtà."
+ 
+ decline_of_majapahit.3.title: "Eclissi [ROOT.GetCountry.Custom('IT_Di')][ROOT.GetCountry.GetNameWithNoTooltip]"
+ decline_of_majapahit.3.desc: "In un passato non troppo lontano, [ROOT.GetCountry.GetLongName] era l'unico egemone della [ShowRegionName('indonesia_region')]. Sfortunatamente, quei giorni di gloria sono lontani e c'è una pletora di stati che ottengono più rispetto nelle nostre acque. Una di queste nazioni è [target_country.GetLongName], uno stato che ci sta lanciando una sfida informale."
+ decline_of_majapahit.3.a: "Giustificare una campagna di ritorsione."
+ decline_of_majapahit.3.b: "Concentrarsi sui nostri problemi interni."
+ 
+ decline_of_majapahit.4.title: "Malcontento Locale"
+ decline_of_majapahit.4.desc: "I [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] a [target_province.GetName] sono in armi, in lotta con le forze dell'Adipati locale. La guarnigione locale non è in grado di contenere la ribellione e la provincia è in uno stato di caos."
+ decline_of_majapahit.4.a: "Aspettare che si esaurisca."
+ decline_of_majapahit.4.b: "Placare i ribelli con l'oro."
+ 
+ decline_of_majapahit.5.title: "Il Pretendente Sfida il Trono"
+ decline_of_majapahit.5.desc: "Le lotte per la successione sono diventate all'ordine del giorno [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetName]. In questa occasione un Principe di nome [target_character.GetName] ha radunato un esercito e ha iniziato la sua marcia verso la capitale per rovesciare il [ROOT.GetCountry.GetGovernment.GetRulerTitle]."
+ decline_of_majapahit.5.a: "Schiacceremo questo parvenu."
+ 
+ maj_every_pop_in_capital_province: "Ogni [pop|e] nella [province|e] della [capital|e], [ROOT.GetCountry.GetCapital.GetProvince.GetName]:"
+ 
+ decline_of_majapahit.6.title: "Fuga [target_religion.GetAdjectiveWithNoTooltip] a [target_province.GetNameWithNoTooltip]"
+ decline_of_majapahit.6.desc: "L'establishment [target_religion.GetAdjective] viene lentamente sradicato dall'invasione dei mercanti [target_religion2.GetAdjective]. Ogni giorno, sempre più gente comune si converte al [target_religion2.GetGroup.GetName] e all'interno di [ROOT.GetCountry.GetName], non è più il [target_religion.GetNameWithNoTooltip] a costituire la maggioranza. Il processo ha avuto un impatto senza precedenti sul [ROOT.GetCountry.GetFlavorRank] e sulla sua società, causando ansia diffusa nella [ROOT.GetCountry.GetGovernment.GetCourtTitle] [target_religion.GetAdjectiveWithNoTooltip]. Molti del [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] e del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] definiscono questo la fine del dominio [ROOT.GetCountry.GetAdjectiveWithNoTooltip] e stanno fuggendo a [target_province.GetName]."
+ decline_of_majapahit.6.a: "È questo il crollo dell'impero?"
+ 
+ decline_of_majapahit.7.title: "L'Adipati di [target_location.GetNameWithNoTooltip] si Converte"
+ decline_of_majapahit.7.desc: "Il nostro governatore locale a [target_location.GetName] ha scelto di convertirsi a [ShowReligionName('sunni')]. Si ritiene che l'impulso per una decisione così sconsiderata sia stato un miracolo compiuto da un santo [ShowReligionGroupAdjective('muslim')] locale. Noi, tuttavia, crediamo che sia solo una decisione politica intelligente per ottenere il favore dei mercanti [ShowReligionAdjectiveWithNoTooltip('sunni')]."
+ decline_of_majapahit.7.a: "Speriamo che il governatore non tenti nulla di più radicale."
+ 
+ decline_of_majapahit.8.title: "Un'Offerta di Aiuto"
+ decline_of_majapahit.8.desc: "La situazione [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetName] è disastrosa, ma sembra che non tutto sia ancora perduto. Un gruppo di ricchi mercanti [ShowReligionGroupAdjective('muslim')] ha contattato [ROOT.GetCountry.Custom('IT_ART_TITOLO')|U][ROOT.GetCountry.GetGovernment.GetRulerTitle] con un'offerta. Ci pagheranno profumatamente per i privilegi commerciali nei nostri porti e per la garanzia di praticare liberamente la loro religione [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetName]. Il Bhattara Saptaprabhu avverte che l'instabilità dell'impero potrebbe attirare il nostro popolo alla fede straniera dei mercanti, scartando le tradizioni fondanti dell'impero [ROOT.GetCountry.GetAdjectiveWithNoTooltip]. L'argento, tuttavia, costituisce il proprio contro-argomento."
+ decline_of_majapahit.8.a: "Il loro aiuto è il benvenuto."
+ decline_of_majapahit.8.b: "Non abbiamo bisogno di accettare aiuti dai pagani!"
+ maj_muslim_aid_impact: "Mentre [ShowModifier('maj_muslim_aid')], l'[event|e] '$death_of_hayan_wuruk.6.title$' si attiverà tre volte più spesso."
+ 
+ decline_of_majapahit.100.title: "Una Nuova Alba per [ROOT.GetCountry.GetNameWithNoTooltip]"
+ decline_of_majapahit.100.desc: "Contro ogni previsione, [ROOT.GetCountry.GetName] è emerso da decenni di tumulto e declino come una potenza di nuovo risorgente. Una [ROOT.GetCountry.GetGovernment.GetCourtTitle] stabile, sudditi leali e una fede [ROOT.GetCountry.GetReligion.GetAdjective] comune rafforzano la nostra risolutezza mentre ricordiamo il giuramento di [target_character.GetName]: che un giorno [ROOT.GetCountry.GetNameWithNoTooltip] governerà tutto Nusantara."
+ decline_of_majapahit.100.a: "Siamo tornati dal baratro."
+ decline_of_majapahit_timer_tt: "Sono trascorsi almeno 10950 giorni dall'inizio del [disaster|e] [ShowDisasterName('decline_of_majapahit')]. Mancano [ROOT.GetCountry.MakeScope.VarRemaining('decline_of_majapahit_timer')] giorni."
+ 
+ decline_of_majapahit.101.title: "Ascesa di $MTM$"
+ decline_of_majapahit.101.desc: "Il [ROOT.GetCountry.GetLongName] [target_religion.GetAdjective] si è dimostrato incapace di governare anche i suoi possedimenti sull'[ShowAreaName('java_area')]. Sotto pressione da tutti i lati e con i benefici della conversione, i responsabili delle decisioni [ROOT.GetCountry.GetAdjectiveWithNoTooltip] hanno scelto di convertirsi a [ROOT.GetCountry.GetReligion.GetName]. Sebbene ciò possa aiutare a porre fine al [ShowDisasterName('decline_of_majapahit')], questo è anche destinato a macchiare per sempre il prestigio di [ROOT.GetCountry.GetName]."
+ decline_of_majapahit.101.a: "Abbiamo dovuto fare ciò che dovevamo fare."
+ 
+ decline_of_majapahit.102.title: "Ascesa [target_country.Custom('IT_Di')][target_country.GetNameWithNoTooltip]"
+ decline_of_majapahit.102.desc: "La comunità [ShowReligionGroupAdjective('muslim')] sempre più autonoma ha trovato un campione nel principe rinnegato [target_character.GetName] che si dice sia lontanamente imparentato con la famiglia regnante [ROOT.GetCountry.GetAdjective]. [target_character.GetNameWithNoTooltip] non solo ha dichiarato l'indipendenza [target_character.Custom('IT_DEL_TITOLO')][target_country.GetFlavorRank] [target_country.GetAdjective], ma cerca anche di prendere per sé il trono di [ROOT.GetCountry.GetNameWithNoTooltip]. Legati dalle nostre molte lotte, c'è poco che possiamo fare mentre [target_country.GetNameWithNoTooltip] raccoglie le sue forze."
+ decline_of_majapahit.102.a: "Traditori! Affrontateli sul campo di battaglia!"
+ decline_of_majapahit.102.b: "Riconquisteremo quei territori a tempo debito."

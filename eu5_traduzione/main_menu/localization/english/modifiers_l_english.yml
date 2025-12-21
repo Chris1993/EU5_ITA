@@ -2,42 +2,42 @@
  #
  # Types
  #
- MODIFIER_NONE: "None"
- MODIFIER_ABSTAIN: "Abstention"
+ MODIFIER_NONE: "Nessuno"
+ MODIFIER_ABSTAIN: "Astensione"
  #
  # Generic
  #
- less_left_than_right: "less $LEFT|Y$ than $RIGHT|Y$"
- no_more_left_than_right: "no more $LEFT|Y$ than $RIGHT|Y$"
- more_left_than_right: "more $LEFT|Y$ than $RIGHT|Y$"
- no_less_left_than_right: "no less $LEFT|Y$ than $RIGHT|Y$"
- potential_modifier_desc: "If we had $REQUIREMENTS$; we would get:\n$MODIFIER|Y$:\n$EFFECTS$"
- potential_modifier_scale: "(scaled with $FACTORS$)"
+ less_left_than_right: "meno $LEFT|Y$ di $RIGHT|Y$"
+ no_more_left_than_right: "non più $LEFT|Y$ di $RIGHT|Y$"
+ more_left_than_right: "più $LEFT|Y$ di $RIGHT|Y$"
+ no_less_left_than_right: "non meno $LEFT|Y$ di $RIGHT|Y$"
+ potential_modifier_desc: "Se avessimo $REQUIREMENTS$; otterremmo:\n$MODIFIER|Y$:\n$EFFECTS$"
+ potential_modifier_scale: "(scalato con $FACTORS$)"
  #
- crown_estate_satisfaction: "Crown Estate Satisfaction"
- nobles_estate_satisfaction: "Noble Estate Satisfaction"
- clergy_estate_satisfaction: "Clergy Estate Satisfaction"
- burghers_estate_satisfaction: "Burghers Estate Satisfaction"
- peasants_estate_satisfaction: "Peasants Estate Satisfaction"
- dhimmi_estate_satisfaction: "Dhimmi Estate Satisfaction"
- tribes_estate_satisfaction: "Tribes Estate Satisfaction"
- cossacks_estate_satisfaction: "$cossacks_estate$ Satisfaction"
+ crown_estate_satisfaction: "[estate_satisfaction|e] della Corona" #MOD OLD
+ nobles_estate_satisfaction: "[estate_satisfaction|e] della [ShowEstateTypeName('nobles_estate')]" #MOD OLD
+ clergy_estate_satisfaction: "[estate_satisfaction|e] del [ShowEstateTypeName('clergy_estate')]" #MOD OLD
+ burghers_estate_satisfaction: "[estate_satisfaction|e] della [ShowEstateTypeName('burghers_estate')]" #MOD OLD
+ peasants_estate_satisfaction: "[estate_satisfaction|e] dei [ShowEstateTypeName('peasants_estate')]" #MOD OLD
+ dhimmi_estate_satisfaction: "[estate_satisfaction|e] dei [ShowEstateTypeName('dhimmi_estate')]" #MOD OLD
+ tribes_estate_satisfaction: "[estate_satisfaction|e] delle [ShowEstateTypeName('tribes_estate')]" #MOD OLD
+ cossacks_estate_satisfaction: "[estate_satisfaction|e] dei [ShowEstateTypeName('cossacks_estate')]" #MOD OLD
  
  crown_estate_power: "[crown_power|e]"
- nobles_estate_power: "Noble Estate Power"
- clergy_estate_power: "Clergy Estate Power"
- burghers_estate_power: "Burghers Estate Power"
- peasants_estate_power: "Peasants Estate Power"
- dhimmi_estate_power: "Dhimmi Estate Power"
- tribes_estate_power: "Tribes Estate Power"
- cossacks_estate_power: "$cossacks_estate$ Power"
+ nobles_estate_power: "[estate_power|e] della [ShowEstateTypeName('nobles_estate')]" #MOD OLD
+ clergy_estate_power: "[estate_power|e] del [ShowEstateTypeName('clergy_estate')]" #MOD OLD
+ burghers_estate_power: "[estate_power|e] della [ShowEstateTypeName('burghers_estate')]" #MOD OLD
+ peasants_estate_power: "[estate_power|e] dei [ShowEstateTypeName('peasants_estate')]" #MOD OLD
+ dhimmi_estate_power: "[estate_power|e] dei [ShowEstateTypeName('dhimmi_estate')]" #MOD OLD
+ tribes_estate_power: "[estate_power|e] delle [ShowEstateTypeName('tribes_estate')]" #MOD OLD
+ cossacks_estate_power: "[estate_power|e] dei [ShowEstateTypeName('cossacks_estate')]" #MOD OLD
  
- BOOLEAN_MODIFIER_SOURCES: "This can be set in the following places:"
- SUBJECT_TYPE_OVERLORD: "[subject_types|e] (Overlord)" 
- SUBJECT_TYPE_SUBJECT: "[subject_types|e] (Subject)"
- IO_SPECIAL_STATUS: "[international_organizations|e] - Special Status"
- IO_LEADERS: "[international_organizations|e] - Leaders"
- IO_MEMBERS: "[international_organizations|e] - Members"
- IO_POLICIES: "[international_organizations|e] - Policies"
- IO_NON_LEADERS: "[international_organizations|e] - Non-Leaders"
- MODIFIER_NODE_NAME_GOVERNMENT: "$ADJ$ Government"
+ BOOLEAN_MODIFIER_SOURCES: "Questo può essere impostato nei seguenti punti:"
+ SUBJECT_TYPE_OVERLORD: "[subject_types|e] (Sovrano)"
+ SUBJECT_TYPE_SUBJECT: "[subject_types|e] (Suddito)"
+ IO_SPECIAL_STATUS: "[international_organizations|e] - Status Speciale"
+ IO_LEADERS: "[international_organizations|e] - Leader"
+ IO_MEMBERS: "[international_organizations|e] - Membri"
+ IO_POLICIES: "[international_organizations|e] - Politiche"
+ IO_NON_LEADERS: "[international_organizations|e] - Non-Leader"
+ MODIFIER_NODE_NAME_GOVERNMENT: "Governo $ADJ$"

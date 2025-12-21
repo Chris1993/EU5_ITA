@@ -1,41 +1,40 @@
 ﻿l_english:
- 
- russian_principality_events.2.title: "Agricultural Intensification"
- russian_principality_events.2.desc: "An unusually prolonged period of peace and stability has allowed the peasants in large Monastic and Boyar estates to begin to adopt more modern farming techniques. Slash-and-burn remains the norm across large parts of our realm but with the spread of crop rotation the population in parts of our realm is growing significantly."
+
+ russian_principality_events.2.title: "Intensificazione Agricola"
+ russian_principality_events.2.desc: "Un periodo insolitamente prolungato di pace e stabilità ha permesso ai contadini delle grandi tenute monastiche e boiarde di iniziare ad adottare tecniche agricole più moderne. Il metodo del taglia e brucia rimane la norma in gran parte del nostro regno, ma con la diffusione della rotazione delle colture la popolazione in alcune zone sta crescendo in modo significativo."
  russian_principality_events.2.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  
- russian_principality_events.3.title: "Minor Lords"
- russian_principality_events.3.desc: "With the Tatar Yoke an increasingly distant memory and the expansion of land directly administered by the [ROOT.GetCountry.GetGovernment.GetRulerTitle] it is becoming increasingly clear that we need more minor landholders. Traditionally the landed aristocracy would be the primary candidates to be given this privilege, even for smaller patches of land, but greater internal stability means that we could likely promote men of other qualities to take care of these matters of economy and agriculture."
- russian_principality_events.3.a: "Let us continue to favor the Boyars."
- russian_principality_events.3.b: "Let us distribute the land among smaller landholders."
+ russian_principality_events.3.title: "Signori Minori"
+ russian_principality_events.3.desc: "Con il giogo tartaro ormai un ricordo sempre più lontano e l'espansione delle terre, amministrate direttamente [ROOT.GetCountry.Custom('IT_DAL_TITOLO')][ROOT.GetCountry.GetGovernment.GetRulerTitle], sta diventando sempre più chiaro che abbiamo bisogno di più piccoli proprietari terrieri. Tradizionalmente, l'aristocrazia terriera sarebbe stata la principale candidata a questo privilegio, anche per appezzamenti di terreno più piccoli, ma una maggiore stabilità interna significa che potremmo probabilmente promuovere uomini con altre qualità per occuparsi di queste questioni di economia e agricoltura."
+ russian_principality_events.3.a: "Continuiamo a favorire i boiardi."
+ russian_principality_events.3.b: "Distribuiamo le terre tra i proprietari terrieri più piccoli."
  
- russian_principality_events.4.title: "Land Acquisition"
- russian_principality_events.4.desc: "The Central power of the [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] is growing steadily and with no tribute to send to the Khans of Central Asia, so is our disposable income. An unusually rich harvest has left us with a considerable surplus. We could use this to boost our coffers for a rainy day, but we might also invest it to acquire the lands of minor princes and Monastic Estates."
- russian_principality_events.4.a: "Land is true wealth."
- russian_principality_events.4.b: "We need gold for the royal treasury."
- russian_principality_events.4.c: "We must use this as leverage in state affairs."
+ russian_principality_events.4.title: "Acquisizione di Terre"
+ russian_principality_events.4.desc: "Il potere centrale di [ROOT.GetCountry.GetGovernment.GetGovernmentType.GetName] sta crescendo costantemente e, senza tributi da inviare ai Khan dell'Asia centrale, lo stesso vale per il nostro reddito disponibile. Un raccolto insolitamente ricco ci ha lasciato un surplus considerevole. Potremmo usarlo per rimpinguare le nostre casse per i momenti difficili, ma potremmo anche investirlo per acquisire le terre dei principi minori e delle tenute monastiche."
+ russian_principality_events.4.a: "La terra è la vera ricchezza."
+ russian_principality_events.4.b: "Abbiamo bisogno di oro per il tesoro reale."
+ russian_principality_events.4.c: "Dobbiamo usarlo come leva negli affari di stato."
  
- russian_principality_events.5.title: "Famine of [famine_province.GetNameWithNoTooltip]"
- russian_principality_events.5.desc: "A combination of disease and harsh weather has completely ruined the harvest in parts of the [ROOT.GetCountry.GetAdjective] Realm. In times like these many turn to the state or the Church for support, others leave their lands or seek protection from powerful Boyars, Monastic Estates or even join the Cossacks in the wild fields."
- russian_principality_events.5.a: "We will leave this to the Boyars."
- STATIC_MODIFIER_NAME_russian_famine: "Famine"
- russian_principality_events.5.b: "We will let the Church handle this."
- russian_principality_events.5.c: "The [ROOT.GetCountry.GetGovernment.GetRulerTitle] [ROOT.GetCountry.GetGovernment.GetRuler.GetHerselfHimself] will help them."
+ russian_principality_events.5.title: "Carestia di [famine_province.GetNameWithNoTooltip]"
+ russian_principality_events.5.desc: "Una combinazione di malattie e condizioni meteorologiche avverse ha completamente rovinato i raccolti in alcune parti del Regno [ROOT.GetCountry.GetAdjective]. In tempi come questi, molti si rivolgono allo Stato o alla Chiesa per ottenere supporto, altri abbandonano le loro terre o cercano protezione presso potenti Boiardi, tenute monastiche o addirittura si uniscono ai Cosacchi nell'area dei Campi Selvaggi."
+ russian_principality_events.5.a: "Lasceremo che se ne occupino i Boiardi."
+ STATIC_MODIFIER_NAME_russian_famine: "Carestia"
+ russian_principality_events.5.b: "Lasceremo che se ne occupi la Chiesa."
+ russian_principality_events.5.c: "[ROOT.GetCountry.Custom('IT_ART_TITOLO')|U] [ROOT.GetCountry.GetGovernment.GetRulerTitle] stess[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')] li aiuterà."
  
-
  
- russian_principality_events.7.title: "St George's Day"
- russian_principality_events.7.desc: "Traditionally peasants have had the right to move from one area to another under controlled forms on the day of St George. This ensures some degree of mobility while also safeguarding that year's crop.\nLately, however, many landlords complain that peasants are abusing this privilege to seek a better life. The landlords have today sought an audience, imploring that we revoke this right for their peasants. Otherwise they claim they will not be able to render the military service the state requires."
- russian_principality_events.7.a: "Restrict their Movement."
- russian_principality_events.7.b: "We will not exempt these lands from our laws."
-
- russian_principality_events.8.title: "Appanage Holder Dies"
- russian_principality_events.8.desc: "A Prince of [ROOT.GetCountry.GetName] has died and [ROOT.GetCountry.GetGovernment.GetRuler.GetName] mourns the loss of a brother. As the current [ROOT.GetCountry.GetGovernment.GetRulerTitle] we should now redistribute the lands the deceased held as appanage. Our remaining brothers will no doubt expect to get a part of the land but we could try to use this opportunity to increase the size of our own lands..."
- russian_principality_events.8.a: "Let us confiscate the land for ourselves."
- russian_principality_events.8.b: "We must assure ourselves of the support of our brothers."
  
- russian_principality_events.9.title: "Tatar Feudatories"
- russian_principality_events.9.desc: "With the acquisition of Tatar lands we have become the overlord of the peoples to whom we were subjected for such a long time. While this is a victory for the [ROOT.GetCountry.GetAdjective] people it is also an opportunity.\nAs we have been so painfully aware for centuries the Tatars are excellent horsemen and know the steppes better than any other. If we should allow the local leaders to keep ruling their people, but in our name, they may well be open to the idea of serving in our armies."
- russian_principality_events.9.a: "An excellent idea!"
- russian_principality_events.9.b: "We cannot allow the Muslims such rights within our borders."
+ russian_principality_events.7.title: "Giorno di San Giorgio"
+ russian_principality_events.7.desc: "Tradizionalmente, i contadini hanno il diritto di spostarsi da una zona all'altra in forme controllate nel giorno di San Giorgio. Questo garantisce un certo grado di mobilità, salvaguardando al contempo il raccolto di quell'anno. Ultimamente, tuttavia, molti proprietari terrieri si lamentano del fatto che i contadini stiano abusando di questo privilegio per cercare una vita migliore. Oggi i proprietari terrieri hanno chiesto udienza, implorando che revochiamo questo diritto per i loro contadini. Altrimenti, affermano che non saranno in grado di prestare il servizio militare richiesto dallo Stato."
+ russian_principality_events.7.a: "Limitiamo i loro movimenti."
+ russian_principality_events.7.b: "Non esenteremo queste terre dalle nostre leggi."
  
+ russian_principality_events.8.title: "Muore un Detentore di Appannaggio"
+ russian_principality_events.8.desc: "Un Principe [ROOT.GetCountry.Custom('IT_Di')][ROOT.GetCountry.GetName] è morto e [ROOT.GetCountry.GetGovernment.GetRuler.GetName] piange la perdita di un fratello. Come attuale [ROOT.GetCountry.GetGovernment.GetRulerTitle] dovremmo ora ridistribuire le terre che il defunto deteneva come appannaggio. I nostri fratelli rimasti si aspetteranno senza dubbio di ottenere una parte della terra, ma potremmo cercare di sfruttare questa opportunità per aumentare le dimensioni delle nostre terre..."
+ russian_principality_events.8.a: "Confischiamo la terra per noi stessi."
+ russian_principality_events.8.b: "Dobbiamo assicurarci il sostegno dei nostri fratelli."
+ 
+ russian_principality_events.9.title: "Feudatari Tatari"
+ russian_principality_events.9.desc: "Con l'acquisizione delle terre Tatare siamo diventati i signori dei popoli a cui siamo stati soggetti per così tanto tempo. Se da un lato questa è una vittoria per il popolo [ROOT.GetCountry.GetAdjective], dall'altro è anche un'opportunità. Come abbiamo dolorosamente capito da secoli, i Tatari sono eccellenti cavalieri e conoscono le steppe meglio di chiunque altro. Se permettessimo ai leader locali di continuare a governare il loro popolo, ma in nostro nome, potrebbero essere aperti all'idea di servire nei nostri eserciti."
+ russian_principality_events.9.a: "Un'idea eccellente!"
+ russian_principality_events.9.b: "Non possiamo concedere ai musulmani tali diritti all'interno dei nostri confini."

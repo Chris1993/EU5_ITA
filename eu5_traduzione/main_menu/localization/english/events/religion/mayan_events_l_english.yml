@@ -1,7 +1,7 @@
 ﻿l_english:
- mayan_events.1.title: "The Start of a New K'atun"
- mayan_events.1.desc: "After twenty years a new K'atun starts in the Long Count of our people.\n\nIt is our duty as the leaders of the [ROOT.GetCountry.GetLongName] to celebrate a magnificent festival in honor of [ROOT.GetCountry.GetReligion.GetGodName] and to mark the beginning of a new cycle in the life of our culture. We are expected by our people to organize a celebration so grand and opulent that it will be remembered for years to come.\n\nThis is why we have been carefully preparing for years and it is time that we make use of all of it."
- mayan_events.1.a: "Praised be [ROOT.GetCountry.GetReligion.GetGodName]."
- mayan_events.1.b: "Rush some last details!."
- mayan_events.1.c: "We are prepared."
- mayan_events.1.d: "The people will be disappointed."
+ mayan_events.1.title: "L'inizio di un Nuovo K'atun"
+ mayan_events.1.desc: "Dopo vent’anni inizia un nuovo K'atun nel Lungo Computo del nostro popolo.\n\nÈ nostro dovere, come guide [ROOT.GetCountry.Custom('IT_DEL_RANGO')][ROOT.GetCountry.GetLongName], celebrare un magnifico festival in onore di [ROOT.GetCountry.GetReligion.GetGodName] e segnare l’inizio di un nuovo ciclo nella vita della nostra cultura. Il nostro popolo si aspetta da noi l’organizzazione di una celebrazione così grandiosa e opulenta da essere ricordata per gli anni a venire.\n\nPer questo ci siamo preparati con attenzione per anni, e ora è il momento di far fruttare tutto questo."
+ mayan_events.1.a: "Sia lodato [ROOT.GetCountry.GetReligion.GetGodName]."
+ mayan_events.1.b: "Affrettiamo gli ultimi dettagli!"
+ mayan_events.1.c: "Siamo pronti."
+ mayan_events.1.d: "Il popolo sarà deluso."

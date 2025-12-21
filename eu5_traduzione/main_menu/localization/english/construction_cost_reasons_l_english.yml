@@ -1,26 +1,26 @@
 ﻿l_english:
- academic_cheap_sponsorship: "Academic Sponsorship"
- academic_expensive_sponsorship: "Magnificent new [ShowBuildingTypeName('university')]"
+ academic_cheap_sponsorship: "Sponsorizzazione Accademica"
+ academic_expensive_sponsorship: "Magnifica nuova [ShowBuildingTypeName('university')]"
 
- military_cheap_sponsorship: "Military Sponsorship"
- military_expensive_sponsorship: "Cutting-edge Defenses"
+ military_cheap_sponsorship: "Sponsorizzazione Militare"
+ military_expensive_sponsorship: "Difese all'Avanguardia"
 
- palace_cheap_sponsorship: "Palace Funding"
- palace_expensive_sponsorship: "Expensive Architects"
+ palace_cheap_sponsorship: "Finanziamento del Palazzo"
+ palace_expensive_sponsorship: "Architetti Costosi"
 
- royal_sponsorship: "Royal Sponsorship"
+ royal_sponsorship: "Sponsorizzazione Reale"
 
- nobles_cheap_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Funding"
- nobles_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] obstruct Construction"
+ nobles_cheap_sponsorship: "Finanziamento della [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
+ nobles_expensive_sponsorship: "La [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] ostacola la Costruzione"
 
- clergy_cheap_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] Funding"
- clergy_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] obstruct Construction"
+ clergy_cheap_sponsorship: "Finanziamento del [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]"
+ clergy_expensive_sponsorship: "Il [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] ostacola la Costruzione"
 
- burghers_cheap_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] Funding"
- burghers_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] obstruct Construction"
+ burghers_cheap_sponsorship: "Finanziamento della [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')]"
+ burghers_expensive_sponsorship: "La [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] ostacola la Costruzione"
+ 
+ peasants_cheap_sponsorship: "Finanziamento dei [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]"
+ peasants_expensive_sponsorship: "I [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] ostacolano la Costruzione"
 
- peasants_cheap_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] Funding"
- peasants_expensive_sponsorship: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] obstruct Construction"
-
- need_for_expensive_tools: "Need for expensive tools"
- confederation_funding_key: "Confederation Funding"
+ need_for_expensive_tools: "Necessità di strumenti costosi"
+ confederation_funding_key: "Finanziamento della Confederazione"

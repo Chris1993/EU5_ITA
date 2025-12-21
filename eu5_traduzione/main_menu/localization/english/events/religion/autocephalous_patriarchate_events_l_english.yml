@@ -1,13 +1,13 @@
 ﻿l_english:
- 
- ap_falls_desc_key: "After a turbulent siege and a valiant defense of the resident garrison, [target_location.GetName] has fallen to the might of our great armies. Within its walls resides a powerful religious authority, as the [target_location.GetRank.GetNameWithNoTooltip] once hosted dignitaries of the [ShowReligionAdjective('orthodox')] faith. The question remains yet, should we abolish this kindred institution or adopt it under our protection?"
- autocephalous_patriarchates.1.title: "Autocephalous Patriarchate Seat Falls!"
- autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
- autocephalous_patriarchates.1.a: "Dissolve the Patriarchate."
- autocephalous_patriarchates.1.b: "Keep the Patriarchate."
 
- autocephalous_patriarchates.2.title: "Autocephalous Patriarchate Seat Falls!"
+ ap_falls_desc_key: "Dopo un assedio turbolento e una valorosa difesa della guarnigione residente, [target_location.GetName] è caduta sotto la potenza dei nostri grandi eserciti. Entro le sue mura risiede una potente autorità religiosa, poiché il [target_location.GetRank.GetNameWithNoTooltip] un tempo ospitava dignitari della fede [ShowReligionAdjective('orthodox')]. Resta però una domanda: dobbiamo abolire questa istituzione affine o adottarla sotto la nostra protezione?"
+ autocephalous_patriarchates.1.title: "La Sede del Patriarcato Autocefalo è Caduta!"
+ autocephalous_patriarchates.1.desc: "$ap_falls_desc_key$"
+ autocephalous_patriarchates.1.a: "Dissolvi il Patriarcato."
+ autocephalous_patriarchates.1.b: "Mantieni il Patriarcato."
+
+ autocephalous_patriarchates.2.title: "La Sede del Patriarcato Autocefalo è Caduta!"
  autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
- autocephalous_patriarchates.2.a: "Dissolve the Patriarchate."
- autocephalous_patriarchates.2.b: "Keep it."
- every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Every member of the [target_ap.GetName] will lose [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0] opinion of us"
+ autocephalous_patriarchates.2.a: "Dissolvi il Patriarcato."
+ autocephalous_patriarchates.2.b: "Mantienilo."
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "Ogni membro del [target_ap.GetName] perderà [ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0] opinione nei nostri confronti"

@@ -1,0 +1,1350 @@
+﻿#####RELIGIONE
+IT_REL_MS = {
+   type = country
+   log_loc_errors = no
+
+text = { localization_key = catholic_IT_REL_MS trigger = { religion = religion:catholic } }
+text = { localization_key = lutheran_IT_REL_MS trigger = { religion = religion:lutheran } }
+text = { localization_key = calvinist_IT_REL_MS trigger = { religion = religion:calvinist } }
+text = { localization_key = orthodox_IT_REL_MS trigger = { religion = religion:orthodox } }
+text = { localization_key = hindu_IT_REL_MS trigger = { religion = religion:hindu } }
+text = { localization_key = sapmi_shamanism_IT_REL_MS trigger = { religion = religion:sapmi_shamanism } }
+text = { localization_key = muinaisusko_IT_REL_MS trigger = { religion = religion:muinaisusko } }
+text = { localization_key = shia_IT_REL_MS trigger = { religion = religion:shia } }
+text = { localization_key = ibadi_IT_REL_MS trigger = { religion = religion:ibadi } }
+text = { localization_key = sunni_IT_REL_MS trigger = { religion = religion:sunni } }
+text = { localization_key = druzism_IT_REL_MS trigger = { religion = religion:druzism } }
+text = { localization_key = theravada_IT_REL_MS trigger = { religion = religion:theravada } }
+text = { localization_key = romuva_IT_REL_MS trigger = { religion = religion:romuva } }
+text = { localization_key = mandeaism_IT_REL_MS trigger = { religion = religion:mandeaism } }
+text = { localization_key = yazidism_IT_REL_MS trigger = { religion = religion:yazidism } }
+text = { localization_key = judaism_IT_REL_MS trigger = { religion = religion:judaism } }
+text = { localization_key = samaritanism_IT_REL_MS trigger = { religion = religion:samaritanism } }
+text = { localization_key = miaphysite_IT_REL_MS trigger = { religion = religion:miaphysite } }
+text = { localization_key = nestorianism_IT_REL_MS trigger = { religion = religion:nestorianism } }
+text = { localization_key = bogomilism_IT_REL_MS trigger = { religion = religion:bogomilism } }
+text = { localization_key = bosnian_church_IT_REL_MS trigger = { religion = religion:bosnian_church } }
+text = { localization_key = catharism_IT_REL_MS trigger = { religion = religion:catharism } }
+text = { localization_key = paulicianism_IT_REL_MS trigger = { religion = religion:paulicianism } }
+text = { localization_key = waldensian_IT_REL_MS trigger = { religion = religion:waldensian } }
+text = { localization_key = anglican_IT_REL_MS trigger = { religion = religion:anglican } }
+text = { localization_key = lollardy_IT_REL_MS trigger = { religion = religion:lollardy } }
+text = { localization_key = strigolniki_IT_REL_MS trigger = { religion = religion:strigolniki } }
+text = { localization_key = hussite_IT_REL_MS trigger = { religion = religion:hussite } }
+text = { localization_key = jain_IT_REL_MS trigger = { religion = religion:jain } }
+text = { localization_key = mahayana_IT_REL_MS trigger = { religion = religion:mahayana } }
+text = { localization_key = sammitiya_IT_REL_MS trigger = { religion = religion:sammitiya } }
+text = { localization_key = tibetan_buddhism_IT_REL_MS trigger = { religion = religion:tibetan_buddhism } }
+text = { localization_key = bon_IT_REL_MS trigger = { religion = religion:bon } }
+text = { localization_key = sanjiao_IT_REL_MS trigger = { religion = religion:sanjiao } }
+text = { localization_key = nahuatl_IT_REL_MS trigger = { religion = religion:nahuatl } }
+text = { localization_key = mayan_IT_REL_MS trigger = { religion = religion:mayan } }
+text = { localization_key = norse_IT_REL_MS trigger = { religion = religion:norse } }
+text = { localization_key = shamanism_IT_REL_MS trigger = { religion = religion:shamanism } }
+text = { localization_key = shinto_IT_REL_MS trigger = { religion = religion:shinto } }
+text = { localization_key = sikhism_IT_REL_MS trigger = { religion = religion:sikhism } }
+text = { localization_key = tengri_IT_REL_MS trigger = { religion = religion:tengri } }
+text = { localization_key = totemism_IT_REL_MS trigger = { religion = religion:totemism } }
+text = { localization_key = zoroastrian_IT_REL_MS trigger = { religion = religion:zoroastrian } }
+text = { localization_key = manichaeism_IT_REL_MS trigger = { religion = religion:manichaeism } }
+text = { localization_key = iroquoian_totemism_IT_REL_MS trigger = { religion = religion:iroquoian_totemism } }
+text = { localization_key = mississippian_ceremonial_IT_REL_MS trigger = { religion = religion:mississippian_ceremonial } }
+text = { localization_key = paiute_shamanism_IT_REL_MS trigger = { religion = religion:paiute_shamanism } }
+text = { localization_key = pomo_shamanism_IT_REL_MS trigger = { religion = religion:pomo_shamanism } }
+text = { localization_key = salishan_totemism_IT_REL_MS trigger = { religion = religion:salishan_totemism } }
+text = { localization_key = dene_totemism_IT_REL_MS trigger = { religion = religion:dene_totemism } }
+text = { localization_key = dene_shamanism_IT_REL_MS trigger = { religion = religion:dene_shamanism } }
+text = { localization_key = yupik_shamanism_IT_REL_MS trigger = { religion = religion:yupik_shamanism } }
+text = { localization_key = great_plains_shamanism_IT_REL_MS trigger = { religion = religion:great_plains_shamanism } }
+text = { localization_key = chukchi_shamanism_IT_REL_MS trigger = { religion = religion:chukchi_shamanism } }
+text = { localization_key = yukaghir_shamanism_IT_REL_MS trigger = { religion = religion:yukaghir_shamanism } }
+text = { localization_key = tungusic_shamanism_IT_REL_MS trigger = { religion = religion:tungusic_shamanism } }
+text = { localization_key = bimoism_IT_REL_MS trigger = { religion = religion:bimoism } }
+text = { localization_key = hmongism_IT_REL_MS trigger = { religion = religion:hmongism } }
+text = { localization_key = moism_IT_REL_MS trigger = { religion = religion:moism } }
+text = { localization_key = rmaism_IT_REL_MS trigger = { religion = religion:rmaism } }
+text = { localization_key = sanamahism_IT_REL_MS trigger = { religion = religion:sanamahism } }
+text = { localization_key = satsana_phi_IT_REL_MS trigger = { religion = religion:satsana_phi } }
+text = { localization_key = khabzeism_IT_REL_MS trigger = { religion = religion:khabzeism } }
+text = { localization_key = vainakh_paganism_IT_REL_MS trigger = { religion = religion:vainakh_paganism } }
+text = { localization_key = alan_paganism_IT_REL_MS trigger = { religion = religion:alan_paganism } }
+text = { localization_key = lezgin_paganism_IT_REL_MS trigger = { religion = religion:lezgin_paganism } }
+text = { localization_key = karachay_balkar_paganism_IT_REL_MS trigger = { religion = religion:karachay_balkar_paganism } }
+text = { localization_key = mari_paganism_IT_REL_MS trigger = { religion = religion:mari_paganism } }
+text = { localization_key = udmurt_paganism_IT_REL_MS trigger = { religion = religion:udmurt_paganism } }
+text = { localization_key = komi_paganism_IT_REL_MS trigger = { religion = religion:komi_paganism } }
+text = { localization_key = samoyedic_paganism_IT_REL_MS trigger = { religion = religion:samoyedic_paganism } }
+text = { localization_key = obian_paganism_IT_REL_MS trigger = { religion = religion:obian_paganism } }
+text = { localization_key = inti_IT_REL_MS trigger = { religion = religion:inti } }
+text = { localization_key = bantu_religion_IT_REL_MS trigger = { religion = religion:bantu_religion } }
+text = { localization_key = bori_religion_IT_REL_MS trigger = { religion = religion:bori_religion } }
+text = { localization_key = muonyjang_religion_IT_REL_MS trigger = { religion = religion:muonyjang_religion } }
+text = { localization_key = fomba_gasy_religion_IT_REL_MS trigger = { religion = religion:fomba_gasy_religion } }
+text = { localization_key = maasai_religion_IT_REL_MS trigger = { religion = religion:maasai_religion } }
+text = { localization_key = asis_religion_IT_REL_MS trigger = { religion = religion:asis_religion } }
+text = { localization_key = waaqeffanna_religion_IT_REL_MS trigger = { religion = religion:waaqeffanna_religion } }
+text = { localization_key = badimo_religion_IT_REL_MS trigger = { religion = religion:badimo_religion } }
+text = { localization_key = kaggen_religion_IT_REL_MS trigger = { religion = religion:kaggen_religion } }
+text = { localization_key = akuj_religion_IT_REL_MS trigger = { religion = religion:akuj_religion } }
+text = { localization_key = akan_religion_IT_REL_MS trigger = { religion = religion:akan_religion } }
+text = { localization_key = vodun_religion_IT_REL_MS trigger = { religion = religion:vodun_religion } }
+text = { localization_key = abwoi_religion_IT_REL_MS trigger = { religion = religion:abwoi_religion } }
+text = { localization_key = isese_religion_IT_REL_MS trigger = { religion = religion:isese_religion } }
+text = { localization_key = ijaw_religion_IT_REL_MS trigger = { religion = religion:ijaw_religion } }
+text = { localization_key = odinala_religion_IT_REL_MS trigger = { religion = religion:odinala_religion } }
+text = { localization_key = a_fat_roog_religion_IT_REL_MS trigger = { religion = religion:a_fat_roog_religion } }
+text = { localization_key = dogon_religion_IT_REL_MS trigger = { religion = religion:dogon_religion } }
+text = { localization_key = nyama_religion_IT_REL_MS trigger = { religion = religion:nyama_religion } }
+text = { localization_key = nyesoa_religion_IT_REL_MS trigger = { religion = religion:nyesoa_religion } }
+text = { localization_key = karama_religion_IT_REL_MS trigger = { religion = religion:karama_religion } }
+text = { localization_key = buyli_religion_IT_REL_MS trigger = { religion = religion:buyli_religion } }
+text = { localization_key = ebore_religion_IT_REL_MS trigger = { religion = religion:ebore_religion } }
+text = { localization_key = adamawa_religion_IT_REL_MS trigger = { religion = religion:adamawa_religion } }
+text = { localization_key = geno_religion_IT_REL_MS trigger = { religion = religion:geno_religion } }
+text = { localization_key = emit_religion_IT_REL_MS trigger = { religion = religion:emit_religion } }
+text = { localization_key = nhaala_religion_IT_REL_MS trigger = { religion = religion:nhaala_religion } }
+text = { localization_key = eso_religion_IT_REL_MS trigger = { religion = religion:eso_religion } }
+text = { localization_key = naa_wuni_religion_IT_REL_MS trigger = { religion = religion:naa_wuni_religion } }
+text = { localization_key = kuru_masaba_religion_IT_REL_MS trigger = { religion = religion:kuru_masaba_religion } }
+text = { localization_key = sao_religion_IT_REL_MS trigger = { religion = religion:sao_religion } }
+text = { localization_key = rogo_miki_religion_IT_REL_MS trigger = { religion = religion:rogo_miki_religion } }
+text = { localization_key = songhai_religion_IT_REL_MS trigger = { religion = religion:songhai_religion } }
+text = { localization_key = godala_religion_IT_REL_MS trigger = { religion = religion:godala_religion } }
+text = { localization_key = nyasaye_religion_IT_REL_MS trigger = { religion = religion:nyasaye_religion } }
+text = { localization_key = anna_religion_IT_REL_MS trigger = { religion = religion:anna_religion } }
+text = { localization_key = rebba_religion_IT_REL_MS trigger = { religion = religion:rebba_religion } }
+text = { localization_key = omo_religion_IT_REL_MS trigger = { religion = religion:omo_religion } }
+text = { localization_key = musala_religion_IT_REL_MS trigger = { religion = religion:musala_religion } }
+text = { localization_key = kalge_religion_IT_REL_MS trigger = { religion = religion:kalge_religion } }
+text = { localization_key = mbori_religion_IT_REL_MS trigger = { religion = religion:mbori_religion } }
+text = { localization_key = ka_niam_khasi_religion_IT_REL_MS trigger = { religion = religion:ka_niam_khasi_religion } }
+text = { localization_key = muong_religion_IT_REL_MS trigger = { religion = religion:muong_religion } }
+text = { localization_key = sarna_religion_IT_REL_MS trigger = { religion = religion:sarna_religion } }
+text = { localization_key = ainu_religion_IT_REL_MS trigger = { religion = religion:ainu_religion } }
+text = { localization_key = utaki_religion_IT_REL_MS trigger = { religion = religion:utaki_religion } }
+text = { localization_key = koyapunem_religion_IT_REL_MS trigger = { religion = religion:koyapunem_religion } }
+text = { localization_key = bathou_religion_IT_REL_MS trigger = { religion = religion:bathou_religion } }
+text = { localization_key = dongba_religion_IT_REL_MS trigger = { religion = religion:dongba_religion } }
+text = { localization_key = donyi_polo_religion_IT_REL_MS trigger = { religion = religion:donyi_polo_religion } }
+text = { localization_key = kirat_mundhum_religion_IT_REL_MS trigger = { religion = religion:kirat_mundhum_religion } }
+text = { localization_key = mizo_religion_IT_REL_MS trigger = { religion = religion:mizo_religion } }
+text = { localization_key = gosain_religion_IT_REL_MS trigger = { religion = religion:gosain_religion } }
+text = { localization_key = khond_religion_IT_REL_MS trigger = { religion = religion:khond_religion } }
+text = { localization_key = wu_religion_IT_REL_MS trigger = { religion = religion:wu_religion } }
+text = { localization_key = yao_religion_IT_REL_MS trigger = { religion = religion:yao_religion } }
+text = { localization_key = nuo_religion_IT_REL_MS trigger = { religion = religion:nuo_religion } }
+text = { localization_key = vedda_religion_IT_REL_MS trigger = { religion = religion:vedda_religion } }
+text = { localization_key = kam_religion_IT_REL_MS trigger = { religion = religion:kam_religion } }
+text = { localization_key = formosan_religion_IT_REL_MS trigger = { religion = religion:formosan_religion } }
+text = { localization_key = mulam_religion_IT_REL_MS trigger = { religion = religion:mulam_religion } }
+text = { localization_key = maonan_religion_IT_REL_MS trigger = { religion = religion:maonan_religion } }
+text = { localization_key = sui_religion_IT_REL_MS trigger = { religion = religion:sui_religion } }
+text = { localization_key = lisu_religion_IT_REL_MS trigger = { religion = religion:lisu_religion } }
+text = { localization_key = ngacang_religion_IT_REL_MS trigger = { religion = religion:ngacang_religion } }
+text = { localization_key = blang_religion_IT_REL_MS trigger = { religion = religion:blang_religion } }
+text = { localization_key = hani_religion_IT_REL_MS trigger = { religion = religion:hani_religion } }
+text = { localization_key = jino_religion_IT_REL_MS trigger = { religion = religion:jino_religion } }
+text = { localization_key = lahu_religion_IT_REL_MS trigger = { religion = religion:lahu_religion } }
+text = { localization_key = nu_religion_IT_REL_MS trigger = { religion = religion:nu_religion } }
+text = { localization_key = jingpo_religion_IT_REL_MS trigger = { religion = religion:jingpo_religion } }
+text = { localization_key = wa_religion_IT_REL_MS trigger = { religion = religion:wa_religion } }
+text = { localization_key = monpa_religion_IT_REL_MS trigger = { religion = religion:monpa_religion } }
+text = { localization_key = mishmi_religion_IT_REL_MS trigger = { religion = religion:mishmi_religion } }
+text = { localization_key = palaung_religion_IT_REL_MS trigger = { religion = religion:palaung_religion } }
+text = { localization_key = kundism_religion_IT_REL_MS trigger = { religion = religion:kundism_religion } }
+text = { localization_key = songsarek_religion_IT_REL_MS trigger = { religion = religion:songsarek_religion } }
+text = { localization_key = tiwa_religion_IT_REL_MS trigger = { religion = religion:tiwa_religion } }
+text = { localization_key = koch_religion_IT_REL_MS trigger = { religion = religion:koch_religion } }
+text = { localization_key = rabha_religion_IT_REL_MS trigger = { religion = religion:rabha_religion } }
+text = { localization_key = chutia_religion_IT_REL_MS trigger = { religion = religion:chutia_religion } }
+text = { localization_key = dimasa_religion_IT_REL_MS trigger = { religion = religion:dimasa_religion } }
+text = { localization_key = karbi_religion_IT_REL_MS trigger = { religion = religion:karbi_religion } }
+text = { localization_key = sora_religion_IT_REL_MS trigger = { religion = religion:sora_religion } }
+text = { localization_key = juang_religion_IT_REL_MS trigger = { religion = religion:juang_religion } }
+text = { localization_key = kharia_religion_IT_REL_MS trigger = { religion = religion:kharia_religion } }
+text = { localization_key = naga_religion_IT_REL_MS trigger = { religion = religion:naga_religion } }
+text = { localization_key = karen_religion_IT_REL_MS trigger = { religion = religion:karen_religion } }
+text = { localization_key = sedang_religion_IT_REL_MS trigger = { religion = religion:sedang_religion } }
+text = { localization_key = bahnar_religion_IT_REL_MS trigger = { religion = religion:bahnar_religion } }
+text = { localization_key = bru_religion_IT_REL_MS trigger = { religion = religion:bru_religion } }
+text = { localization_key = orang_asli_religion_IT_REL_MS trigger = { religion = religion:orang_asli_religion } }
+text = { localization_key = andamanese_religion_IT_REL_MS trigger = { religion = religion:andamanese_religion } }
+text = { localization_key = nicobarese_religion_IT_REL_MS trigger = { religion = religion:nicobarese_religion } }
+text = { localization_key = kaharingan_religion_IT_REL_MS trigger = { religion = religion:kaharingan_religion } }
+text = { localization_key = kan_khwan_religion_IT_REL_MS trigger = { religion = religion:kan_khwan_religion } }
+text = { localization_key = adat_puun_religion_IT_REL_MS trigger = { religion = religion:adat_puun_religion } }
+text = { localization_key = momolianism_religion_IT_REL_MS trigger = { religion = religion:momolianism_religion } }
+text = { localization_key = besavik_religion_IT_REL_MS trigger = { religion = religion:besavik_religion } }
+text = { localization_key = aluk_religion_IT_REL_MS trigger = { religion = religion:aluk_religion } }
+text = { localization_key = malesung_religion_IT_REL_MS trigger = { religion = religion:malesung_religion } }
+text = { localization_key = marapu_religion_IT_REL_MS trigger = { religion = religion:marapu_religion } }
+text = { localization_key = arat_sabulungan_religion_IT_REL_MS trigger = { religion = religion:arat_sabulungan_religion } }
+text = { localization_key = pengarap_asal_religion_IT_REL_MS trigger = { religion = religion:pengarap_asal_religion } }
+text = { localization_key = ipok_religion_IT_REL_MS trigger = { religion = religion:ipok_religion } }
+text = { localization_key = banunut_religion_IT_REL_MS trigger = { religion = religion:banunut_religion } }
+text = { localization_key = lamoa_religion_IT_REL_MS trigger = { religion = religion:lamoa_religion } }
+text = { localization_key = tolotang_religion_IT_REL_MS trigger = { religion = religion:tolotang_religion } }
+text = { localization_key = tolaki_religion_IT_REL_MS trigger = { religion = religion:tolaki_religion } }
+text = { localization_key = buton_religion_IT_REL_MS trigger = { religion = religion:buton_religion } }
+text = { localization_key = tomanuru_religion_IT_REL_MS trigger = { religion = religion:tomanuru_religion } }
+text = { localization_key = gorontalo_religion_IT_REL_MS trigger = { religion = religion:gorontalo_religion } }
+text = { localization_key = adat_musi_religion_IT_REL_MS trigger = { religion = religion:adat_musi_religion } }
+text = { localization_key = sangirese_religion_IT_REL_MS trigger = { religion = religion:sangirese_religion } }
+text = { localization_key = wetarese_religion_IT_REL_MS trigger = { religion = religion:wetarese_religion } }
+text = { localization_key = kirin_koda_religion_IT_REL_MS trigger = { religion = religion:kirin_koda_religion } }
+text = { localization_key = dua_nggae_religion_IT_REL_MS trigger = { religion = religion:dua_nggae_religion } }
+text = { localization_key = lamatuan_religion_IT_REL_MS trigger = { religion = religion:lamatuan_religion } }
+text = { localization_key = naurus_religion_IT_REL_MS trigger = { religion = religion:naurus_religion } }
+text = { localization_key = mitu_religion_IT_REL_MS trigger = { religion = religion:mitu_religion } }
+text = { localization_key = sula_religion_IT_REL_MS trigger = { religion = religion:sula_religion } }
+text = { localization_key = kolano_religion_IT_REL_MS trigger = { religion = religion:kolano_religion } }
+text = { localization_key = goma_religion_IT_REL_MS trigger = { religion = religion:goma_religion } }
+text = { localization_key = anitism_religion_IT_REL_MS trigger = { religion = religion:anitism_religion } }
+text = { localization_key = orang_laut_religion_IT_REL_MS trigger = { religion = religion:orang_laut_religion } }
+text = { localization_key = minangkabau_religion_IT_REL_MS trigger = { religion = religion:minangkabau_religion } }
+text = { localization_key = pelebegu_religion_IT_REL_MS trigger = { religion = religion:pelebegu_religion } }
+text = { localization_key = nyang_serai_religion_IT_REL_MS trigger = { religion = religion:nyang_serai_religion } }
+text = { localization_key = piil_pesenggiri_religion_IT_REL_MS trigger = { religion = religion:piil_pesenggiri_religion } }
+text = { localization_key = orang_rimba_religion_IT_REL_MS trigger = { religion = religion:orang_rimba_religion } }
+text = { localization_key = enggano_religion_IT_REL_MS trigger = { religion = religion:enggano_religion } }
+text = { localization_key = imunu_religion_IT_REL_MS trigger = { religion = religion:imunu_religion } }
+text = { localization_key = dreamtime_religion_IT_REL_MS trigger = { religion = religion:dreamtime_religion } }
+text = { localization_key = degar_religion_IT_REL_MS trigger = { religion = religion:degar_religion } }
+text = { localization_key = naylamp_religion_IT_REL_MS trigger = { religion = religion:naylamp_religion } }
+text = { localization_key = umina_religion_IT_REL_MS trigger = { religion = religion:umina_religion } }
+text = { localization_key = jama_religion_IT_REL_MS trigger = { religion = religion:jama_religion } }
+text = { localization_key = pi_religion_IT_REL_MS trigger = { religion = religion:pi_religion } }
+text = { localization_key = arutam_religion_IT_REL_MS trigger = { religion = religion:arutam_religion } }
+text = { localization_key = chango_religion_IT_REL_MS trigger = { religion = religion:chango_religion } }
+text = { localization_key = cebil_religion_IT_REL_MS trigger = { religion = religion:cebil_religion } }
+text = { localization_key = yastay_religion_IT_REL_MS trigger = { religion = religion:yastay_religion } }
+text = { localization_key = gos_religion_IT_REL_MS trigger = { religion = religion:gos_religion } }
+text = { localization_key = pava_religion_IT_REL_MS trigger = { religion = religion:pava_religion } }
+text = { localization_key = chanka_religion_IT_REL_MS trigger = { religion = religion:chanka_religion } }
+text = { localization_key = chincha_religion_IT_REL_MS trigger = { religion = religion:chincha_religion } }
+text = { localization_key = akinha_ekugu_religion_IT_REL_MS trigger = { religion = religion:akinha_ekugu_religion } }
+text = { localization_key = namandu_religion_IT_REL_MS trigger = { religion = religion:namandu_religion } }
+text = { localization_key = tunpa_religion_IT_REL_MS trigger = { religion = religion:tunpa_religion } }
+text = { localization_key = doi_wahire_religion_IT_REL_MS trigger = { religion = religion:doi_wahire_religion } }
+text = { localization_key = jurema_religion_IT_REL_MS trigger = { religion = religion:jurema_religion } }
+text = { localization_key = nallagdigua_religion_IT_REL_MS trigger = { religion = religion:nallagdigua_religion } }
+text = { localization_key = txapakura_religion_IT_REL_MS trigger = { religion = religion:txapakura_religion } }
+text = { localization_key = zemi_religion_IT_REL_MS trigger = { religion = religion:zemi_religion } }
+text = { localization_key = kenos_religion_IT_REL_MS trigger = { religion = religion:kenos_religion } }
+text = { localization_key = tain_feyentun_religion_IT_REL_MS trigger = { religion = religion:tain_feyentun_religion } }
+text = { localization_key = tokuah_religion_IT_REL_MS trigger = { religion = religion:tokuah_religion } }
+text = { localization_key = kilyikhama_religion_IT_REL_MS trigger = { religion = religion:kilyikhama_religion } }
+text = { localization_key = pabichu_religion_IT_REL_MS trigger = { religion = religion:pabichu_religion } }
+text = { localization_key = mororuma_religion_IT_REL_MS trigger = { religion = religion:mororuma_religion } }
+text = { localization_key = moksha_religion_IT_REL_MS trigger = { religion = religion:moksha_religion } }
+text = { localization_key = erzya_religion_IT_REL_MS trigger = { religion = religion:erzya_religion } }
+text = { localization_key = guanche_religion_IT_REL_MS trigger = { religion = religion:guanche_religion } }
+text = { localization_key = maleiwa_religion_IT_REL_MS trigger = { religion = religion:maleiwa_religion } }
+text = { localization_key = yopo_religion_IT_REL_MS trigger = { religion = religion:yopo_religion } }
+text = { localization_key = sinu_religion_IT_REL_MS trigger = { religion = religion:sinu_religion } }
+text = { localization_key = warao_religion_IT_REL_MS trigger = { religion = religion:warao_religion } }
+text = { localization_key = naoma_religion_IT_REL_MS trigger = { religion = religion:naoma_religion } }
+text = { localization_key = muisca_religion_IT_REL_MS trigger = { religion = religion:muisca_religion } }
+text = { localization_key = nacuco_religion_IT_REL_MS trigger = { religion = religion:nacuco_religion } }
+text = { localization_key = jai_religion_IT_REL_MS trigger = { religion = religion:jai_religion } }
+text = { localization_key = yage_religion_IT_REL_MS trigger = { religion = religion:yage_religion } }
+text = { localization_key = chichimecah_religion_IT_REL_MS trigger = { religion = religion:chichimecah_religion } }
+text = { localization_key = lenca_religion_IT_REL_MS trigger = { religion = religion:lenca_religion } }
+text = { localization_key = pech_religion_IT_REL_MS trigger = { religion = religion:pech_religion } }
+text = { localization_key = wan_aisa_religion_IT_REL_MS trigger = { religion = religion:wan_aisa_religion } }
+text = { localization_key = maleku_religion_IT_REL_MS trigger = { religion = religion:maleku_religion } }
+text = { localization_key = suwo_religion_IT_REL_MS trigger = { religion = religion:suwo_religion } }
+text = { localization_key = chibcha_religion_IT_REL_MS trigger = { religion = religion:chibcha_religion } }
+text = { localization_key = votian_religion_IT_REL_MS trigger = { religion = religion:votian_religion } }
+text = { localization_key = inuit_religion_IT_REL_MS trigger = { religion = religion:inuit_religion } }
+text = { localization_key = dene_religion_IT_REL_MS trigger = { religion = religion:dene_religion } }
+text = { localization_key = tapu_religion_IT_REL_MS trigger = { religion = religion:tapu_religion } }
+text = { localization_key = tokelauan_religion_IT_REL_MS trigger = { religion = religion:tokelauan_religion } }
+text = { localization_key = puntan_religion_IT_REL_MS trigger = { religion = religion:puntan_religion } }
+text = { localization_key = kajoor_ri_majel_religion_IT_REL_MS trigger = { religion = religion:kajoor_ri_majel_religion } }
+text = { localization_key = yanolop_religion_IT_REL_MS trigger = { religion = religion:yanolop_religion } }
+text = { localization_key = arosi_religion_IT_REL_MS trigger = { religion = religion:arosi_religion } }
+text = { localization_key = abu_religion_IT_REL_MS trigger = { religion = religion:abu_religion } }
+text = { localization_key = ghari_religion_IT_REL_MS trigger = { religion = religion:ghari_religion } }
+text = { localization_key = nduke_religion_IT_REL_MS trigger = { religion = religion:nduke_religion } }
+text = { localization_key = cheke_holo_religion_IT_REL_MS trigger = { religion = religion:cheke_holo_religion } }
+text = { localization_key = vaghua_religion_IT_REL_MS trigger = { religion = religion:vaghua_religion } }
+text = { localization_key = mu_ngava_religion_IT_REL_MS trigger = { religion = religion:mu_ngava_religion } }
+text = { localization_key = natugu_religion_IT_REL_MS trigger = { religion = religion:natugu_religion } }
+text = { localization_key = qat_religion_IT_REL_MS trigger = { religion = religion:qat_religion } }
+text = { localization_key = itaukei_religion_IT_REL_MS trigger = { religion = religion:itaukei_religion } }
+text = { localization_key = kanak_religion_IT_REL_MS trigger = { religion = religion:kanak_religion } }
+text = { localization_key = hellenism_religion_IT_REL_MS trigger = { religion = religion:hellenism_religion } }
+text = { localization_key = pericu_religion_IT_REL_MS trigger = { religion = religion:pericu_religion } }
+text = { localization_key = yuman_religion_IT_REL_MS trigger = { religion = religion:yuman_religion } }
+text = { localization_key = cahita_religion_IT_REL_MS trigger = { religion = religion:cahita_religion } }
+text = { localization_key = seri_religion_IT_REL_MS trigger = { religion = religion:seri_religion } }
+text = { localization_key = guasave_religion_IT_REL_MS trigger = { religion = religion:guasave_religion } }
+text = { localization_key = tepehuan_religion_IT_REL_MS trigger = { religion = religion:tepehuan_religion } }
+text = { localization_key = coahuilteco_religion_IT_REL_MS trigger = { religion = religion:coahuilteco_religion } }
+text = { localization_key = irritila_religion_IT_REL_MS trigger = { religion = religion:irritila_religion } }
+text = { localization_key = karankawa_religion_IT_REL_MS trigger = { religion = religion:karankawa_religion } }
+text = { localization_key = atakapa_religion_IT_REL_MS trigger = { religion = religion:atakapa_religion } }
+text = { localization_key = kachina_religion_IT_REL_MS trigger = { religion = religion:kachina_religion } }
+text = { localization_key = midewiwin_religion_IT_REL_MS trigger = { religion = religion:midewiwin_religion } }
+text = { localization_key = mesoamerican_IT_REL_MS trigger = { religion = religion:mesoamerican } }
+text = { localization_key = ngbandi_religion_IT_REL_MS trigger = { religion = religion:ngbandi_religion } }
+text = { localization_key = ori_religion_IT_REL_MS trigger = { religion = religion:ori_religion } }
+text = { localization_key = bua_religion_IT_REL_MS trigger = { religion = religion:bua_religion } }
+text = { localization_key = banda_religion_IT_REL_MS trigger = { religion = religion:banda_religion } }
+text = { localization_key = fang_religion_IT_REL_MS trigger = { religion = religion:fang_religion } }
+text = { localization_key = ajok_religion_IT_REL_MS trigger = { religion = religion:ajok_religion } }
+text = { localization_key = lugbara_religion_IT_REL_MS trigger = { religion = religion:lugbara_religion } }
+text = { localization_key = cwezi_religion_IT_REL_MS trigger = { religion = religion:cwezi_religion } }
+}
+
+###########################################################################################################
+
+IT_REL_MP = {
+   type = country
+   log_loc_errors = no
+   
+text = { localization_key = catholic_IT_REL_MP trigger = { religion = religion:catholic } }
+text = { localization_key = lutheran_IT_REL_MP trigger = { religion = religion:lutheran } }
+text = { localization_key = calvinist_IT_REL_MP trigger = { religion = religion:calvinist } }
+text = { localization_key = orthodox_IT_REL_MP trigger = { religion = religion:orthodox } }
+text = { localization_key = hindu_IT_REL_MP trigger = { religion = religion:hindu } }
+text = { localization_key = sapmi_shamanism_IT_REL_MP trigger = { religion = religion:sapmi_shamanism } }
+text = { localization_key = muinaisusko_IT_REL_MP trigger = { religion = religion:muinaisusko } }
+text = { localization_key = shia_IT_REL_MP trigger = { religion = religion:shia } }
+text = { localization_key = ibadi_IT_REL_MP trigger = { religion = religion:ibadi } }
+text = { localization_key = sunni_IT_REL_MP trigger = { religion = religion:sunni } }
+text = { localization_key = druzism_IT_REL_MP trigger = { religion = religion:druzism } }
+text = { localization_key = theravada_IT_REL_MP trigger = { religion = religion:theravada } }
+text = { localization_key = romuva_IT_REL_MP trigger = { religion = religion:romuva } }
+text = { localization_key = mandeaism_IT_REL_MP trigger = { religion = religion:mandeaism } }
+text = { localization_key = yazidism_IT_REL_MP trigger = { religion = religion:yazidism } }
+text = { localization_key = judaism_IT_REL_MP trigger = { religion = religion:judaism } }
+text = { localization_key = samaritanism_IT_REL_MP trigger = { religion = religion:samaritanism } }
+text = { localization_key = miaphysite_IT_REL_MP trigger = { religion = religion:miaphysite } }
+text = { localization_key = nestorianism_IT_REL_MP trigger = { religion = religion:nestorianism } }
+text = { localization_key = bogomilism_IT_REL_MP trigger = { religion = religion:bogomilism } }
+text = { localization_key = bosnian_church_IT_REL_MP trigger = { religion = religion:bosnian_church } }
+text = { localization_key = catharism_IT_REL_MP trigger = { religion = religion:catharism } }
+text = { localization_key = paulicianism_IT_REL_MP trigger = { religion = religion:paulicianism } }
+text = { localization_key = waldensian_IT_REL_MP trigger = { religion = religion:waldensian } }
+text = { localization_key = anglican_IT_REL_MP trigger = { religion = religion:anglican } }
+text = { localization_key = lollardy_IT_REL_MP trigger = { religion = religion:lollardy } }
+text = { localization_key = strigolniki_IT_REL_MP trigger = { religion = religion:strigolniki } }
+text = { localization_key = hussite_IT_REL_MP trigger = { religion = religion:hussite } }
+text = { localization_key = jain_IT_REL_MP trigger = { religion = religion:jain } }
+text = { localization_key = mahayana_IT_REL_MP trigger = { religion = religion:mahayana } }
+text = { localization_key = sammitiya_IT_REL_MP trigger = { religion = religion:sammitiya } }
+text = { localization_key = tibetan_buddhism_IT_REL_MP trigger = { religion = religion:tibetan_buddhism } }
+text = { localization_key = bon_IT_REL_MP trigger = { religion = religion:bon } }
+text = { localization_key = sanjiao_IT_REL_MP trigger = { religion = religion:sanjiao } }
+text = { localization_key = nahuatl_IT_REL_MP trigger = { religion = religion:nahuatl } }
+text = { localization_key = mayan_IT_REL_MP trigger = { religion = religion:mayan } }
+text = { localization_key = norse_IT_REL_MP trigger = { religion = religion:norse } }
+text = { localization_key = shamanism_IT_REL_MP trigger = { religion = religion:shamanism } }
+text = { localization_key = shinto_IT_REL_MP trigger = { religion = religion:shinto } }
+text = { localization_key = sikhism_IT_REL_MP trigger = { religion = religion:sikhism } }
+text = { localization_key = tengri_IT_REL_MP trigger = { religion = religion:tengri } }
+text = { localization_key = totemism_IT_REL_MP trigger = { religion = religion:totemism } }
+text = { localization_key = zoroastrian_IT_REL_MP trigger = { religion = religion:zoroastrian } }
+text = { localization_key = manichaeism_IT_REL_MP trigger = { religion = religion:manichaeism } }
+text = { localization_key = iroquoian_totemism_IT_REL_MP trigger = { religion = religion:iroquoian_totemism } }
+text = { localization_key = mississippian_ceremonial_IT_REL_MP trigger = { religion = religion:mississippian_ceremonial } }
+text = { localization_key = paiute_shamanism_IT_REL_MP trigger = { religion = religion:paiute_shamanism } }
+text = { localization_key = pomo_shamanism_IT_REL_MP trigger = { religion = religion:pomo_shamanism } }
+text = { localization_key = salishan_totemism_IT_REL_MP trigger = { religion = religion:salishan_totemism } }
+text = { localization_key = dene_totemism_IT_REL_MP trigger = { religion = religion:dene_totemism } }
+text = { localization_key = dene_shamanism_IT_REL_MP trigger = { religion = religion:dene_shamanism } }
+text = { localization_key = yupik_shamanism_IT_REL_MP trigger = { religion = religion:yupik_shamanism } }
+text = { localization_key = great_plains_shamanism_IT_REL_MP trigger = { religion = religion:great_plains_shamanism } }
+text = { localization_key = chukchi_shamanism_IT_REL_MP trigger = { religion = religion:chukchi_shamanism } }
+text = { localization_key = yukaghir_shamanism_IT_REL_MP trigger = { religion = religion:yukaghir_shamanism } }
+text = { localization_key = tungusic_shamanism_IT_REL_MP trigger = { religion = religion:tungusic_shamanism } }
+text = { localization_key = bimoism_IT_REL_MP trigger = { religion = religion:bimoism } }
+text = { localization_key = hmongism_IT_REL_MP trigger = { religion = religion:hmongism } }
+text = { localization_key = moism_IT_REL_MP trigger = { religion = religion:moism } }
+text = { localization_key = rmaism_IT_REL_MP trigger = { religion = religion:rmaism } }
+text = { localization_key = sanamahism_IT_REL_MP trigger = { religion = religion:sanamahism } }
+text = { localization_key = satsana_phi_IT_REL_MP trigger = { religion = religion:satsana_phi } }
+text = { localization_key = khabzeism_IT_REL_MP trigger = { religion = religion:khabzeism } }
+text = { localization_key = vainakh_paganism_IT_REL_MP trigger = { religion = religion:vainakh_paganism } }
+text = { localization_key = alan_paganism_IT_REL_MP trigger = { religion = religion:alan_paganism } }
+text = { localization_key = lezgin_paganism_IT_REL_MP trigger = { religion = religion:lezgin_paganism } }
+text = { localization_key = karachay_balkar_paganism_IT_REL_MP trigger = { religion = religion:karachay_balkar_paganism } }
+text = { localization_key = mari_paganism_IT_REL_MP trigger = { religion = religion:mari_paganism } }
+text = { localization_key = udmurt_paganism_IT_REL_MP trigger = { religion = religion:udmurt_paganism } }
+text = { localization_key = komi_paganism_IT_REL_MP trigger = { religion = religion:komi_paganism } }
+text = { localization_key = samoyedic_paganism_IT_REL_MP trigger = { religion = religion:samoyedic_paganism } }
+text = { localization_key = obian_paganism_IT_REL_MP trigger = { religion = religion:obian_paganism } }
+text = { localization_key = inti_IT_REL_MP trigger = { religion = religion:inti } }
+text = { localization_key = bantu_religion_IT_REL_MP trigger = { religion = religion:bantu_religion } }
+text = { localization_key = bori_religion_IT_REL_MP trigger = { religion = religion:bori_religion } }
+text = { localization_key = muonyjang_religion_IT_REL_MP trigger = { religion = religion:muonyjang_religion } }
+text = { localization_key = fomba_gasy_religion_IT_REL_MP trigger = { religion = religion:fomba_gasy_religion } }
+text = { localization_key = maasai_religion_IT_REL_MP trigger = { religion = religion:maasai_religion } }
+text = { localization_key = asis_religion_IT_REL_MP trigger = { religion = religion:asis_religion } }
+text = { localization_key = waaqeffanna_religion_IT_REL_MP trigger = { religion = religion:waaqeffanna_religion } }
+text = { localization_key = badimo_religion_IT_REL_MP trigger = { religion = religion:badimo_religion } }
+text = { localization_key = kaggen_religion_IT_REL_MP trigger = { religion = religion:kaggen_religion } }
+text = { localization_key = akuj_religion_IT_REL_MP trigger = { religion = religion:akuj_religion } }
+text = { localization_key = akan_religion_IT_REL_MP trigger = { religion = religion:akan_religion } }
+text = { localization_key = vodun_religion_IT_REL_MP trigger = { religion = religion:vodun_religion } }
+text = { localization_key = abwoi_religion_IT_REL_MP trigger = { religion = religion:abwoi_religion } }
+text = { localization_key = isese_religion_IT_REL_MP trigger = { religion = religion:isese_religion } }
+text = { localization_key = ijaw_religion_IT_REL_MP trigger = { religion = religion:ijaw_religion } }
+text = { localization_key = odinala_religion_IT_REL_MP trigger = { religion = religion:odinala_religion } }
+text = { localization_key = a_fat_roog_religion_IT_REL_MP trigger = { religion = religion:a_fat_roog_religion } }
+text = { localization_key = dogon_religion_IT_REL_MP trigger = { religion = religion:dogon_religion } }
+text = { localization_key = nyama_religion_IT_REL_MP trigger = { religion = religion:nyama_religion } }
+text = { localization_key = nyesoa_religion_IT_REL_MP trigger = { religion = religion:nyesoa_religion } }
+text = { localization_key = karama_religion_IT_REL_MP trigger = { religion = religion:karama_religion } }
+text = { localization_key = buyli_religion_IT_REL_MP trigger = { religion = religion:buyli_religion } }
+text = { localization_key = ebore_religion_IT_REL_MP trigger = { religion = religion:ebore_religion } }
+text = { localization_key = adamawa_religion_IT_REL_MP trigger = { religion = religion:adamawa_religion } }
+text = { localization_key = geno_religion_IT_REL_MP trigger = { religion = religion:geno_religion } }
+text = { localization_key = emit_religion_IT_REL_MP trigger = { religion = religion:emit_religion } }
+text = { localization_key = nhaala_religion_IT_REL_MP trigger = { religion = religion:nhaala_religion } }
+text = { localization_key = eso_religion_IT_REL_MP trigger = { religion = religion:eso_religion } }
+text = { localization_key = naa_wuni_religion_IT_REL_MP trigger = { religion = religion:naa_wuni_religion } }
+text = { localization_key = kuru_masaba_religion_IT_REL_MP trigger = { religion = religion:kuru_masaba_religion } }
+text = { localization_key = sao_religion_IT_REL_MP trigger = { religion = religion:sao_religion } }
+text = { localization_key = rogo_miki_religion_IT_REL_MP trigger = { religion = religion:rogo_miki_religion } }
+text = { localization_key = songhai_religion_IT_REL_MP trigger = { religion = religion:songhai_religion } }
+text = { localization_key = godala_religion_IT_REL_MP trigger = { religion = religion:godala_religion } }
+text = { localization_key = nyasaye_religion_IT_REL_MP trigger = { religion = religion:nyasaye_religion } }
+text = { localization_key = anna_religion_IT_REL_MP trigger = { religion = religion:anna_religion } }
+text = { localization_key = rebba_religion_IT_REL_MP trigger = { religion = religion:rebba_religion } }
+text = { localization_key = omo_religion_IT_REL_MP trigger = { religion = religion:omo_religion } }
+text = { localization_key = musala_religion_IT_REL_MP trigger = { religion = religion:musala_religion } }
+text = { localization_key = kalge_religion_IT_REL_MP trigger = { religion = religion:kalge_religion } }
+text = { localization_key = mbori_religion_IT_REL_MP trigger = { religion = religion:mbori_religion } }
+text = { localization_key = ka_niam_khasi_religion_IT_REL_MP trigger = { religion = religion:ka_niam_khasi_religion } }
+text = { localization_key = muong_religion_IT_REL_MP trigger = { religion = religion:muong_religion } }
+text = { localization_key = sarna_religion_IT_REL_MP trigger = { religion = religion:sarna_religion } }
+text = { localization_key = ainu_religion_IT_REL_MP trigger = { religion = religion:ainu_religion } }
+text = { localization_key = utaki_religion_IT_REL_MP trigger = { religion = religion:utaki_religion } }
+text = { localization_key = koyapunem_religion_IT_REL_MP trigger = { religion = religion:koyapunem_religion } }
+text = { localization_key = bathou_religion_IT_REL_MP trigger = { religion = religion:bathou_religion } }
+text = { localization_key = dongba_religion_IT_REL_MP trigger = { religion = religion:dongba_religion } }
+text = { localization_key = donyi_polo_religion_IT_REL_MP trigger = { religion = religion:donyi_polo_religion } }
+text = { localization_key = kirat_mundhum_religion_IT_REL_MP trigger = { religion = religion:kirat_mundhum_religion } }
+text = { localization_key = mizo_religion_IT_REL_MP trigger = { religion = religion:mizo_religion } }
+text = { localization_key = gosain_religion_IT_REL_MP trigger = { religion = religion:gosain_religion } }
+text = { localization_key = khond_religion_IT_REL_MP trigger = { religion = religion:khond_religion } }
+text = { localization_key = wu_religion_IT_REL_MP trigger = { religion = religion:wu_religion } }
+text = { localization_key = yao_religion_IT_REL_MP trigger = { religion = religion:yao_religion } }
+text = { localization_key = nuo_religion_IT_REL_MP trigger = { religion = religion:nuo_religion } }
+text = { localization_key = vedda_religion_IT_REL_MP trigger = { religion = religion:vedda_religion } }
+text = { localization_key = kam_religion_IT_REL_MP trigger = { religion = religion:kam_religion } }
+text = { localization_key = formosan_religion_IT_REL_MP trigger = { religion = religion:formosan_religion } }
+text = { localization_key = mulam_religion_IT_REL_MP trigger = { religion = religion:mulam_religion } }
+text = { localization_key = maonan_religion_IT_REL_MP trigger = { religion = religion:maonan_religion } }
+text = { localization_key = sui_religion_IT_REL_MP trigger = { religion = religion:sui_religion } }
+text = { localization_key = lisu_religion_IT_REL_MP trigger = { religion = religion:lisu_religion } }
+text = { localization_key = ngacang_religion_IT_REL_MP trigger = { religion = religion:ngacang_religion } }
+text = { localization_key = blang_religion_IT_REL_MP trigger = { religion = religion:blang_religion } }
+text = { localization_key = hani_religion_IT_REL_MP trigger = { religion = religion:hani_religion } }
+text = { localization_key = jino_religion_IT_REL_MP trigger = { religion = religion:jino_religion } }
+text = { localization_key = lahu_religion_IT_REL_MP trigger = { religion = religion:lahu_religion } }
+text = { localization_key = nu_religion_IT_REL_MP trigger = { religion = religion:nu_religion } }
+text = { localization_key = jingpo_religion_IT_REL_MP trigger = { religion = religion:jingpo_religion } }
+text = { localization_key = wa_religion_IT_REL_MP trigger = { religion = religion:wa_religion } }
+text = { localization_key = monpa_religion_IT_REL_MP trigger = { religion = religion:monpa_religion } }
+text = { localization_key = mishmi_religion_IT_REL_MP trigger = { religion = religion:mishmi_religion } }
+text = { localization_key = palaung_religion_IT_REL_MP trigger = { religion = religion:palaung_religion } }
+text = { localization_key = kundism_religion_IT_REL_MP trigger = { religion = religion:kundism_religion } }
+text = { localization_key = songsarek_religion_IT_REL_MP trigger = { religion = religion:songsarek_religion } }
+text = { localization_key = tiwa_religion_IT_REL_MP trigger = { religion = religion:tiwa_religion } }
+text = { localization_key = koch_religion_IT_REL_MP trigger = { religion = religion:koch_religion } }
+text = { localization_key = rabha_religion_IT_REL_MP trigger = { religion = religion:rabha_religion } }
+text = { localization_key = chutia_religion_IT_REL_MP trigger = { religion = religion:chutia_religion } }
+text = { localization_key = dimasa_religion_IT_REL_MP trigger = { religion = religion:dimasa_religion } }
+text = { localization_key = karbi_religion_IT_REL_MP trigger = { religion = religion:karbi_religion } }
+text = { localization_key = sora_religion_IT_REL_MP trigger = { religion = religion:sora_religion } }
+text = { localization_key = juang_religion_IT_REL_MP trigger = { religion = religion:juang_religion } }
+text = { localization_key = kharia_religion_IT_REL_MP trigger = { religion = religion:kharia_religion } }
+text = { localization_key = naga_religion_IT_REL_MP trigger = { religion = religion:naga_religion } }
+text = { localization_key = karen_religion_IT_REL_MP trigger = { religion = religion:karen_religion } }
+text = { localization_key = sedang_religion_IT_REL_MP trigger = { religion = religion:sedang_religion } }
+text = { localization_key = bahnar_religion_IT_REL_MP trigger = { religion = religion:bahnar_religion } }
+text = { localization_key = bru_religion_IT_REL_MP trigger = { religion = religion:bru_religion } }
+text = { localization_key = orang_asli_religion_IT_REL_MP trigger = { religion = religion:orang_asli_religion } }
+text = { localization_key = andamanese_religion_IT_REL_MP trigger = { religion = religion:andamanese_religion } }
+text = { localization_key = nicobarese_religion_IT_REL_MP trigger = { religion = religion:nicobarese_religion } }
+text = { localization_key = kaharingan_religion_IT_REL_MP trigger = { religion = religion:kaharingan_religion } }
+text = { localization_key = kan_khwan_religion_IT_REL_MP trigger = { religion = religion:kan_khwan_religion } }
+text = { localization_key = adat_puun_religion_IT_REL_MP trigger = { religion = religion:adat_puun_religion } }
+text = { localization_key = momolianism_religion_IT_REL_MP trigger = { religion = religion:momolianism_religion } }
+text = { localization_key = besavik_religion_IT_REL_MP trigger = { religion = religion:besavik_religion } }
+text = { localization_key = aluk_religion_IT_REL_MP trigger = { religion = religion:aluk_religion } }
+text = { localization_key = malesung_religion_IT_REL_MP trigger = { religion = religion:malesung_religion } }
+text = { localization_key = marapu_religion_IT_REL_MP trigger = { religion = religion:marapu_religion } }
+text = { localization_key = arat_sabulungan_religion_IT_REL_MP trigger = { religion = religion:arat_sabulungan_religion } }
+text = { localization_key = pengarap_asal_religion_IT_REL_MP trigger = { religion = religion:pengarap_asal_religion } }
+text = { localization_key = ipok_religion_IT_REL_MP trigger = { religion = religion:ipok_religion } }
+text = { localization_key = banunut_religion_IT_REL_MP trigger = { religion = religion:banunut_religion } }
+text = { localization_key = lamoa_religion_IT_REL_MP trigger = { religion = religion:lamoa_religion } }
+text = { localization_key = tolotang_religion_IT_REL_MP trigger = { religion = religion:tolotang_religion } }
+text = { localization_key = tolaki_religion_IT_REL_MP trigger = { religion = religion:tolaki_religion } }
+text = { localization_key = buton_religion_IT_REL_MP trigger = { religion = religion:buton_religion } }
+text = { localization_key = tomanuru_religion_IT_REL_MP trigger = { religion = religion:tomanuru_religion } }
+text = { localization_key = gorontalo_religion_IT_REL_MP trigger = { religion = religion:gorontalo_religion } }
+text = { localization_key = adat_musi_religion_IT_REL_MP trigger = { religion = religion:adat_musi_religion } }
+text = { localization_key = sangirese_religion_IT_REL_MP trigger = { religion = religion:sangirese_religion } }
+text = { localization_key = wetarese_religion_IT_REL_MP trigger = { religion = religion:wetarese_religion } }
+text = { localization_key = kirin_koda_religion_IT_REL_MP trigger = { religion = religion:kirin_koda_religion } }
+text = { localization_key = dua_nggae_religion_IT_REL_MP trigger = { religion = religion:dua_nggae_religion } }
+text = { localization_key = lamatuan_religion_IT_REL_MP trigger = { religion = religion:lamatuan_religion } }
+text = { localization_key = naurus_religion_IT_REL_MP trigger = { religion = religion:naurus_religion } }
+text = { localization_key = mitu_religion_IT_REL_MP trigger = { religion = religion:mitu_religion } }
+text = { localization_key = sula_religion_IT_REL_MP trigger = { religion = religion:sula_religion } }
+text = { localization_key = kolano_religion_IT_REL_MP trigger = { religion = religion:kolano_religion } }
+text = { localization_key = goma_religion_IT_REL_MP trigger = { religion = religion:goma_religion } }
+text = { localization_key = anitism_religion_IT_REL_MP trigger = { religion = religion:anitism_religion } }
+text = { localization_key = orang_laut_religion_IT_REL_MP trigger = { religion = religion:orang_laut_religion } }
+text = { localization_key = minangkabau_religion_IT_REL_MP trigger = { religion = religion:minangkabau_religion } }
+text = { localization_key = pelebegu_religion_IT_REL_MP trigger = { religion = religion:pelebegu_religion } }
+text = { localization_key = nyang_serai_religion_IT_REL_MP trigger = { religion = religion:nyang_serai_religion } }
+text = { localization_key = piil_pesenggiri_religion_IT_REL_MP trigger = { religion = religion:piil_pesenggiri_religion } }
+text = { localization_key = orang_rimba_religion_IT_REL_MP trigger = { religion = religion:orang_rimba_religion } }
+text = { localization_key = enggano_religion_IT_REL_MP trigger = { religion = religion:enggano_religion } }
+text = { localization_key = imunu_religion_IT_REL_MP trigger = { religion = religion:imunu_religion } }
+text = { localization_key = dreamtime_religion_IT_REL_MP trigger = { religion = religion:dreamtime_religion } }
+text = { localization_key = degar_religion_IT_REL_MP trigger = { religion = religion:degar_religion } }
+text = { localization_key = naylamp_religion_IT_REL_MP trigger = { religion = religion:naylamp_religion } }
+text = { localization_key = umina_religion_IT_REL_MP trigger = { religion = religion:umina_religion } }
+text = { localization_key = jama_religion_IT_REL_MP trigger = { religion = religion:jama_religion } }
+text = { localization_key = pi_religion_IT_REL_MP trigger = { religion = religion:pi_religion } }
+text = { localization_key = arutam_religion_IT_REL_MP trigger = { religion = religion:arutam_religion } }
+text = { localization_key = chango_religion_IT_REL_MP trigger = { religion = religion:chango_religion } }
+text = { localization_key = cebil_religion_IT_REL_MP trigger = { religion = religion:cebil_religion } }
+text = { localization_key = yastay_religion_IT_REL_MP trigger = { religion = religion:yastay_religion } }
+text = { localization_key = gos_religion_IT_REL_MP trigger = { religion = religion:gos_religion } }
+text = { localization_key = pava_religion_IT_REL_MP trigger = { religion = religion:pava_religion } }
+text = { localization_key = chanka_religion_IT_REL_MP trigger = { religion = religion:chanka_religion } }
+text = { localization_key = chincha_religion_IT_REL_MP trigger = { religion = religion:chincha_religion } }
+text = { localization_key = akinha_ekugu_religion_IT_REL_MP trigger = { religion = religion:akinha_ekugu_religion } }
+text = { localization_key = namandu_religion_IT_REL_MP trigger = { religion = religion:namandu_religion } }
+text = { localization_key = tunpa_religion_IT_REL_MP trigger = { religion = religion:tunpa_religion } }
+text = { localization_key = doi_wahire_religion_IT_REL_MP trigger = { religion = religion:doi_wahire_religion } }
+text = { localization_key = jurema_religion_IT_REL_MP trigger = { religion = religion:jurema_religion } }
+text = { localization_key = nallagdigua_religion_IT_REL_MP trigger = { religion = religion:nallagdigua_religion } }
+text = { localization_key = txapakura_religion_IT_REL_MP trigger = { religion = religion:txapakura_religion } }
+text = { localization_key = zemi_religion_IT_REL_MP trigger = { religion = religion:zemi_religion } }
+text = { localization_key = kenos_religion_IT_REL_MP trigger = { religion = religion:kenos_religion } }
+text = { localization_key = tain_feyentun_religion_IT_REL_MP trigger = { religion = religion:tain_feyentun_religion } }
+text = { localization_key = tokuah_religion_IT_REL_MP trigger = { religion = religion:tokuah_religion } }
+text = { localization_key = kilyikhama_religion_IT_REL_MP trigger = { religion = religion:kilyikhama_religion } }
+text = { localization_key = pabichu_religion_IT_REL_MP trigger = { religion = religion:pabichu_religion } }
+text = { localization_key = mororuma_religion_IT_REL_MP trigger = { religion = religion:mororuma_religion } }
+text = { localization_key = moksha_religion_IT_REL_MP trigger = { religion = religion:moksha_religion } }
+text = { localization_key = erzya_religion_IT_REL_MP trigger = { religion = religion:erzya_religion } }
+text = { localization_key = guanche_religion_IT_REL_MP trigger = { religion = religion:guanche_religion } }
+text = { localization_key = maleiwa_religion_IT_REL_MP trigger = { religion = religion:maleiwa_religion } }
+text = { localization_key = yopo_religion_IT_REL_MP trigger = { religion = religion:yopo_religion } }
+text = { localization_key = sinu_religion_IT_REL_MP trigger = { religion = religion:sinu_religion } }
+text = { localization_key = warao_religion_IT_REL_MP trigger = { religion = religion:warao_religion } }
+text = { localization_key = naoma_religion_IT_REL_MP trigger = { religion = religion:naoma_religion } }
+text = { localization_key = muisca_religion_IT_REL_MP trigger = { religion = religion:muisca_religion } }
+text = { localization_key = nacuco_religion_IT_REL_MP trigger = { religion = religion:nacuco_religion } }
+text = { localization_key = jai_religion_IT_REL_MP trigger = { religion = religion:jai_religion } }
+text = { localization_key = yage_religion_IT_REL_MP trigger = { religion = religion:yage_religion } }
+text = { localization_key = chichimecah_religion_IT_REL_MP trigger = { religion = religion:chichimecah_religion } }
+text = { localization_key = lenca_religion_IT_REL_MP trigger = { religion = religion:lenca_religion } }
+text = { localization_key = pech_religion_IT_REL_MP trigger = { religion = religion:pech_religion } }
+text = { localization_key = wan_aisa_religion_IT_REL_MP trigger = { religion = religion:wan_aisa_religion } }
+text = { localization_key = maleku_religion_IT_REL_MP trigger = { religion = religion:maleku_religion } }
+text = { localization_key = suwo_religion_IT_REL_MP trigger = { religion = religion:suwo_religion } }
+text = { localization_key = chibcha_religion_IT_REL_MP trigger = { religion = religion:chibcha_religion } }
+text = { localization_key = votian_religion_IT_REL_MP trigger = { religion = religion:votian_religion } }
+text = { localization_key = inuit_religion_IT_REL_MP trigger = { religion = religion:inuit_religion } }
+text = { localization_key = dene_religion_IT_REL_MP trigger = { religion = religion:dene_religion } }
+text = { localization_key = tapu_religion_IT_REL_MP trigger = { religion = religion:tapu_religion } }
+text = { localization_key = tokelauan_religion_IT_REL_MP trigger = { religion = religion:tokelauan_religion } }
+text = { localization_key = puntan_religion_IT_REL_MP trigger = { religion = religion:puntan_religion } }
+text = { localization_key = kajoor_ri_majel_religion_IT_REL_MP trigger = { religion = religion:kajoor_ri_majel_religion } }
+text = { localization_key = yanolop_religion_IT_REL_MP trigger = { religion = religion:yanolop_religion } }
+text = { localization_key = arosi_religion_IT_REL_MP trigger = { religion = religion:arosi_religion } }
+text = { localization_key = abu_religion_IT_REL_MP trigger = { religion = religion:abu_religion } }
+text = { localization_key = ghari_religion_IT_REL_MP trigger = { religion = religion:ghari_religion } }
+text = { localization_key = nduke_religion_IT_REL_MP trigger = { religion = religion:nduke_religion } }
+text = { localization_key = cheke_holo_religion_IT_REL_MP trigger = { religion = religion:cheke_holo_religion } }
+text = { localization_key = vaghua_religion_IT_REL_MP trigger = { religion = religion:vaghua_religion } }
+text = { localization_key = mu_ngava_religion_IT_REL_MP trigger = { religion = religion:mu_ngava_religion } }
+text = { localization_key = natugu_religion_IT_REL_MP trigger = { religion = religion:natugu_religion } }
+text = { localization_key = qat_religion_IT_REL_MP trigger = { religion = religion:qat_religion } }
+text = { localization_key = itaukei_religion_IT_REL_MP trigger = { religion = religion:itaukei_religion } }
+text = { localization_key = kanak_religion_IT_REL_MP trigger = { religion = religion:kanak_religion } }
+text = { localization_key = hellenism_religion_IT_REL_MP trigger = { religion = religion:hellenism_religion } }
+text = { localization_key = pericu_religion_IT_REL_MP trigger = { religion = religion:pericu_religion } }
+text = { localization_key = yuman_religion_IT_REL_MP trigger = { religion = religion:yuman_religion } }
+text = { localization_key = cahita_religion_IT_REL_MP trigger = { religion = religion:cahita_religion } }
+text = { localization_key = seri_religion_IT_REL_MP trigger = { religion = religion:seri_religion } }
+text = { localization_key = guasave_religion_IT_REL_MP trigger = { religion = religion:guasave_religion } }
+text = { localization_key = tepehuan_religion_IT_REL_MP trigger = { religion = religion:tepehuan_religion } }
+text = { localization_key = coahuilteco_religion_IT_REL_MP trigger = { religion = religion:coahuilteco_religion } }
+text = { localization_key = irritila_religion_IT_REL_MP trigger = { religion = religion:irritila_religion } }
+text = { localization_key = karankawa_religion_IT_REL_MP trigger = { religion = religion:karankawa_religion } }
+text = { localization_key = atakapa_religion_IT_REL_MP trigger = { religion = religion:atakapa_religion } }
+text = { localization_key = kachina_religion_IT_REL_MP trigger = { religion = religion:kachina_religion } }
+text = { localization_key = midewiwin_religion_IT_REL_MP trigger = { religion = religion:midewiwin_religion } }
+text = { localization_key = mesoamerican_IT_REL_MP trigger = { religion = religion:mesoamerican } }
+text = { localization_key = ngbandi_religion_IT_REL_MP trigger = { religion = religion:ngbandi_religion } }
+text = { localization_key = ori_religion_IT_REL_MP trigger = { religion = religion:ori_religion } }
+text = { localization_key = bua_religion_IT_REL_MP trigger = { religion = religion:bua_religion } }
+text = { localization_key = banda_religion_IT_REL_MP trigger = { religion = religion:banda_religion } }
+text = { localization_key = fang_religion_IT_REL_MP trigger = { religion = religion:fang_religion } }
+text = { localization_key = ajok_religion_IT_REL_MP trigger = { religion = religion:ajok_religion } }
+text = { localization_key = lugbara_religion_IT_REL_MP trigger = { religion = religion:lugbara_religion } }
+text = { localization_key = cwezi_religion_IT_REL_MP trigger = { religion = religion:cwezi_religion } }
+}
+
+#####################################################################################################
+
+IT_REL_FS = {
+   type = country
+   log_loc_errors = no
+   
+text = { localization_key = catholic_IT_REL_FS trigger = { religion = religion:catholic } }
+text = { localization_key = lutheran_IT_REL_FS trigger = { religion = religion:lutheran } }
+text = { localization_key = calvinist_IT_REL_FS trigger = { religion = religion:calvinist } }
+text = { localization_key = orthodox_IT_REL_FS trigger = { religion = religion:orthodox } }
+text = { localization_key = hindu_IT_REL_FS trigger = { religion = religion:hindu } }
+text = { localization_key = sapmi_shamanism_IT_REL_FS trigger = { religion = religion:sapmi_shamanism } }
+text = { localization_key = muinaisusko_IT_REL_FS trigger = { religion = religion:muinaisusko } }
+text = { localization_key = shia_IT_REL_FS trigger = { religion = religion:shia } }
+text = { localization_key = ibadi_IT_REL_FS trigger = { religion = religion:ibadi } }
+text = { localization_key = sunni_IT_REL_FS trigger = { religion = religion:sunni } }
+text = { localization_key = druzism_IT_REL_FS trigger = { religion = religion:druzism } }
+text = { localization_key = theravada_IT_REL_FS trigger = { religion = religion:theravada } }
+text = { localization_key = romuva_IT_REL_FS trigger = { religion = religion:romuva } }
+text = { localization_key = mandeaism_IT_REL_FS trigger = { religion = religion:mandeaism } }
+text = { localization_key = yazidism_IT_REL_FS trigger = { religion = religion:yazidism } }
+text = { localization_key = judaism_IT_REL_FS trigger = { religion = religion:judaism } }
+text = { localization_key = samaritanism_IT_REL_FS trigger = { religion = religion:samaritanism } }
+text = { localization_key = miaphysite_IT_REL_FS trigger = { religion = religion:miaphysite } }
+text = { localization_key = nestorianism_IT_REL_FS trigger = { religion = religion:nestorianism } }
+text = { localization_key = bogomilism_IT_REL_FS trigger = { religion = religion:bogomilism } }
+text = { localization_key = bosnian_church_IT_REL_FS trigger = { religion = religion:bosnian_church } }
+text = { localization_key = catharism_IT_REL_FS trigger = { religion = religion:catharism } }
+text = { localization_key = paulicianism_IT_REL_FS trigger = { religion = religion:paulicianism } }
+text = { localization_key = waldensian_IT_REL_FS trigger = { religion = religion:waldensian } }
+text = { localization_key = anglican_IT_REL_FS trigger = { religion = religion:anglican } }
+text = { localization_key = lollardy_IT_REL_FS trigger = { religion = religion:lollardy } }
+text = { localization_key = strigolniki_IT_REL_FS trigger = { religion = religion:strigolniki } }
+text = { localization_key = hussite_IT_REL_FS trigger = { religion = religion:hussite } }
+text = { localization_key = jain_IT_REL_FS trigger = { religion = religion:jain } }
+text = { localization_key = mahayana_IT_REL_FS trigger = { religion = religion:mahayana } }
+text = { localization_key = sammitiya_IT_REL_FS trigger = { religion = religion:sammitiya } }
+text = { localization_key = tibetan_buddhism_IT_REL_FS trigger = { religion = religion:tibetan_buddhism } }
+text = { localization_key = bon_IT_REL_FS trigger = { religion = religion:bon } }
+text = { localization_key = sanjiao_IT_REL_FS trigger = { religion = religion:sanjiao } }
+text = { localization_key = nahuatl_IT_REL_FS trigger = { religion = religion:nahuatl } }
+text = { localization_key = mayan_IT_REL_FS trigger = { religion = religion:mayan } }
+text = { localization_key = norse_IT_REL_FS trigger = { religion = religion:norse } }
+text = { localization_key = shamanism_IT_REL_FS trigger = { religion = religion:shamanism } }
+text = { localization_key = shinto_IT_REL_FS trigger = { religion = religion:shinto } }
+text = { localization_key = sikhism_IT_REL_FS trigger = { religion = religion:sikhism } }
+text = { localization_key = tengri_IT_REL_FS trigger = { religion = religion:tengri } }
+text = { localization_key = totemism_IT_REL_FS trigger = { religion = religion:totemism } }
+text = { localization_key = zoroastrian_IT_REL_FS trigger = { religion = religion:zoroastrian } }
+text = { localization_key = manichaeism_IT_REL_FS trigger = { religion = religion:manichaeism } }
+text = { localization_key = iroquoian_totemism_IT_REL_FS trigger = { religion = religion:iroquoian_totemism } }
+text = { localization_key = mississippian_ceremonial_IT_REL_FS trigger = { religion = religion:mississippian_ceremonial } }
+text = { localization_key = paiute_shamanism_IT_REL_FS trigger = { religion = religion:paiute_shamanism } }
+text = { localization_key = pomo_shamanism_IT_REL_FS trigger = { religion = religion:pomo_shamanism } }
+text = { localization_key = salishan_totemism_IT_REL_FS trigger = { religion = religion:salishan_totemism } }
+text = { localization_key = dene_totemism_IT_REL_FS trigger = { religion = religion:dene_totemism } }
+text = { localization_key = dene_shamanism_IT_REL_FS trigger = { religion = religion:dene_shamanism } }
+text = { localization_key = yupik_shamanism_IT_REL_FS trigger = { religion = religion:yupik_shamanism } }
+text = { localization_key = great_plains_shamanism_IT_REL_FS trigger = { religion = religion:great_plains_shamanism } }
+text = { localization_key = chukchi_shamanism_IT_REL_FS trigger = { religion = religion:chukchi_shamanism } }
+text = { localization_key = yukaghir_shamanism_IT_REL_FS trigger = { religion = religion:yukaghir_shamanism } }
+text = { localization_key = tungusic_shamanism_IT_REL_FS trigger = { religion = religion:tungusic_shamanism } }
+text = { localization_key = bimoism_IT_REL_FS trigger = { religion = religion:bimoism } }
+text = { localization_key = hmongism_IT_REL_FS trigger = { religion = religion:hmongism } }
+text = { localization_key = moism_IT_REL_FS trigger = { religion = religion:moism } }
+text = { localization_key = rmaism_IT_REL_FS trigger = { religion = religion:rmaism } }
+text = { localization_key = sanamahism_IT_REL_FS trigger = { religion = religion:sanamahism } }
+text = { localization_key = satsana_phi_IT_REL_FS trigger = { religion = religion:satsana_phi } }
+text = { localization_key = khabzeism_IT_REL_FS trigger = { religion = religion:khabzeism } }
+text = { localization_key = vainakh_paganism_IT_REL_FS trigger = { religion = religion:vainakh_paganism } }
+text = { localization_key = alan_paganism_IT_REL_FS trigger = { religion = religion:alan_paganism } }
+text = { localization_key = lezgin_paganism_IT_REL_FS trigger = { religion = religion:lezgin_paganism } }
+text = { localization_key = karachay_balkar_paganism_IT_REL_FS trigger = { religion = religion:karachay_balkar_paganism } }
+text = { localization_key = mari_paganism_IT_REL_FS trigger = { religion = religion:mari_paganism } }
+text = { localization_key = udmurt_paganism_IT_REL_FS trigger = { religion = religion:udmurt_paganism } }
+text = { localization_key = komi_paganism_IT_REL_FS trigger = { religion = religion:komi_paganism } }
+text = { localization_key = samoyedic_paganism_IT_REL_FS trigger = { religion = religion:samoyedic_paganism } }
+text = { localization_key = obian_paganism_IT_REL_FS trigger = { religion = religion:obian_paganism } }
+text = { localization_key = inti_IT_REL_FS trigger = { religion = religion:inti } }
+text = { localization_key = bantu_religion_IT_REL_FS trigger = { religion = religion:bantu_religion } }
+text = { localization_key = bori_religion_IT_REL_FS trigger = { religion = religion:bori_religion } }
+text = { localization_key = muonyjang_religion_IT_REL_FS trigger = { religion = religion:muonyjang_religion } }
+text = { localization_key = fomba_gasy_religion_IT_REL_FS trigger = { religion = religion:fomba_gasy_religion } }
+text = { localization_key = maasai_religion_IT_REL_FS trigger = { religion = religion:maasai_religion } }
+text = { localization_key = asis_religion_IT_REL_FS trigger = { religion = religion:asis_religion } }
+text = { localization_key = waaqeffanna_religion_IT_REL_FS trigger = { religion = religion:waaqeffanna_religion } }
+text = { localization_key = badimo_religion_IT_REL_FS trigger = { religion = religion:badimo_religion } }
+text = { localization_key = kaggen_religion_IT_REL_FS trigger = { religion = religion:kaggen_religion } }
+text = { localization_key = akuj_religion_IT_REL_FS trigger = { religion = religion:akuj_religion } }
+text = { localization_key = akan_religion_IT_REL_FS trigger = { religion = religion:akan_religion } }
+text = { localization_key = vodun_religion_IT_REL_FS trigger = { religion = religion:vodun_religion } }
+text = { localization_key = abwoi_religion_IT_REL_FS trigger = { religion = religion:abwoi_religion } }
+text = { localization_key = isese_religion_IT_REL_FS trigger = { religion = religion:isese_religion } }
+text = { localization_key = ijaw_religion_IT_REL_FS trigger = { religion = religion:ijaw_religion } }
+text = { localization_key = odinala_religion_IT_REL_FS trigger = { religion = religion:odinala_religion } }
+text = { localization_key = a_fat_roog_religion_IT_REL_FS trigger = { religion = religion:a_fat_roog_religion } }
+text = { localization_key = dogon_religion_IT_REL_FS trigger = { religion = religion:dogon_religion } }
+text = { localization_key = nyama_religion_IT_REL_FS trigger = { religion = religion:nyama_religion } }
+text = { localization_key = nyesoa_religion_IT_REL_FS trigger = { religion = religion:nyesoa_religion } }
+text = { localization_key = karama_religion_IT_REL_FS trigger = { religion = religion:karama_religion } }
+text = { localization_key = buyli_religion_IT_REL_FS trigger = { religion = religion:buyli_religion } }
+text = { localization_key = ebore_religion_IT_REL_FS trigger = { religion = religion:ebore_religion } }
+text = { localization_key = adamawa_religion_IT_REL_FS trigger = { religion = religion:adamawa_religion } }
+text = { localization_key = geno_religion_IT_REL_FS trigger = { religion = religion:geno_religion } }
+text = { localization_key = emit_religion_IT_REL_FS trigger = { religion = religion:emit_religion } }
+text = { localization_key = nhaala_religion_IT_REL_FS trigger = { religion = religion:nhaala_religion } }
+text = { localization_key = eso_religion_IT_REL_FS trigger = { religion = religion:eso_religion } }
+text = { localization_key = naa_wuni_religion_IT_REL_FS trigger = { religion = religion:naa_wuni_religion } }
+text = { localization_key = kuru_masaba_religion_IT_REL_FS trigger = { religion = religion:kuru_masaba_religion } }
+text = { localization_key = sao_religion_IT_REL_FS trigger = { religion = religion:sao_religion } }
+text = { localization_key = rogo_miki_religion_IT_REL_FS trigger = { religion = religion:rogo_miki_religion } }
+text = { localization_key = songhai_religion_IT_REL_FS trigger = { religion = religion:songhai_religion } }
+text = { localization_key = godala_religion_IT_REL_FS trigger = { religion = religion:godala_religion } }
+text = { localization_key = nyasaye_religion_IT_REL_FS trigger = { religion = religion:nyasaye_religion } }
+text = { localization_key = anna_religion_IT_REL_FS trigger = { religion = religion:anna_religion } }
+text = { localization_key = rebba_religion_IT_REL_FS trigger = { religion = religion:rebba_religion } }
+text = { localization_key = omo_religion_IT_REL_FS trigger = { religion = religion:omo_religion } }
+text = { localization_key = musala_religion_IT_REL_FS trigger = { religion = religion:musala_religion } }
+text = { localization_key = kalge_religion_IT_REL_FS trigger = { religion = religion:kalge_religion } }
+text = { localization_key = mbori_religion_IT_REL_FS trigger = { religion = religion:mbori_religion } }
+text = { localization_key = ka_niam_khasi_religion_IT_REL_FS trigger = { religion = religion:ka_niam_khasi_religion } }
+text = { localization_key = muong_religion_IT_REL_FS trigger = { religion = religion:muong_religion } }
+text = { localization_key = sarna_religion_IT_REL_FS trigger = { religion = religion:sarna_religion } }
+text = { localization_key = ainu_religion_IT_REL_FS trigger = { religion = religion:ainu_religion } }
+text = { localization_key = utaki_religion_IT_REL_FS trigger = { religion = religion:utaki_religion } }
+text = { localization_key = koyapunem_religion_IT_REL_FS trigger = { religion = religion:koyapunem_religion } }
+text = { localization_key = bathou_religion_IT_REL_FS trigger = { religion = religion:bathou_religion } }
+text = { localization_key = dongba_religion_IT_REL_FS trigger = { religion = religion:dongba_religion } }
+text = { localization_key = donyi_polo_religion_IT_REL_FS trigger = { religion = religion:donyi_polo_religion } }
+text = { localization_key = kirat_mundhum_religion_IT_REL_FS trigger = { religion = religion:kirat_mundhum_religion } }
+text = { localization_key = mizo_religion_IT_REL_FS trigger = { religion = religion:mizo_religion } }
+text = { localization_key = gosain_religion_IT_REL_FS trigger = { religion = religion:gosain_religion } }
+text = { localization_key = khond_religion_IT_REL_FS trigger = { religion = religion:khond_religion } }
+text = { localization_key = wu_religion_IT_REL_FS trigger = { religion = religion:wu_religion } }
+text = { localization_key = yao_religion_IT_REL_FS trigger = { religion = religion:yao_religion } }
+text = { localization_key = nuo_religion_IT_REL_FS trigger = { religion = religion:nuo_religion } }
+text = { localization_key = vedda_religion_IT_REL_FS trigger = { religion = religion:vedda_religion } }
+text = { localization_key = kam_religion_IT_REL_FS trigger = { religion = religion:kam_religion } }
+text = { localization_key = formosan_religion_IT_REL_FS trigger = { religion = religion:formosan_religion } }
+text = { localization_key = mulam_religion_IT_REL_FS trigger = { religion = religion:mulam_religion } }
+text = { localization_key = maonan_religion_IT_REL_FS trigger = { religion = religion:maonan_religion } }
+text = { localization_key = sui_religion_IT_REL_FS trigger = { religion = religion:sui_religion } }
+text = { localization_key = lisu_religion_IT_REL_FS trigger = { religion = religion:lisu_religion } }
+text = { localization_key = ngacang_religion_IT_REL_FS trigger = { religion = religion:ngacang_religion } }
+text = { localization_key = blang_religion_IT_REL_FS trigger = { religion = religion:blang_religion } }
+text = { localization_key = hani_religion_IT_REL_FS trigger = { religion = religion:hani_religion } }
+text = { localization_key = jino_religion_IT_REL_FS trigger = { religion = religion:jino_religion } }
+text = { localization_key = lahu_religion_IT_REL_FS trigger = { religion = religion:lahu_religion } }
+text = { localization_key = nu_religion_IT_REL_FS trigger = { religion = religion:nu_religion } }
+text = { localization_key = jingpo_religion_IT_REL_FS trigger = { religion = religion:jingpo_religion } }
+text = { localization_key = wa_religion_IT_REL_FS trigger = { religion = religion:wa_religion } }
+text = { localization_key = monpa_religion_IT_REL_FS trigger = { religion = religion:monpa_religion } }
+text = { localization_key = mishmi_religion_IT_REL_FS trigger = { religion = religion:mishmi_religion } }
+text = { localization_key = palaung_religion_IT_REL_FS trigger = { religion = religion:palaung_religion } }
+text = { localization_key = kundism_religion_IT_REL_FS trigger = { religion = religion:kundism_religion } }
+text = { localization_key = songsarek_religion_IT_REL_FS trigger = { religion = religion:songsarek_religion } }
+text = { localization_key = tiwa_religion_IT_REL_FS trigger = { religion = religion:tiwa_religion } }
+text = { localization_key = koch_religion_IT_REL_FS trigger = { religion = religion:koch_religion } }
+text = { localization_key = rabha_religion_IT_REL_FS trigger = { religion = religion:rabha_religion } }
+text = { localization_key = chutia_religion_IT_REL_FS trigger = { religion = religion:chutia_religion } }
+text = { localization_key = dimasa_religion_IT_REL_FS trigger = { religion = religion:dimasa_religion } }
+text = { localization_key = karbi_religion_IT_REL_FS trigger = { religion = religion:karbi_religion } }
+text = { localization_key = sora_religion_IT_REL_FS trigger = { religion = religion:sora_religion } }
+text = { localization_key = juang_religion_IT_REL_FS trigger = { religion = religion:juang_religion } }
+text = { localization_key = kharia_religion_IT_REL_FS trigger = { religion = religion:kharia_religion } }
+text = { localization_key = naga_religion_IT_REL_FS trigger = { religion = religion:naga_religion } }
+text = { localization_key = karen_religion_IT_REL_FS trigger = { religion = religion:karen_religion } }
+text = { localization_key = sedang_religion_IT_REL_FS trigger = { religion = religion:sedang_religion } }
+text = { localization_key = bahnar_religion_IT_REL_FS trigger = { religion = religion:bahnar_religion } }
+text = { localization_key = bru_religion_IT_REL_FS trigger = { religion = religion:bru_religion } }
+text = { localization_key = orang_asli_religion_IT_REL_FS trigger = { religion = religion:orang_asli_religion } }
+text = { localization_key = andamanese_religion_IT_REL_FS trigger = { religion = religion:andamanese_religion } }
+text = { localization_key = nicobarese_religion_IT_REL_FS trigger = { religion = religion:nicobarese_religion } }
+text = { localization_key = kaharingan_religion_IT_REL_FS trigger = { religion = religion:kaharingan_religion } }
+text = { localization_key = kan_khwan_religion_IT_REL_FS trigger = { religion = religion:kan_khwan_religion } }
+text = { localization_key = adat_puun_religion_IT_REL_FS trigger = { religion = religion:adat_puun_religion } }
+text = { localization_key = momolianism_religion_IT_REL_FS trigger = { religion = religion:momolianism_religion } }
+text = { localization_key = besavik_religion_IT_REL_FS trigger = { religion = religion:besavik_religion } }
+text = { localization_key = aluk_religion_IT_REL_FS trigger = { religion = religion:aluk_religion } }
+text = { localization_key = malesung_religion_IT_REL_FS trigger = { religion = religion:malesung_religion } }
+text = { localization_key = marapu_religion_IT_REL_FS trigger = { religion = religion:marapu_religion } }
+text = { localization_key = arat_sabulungan_religion_IT_REL_FS trigger = { religion = religion:arat_sabulungan_religion } }
+text = { localization_key = pengarap_asal_religion_IT_REL_FS trigger = { religion = religion:pengarap_asal_religion } }
+text = { localization_key = ipok_religion_IT_REL_FS trigger = { religion = religion:ipok_religion } }
+text = { localization_key = banunut_religion_IT_REL_FS trigger = { religion = religion:banunut_religion } }
+text = { localization_key = lamoa_religion_IT_REL_FS trigger = { religion = religion:lamoa_religion } }
+text = { localization_key = tolotang_religion_IT_REL_FS trigger = { religion = religion:tolotang_religion } }
+text = { localization_key = tolaki_religion_IT_REL_FS trigger = { religion = religion:tolaki_religion } }
+text = { localization_key = buton_religion_IT_REL_FS trigger = { religion = religion:buton_religion } }
+text = { localization_key = tomanuru_religion_IT_REL_FS trigger = { religion = religion:tomanuru_religion } }
+text = { localization_key = gorontalo_religion_IT_REL_FS trigger = { religion = religion:gorontalo_religion } }
+text = { localization_key = adat_musi_religion_IT_REL_FS trigger = { religion = religion:adat_musi_religion } }
+text = { localization_key = sangirese_religion_IT_REL_FS trigger = { religion = religion:sangirese_religion } }
+text = { localization_key = wetarese_religion_IT_REL_FS trigger = { religion = religion:wetarese_religion } }
+text = { localization_key = kirin_koda_religion_IT_REL_FS trigger = { religion = religion:kirin_koda_religion } }
+text = { localization_key = dua_nggae_religion_IT_REL_FS trigger = { religion = religion:dua_nggae_religion } }
+text = { localization_key = lamatuan_religion_IT_REL_FS trigger = { religion = religion:lamatuan_religion } }
+text = { localization_key = naurus_religion_IT_REL_FS trigger = { religion = religion:naurus_religion } }
+text = { localization_key = mitu_religion_IT_REL_FS trigger = { religion = religion:mitu_religion } }
+text = { localization_key = sula_religion_IT_REL_FS trigger = { religion = religion:sula_religion } }
+text = { localization_key = kolano_religion_IT_REL_FS trigger = { religion = religion:kolano_religion } }
+text = { localization_key = goma_religion_IT_REL_FS trigger = { religion = religion:goma_religion } }
+text = { localization_key = anitism_religion_IT_REL_FS trigger = { religion = religion:anitism_religion } }
+text = { localization_key = orang_laut_religion_IT_REL_FS trigger = { religion = religion:orang_laut_religion } }
+text = { localization_key = minangkabau_religion_IT_REL_FS trigger = { religion = religion:minangkabau_religion } }
+text = { localization_key = pelebegu_religion_IT_REL_FS trigger = { religion = religion:pelebegu_religion } }
+text = { localization_key = nyang_serai_religion_IT_REL_FS trigger = { religion = religion:nyang_serai_religion } }
+text = { localization_key = piil_pesenggiri_religion_IT_REL_FS trigger = { religion = religion:piil_pesenggiri_religion } }
+text = { localization_key = orang_rimba_religion_IT_REL_FS trigger = { religion = religion:orang_rimba_religion } }
+text = { localization_key = enggano_religion_IT_REL_FS trigger = { religion = religion:enggano_religion } }
+text = { localization_key = imunu_religion_IT_REL_FS trigger = { religion = religion:imunu_religion } }
+text = { localization_key = dreamtime_religion_IT_REL_FS trigger = { religion = religion:dreamtime_religion } }
+text = { localization_key = degar_religion_IT_REL_FS trigger = { religion = religion:degar_religion } }
+text = { localization_key = naylamp_religion_IT_REL_FS trigger = { religion = religion:naylamp_religion } }
+text = { localization_key = umina_religion_IT_REL_FS trigger = { religion = religion:umina_religion } }
+text = { localization_key = jama_religion_IT_REL_FS trigger = { religion = religion:jama_religion } }
+text = { localization_key = pi_religion_IT_REL_FS trigger = { religion = religion:pi_religion } }
+text = { localization_key = arutam_religion_IT_REL_FS trigger = { religion = religion:arutam_religion } }
+text = { localization_key = chango_religion_IT_REL_FS trigger = { religion = religion:chango_religion } }
+text = { localization_key = cebil_religion_IT_REL_FS trigger = { religion = religion:cebil_religion } }
+text = { localization_key = yastay_religion_IT_REL_FS trigger = { religion = religion:yastay_religion } }
+text = { localization_key = gos_religion_IT_REL_FS trigger = { religion = religion:gos_religion } }
+text = { localization_key = pava_religion_IT_REL_FS trigger = { religion = religion:pava_religion } }
+text = { localization_key = chanka_religion_IT_REL_FS trigger = { religion = religion:chanka_religion } }
+text = { localization_key = chincha_religion_IT_REL_FS trigger = { religion = religion:chincha_religion } }
+text = { localization_key = akinha_ekugu_religion_IT_REL_FS trigger = { religion = religion:akinha_ekugu_religion } }
+text = { localization_key = namandu_religion_IT_REL_FS trigger = { religion = religion:namandu_religion } }
+text = { localization_key = tunpa_religion_IT_REL_FS trigger = { religion = religion:tunpa_religion } }
+text = { localization_key = doi_wahire_religion_IT_REL_FS trigger = { religion = religion:doi_wahire_religion } }
+text = { localization_key = jurema_religion_IT_REL_FS trigger = { religion = religion:jurema_religion } }
+text = { localization_key = nallagdigua_religion_IT_REL_FS trigger = { religion = religion:nallagdigua_religion } }
+text = { localization_key = txapakura_religion_IT_REL_FS trigger = { religion = religion:txapakura_religion } }
+text = { localization_key = zemi_religion_IT_REL_FS trigger = { religion = religion:zemi_religion } }
+text = { localization_key = kenos_religion_IT_REL_FS trigger = { religion = religion:kenos_religion } }
+text = { localization_key = tain_feyentun_religion_IT_REL_FS trigger = { religion = religion:tain_feyentun_religion } }
+text = { localization_key = tokuah_religion_IT_REL_FS trigger = { religion = religion:tokuah_religion } }
+text = { localization_key = kilyikhama_religion_IT_REL_FS trigger = { religion = religion:kilyikhama_religion } }
+text = { localization_key = pabichu_religion_IT_REL_FS trigger = { religion = religion:pabichu_religion } }
+text = { localization_key = mororuma_religion_IT_REL_FS trigger = { religion = religion:mororuma_religion } }
+text = { localization_key = moksha_religion_IT_REL_FS trigger = { religion = religion:moksha_religion } }
+text = { localization_key = erzya_religion_IT_REL_FS trigger = { religion = religion:erzya_religion } }
+text = { localization_key = guanche_religion_IT_REL_FS trigger = { religion = religion:guanche_religion } }
+text = { localization_key = maleiwa_religion_IT_REL_FS trigger = { religion = religion:maleiwa_religion } }
+text = { localization_key = yopo_religion_IT_REL_FS trigger = { religion = religion:yopo_religion } }
+text = { localization_key = sinu_religion_IT_REL_FS trigger = { religion = religion:sinu_religion } }
+text = { localization_key = warao_religion_IT_REL_FS trigger = { religion = religion:warao_religion } }
+text = { localization_key = naoma_religion_IT_REL_FS trigger = { religion = religion:naoma_religion } }
+text = { localization_key = muisca_religion_IT_REL_FS trigger = { religion = religion:muisca_religion } }
+text = { localization_key = nacuco_religion_IT_REL_FS trigger = { religion = religion:nacuco_religion } }
+text = { localization_key = jai_religion_IT_REL_FS trigger = { religion = religion:jai_religion } }
+text = { localization_key = yage_religion_IT_REL_FS trigger = { religion = religion:yage_religion } }
+text = { localization_key = chichimecah_religion_IT_REL_FS trigger = { religion = religion:chichimecah_religion } }
+text = { localization_key = lenca_religion_IT_REL_FS trigger = { religion = religion:lenca_religion } }
+text = { localization_key = pech_religion_IT_REL_FS trigger = { religion = religion:pech_religion } }
+text = { localization_key = wan_aisa_religion_IT_REL_FS trigger = { religion = religion:wan_aisa_religion } }
+text = { localization_key = maleku_religion_IT_REL_FS trigger = { religion = religion:maleku_religion } }
+text = { localization_key = suwo_religion_IT_REL_FS trigger = { religion = religion:suwo_religion } }
+text = { localization_key = chibcha_religion_IT_REL_FS trigger = { religion = religion:chibcha_religion } }
+text = { localization_key = votian_religion_IT_REL_FS trigger = { religion = religion:votian_religion } }
+text = { localization_key = inuit_religion_IT_REL_FS trigger = { religion = religion:inuit_religion } }
+text = { localization_key = dene_religion_IT_REL_FS trigger = { religion = religion:dene_religion } }
+text = { localization_key = tapu_religion_IT_REL_FS trigger = { religion = religion:tapu_religion } }
+text = { localization_key = tokelauan_religion_IT_REL_FS trigger = { religion = religion:tokelauan_religion } }
+text = { localization_key = puntan_religion_IT_REL_FS trigger = { religion = religion:puntan_religion } }
+text = { localization_key = kajoor_ri_majel_religion_IT_REL_FS trigger = { religion = religion:kajoor_ri_majel_religion } }
+text = { localization_key = yanolop_religion_IT_REL_FS trigger = { religion = religion:yanolop_religion } }
+text = { localization_key = arosi_religion_IT_REL_FS trigger = { religion = religion:arosi_religion } }
+text = { localization_key = abu_religion_IT_REL_FS trigger = { religion = religion:abu_religion } }
+text = { localization_key = ghari_religion_IT_REL_FS trigger = { religion = religion:ghari_religion } }
+text = { localization_key = nduke_religion_IT_REL_FS trigger = { religion = religion:nduke_religion } }
+text = { localization_key = cheke_holo_religion_IT_REL_FS trigger = { religion = religion:cheke_holo_religion } }
+text = { localization_key = vaghua_religion_IT_REL_FS trigger = { religion = religion:vaghua_religion } }
+text = { localization_key = mu_ngava_religion_IT_REL_FS trigger = { religion = religion:mu_ngava_religion } }
+text = { localization_key = natugu_religion_IT_REL_FS trigger = { religion = religion:natugu_religion } }
+text = { localization_key = qat_religion_IT_REL_FS trigger = { religion = religion:qat_religion } }
+text = { localization_key = itaukei_religion_IT_REL_FS trigger = { religion = religion:itaukei_religion } }
+text = { localization_key = kanak_religion_IT_REL_FS trigger = { religion = religion:kanak_religion } }
+text = { localization_key = hellenism_religion_IT_REL_FS trigger = { religion = religion:hellenism_religion } }
+text = { localization_key = pericu_religion_IT_REL_FS trigger = { religion = religion:pericu_religion } }
+text = { localization_key = yuman_religion_IT_REL_FS trigger = { religion = religion:yuman_religion } }
+text = { localization_key = cahita_religion_IT_REL_FS trigger = { religion = religion:cahita_religion } }
+text = { localization_key = seri_religion_IT_REL_FS trigger = { religion = religion:seri_religion } }
+text = { localization_key = guasave_religion_IT_REL_FS trigger = { religion = religion:guasave_religion } }
+text = { localization_key = tepehuan_religion_IT_REL_FS trigger = { religion = religion:tepehuan_religion } }
+text = { localization_key = coahuilteco_religion_IT_REL_FS trigger = { religion = religion:coahuilteco_religion } }
+text = { localization_key = irritila_religion_IT_REL_FS trigger = { religion = religion:irritila_religion } }
+text = { localization_key = karankawa_religion_IT_REL_FS trigger = { religion = religion:karankawa_religion } }
+text = { localization_key = atakapa_religion_IT_REL_FS trigger = { religion = religion:atakapa_religion } }
+text = { localization_key = kachina_religion_IT_REL_FS trigger = { religion = religion:kachina_religion } }
+text = { localization_key = midewiwin_religion_IT_REL_FS trigger = { religion = religion:midewiwin_religion } }
+text = { localization_key = mesoamerican_IT_REL_FS trigger = { religion = religion:mesoamerican } }
+text = { localization_key = ngbandi_religion_IT_REL_FS trigger = { religion = religion:ngbandi_religion } }
+text = { localization_key = ori_religion_IT_REL_FS trigger = { religion = religion:ori_religion } }
+text = { localization_key = bua_religion_IT_REL_FS trigger = { religion = religion:bua_religion } }
+text = { localization_key = banda_religion_IT_REL_FS trigger = { religion = religion:banda_religion } }
+text = { localization_key = fang_religion_IT_REL_FS trigger = { religion = religion:fang_religion } }
+text = { localization_key = ajok_religion_IT_REL_FS trigger = { religion = religion:ajok_religion } }
+text = { localization_key = lugbara_religion_IT_REL_FS trigger = { religion = religion:lugbara_religion } }
+text = { localization_key = cwezi_religion_IT_REL_FS trigger = { religion = religion:cwezi_religion } }
+}
+
+#####################################################################################################
+
+IT_REL_FP = {
+   type = country
+   log_loc_errors = no
+   
+text = { localization_key = catholic_IT_REL_FP trigger = { religion = religion:catholic } }
+text = { localization_key = lutheran_IT_REL_FP trigger = { religion = religion:lutheran } }
+text = { localization_key = calvinist_IT_REL_FP trigger = { religion = religion:calvinist } }
+text = { localization_key = orthodox_IT_REL_FP trigger = { religion = religion:orthodox } }
+text = { localization_key = hindu_IT_REL_FP trigger = { religion = religion:hindu } }
+text = { localization_key = sapmi_shamanism_IT_REL_FP trigger = { religion = religion:sapmi_shamanism } }
+text = { localization_key = muinaisusko_IT_REL_FP trigger = { religion = religion:muinaisusko } }
+text = { localization_key = shia_IT_REL_FP trigger = { religion = religion:shia } }
+text = { localization_key = ibadi_IT_REL_FP trigger = { religion = religion:ibadi } }
+text = { localization_key = sunni_IT_REL_FP trigger = { religion = religion:sunni } }
+text = { localization_key = druzism_IT_REL_FP trigger = { religion = religion:druzism } }
+text = { localization_key = theravada_IT_REL_FP trigger = { religion = religion:theravada } }
+text = { localization_key = romuva_IT_REL_FP trigger = { religion = religion:romuva } }
+text = { localization_key = mandeaism_IT_REL_FP trigger = { religion = religion:mandeaism } }
+text = { localization_key = yazidism_IT_REL_FP trigger = { religion = religion:yazidism } }
+text = { localization_key = judaism_IT_REL_FP trigger = { religion = religion:judaism } }
+text = { localization_key = samaritanism_IT_REL_FP trigger = { religion = religion:samaritanism } }
+text = { localization_key = miaphysite_IT_REL_FP trigger = { religion = religion:miaphysite } }
+text = { localization_key = nestorianism_IT_REL_FP trigger = { religion = religion:nestorianism } }
+text = { localization_key = bogomilism_IT_REL_FP trigger = { religion = religion:bogomilism } }
+text = { localization_key = bosnian_church_IT_REL_FP trigger = { religion = religion:bosnian_church } }
+text = { localization_key = catharism_IT_REL_FP trigger = { religion = religion:catharism } }
+text = { localization_key = paulicianism_IT_REL_FP trigger = { religion = religion:paulicianism } }
+text = { localization_key = waldensian_IT_REL_FP trigger = { religion = religion:waldensian } }
+text = { localization_key = anglican_IT_REL_FP trigger = { religion = religion:anglican } }
+text = { localization_key = lollardy_IT_REL_FP trigger = { religion = religion:lollardy } }
+text = { localization_key = strigolniki_IT_REL_FP trigger = { religion = religion:strigolniki } }
+text = { localization_key = hussite_IT_REL_FP trigger = { religion = religion:hussite } }
+text = { localization_key = jain_IT_REL_FP trigger = { religion = religion:jain } }
+text = { localization_key = mahayana_IT_REL_FP trigger = { religion = religion:mahayana } }
+text = { localization_key = sammitiya_IT_REL_FP trigger = { religion = religion:sammitiya } }
+text = { localization_key = tibetan_buddhism_IT_REL_FP trigger = { religion = religion:tibetan_buddhism } }
+text = { localization_key = bon_IT_REL_FP trigger = { religion = religion:bon } }
+text = { localization_key = sanjiao_IT_REL_FP trigger = { religion = religion:sanjiao } }
+text = { localization_key = nahuatl_IT_REL_FP trigger = { religion = religion:nahuatl } }
+text = { localization_key = mayan_IT_REL_FP trigger = { religion = religion:mayan } }
+text = { localization_key = norse_IT_REL_FP trigger = { religion = religion:norse } }
+text = { localization_key = shamanism_IT_REL_FP trigger = { religion = religion:shamanism } }
+text = { localization_key = shinto_IT_REL_FP trigger = { religion = religion:shinto } }
+text = { localization_key = sikhism_IT_REL_FP trigger = { religion = religion:sikhism } }
+text = { localization_key = tengri_IT_REL_FP trigger = { religion = religion:tengri } }
+text = { localization_key = totemism_IT_REL_FP trigger = { religion = religion:totemism } }
+text = { localization_key = zoroastrian_IT_REL_FP trigger = { religion = religion:zoroastrian } }
+text = { localization_key = manichaeism_IT_REL_FP trigger = { religion = religion:manichaeism } }
+text = { localization_key = iroquoian_totemism_IT_REL_FP trigger = { religion = religion:iroquoian_totemism } }
+text = { localization_key = mississippian_ceremonial_IT_REL_FP trigger = { religion = religion:mississippian_ceremonial } }
+text = { localization_key = paiute_shamanism_IT_REL_FP trigger = { religion = religion:paiute_shamanism } }
+text = { localization_key = pomo_shamanism_IT_REL_FP trigger = { religion = religion:pomo_shamanism } }
+text = { localization_key = salishan_totemism_IT_REL_FP trigger = { religion = religion:salishan_totemism } }
+text = { localization_key = dene_totemism_IT_REL_FP trigger = { religion = religion:dene_totemism } }
+text = { localization_key = dene_shamanism_IT_REL_FP trigger = { religion = religion:dene_shamanism } }
+text = { localization_key = yupik_shamanism_IT_REL_FP trigger = { religion = religion:yupik_shamanism } }
+text = { localization_key = great_plains_shamanism_IT_REL_FP trigger = { religion = religion:great_plains_shamanism } }
+text = { localization_key = chukchi_shamanism_IT_REL_FP trigger = { religion = religion:chukchi_shamanism } }
+text = { localization_key = yukaghir_shamanism_IT_REL_FP trigger = { religion = religion:yukaghir_shamanism } }
+text = { localization_key = tungusic_shamanism_IT_REL_FP trigger = { religion = religion:tungusic_shamanism } }
+text = { localization_key = bimoism_IT_REL_FP trigger = { religion = religion:bimoism } }
+text = { localization_key = hmongism_IT_REL_FP trigger = { religion = religion:hmongism } }
+text = { localization_key = moism_IT_REL_FP trigger = { religion = religion:moism } }
+text = { localization_key = rmaism_IT_REL_FP trigger = { religion = religion:rmaism } }
+text = { localization_key = sanamahism_IT_REL_FP trigger = { religion = religion:sanamahism } }
+text = { localization_key = satsana_phi_IT_REL_FP trigger = { religion = religion:satsana_phi } }
+text = { localization_key = khabzeism_IT_REL_FP trigger = { religion = religion:khabzeism } }
+text = { localization_key = vainakh_paganism_IT_REL_FP trigger = { religion = religion:vainakh_paganism } }
+text = { localization_key = alan_paganism_IT_REL_FP trigger = { religion = religion:alan_paganism } }
+text = { localization_key = lezgin_paganism_IT_REL_FP trigger = { religion = religion:lezgin_paganism } }
+text = { localization_key = karachay_balkar_paganism_IT_REL_FP trigger = { religion = religion:karachay_balkar_paganism } }
+text = { localization_key = mari_paganism_IT_REL_FP trigger = { religion = religion:mari_paganism } }
+text = { localization_key = udmurt_paganism_IT_REL_FP trigger = { religion = religion:udmurt_paganism } }
+text = { localization_key = komi_paganism_IT_REL_FP trigger = { religion = religion:komi_paganism } }
+text = { localization_key = samoyedic_paganism_IT_REL_FP trigger = { religion = religion:samoyedic_paganism } }
+text = { localization_key = obian_paganism_IT_REL_FP trigger = { religion = religion:obian_paganism } }
+text = { localization_key = inti_IT_REL_FP trigger = { religion = religion:inti } }
+text = { localization_key = bantu_religion_IT_REL_FP trigger = { religion = religion:bantu_religion } }
+text = { localization_key = bori_religion_IT_REL_FP trigger = { religion = religion:bori_religion } }
+text = { localization_key = muonyjang_religion_IT_REL_FP trigger = { religion = religion:muonyjang_religion } }
+text = { localization_key = fomba_gasy_religion_IT_REL_FP trigger = { religion = religion:fomba_gasy_religion } }
+text = { localization_key = maasai_religion_IT_REL_FP trigger = { religion = religion:maasai_religion } }
+text = { localization_key = asis_religion_IT_REL_FP trigger = { religion = religion:asis_religion } }
+text = { localization_key = waaqeffanna_religion_IT_REL_FP trigger = { religion = religion:waaqeffanna_religion } }
+text = { localization_key = badimo_religion_IT_REL_FP trigger = { religion = religion:badimo_religion } }
+text = { localization_key = kaggen_religion_IT_REL_FP trigger = { religion = religion:kaggen_religion } }
+text = { localization_key = akuj_religion_IT_REL_FP trigger = { religion = religion:akuj_religion } }
+text = { localization_key = akan_religion_IT_REL_FP trigger = { religion = religion:akan_religion } }
+text = { localization_key = vodun_religion_IT_REL_FP trigger = { religion = religion:vodun_religion } }
+text = { localization_key = abwoi_religion_IT_REL_FP trigger = { religion = religion:abwoi_religion } }
+text = { localization_key = isese_religion_IT_REL_FP trigger = { religion = religion:isese_religion } }
+text = { localization_key = ijaw_religion_IT_REL_FP trigger = { religion = religion:ijaw_religion } }
+text = { localization_key = odinala_religion_IT_REL_FP trigger = { religion = religion:odinala_religion } }
+text = { localization_key = a_fat_roog_religion_IT_REL_FP trigger = { religion = religion:a_fat_roog_religion } }
+text = { localization_key = dogon_religion_IT_REL_FP trigger = { religion = religion:dogon_religion } }
+text = { localization_key = nyama_religion_IT_REL_FP trigger = { religion = religion:nyama_religion } }
+text = { localization_key = nyesoa_religion_IT_REL_FP trigger = { religion = religion:nyesoa_religion } }
+text = { localization_key = karama_religion_IT_REL_FP trigger = { religion = religion:karama_religion } }
+text = { localization_key = buyli_religion_IT_REL_FP trigger = { religion = religion:buyli_religion } }
+text = { localization_key = ebore_religion_IT_REL_FP trigger = { religion = religion:ebore_religion } }
+text = { localization_key = adamawa_religion_IT_REL_FP trigger = { religion = religion:adamawa_religion } }
+text = { localization_key = geno_religion_IT_REL_FP trigger = { religion = religion:geno_religion } }
+text = { localization_key = emit_religion_IT_REL_FP trigger = { religion = religion:emit_religion } }
+text = { localization_key = nhaala_religion_IT_REL_FP trigger = { religion = religion:nhaala_religion } }
+text = { localization_key = eso_religion_IT_REL_FP trigger = { religion = religion:eso_religion } }
+text = { localization_key = naa_wuni_religion_IT_REL_FP trigger = { religion = religion:naa_wuni_religion } }
+text = { localization_key = kuru_masaba_religion_IT_REL_FP trigger = { religion = religion:kuru_masaba_religion } }
+text = { localization_key = sao_religion_IT_REL_FP trigger = { religion = religion:sao_religion } }
+text = { localization_key = rogo_miki_religion_IT_REL_FP trigger = { religion = religion:rogo_miki_religion } }
+text = { localization_key = songhai_religion_IT_REL_FP trigger = { religion = religion:songhai_religion } }
+text = { localization_key = godala_religion_IT_REL_FP trigger = { religion = religion:godala_religion } }
+text = { localization_key = nyasaye_religion_IT_REL_FP trigger = { religion = religion:nyasaye_religion } }
+text = { localization_key = anna_religion_IT_REL_FP trigger = { religion = religion:anna_religion } }
+text = { localization_key = rebba_religion_IT_REL_FP trigger = { religion = religion:rebba_religion } }
+text = { localization_key = omo_religion_IT_REL_FP trigger = { religion = religion:omo_religion } }
+text = { localization_key = musala_religion_IT_REL_FP trigger = { religion = religion:musala_religion } }
+text = { localization_key = kalge_religion_IT_REL_FP trigger = { religion = religion:kalge_religion } }
+text = { localization_key = mbori_religion_IT_REL_FP trigger = { religion = religion:mbori_religion } }
+text = { localization_key = ka_niam_khasi_religion_IT_REL_FP trigger = { religion = religion:ka_niam_khasi_religion } }
+text = { localization_key = muong_religion_IT_REL_FP trigger = { religion = religion:muong_religion } }
+text = { localization_key = sarna_religion_IT_REL_FP trigger = { religion = religion:sarna_religion } }
+text = { localization_key = ainu_religion_IT_REL_FP trigger = { religion = religion:ainu_religion } }
+text = { localization_key = utaki_religion_IT_REL_FP trigger = { religion = religion:utaki_religion } }
+text = { localization_key = koyapunem_religion_IT_REL_FP trigger = { religion = religion:koyapunem_religion } }
+text = { localization_key = bathou_religion_IT_REL_FP trigger = { religion = religion:bathou_religion } }
+text = { localization_key = dongba_religion_IT_REL_FP trigger = { religion = religion:dongba_religion } }
+text = { localization_key = donyi_polo_religion_IT_REL_FP trigger = { religion = religion:donyi_polo_religion } }
+text = { localization_key = kirat_mundhum_religion_IT_REL_FP trigger = { religion = religion:kirat_mundhum_religion } }
+text = { localization_key = mizo_religion_IT_REL_FP trigger = { religion = religion:mizo_religion } }
+text = { localization_key = gosain_religion_IT_REL_FP trigger = { religion = religion:gosain_religion } }
+text = { localization_key = khond_religion_IT_REL_FP trigger = { religion = religion:khond_religion } }
+text = { localization_key = wu_religion_IT_REL_FP trigger = { religion = religion:wu_religion } }
+text = { localization_key = yao_religion_IT_REL_FP trigger = { religion = religion:yao_religion } }
+text = { localization_key = nuo_religion_IT_REL_FP trigger = { religion = religion:nuo_religion } }
+text = { localization_key = vedda_religion_IT_REL_FP trigger = { religion = religion:vedda_religion } }
+text = { localization_key = kam_religion_IT_REL_FP trigger = { religion = religion:kam_religion } }
+text = { localization_key = formosan_religion_IT_REL_FP trigger = { religion = religion:formosan_religion } }
+text = { localization_key = mulam_religion_IT_REL_FP trigger = { religion = religion:mulam_religion } }
+text = { localization_key = maonan_religion_IT_REL_FP trigger = { religion = religion:maonan_religion } }
+text = { localization_key = sui_religion_IT_REL_FP trigger = { religion = religion:sui_religion } }
+text = { localization_key = lisu_religion_IT_REL_FP trigger = { religion = religion:lisu_religion } }
+text = { localization_key = ngacang_religion_IT_REL_FP trigger = { religion = religion:ngacang_religion } }
+text = { localization_key = blang_religion_IT_REL_FP trigger = { religion = religion:blang_religion } }
+text = { localization_key = hani_religion_IT_REL_FP trigger = { religion = religion:hani_religion } }
+text = { localization_key = jino_religion_IT_REL_FP trigger = { religion = religion:jino_religion } }
+text = { localization_key = lahu_religion_IT_REL_FP trigger = { religion = religion:lahu_religion } }
+text = { localization_key = nu_religion_IT_REL_FP trigger = { religion = religion:nu_religion } }
+text = { localization_key = jingpo_religion_IT_REL_FP trigger = { religion = religion:jingpo_religion } }
+text = { localization_key = wa_religion_IT_REL_FP trigger = { religion = religion:wa_religion } }
+text = { localization_key = monpa_religion_IT_REL_FP trigger = { religion = religion:monpa_religion } }
+text = { localization_key = mishmi_religion_IT_REL_FP trigger = { religion = religion:mishmi_religion } }
+text = { localization_key = palaung_religion_IT_REL_FP trigger = { religion = religion:palaung_religion } }
+text = { localization_key = kundism_religion_IT_REL_FP trigger = { religion = religion:kundism_religion } }
+text = { localization_key = songsarek_religion_IT_REL_FP trigger = { religion = religion:songsarek_religion } }
+text = { localization_key = tiwa_religion_IT_REL_FP trigger = { religion = religion:tiwa_religion } }
+text = { localization_key = koch_religion_IT_REL_FP trigger = { religion = religion:koch_religion } }
+text = { localization_key = rabha_religion_IT_REL_FP trigger = { religion = religion:rabha_religion } }
+text = { localization_key = chutia_religion_IT_REL_FP trigger = { religion = religion:chutia_religion } }
+text = { localization_key = dimasa_religion_IT_REL_FP trigger = { religion = religion:dimasa_religion } }
+text = { localization_key = karbi_religion_IT_REL_FP trigger = { religion = religion:karbi_religion } }
+text = { localization_key = sora_religion_IT_REL_FP trigger = { religion = religion:sora_religion } }
+text = { localization_key = juang_religion_IT_REL_FP trigger = { religion = religion:juang_religion } }
+text = { localization_key = kharia_religion_IT_REL_FP trigger = { religion = religion:kharia_religion } }
+text = { localization_key = naga_religion_IT_REL_FP trigger = { religion = religion:naga_religion } }
+text = { localization_key = karen_religion_IT_REL_FP trigger = { religion = religion:karen_religion } }
+text = { localization_key = sedang_religion_IT_REL_FP trigger = { religion = religion:sedang_religion } }
+text = { localization_key = bahnar_religion_IT_REL_FP trigger = { religion = religion:bahnar_religion } }
+text = { localization_key = bru_religion_IT_REL_FP trigger = { religion = religion:bru_religion } }
+text = { localization_key = orang_asli_religion_IT_REL_FP trigger = { religion = religion:orang_asli_religion } }
+text = { localization_key = andamanese_religion_IT_REL_FP trigger = { religion = religion:andamanese_religion } }
+text = { localization_key = nicobarese_religion_IT_REL_FP trigger = { religion = religion:nicobarese_religion } }
+text = { localization_key = kaharingan_religion_IT_REL_FP trigger = { religion = religion:kaharingan_religion } }
+text = { localization_key = kan_khwan_religion_IT_REL_FP trigger = { religion = religion:kan_khwan_religion } }
+text = { localization_key = adat_puun_religion_IT_REL_FP trigger = { religion = religion:adat_puun_religion } }
+text = { localization_key = momolianism_religion_IT_REL_FP trigger = { religion = religion:momolianism_religion } }
+text = { localization_key = besavik_religion_IT_REL_FP trigger = { religion = religion:besavik_religion } }
+text = { localization_key = aluk_religion_IT_REL_FP trigger = { religion = religion:aluk_religion } }
+text = { localization_key = malesung_religion_IT_REL_FP trigger = { religion = religion:malesung_religion } }
+text = { localization_key = marapu_religion_IT_REL_FP trigger = { religion = religion:marapu_religion } }
+text = { localization_key = arat_sabulungan_religion_IT_REL_FP trigger = { religion = religion:arat_sabulungan_religion } }
+text = { localization_key = pengarap_asal_religion_IT_REL_FP trigger = { religion = religion:pengarap_asal_religion } }
+text = { localization_key = ipok_religion_IT_REL_FP trigger = { religion = religion:ipok_religion } }
+text = { localization_key = banunut_religion_IT_REL_FP trigger = { religion = religion:banunut_religion } }
+text = { localization_key = lamoa_religion_IT_REL_FP trigger = { religion = religion:lamoa_religion } }
+text = { localization_key = tolotang_religion_IT_REL_FP trigger = { religion = religion:tolotang_religion } }
+text = { localization_key = tolaki_religion_IT_REL_FP trigger = { religion = religion:tolaki_religion } }
+text = { localization_key = buton_religion_IT_REL_FP trigger = { religion = religion:buton_religion } }
+text = { localization_key = tomanuru_religion_IT_REL_FP trigger = { religion = religion:tomanuru_religion } }
+text = { localization_key = gorontalo_religion_IT_REL_FP trigger = { religion = religion:gorontalo_religion } }
+text = { localization_key = adat_musi_religion_IT_REL_FP trigger = { religion = religion:adat_musi_religion } }
+text = { localization_key = sangirese_religion_IT_REL_FP trigger = { religion = religion:sangirese_religion } }
+text = { localization_key = wetarese_religion_IT_REL_FP trigger = { religion = religion:wetarese_religion } }
+text = { localization_key = kirin_koda_religion_IT_REL_FP trigger = { religion = religion:kirin_koda_religion } }
+text = { localization_key = dua_nggae_religion_IT_REL_FP trigger = { religion = religion:dua_nggae_religion } }
+text = { localization_key = lamatuan_religion_IT_REL_FP trigger = { religion = religion:lamatuan_religion } }
+text = { localization_key = naurus_religion_IT_REL_FP trigger = { religion = religion:naurus_religion } }
+text = { localization_key = mitu_religion_IT_REL_FP trigger = { religion = religion:mitu_religion } }
+text = { localization_key = sula_religion_IT_REL_FP trigger = { religion = religion:sula_religion } }
+text = { localization_key = kolano_religion_IT_REL_FP trigger = { religion = religion:kolano_religion } }
+text = { localization_key = goma_religion_IT_REL_FP trigger = { religion = religion:goma_religion } }
+text = { localization_key = anitism_religion_IT_REL_FP trigger = { religion = religion:anitism_religion } }
+text = { localization_key = orang_laut_religion_IT_REL_FP trigger = { religion = religion:orang_laut_religion } }
+text = { localization_key = minangkabau_religion_IT_REL_FP trigger = { religion = religion:minangkabau_religion } }
+text = { localization_key = pelebegu_religion_IT_REL_FP trigger = { religion = religion:pelebegu_religion } }
+text = { localization_key = nyang_serai_religion_IT_REL_FP trigger = { religion = religion:nyang_serai_religion } }
+text = { localization_key = piil_pesenggiri_religion_IT_REL_FP trigger = { religion = religion:piil_pesenggiri_religion } }
+text = { localization_key = orang_rimba_religion_IT_REL_FP trigger = { religion = religion:orang_rimba_religion } }
+text = { localization_key = enggano_religion_IT_REL_FP trigger = { religion = religion:enggano_religion } }
+text = { localization_key = imunu_religion_IT_REL_FP trigger = { religion = religion:imunu_religion } }
+text = { localization_key = dreamtime_religion_IT_REL_FP trigger = { religion = religion:dreamtime_religion } }
+text = { localization_key = degar_religion_IT_REL_FP trigger = { religion = religion:degar_religion } }
+text = { localization_key = naylamp_religion_IT_REL_FP trigger = { religion = religion:naylamp_religion } }
+text = { localization_key = umina_religion_IT_REL_FP trigger = { religion = religion:umina_religion } }
+text = { localization_key = jama_religion_IT_REL_FP trigger = { religion = religion:jama_religion } }
+text = { localization_key = pi_religion_IT_REL_FP trigger = { religion = religion:pi_religion } }
+text = { localization_key = arutam_religion_IT_REL_FP trigger = { religion = religion:arutam_religion } }
+text = { localization_key = chango_religion_IT_REL_FP trigger = { religion = religion:chango_religion } }
+text = { localization_key = cebil_religion_IT_REL_FP trigger = { religion = religion:cebil_religion } }
+text = { localization_key = yastay_religion_IT_REL_FP trigger = { religion = religion:yastay_religion } }
+text = { localization_key = gos_religion_IT_REL_FP trigger = { religion = religion:gos_religion } }
+text = { localization_key = pava_religion_IT_REL_FP trigger = { religion = religion:pava_religion } }
+text = { localization_key = chanka_religion_IT_REL_FP trigger = { religion = religion:chanka_religion } }
+text = { localization_key = chincha_religion_IT_REL_FP trigger = { religion = religion:chincha_religion } }
+text = { localization_key = akinha_ekugu_religion_IT_REL_FP trigger = { religion = religion:akinha_ekugu_religion } }
+text = { localization_key = namandu_religion_IT_REL_FP trigger = { religion = religion:namandu_religion } }
+text = { localization_key = tunpa_religion_IT_REL_FP trigger = { religion = religion:tunpa_religion } }
+text = { localization_key = doi_wahire_religion_IT_REL_FP trigger = { religion = religion:doi_wahire_religion } }
+text = { localization_key = jurema_religion_IT_REL_FP trigger = { religion = religion:jurema_religion } }
+text = { localization_key = nallagdigua_religion_IT_REL_FP trigger = { religion = religion:nallagdigua_religion } }
+text = { localization_key = txapakura_religion_IT_REL_FP trigger = { religion = religion:txapakura_religion } }
+text = { localization_key = zemi_religion_IT_REL_FP trigger = { religion = religion:zemi_religion } }
+text = { localization_key = kenos_religion_IT_REL_FP trigger = { religion = religion:kenos_religion } }
+text = { localization_key = tain_feyentun_religion_IT_REL_FP trigger = { religion = religion:tain_feyentun_religion } }
+text = { localization_key = tokuah_religion_IT_REL_FP trigger = { religion = religion:tokuah_religion } }
+text = { localization_key = kilyikhama_religion_IT_REL_FP trigger = { religion = religion:kilyikhama_religion } }
+text = { localization_key = pabichu_religion_IT_REL_FP trigger = { religion = religion:pabichu_religion } }
+text = { localization_key = mororuma_religion_IT_REL_FP trigger = { religion = religion:mororuma_religion } }
+text = { localization_key = moksha_religion_IT_REL_FP trigger = { religion = religion:moksha_religion } }
+text = { localization_key = erzya_religion_IT_REL_FP trigger = { religion = religion:erzya_religion } }
+text = { localization_key = guanche_religion_IT_REL_FP trigger = { religion = religion:guanche_religion } }
+text = { localization_key = maleiwa_religion_IT_REL_FP trigger = { religion = religion:maleiwa_religion } }
+text = { localization_key = yopo_religion_IT_REL_FP trigger = { religion = religion:yopo_religion } }
+text = { localization_key = sinu_religion_IT_REL_FP trigger = { religion = religion:sinu_religion } }
+text = { localization_key = warao_religion_IT_REL_FP trigger = { religion = religion:warao_religion } }
+text = { localization_key = naoma_religion_IT_REL_FP trigger = { religion = religion:naoma_religion } }
+text = { localization_key = muisca_religion_IT_REL_FP trigger = { religion = religion:muisca_religion } }
+text = { localization_key = nacuco_religion_IT_REL_FP trigger = { religion = religion:nacuco_religion } }
+text = { localization_key = jai_religion_IT_REL_FP trigger = { religion = religion:jai_religion } }
+text = { localization_key = yage_religion_IT_REL_FP trigger = { religion = religion:yage_religion } }
+text = { localization_key = chichimecah_religion_IT_REL_FP trigger = { religion = religion:chichimecah_religion } }
+text = { localization_key = lenca_religion_IT_REL_FP trigger = { religion = religion:lenca_religion } }
+text = { localization_key = pech_religion_IT_REL_FP trigger = { religion = religion:pech_religion } }
+text = { localization_key = wan_aisa_religion_IT_REL_FP trigger = { religion = religion:wan_aisa_religion } }
+text = { localization_key = maleku_religion_IT_REL_FP trigger = { religion = religion:maleku_religion } }
+text = { localization_key = suwo_religion_IT_REL_FP trigger = { religion = religion:suwo_religion } }
+text = { localization_key = chibcha_religion_IT_REL_FP trigger = { religion = religion:chibcha_religion } }
+text = { localization_key = votian_religion_IT_REL_FP trigger = { religion = religion:votian_religion } }
+text = { localization_key = inuit_religion_IT_REL_FP trigger = { religion = religion:inuit_religion } }
+text = { localization_key = dene_religion_IT_REL_FP trigger = { religion = religion:dene_religion } }
+text = { localization_key = tapu_religion_IT_REL_FP trigger = { religion = religion:tapu_religion } }
+text = { localization_key = tokelauan_religion_IT_REL_FP trigger = { religion = religion:tokelauan_religion } }
+text = { localization_key = puntan_religion_IT_REL_FP trigger = { religion = religion:puntan_religion } }
+text = { localization_key = kajoor_ri_majel_religion_IT_REL_FP trigger = { religion = religion:kajoor_ri_majel_religion } }
+text = { localization_key = yanolop_religion_IT_REL_FP trigger = { religion = religion:yanolop_religion } }
+text = { localization_key = arosi_religion_IT_REL_FP trigger = { religion = religion:arosi_religion } }
+text = { localization_key = abu_religion_IT_REL_FP trigger = { religion = religion:abu_religion } }
+text = { localization_key = ghari_religion_IT_REL_FP trigger = { religion = religion:ghari_religion } }
+text = { localization_key = nduke_religion_IT_REL_FP trigger = { religion = religion:nduke_religion } }
+text = { localization_key = cheke_holo_religion_IT_REL_FP trigger = { religion = religion:cheke_holo_religion } }
+text = { localization_key = vaghua_religion_IT_REL_FP trigger = { religion = religion:vaghua_religion } }
+text = { localization_key = mu_ngava_religion_IT_REL_FP trigger = { religion = religion:mu_ngava_religion } }
+text = { localization_key = natugu_religion_IT_REL_FP trigger = { religion = religion:natugu_religion } }
+text = { localization_key = qat_religion_IT_REL_FP trigger = { religion = religion:qat_religion } }
+text = { localization_key = itaukei_religion_IT_REL_FP trigger = { religion = religion:itaukei_religion } }
+text = { localization_key = kanak_religion_IT_REL_FP trigger = { religion = religion:kanak_religion } }
+text = { localization_key = hellenism_religion_IT_REL_FP trigger = { religion = religion:hellenism_religion } }
+text = { localization_key = pericu_religion_IT_REL_FP trigger = { religion = religion:pericu_religion } }
+text = { localization_key = yuman_religion_IT_REL_FP trigger = { religion = religion:yuman_religion } }
+text = { localization_key = cahita_religion_IT_REL_FP trigger = { religion = religion:cahita_religion } }
+text = { localization_key = seri_religion_IT_REL_FP trigger = { religion = religion:seri_religion } }
+text = { localization_key = guasave_religion_IT_REL_FP trigger = { religion = religion:guasave_religion } }
+text = { localization_key = tepehuan_religion_IT_REL_FP trigger = { religion = religion:tepehuan_religion } }
+text = { localization_key = coahuilteco_religion_IT_REL_FP trigger = { religion = religion:coahuilteco_religion } }
+text = { localization_key = irritila_religion_IT_REL_FP trigger = { religion = religion:irritila_religion } }
+text = { localization_key = karankawa_religion_IT_REL_FP trigger = { religion = religion:karankawa_religion } }
+text = { localization_key = atakapa_religion_IT_REL_FP trigger = { religion = religion:atakapa_religion } }
+text = { localization_key = kachina_religion_IT_REL_FP trigger = { religion = religion:kachina_religion } }
+text = { localization_key = midewiwin_religion_IT_REL_FP trigger = { religion = religion:midewiwin_religion } }
+text = { localization_key = mesoamerican_IT_REL_FP trigger = { religion = religion:mesoamerican } }
+text = { localization_key = ngbandi_religion_IT_REL_FP trigger = { religion = religion:ngbandi_religion } }
+text = { localization_key = ori_religion_IT_REL_FP trigger = { religion = religion:ori_religion } }
+text = { localization_key = bua_religion_IT_REL_FP trigger = { religion = religion:bua_religion } }
+text = { localization_key = banda_religion_IT_REL_FP trigger = { religion = religion:banda_religion } }
+text = { localization_key = fang_religion_IT_REL_FP trigger = { religion = religion:fang_religion } }
+text = { localization_key = ajok_religion_IT_REL_FP trigger = { religion = religion:ajok_religion } }
+text = { localization_key = lugbara_religion_IT_REL_FP trigger = { religion = religion:lugbara_religion } }
+text = { localization_key = cwezi_religion_IT_REL_FP trigger = { religion = religion:cwezi_religion } }
+}
+
+###########################################################################################################
+
+IT_REL_GRO_MS = {
+   type = country
+   log_loc_errors = no
+
+text = { localization_key = folk_african_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_african_group } } }
+text = { localization_key = folk_argentinian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_argentinian_group } } }
+text = { localization_key = folk_aridoamerica_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_aridoamerica_group } } }
+text = { localization_key = folk_asian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_asian_group } } }
+text = { localization_key = folk_australian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_australian_group } } }
+text = { localization_key = folk_brazilian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_brazilian_group } } }
+text = { localization_key = folk_caribbean_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_caribbean_group } } }
+text = { localization_key = folk_central_american_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_central_american_group } } }
+text = { localization_key = tonal_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:tonal_group } } }
+text = { localization_key = folk_european_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_european_group } } }
+text = { localization_key = folk_melanesian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_melanesian_group } } }
+text = { localization_key = folk_micronesian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_micronesian_group } } }
+text = { localization_key = folk_north_american_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_north_american_group } } }
+text = { localization_key = folk_papuan_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_papuan_group } } }
+text = { localization_key = folk_permic_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_permic_group } } }
+text = { localization_key = folk_peruvian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_peruvian_group } } }
+text = { localization_key = folk_polynesian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_polynesian_group } } }
+text = { localization_key = folk_se_asian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_se_asian_group } } }
+text = { localization_key = folk_south_american_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:folk_south_american_group } } }
+text = { localization_key = christian_IT_REL_GRO_MS trigger = { religion = { group = religion_group:christian } } }
+text = { localization_key = muslim_IT_REL_GRO_MS trigger = { religion = { group = religion_group:muslim } } }
+text = { localization_key = buddhist_IT_REL_GRO_MS trigger = { religion = { group = religion_group:buddhist } } }
+text = { localization_key = dharmic_IT_REL_GRO_MS trigger = { religion = { group = religion_group:dharmic } } }
+text = { localization_key = zoroastrian_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:zoroastrian_group } } }
+text = { localization_key = manichaean_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:manichaean_group } } }
+text = { localization_key = israelite_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:israelite_group } } }
+text = { localization_key = druze_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:druze_group } } }
+text = { localization_key = yazidi_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:yazidi_group } } }
+text = { localization_key = mandean_group_IT_REL_GRO_MS trigger = { religion = { group = religion_group:mandean_group } } }
+}
+
+##############################################################################################################
+
+IT_REL_GRO_MP = {
+   type = country
+   log_loc_errors = no
+
+text = { localization_key = folk_african_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_african_group } } }
+text = { localization_key = folk_argentinian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_argentinian_group } } }
+text = { localization_key = folk_aridoamerica_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_aridoamerica_group } } }
+text = { localization_key = folk_asian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_asian_group } } }
+text = { localization_key = folk_australian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_australian_group } } }
+text = { localization_key = folk_brazilian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_brazilian_group } } }
+text = { localization_key = folk_caribbean_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_caribbean_group } } }
+text = { localization_key = folk_central_american_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_central_american_group } } }
+text = { localization_key = tonal_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:tonal_group } } }
+text = { localization_key = folk_european_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_european_group } } }
+text = { localization_key = folk_melanesian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_melanesian_group } } }
+text = { localization_key = folk_micronesian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_micronesian_group } } }
+text = { localization_key = folk_north_american_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_north_american_group } } }
+text = { localization_key = folk_papuan_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_papuan_group } } }
+text = { localization_key = folk_permic_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_permic_group } } }
+text = { localization_key = folk_peruvian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_peruvian_group } } }
+text = { localization_key = folk_polynesian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_polynesian_group } } }
+text = { localization_key = folk_se_asian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_se_asian_group } } }
+text = { localization_key = folk_south_american_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:folk_south_american_group } } }
+text = { localization_key = christian_IT_REL_GRO_MP trigger = { religion = { group = religion_group:christian } } }
+text = { localization_key = muslim_IT_REL_GRO_MP trigger = { religion = { group = religion_group:muslim } } }
+text = { localization_key = buddhist_IT_REL_GRO_MP trigger = { religion = { group = religion_group:buddhist } } }
+text = { localization_key = dharmic_IT_REL_GRO_MP trigger = { religion = { group = religion_group:dharmic } } }
+text = { localization_key = zoroastrian_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:zoroastrian_group } } }
+text = { localization_key = manichaean_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:manichaean_group } } }
+text = { localization_key = israelite_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:israelite_group } } }
+text = { localization_key = druze_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:druze_group } } }
+text = { localization_key = yazidi_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:yazidi_group } } }
+text = { localization_key = mandean_group_IT_REL_GRO_MP trigger = { religion = { group = religion_group:mandean_group } } }
+}
+
+##############################################################################################################
+
+IT_REL_GRO_FS = {
+   type = country
+   log_loc_errors = no
+
+text = { localization_key = folk_african_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_african_group } } }
+text = { localization_key = folk_argentinian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_argentinian_group } } }
+text = { localization_key = folk_aridoamerica_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_aridoamerica_group } } }
+text = { localization_key = folk_asian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_asian_group } } }
+text = { localization_key = folk_australian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_australian_group } } }
+text = { localization_key = folk_brazilian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_brazilian_group } } }
+text = { localization_key = folk_caribbean_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_caribbean_group } } }
+text = { localization_key = folk_central_american_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_central_american_group } } }
+text = { localization_key = tonal_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:tonal_group } } }
+text = { localization_key = folk_european_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_european_group } } }
+text = { localization_key = folk_melanesian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_melanesian_group } } }
+text = { localization_key = folk_micronesian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_micronesian_group } } }
+text = { localization_key = folk_north_american_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_north_american_group } } }
+text = { localization_key = folk_papuan_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_papuan_group } } }
+text = { localization_key = folk_permic_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_permic_group } } }
+text = { localization_key = folk_peruvian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_peruvian_group } } }
+text = { localization_key = folk_polynesian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_polynesian_group } } }
+text = { localization_key = folk_se_asian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_se_asian_group } } }
+text = { localization_key = folk_south_american_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:folk_south_american_group } } }
+text = { localization_key = christian_IT_REL_GRO_FS trigger = { religion = { group = religion_group:christian } } }
+text = { localization_key = muslim_IT_REL_GRO_FS trigger = { religion = { group = religion_group:muslim } } }
+text = { localization_key = buddhist_IT_REL_GRO_FS trigger = { religion = { group = religion_group:buddhist } } }
+text = { localization_key = dharmic_IT_REL_GRO_FS trigger = { religion = { group = religion_group:dharmic } } }
+text = { localization_key = zoroastrian_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:zoroastrian_group } } }
+text = { localization_key = manichaean_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:manichaean_group } } }
+text = { localization_key = israelite_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:israelite_group } } }
+text = { localization_key = druze_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:druze_group } } }
+text = { localization_key = yazidi_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:yazidi_group } } }
+text = { localization_key = mandean_group_IT_REL_GRO_FS trigger = { religion = { group = religion_group:mandean_group } } }
+}
+
+##############################################################################################################
+
+IT_REL_GRO_FP = {
+   type = country
+   log_loc_errors = no
+
+text = { localization_key = folk_african_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_african_group } } }
+text = { localization_key = folk_argentinian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_argentinian_group } } }
+text = { localization_key = folk_aridoamerica_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_aridoamerica_group } } }
+text = { localization_key = folk_asian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_asian_group } } }
+text = { localization_key = folk_australian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_australian_group } } }
+text = { localization_key = folk_brazilian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_brazilian_group } } }
+text = { localization_key = folk_caribbean_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_caribbean_group } } }
+text = { localization_key = folk_central_american_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_central_american_group } } }
+text = { localization_key = tonal_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:tonal_group } } }
+text = { localization_key = folk_european_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_european_group } } }
+text = { localization_key = folk_melanesian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_melanesian_group } } }
+text = { localization_key = folk_micronesian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_micronesian_group } } }
+text = { localization_key = folk_north_american_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_north_american_group } } }
+text = { localization_key = folk_papuan_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_papuan_group } } }
+text = { localization_key = folk_permic_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_permic_group } } }
+text = { localization_key = folk_peruvian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_peruvian_group } } }
+text = { localization_key = folk_polynesian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_polynesian_group } } }
+text = { localization_key = folk_se_asian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_se_asian_group } } }
+text = { localization_key = folk_south_american_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:folk_south_american_group } } }
+text = { localization_key = christian_IT_REL_GRO_FP trigger = { religion = { group = religion_group:christian } } }
+text = { localization_key = muslim_IT_REL_GRO_FP trigger = { religion = { group = religion_group:muslim } } }
+text = { localization_key = buddhist_IT_REL_GRO_FP trigger = { religion = { group = religion_group:buddhist } } }
+text = { localization_key = dharmic_IT_REL_GRO_FP trigger = { religion = { group = religion_group:dharmic } } }
+text = { localization_key = zoroastrian_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:zoroastrian_group } } }
+text = { localization_key = manichaean_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:manichaean_group } } }
+text = { localization_key = israelite_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:israelite_group } } }
+text = { localization_key = druze_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:druze_group } } }
+text = { localization_key = yazidi_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:yazidi_group } } }
+text = { localization_key = mandean_group_IT_REL_GRO_FP trigger = { religion = { group = religion_group:mandean_group } } }
+}

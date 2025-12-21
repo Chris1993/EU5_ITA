@@ -1,0 +1,37 @@
+﻿l_english:
+
+#####MASCHILE/FEMMINILE
+# |U -> Lettera maiuscola, es. [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')|U] Re: Il Re
+
+IT_ART_O: "o" # spos[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')]: sposo
+IT_ART_A: "a" # spos[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')]: sposa
+
+CustomLoc_IT_ART_IL_LA_male: "il" # [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRuler.GetTitle]: il Re
+CustomLoc_IT_ART_IL_LA_female: "la" # [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_IL_LA')] [ROOT.GetCountry.GetGovernment.GetRuler.GetTitle]: la Regina
+
+CustomLoc_IT_ART_LO_LA_male: "lo" # [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_LO_LA')] spos[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')]: lo sposo
+CustomLoc_IT_ART_LO_LA_female: "la" # [ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_LO_LA')] spos[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_O_A')]: la sposa
+
+CustomLoc_IT_ART_NULL_A_male: "" # un[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_A')]: un
+CustomLoc_IT_ART_NULL_A_female: "a" # un[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_A')]: una
+
+CustomLoc_IT_ART_NULL_LA_male: "" # spos[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_LA')]: sposo
+CustomLoc_IT_ART_NULL_LA_female: "la" # spos[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_LA')]: sposo 
+
+CustomLoc_IT_ART_NULL_APOX_male: " " # un[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_APOX')]: un
+CustomLoc_IT_ART_NULL_APOX_female: "'" # un[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_NULL_APOX')]: un'
+
+CustomLoc_IT_ART_O_A_OPP_male: "a" # # genere opposto rispetto al soggetto
+CustomLoc_IT_ART_O_A_OPP_female: "o" # # genere opposto rispetto al soggetto
+
+CustomLoc_IT_ART_IL_LA_OPP_male: "la" # genere opposto rispetto al soggetto
+CustomLoc_IT_ART_IL_LA_OPP_female: "il" # genere opposto rispetto al soggetto
+
+CustomLoc_IT_ART_LO_LA_OPP_male: "la" # genere opposto rispetto al soggetto
+CustomLoc_IT_ART_LO_LA_OPP_female: "lo" # genere opposto rispetto al soggetto
+
+CustomLoc_IT_ART_NULL_A_OPP_male: "a" # genere opposto rispetto al soggetto
+CustomLoc_IT_ART_NULL_A_OPP_female: "" # genere opposto rispetto al soggetto
+
+IT_ART_GLI: "gli" #Render[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_GLI_LE')] Rendergli
+IT_ART_LE: "le" #Render[ROOT.GetCountry.GetGovernment.GetRuler.Custom('IT_ART_GLI_LE')] Renderle

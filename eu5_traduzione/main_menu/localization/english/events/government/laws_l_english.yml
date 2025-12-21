@@ -1,151 +1,151 @@
-﻿l_english: 
- laws.0001.t: "Critical Art"
- laws.0001.desc: "A rude and thoroughly dislikable artist by the name of [critical_artist.GetName] has sullied our country's reputation by creating a scathing artistic criticism of the [ROOT.GetCountry.GetFlavorRank]!\n\nIn their so-called treatise titled #italic [critical_art.GetName]#!, [critical_artist.GetSheHe] claims to be unsatisfied with the country's management and state of affairs, spouting such nonsense phrases as \"impotent military\", \"weak-willed economic policy\" and \"societal decay\". Our society may be a free one, but allowing a notable artist to criticize the [ROOT.GetCountry.GetFlavorRank] in such a manner will surely lead to a slippery slope of riots and vagabondry!"
- laws.0001.a: "The [ROOT.GetCountry.GetFlavorRank] can handle a little criticism."
- laws.0001.b: "Execute [critical_artist.GetHerHim] now!"
-
- laws.0002.t: "Freedom & Art"
- laws.0002.desc: "Much to the chagrin of certain governmental and societal elements, our current [ROOT.GetCountry.GetFlavorRank] enjoys a great deal of freedom in the fields of faith and the arts. Lately, our commitment to free art has led to the production of a treatise praising the merits of any [ROOT.GetCountry.GetFlavorRank] free from censorship, as such a state nurtures and nourishes competent theological thought and artistic endeavors.\n\nThe treatise #italic [non_critical_art.GetName]#! by [non_critical_artist.GetName] is sure to be read by many across our lands, leading to an increased awareness and support of the ideals of artistic freedom, and by extension, freedom in other elements of the [ROOT.GetCountry.GetFlavorRank]."
- laws.0002.a: "Freedom should be celebrated!"
- laws.0002.b: "Awful! Destroy the treatise!"
-
- laws.0003.t: "Emergence from Freedom"
- laws.0003.desc: "Our [ROOT.GetCountry.GetFlavorRank]'s position against censorship has allowed many lesser artists to experiment more and push the boundaries of art. As a result, one of many novice, nondescript artists has today become a recognizable name and a veritable local celebrity within young artists' circles. We can expect much from [new_artist.GetName]."
- laws.0003.a: "Another artist for the ranks."
-
- laws.0004.t: "Free Thinking Leads to Theological Divide"
- laws.0004.desc: "Up until now, our religious institutions have been rather silent about their desire to increase religious censorship. However, a recent series of small altercations at various locations over simple, but vital theological divides has led to a surge of requests from both individuals as well as organizations to impose stricter control over the religious narrative.\n\nIt is healthy for the faith to ponder itself and seek answers to questions that may bring its worshippers closer to the divine, but it is not healthy for one priest  to hit another with a saucepan over religious doctrine."
- laws.0004.a: "We will take their complaints into consideration."
- laws.0004.b: "We shall find and discipline those who step out of line."
-
- laws.0005.t: "Free Discussions Lead to Breakthrough"
- laws.0005.desc: "At long last, the constant philosophical debates and insufferable blabbering of intellectuals and philosophers allowed by our lack of censorship laws have actually led to a scientific breakthrough in the areas we are currently researching!"
- laws.0005.a: "The unrestrained mind thinks best."
- laws.0005.b: "We ought to fund these free thinkers!"
-
- laws.0006.t: "Artist Self-Exiles"
- laws.0006.desc: "Our religious censorship policy has led the renowned artist [artist_to_exile.GetName] to exile [artist_to_exile.GetHerselfHimself] and leave our lands in favor of [exile_location.GetName]. [artist_to_exile.GetSheHe|U] seeks to think, speak, and create without fear of punishment, something which our current policies cannot offer.\n\nThis may very well be for the best, as an unruly artist, no matter how talented [artist_to_exile.GetSheHe] may be, will only be a thorn in the sides of our pure nation, which should be free from critical and dangerous art."
- laws.0006.a: "Begone, and do not come back!"
-
- laws.0007.t: "Heretical Work Spared"
- laws.0007.desc: "The [work_to_damage.GetName] was recently damaged during a dispute in which members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] attempted to burn it as per our censorship laws, claiming that the piece is heretical.\n\nThe work was ultimately spared thanks to outcry from others, but it was not able to escape damage altogether."
- laws.0007.a: "What is done, is done."
-
- laws.0008.t: "The Sung Heroes"
- laws.0008.desc: "Our censorship policy has prevented negative views and opinions from spreading too far during the hardships of war.\n\nAs a result, our people remain strong, believing that victory is inevitable, as every pamphlet and news scrap contains only the highest praise for our nation's noble struggle."
- laws.0008.a: "Hurray for the (censored)!"
-
- laws.0009.t: "Censorship Shields Ally"
- laws.0009.desc: "As of late, many outspoken members of our society, some with the means of producing and distributing scandalous pamphlets across the realm, have begun to be rather critical of our ally, [ally_to_protect.GetName]. However, our censorship policy allowed us to swiftly confiscate and destroy all these damaging works, protecting our ally from having to react to our people's opinions."
- laws.0009.a: "They better be thankful!"
- laws.0009.b: "They can thank us through... other means."
-
- laws.0010.t: "Scandal Averted!"
- laws.0010.desc: "Recently, a most scandalous occurrence happened amongst the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Had word gotten out, it would have been a social disaster of catastrophic proportions. Thankfully, our censorship policy ensured that this whole event was swept under the rug before the rest of society could find out."
- laws.0010.a: "Keep those skeletons in the closet!"
- laws.0010.b: "Perhaps this ought to be public knowledge..."
-
- laws.0011.t: "Artist Executed"
- laws.0011.desc: "Today, an artist by the name of [dead_artist.GetName] was executed on orders from the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] for their heretical comments and works of art, as per our censorship laws. Our [ROOT.GetCountry.GetFlavorRank] has lost a talented and valuable artist and traded it for the stability and strength of moral harmony."
- laws.0011.a: "Nonetheless, this is a terrible loss."
-
- laws.0012.t: "Information Control"
- laws.0012.desc: "Our strict censorship laws ensure that negative and detrimental ideas do not jump from one population center to another. As such, the [ROOT.GetCountry.GetFlavorRank] as a whole is a lot more harmonious. A small catastrophe or scandal need not affect those outside its immediate reach, nor should wayward thinking poison those who had previously been blessed with ignorance."
- laws.0012.a: "Harmony, at last."
- laws.0012.b: "Restricting information only slows us down."
-
- laws.0013.t: "Doctrinal Harmony"
- laws.0013.desc: "Our enforcement of strict religious censorship has pleased our religious institutions. They are thankful for our maintaining harmony and ensuring that heresy is kept at bay."
- laws.0013.a: "Anything to appease them."
- laws.0013.b: "Maybe questions are the path to divinity?"
-
- laws.0014.t: "Censored Reports"
- laws.0014.desc: "Our strict censorship practices have led to a most unfortunate mishap, causing chaos amongst our armies. Field reports containing vital, but negative information about the status of the war are being censored by bureaucrats and religious figures to ensure that blasphemous ideas of retreat or military inadequacy are filtered out in favor of a more positive depiction of the conflict.\n\nAs a result, one of our armies has become disorganized, as the reports they send are not the ones that our capital receives and issues orders based on."
- laws.0014.a: "What a disaster!"
- laws.0014.b: "Force orders to bypass oversight."
-
- laws.0015.t: "Heretical Work Destroyed"
- laws.0015.desc: "The #italic [work_to_destroy.GetName]#! has been destroyed, as per our strict censorship policies, after accusations of it being a heretical piece and seeking to subvert all that is good and holy.\n\nThe protests of artists and even other members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] were not enough to save this evil work from being burned in righteous flames. We may have lost an invaluable art piece, but we have secured spiritual sanctity."
- laws.0015.a: "Burn away all that is impious!"
-
- laws.0016.t: "Controversial Portrait"
- laws.0016.desc: "A local artist by the name of [random_artist.GetName] has approached [glorious_leader.GetName], offering to make a portrait displaying them as a \"diety\" and \"savior of the nation\".\n\nOur lack of censorship laws make this issue morally grey: On the one hand, nothing is technically stopping this from happening, and such a work would probably bring prestige to the nation, but on the other hand, the subject is rather improper and impious, regardless of the law. Such a commission will certainly upset the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] and their faithful."
- laws.0016.a: "Let [glorious_leader.GetNameWithNoTooltip] be larger than life!"
- laws.0016.b: "This is awfully distasteful!"
- art_key_holy_leader_portrait: "Portrait of a holy ruler"
-
- laws.0017.t: "Artist Emigrates"
- laws.0017.desc: "[artist_to_exile.GetName] from the lands of [exile_location.GetName] has arrived on our doorstep, seeking our protection and the benefits of our lack of censorship laws.\n\nYet another talented artist comes to our country, forever enriching our culture! If we ever enact more strict religious censorship laws, however, [artist_to_exile.GetSheHe] might leave our lands just as [artist_to_exile.GetSheHe] left [exile_location.GetNameWithNoTooltip]..."
- laws.0017.a: "Welcome!"
-
- laws.0018.t: "Underground Art"
- laws.0018.desc: "State officials have recently discovered the meeting place of an underground art movement. Our officials were unable to catch the perpetrators, but managed to secure three art pieces that should be destroyed according to our religious censorship policies.\n\nOf course, destroying such a large amount of art that could otherwise be used for the good of the [ROOT.GetCountry.GetFlavorRank] seems counterproductive. It could be worthwhile to ignore the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]'s complaints and secure the art for ourselves."
- laws.0018.a: "We must destroy these unholy things!"
- laws.0018.b: "Perhaps the art was left behind for us to keep?"
-
- laws.0019.t: "Banned Books"
- laws.0019.desc: "State officials have recently discovered a stash of banned books. The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] is asking us to promptly dispose of them, but these texts seem to contain knowledge that could be beneficial to the [ROOT.GetCountry.GetFlavorRank]..."
- laws.0019.a: "Burn them!"
- laws.0019.b: "A little peek will not hurt..."
-
- laws.0020.t: "Religious Art Sponsorship"
- laws.0020.desc: "Emboldened by our religious censorship laws, the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have begun sponsoring the creation of art all across the country. As a sign of unity between the [ROOT.GetCountry.GetLongName] and its [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], they have donated a piece directly to the [ROOT.GetCountry.GetFlavorRank]'s collection."
- laws.0020.a: "Most gracious!"
-
- laws.0021.t: "Unlawful Private Collections"
- laws.0021.desc: "Several families of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been caught sponsoring the creation of illicit art which clearly violates the ordinances set by our religious censorship laws.\n\nThe [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] is enraged and asking that the collections be confiscated and subsequently destroyed. The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], on the other hand, are asking for mercy, as their collections are private and kept away from the public's eye. They have even offered to donate funds to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] for the creation of admissible art in order to appease them."
- laws.0021.a: "Confiscate their collections."
- laws.0021.b: "Show mercy unconditionally."
- laws.0021.c: "Show mercy in exchange for funds."
-
- laws.0022.t: "Iconoclasm"
- laws.0022.desc: "Fuelled by religious fervor, members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are asking the [ROOT.GetCountry.GetFlavorRank] to burn the art piece known as #italic [icono_target.GetName]# in a demonstration of piety.\n\nThere is nothing impious about the art piece they are attempting to burn, however, and we thus have a right to refuse. However, proving our commitment to the faith might be more beneficial to our goals..."
- laws.0022.a: "Burn, burn, burn!"
- laws.0022.b: "Refuse to burn art."
-
- laws.0023.t: "Book Burning"
- laws.0023.desc: "After suspicions were confirmed that heretical books were being stored inside of a library at [loc_heretic_book_town.GetName], the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have begun a procession that will culminate in the burning of the library.\n\nTheir actions are in line with our censorship policies, but the library contains books that are vital to our research efforts, which will be burned alongside the heretical material unless we put a stop to this."
- laws.0023.a: "The burning is for the greater good."
- laws.0023.b: "No torch's flame shall touch our research!"
-
- laws.0024.t: "Illicit Religious Figurines"
- laws.0024.desc: "Merchants at the market in [loc_market.GetName] have been caught selling small ceramic and clay figurines of a religious nature. These figurines clearly violate our religious censorship policies, but their destruction would be quite costly, as they have become rather popular in [loc_market.GetNameWithNoTooltip].\n\nThe [ROOT.GetCountry.GetFlavorRank] would feel the loss of these goods, but perhaps this is the price we must pay to maintain our purity of faith?"
- laws.0024.a: "Smash the figurines!"
- laws.0024.b: "Turn a blind eye to the figurine market."
-
- laws.0025.t: "Heretics Demand Parlay"
- laws.0025.desc: "A self-proclaimed \"Underground Society of Theologists\" demands that we allow their theory of creation to be published. They claim that the world is cheese and that deities are nothing more than worms that process the cheese. Not only that, but the worms themselves spawn from said cheese.\n\nOf course, even entertaining such thoughts would greatly upset the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], but our lack of religious censorship technically means that the decision is up to the [ROOT.GetCountry.GetFlavorRank]."
- laws.0025.a: "Why not? Let them publish!"
- laws.0025.b: "Ludicrious! Ban this theory!"
-
- laws.0026.t: "Unsanctioned Missionaries"
- laws.0026.desc: "Self-proclaimed missionaries from the country of [mis_origin.GetName] have recently caught the eye of our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] for making too much progress in converting our populace.\n\nWe have no religious censorship laws, and as such the missionaries are within their right to do as they please, but not taking any action will upset our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], who are calling for the outright imprisonment of these \"false prophets\"."
- laws.0026.a: "Turn back the missionaries."
- laws.0026.b: "Tolerate the missionaries."
- laws.0026.c: "Arrest the missionaries."
-
- laws.0027.t: "Outdated Texts"
- laws.0027.desc: "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] seeks our help, claiming that, in accordance with our censorship laws, we should remove all outdated religious texts that are in circulation.\n\nRecently, it was found that decades of small tweaks and deviations in newer versions of our holy texts have led to a divide between those who preach the old word and the new word. This rift is minimal, but the very idea of holy texts deviating from one another is revolting to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. As such, they have asked us to purge all of the older copies, which could lead to instability on account of having to destroy the old and relished copies of local temples."
- laws.0027.a: "No deviancy can be allowed!"
- laws.0027.b: "Allow the old books to phase out naturally."
-
- laws.0028.t: "Wrong Signals"
- laws.0028.desc: "The [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] have asked us to intercede in a marriage between two families of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. The issue lies in the bride being of a different faith than the one our [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] support. [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] marriages tend to be public affairs, so the subsequent festival would attract a lot of attention and send an improper message about how our [ROOT.GetCountry.GetFlavorRank] feels about other faiths.\n\nOur religious censorship laws are not meant to intervene in this, never mind how this would damage our relationship with the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], but this is a great opportunity to indebt the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] to us."
- laws.0028.a: "Prevent the marriage on \"moral grounds\"."
- laws.0028.b: "Love is free! Also, we do not want angry [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]!"
-
- laws.0029.t: "Foreign-sponsored Cults"
- laws.0029.desc: "Our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], while conducting their usual religious censorship duties, found and destroyed a small cult that has since been proven to belong to a foreign entity. This cult was sponsored by another nation in exchange for information, acting as a spy network. Its destruction has greatly damaged their information collection abilities."
- laws.0029.a: "Keep rooting them out!"
-
- laws.0030.t: "Fortified Religious District"
- laws.0030.desc: "In the settlement of [random_town.GetName], the local religious minorities have fortified their religious district out of fear that our censorship laws might lead to a riot.\n\nAllowing them to stay cooped up in their barricades will be bad for stability, but these makeshift fortifications could become quite useful were the location to come under siege."
- laws.0030.a: "Tear down the barricades."
- laws.0030.b: "Allow them to remain."
-
- laws.0040.title: "A New [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
- laws.0040.desc: "With [target_character.GetName] now in power, [target_character.GetSheHe] has been planning on moving the [ROOT.GetCountry.GetGovernment.GetCourtTitle] to a different location, as is the custom within [ROOT.GetCountry.GetName]. The choices are [target_location.GetName], [target_location2.GetName], and [target_location3.GetName]. Which one shall it be?"
- laws.0040.a: "[target_location.GetNameWithNoTooltip] is the best choice."
- laws.0040.b: "[target_location2.GetNameWithNoTooltip] is a good spot."
- laws.0040.c: "The underdog [target_location3.GetRank.GetNameWithNoTooltip] of [target_location3.GetNameWithNoTooltip] is the best pick."
- laws.0040.d: "Let us keep [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] as the capital."
+﻿l_english:
+ laws.0001.t: "Arte Critica"
+ laws.0001.desc: "Un artista maleducato e assolutamente antipatico di nome [critical_artist.GetName] ha macchiato la reputazione del nostro paese creando una feroce critica artistica del [ROOT.GetCountry.GetFlavorRank]!\n\nNel loro cosiddetto trattato intitolato #italic [critical_art.GetName]#!, [critical_artist.GetSheHe] afferma di essere insoddisfatto della gestione e dello stato delle cose nel paese, sputando frasi senza senso come \"esercito impotente\", \"politica economica debole\" e \"decadimento sociale\". La nostra società può essere libera, ma permettere a un artista di spicco di criticare il [ROOT.GetCountry.GetFlavorRank] in questo modo porterà sicuramente a una china scivolosa di rivolte e vagabondaggio!"
+ laws.0001.a: "[ROOT.GetCountry.GetFlavorRank] può gestire un po' di critiche."
+ laws.0001.b: "Giustiziamo [critical_artist.GetHerHim] ora!"
+ 
+ laws.0002.t: "Libertà e Arte"
+ laws.0002.desc: "Con grande disappunto di alcuni elementi governativi e sociali, il nostro attuale [ROOT.GetCountry.GetFlavorRank] gode di grande libertà nei campi della fede e delle arti. Ultimamente, il nostro impegno per l'arte libera ha portato alla pubblicazione di un trattato che elogia i meriti di qualsiasi [ROOT.GetCountry.GetFlavorRank] libero dalla censura, in quanto tale nutre e alimenta un pensiero teologico competente e iniziative artistiche.\n\nIl trattato #italic [non_critical_art.GetName]#! di [non_critical_artist.GetName] sarà sicuramente letto da molti in tutto il nostro Paese, portando a una maggiore consapevolezza e sostegno degli ideali di libertà artistica e, per estensione, della libertà in altri elementi del [ROOT.GetCountry.GetFlavorRank]."
+ laws.0002.a: "La libertà dovrebbe essere celebrata!"
+ laws.0002.b: "Orribile! Distruggete il trattato!"
+ 
+ laws.0003.t: "Emergere dalla Libertà"
+ laws.0003.desc: "La posizione del nostro [ROOT.GetCountry.GetFlavorRank] contro la censura ha permesso a molti artisti minori di sperimentare di più e di spingersi oltre i confini dell'arte. Di conseguenza, uno dei tanti artisti alle prime armi e anonimi è oggi diventato un nome riconoscibile e una vera e propria celebrità locale all'interno della cerchia dei giovani artisti. Possiamo aspettarci molto da [new_artist.GetName]."
+ laws.0003.a: "Un altro artista da tenere d'occhio."
+ 
+ laws.0004.t: "Il Libero Pensiero Porta alla Divisione Teologica"
+ laws.0004.desc: "Finora, le nostre istituzioni religiose sono state piuttosto silenziose riguardo al loro desiderio di aumentare la censura religiosa. Tuttavia, una recente serie di piccoli scontri in varie sedi su semplici ma vitali divisioni teologiche ha portato a un'ondata di richieste, sia da parte di individui che di organizzazioni, di imporre un controllo più severo sulla narrazione religiosa. È salutare per la fede riflettere su se stessa e cercare risposte a domande che possano avvicinare i suoi fedeli al divino, ma non è salutare per un sacerdote colpire un altro con una pentola riguardo la dottrina religiosa."
+ laws.0004.a: "Prenderemo in considerazione le loro richieste."
+ laws.0004.b: "Troveremo e puniremo coloro che oltrepassano i limiti."
+ 
+ laws.0005.t: "Le Discussioni Libere Portano alla Svolta"
+ laws.0005.desc: "Finalmente, i continui dibattiti filosofici e l'insopportabile chiacchiericcio di intellettuali e filosofi, consentiti dalla nostra mancanza di leggi sulla censura, hanno effettivamente portato a una svolta scientifica nelle aree in cui stiamo attualmente facendo ricerca!"
+ laws.0005.a: "La mente libera pensa meglio."
+ laws.0005.b: "Dovremmo finanziare questi liberi pensatori!"
+ 
+ laws.0006.t: "Artisti Autoesiliati"
+ laws.0006.desc: "La nostra politica di censura religiosa ha portato il famoso artista [artist_to_exile.GetName] a esiliare [artist_to_exile.GetHerselfHimself] e ad abbandonare le nostre terre in favore di [exile_location.GetName]. [artist_to_exile.GetSheHe|U] cerca di pensare, parlare e creare senza timore di punizione, qualcosa che le nostre attuali politiche non possono offrire.\n\nQuesto potrebbe essere un bene, poiché un artista ribelle, non importa quanto talentuoso [artist_to_exile.GetSheHe] possa essere, sarà solo una spina nel fianco della nostra nazione pura, che dovrebbe essere libera da arte critica e pericolosa."
+ laws.0006.a: "Vattene e non tornare più!"
+ 
+ laws.0007.t: "Opera Eretica Risparmiata"
+ laws.0007.desc: "La [work_to_damage.GetName] è stata recentemente danneggiata durante una disputa in cui i membri del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] hanno tentato di bruciarla in base alle nostre leggi sulla censura, sostenendo che l'opera è eretica.\n\nL'opera è stata infine risparmiata grazie alle proteste di altri, ma non è riuscita a sfuggire del tutto al danno."
+ laws.0007.a: "Quel che è fatto, è fatto."
+ 
+ laws.0008.t: "Gli Eroi Decantati"
+ laws.0008.desc: "La nostra politica di censura ha impedito che opinioni e punti di vista negativi si diffondessero troppo durante le difficoltà della guerra. Di conseguenza, il nostro popolo rimane forte, convinto che la vittoria sia inevitabile, poiché ogni opuscolo e ogni frammento di notiziario contiene solo i più alti elogi per la nobile lotta della nostra nazione."
+ laws.0008.a: "Evviva i (censurati)!"
+ 
+ laws.0009.t: "La Censura Protegge gli Alleati"
+ laws.0009.desc: "Ultimamente, molti schietti membri della nostra società, alcuni dei quali possiedono i mezzi per produrre e distribuire opuscoli scandalosi in tutto il regno, hanno iniziato a essere piuttosto critici nei confronti del nostro alleato, [ally_to_protect.GetName]. Tuttavia, la nostra politica di censura ci ha permesso di confiscare e distruggere rapidamente tutte queste opere dannose, proteggendo il nostro alleato dal dover reagire alle opinioni della nostra gente."
+ laws.0009.a: "Meglio che siano grati!"
+ laws.0009.b: "Possono ringraziarci con... altri mezzi."
+ 
+ laws.0010.t: "Scandalo Scongiurato!"
+ laws.0010.desc: "Recentemente, un episodio scandaloso si è verificato tra la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Se la notizia si fosse diffusa, si sarebbe trattato di un disastro sociale di proporzioni catastrofiche. Fortunatamente, la nostra politica di censura ha fatto sì che l'intero evento venisse insabbiato prima che il resto della società potesse scoprirlo."
+ laws.0010.a: "Tenete quegli scheletri nell'armadio!"
+ laws.0010.b: "Forse questo dovrebbe essere di dominio pubblico..."
+ 
+ laws.0011.t: "Artista Giustiziato"
+ laws.0011.desc: "Oggi, un artista di nome [dead_artist.GetName] è stato giustiziato su ordine del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] per i suoi commenti e le sue opere d'arte eretiche, in conformità con le nostre leggi sulla censura. Il nostro [ROOT.GetCountry.GetFlavorRank] ha perso un artista talentuoso e prezioso e lo ha barattato con la stabilità e la forza dell'armonia morale."
+ laws.0011.a: "Tuttavia, questa è una perdita terribile."
+ 
+ laws.0012.t: "Controllo delle Informazioni"
+ laws.0012.desc: "Le nostre rigide leggi sulla censura garantiscono che idee negative e dannose non passino da un centro abitato all'altro. Pertanto, il [ROOT.GetCountry.GetFlavorRank] nel suo complesso è molto più armonioso. Una piccola catastrofe o uno scandalo non devono necessariamente colpire coloro che sono al di fuori della sua portata immediata, né un pensiero ribelle dovrebbe avvelenare coloro che in precedenza erano stati benedetti dall'ignoranza.
+ laws.0012.a: "Armonia, finalmente."
+ laws.0012.b: "Limitare le informazioni non fa che rallentarci."
+ 
+ laws.0013.t: "Armonia Dottrinale"
+ laws.0013.desc: "L'applicazione di una rigida censura religiosa ha soddisfatto le nostre istituzioni religiose. Sono grate per il fatto che manteniamo l'armonia e ci assicuriamo che l'eresia sia tenuta a bada."
+ laws.0013.a: "Qualsiasi cosa per placarli."
+ laws.0013.b: "Forse le domande sono la via verso la divinità?"
+ 
+ laws.0014.t: "Rapporti Censurati"
+ laws.0014.desc: "Le nostre rigide pratiche di censura hanno portato a un incidente davvero spiacevole, causando il caos tra i nostri eserciti. I rapporti sul campo contenenti informazioni vitali, ma negative, sullo stato della guerra vengono censurati da burocrati e figure religiose per garantire che idee blasfeme di ritirata o inadeguatezza militare vengano filtrate a favore di una rappresentazione più positiva del conflitto. Di conseguenza, uno dei nostri eserciti è diventato disorganizzato, poiché i rapporti che inviano non sono quelli che la nostra capitale riceve e su cui impartisce ordini.
+ laws.0014.a: "Che disastro!"
+ laws.0014.b: "Forzare gli ordini per aggirare la supervisione."
+ 
+ laws.0015.t: "Opera Eretica Distrutta"
+ laws.0015.desc: "Il #italic [work_to_destroy.GetName]#! è stato distrutto, in conformità con le nostre rigide politiche di censura, dopo essere stato accusato di essere un'opera eretica e di voler sovvertire tutto ciò che è buono e sacro.\n\nLe proteste degli artisti e persino di altri membri del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] non sono state sufficienti a salvare quest'opera malvagia dall'essere bruciata tra le fiamme della giustizia. Potremmo aver perso un'opera d'arte di inestimabile valore, ma abbiamo garantito la santità spirituale."
+ laws.0015.a: "Bruciate tutto ciò che è blasfemo!"
+ 
+ laws.0016.t: "Ritratto Controverso"
+ laws.0016.desc: "Un artista locale di nome [random_artist.GetName] si è rivolto a [glorious_leader.GetName], offrendosi di realizzare un ritratto che lo raffigurasse come una \"divinità\" e \"salvatore della nazione\".\n\nLa nostra mancanza di leggi sulla censura rende la questione moralmente grigia: da un lato, nulla impedisce tecnicamente che ciò accada, e un'opera del genere probabilmente porterebbe prestigio alla nazione, ma dall'altro, il soggetto è piuttosto inappropriato ed blasfemo, a prescindere dalla legge. Una commissione del genere sconvolgerà sicuramente il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] e i loro fedeli."
+ laws.0016.a: "Che [glorious_leader.GetNameWithNoTooltip] sia più grande della vita!"
+ laws.0016.b: "Questo è terribilmente sgradevole!"
+ art_key_holy_leader_portrait: "Ritratto di un sovrano santo"
+ 
+ laws.0017.t: "Artista Emigra"
+ laws.0017.desc: "[artist_to_exile.GetName] dalle terre di [exile_location.GetName] è arrivato alla nostra porta, in cerca della nostra protezione e dei benefici della nostra assenza di leggi sulla censura.\n\nUn altro artista di talento arriva nel nostro paese, arricchendo per sempre la nostra cultura! Tuttavia, se mai dovessimo promulgare leggi più severe sulla censura religiosa, [artist_to_exile.GetSheHe] potrebbe lasciare le nostre terre proprio come [artist_to_exile.GetSheHe] ha lasciato [exile_location.GetNameWithNoTooltip]..."
+ laws.0017.a: "Benvenuto!"
+ 
+ laws.0018.t: "Arte Underground"
+ laws.0018.desc: "I funzionari statali hanno recentemente scoperto il luogo di incontro di un movimento artistico underground. I nostri funzionari non sono riusciti a catturare i colpevoli, ma sono riusciti a mettere in sicurezza tre opere d'arte che dovrebbero essere distrutte secondo le nostre politiche di censura religiosa. Naturalmente, distruggere una quantità così grande di opere d'arte che altrimenti potrebbero essere utilizzate per il bene del [ROOT.GetCountry.GetFlavorRank] sembra controproducente. Potrebbe valere la pena ignorare le lamentele del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] e mettere al sicuro le opere d'arte per noi stessi.
+ laws.0018.a: "Dobbiamo distruggere queste cose blasfeme!"
+ laws.0018.b: "Forse le opere d'arte sono state lasciate lì perché le conservassimo?"
+ 
+ laws.0019.t: "Libri Proibiti"
+ laws.0019.desc: "I funzionari statali hanno recentemente scoperto una scorta di libri proibiti. Il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] ci chiede di smaltirli al più presto, ma questi testi sembrano contenere informazioni che potrebbero essere utili al [ROOT.GetCountry.GetFlavorRank]..."
+ laws.0019.a: "Bruciateli!"
+ laws.0019.b: "Una piccola occhiata non farà male..."
+ 
+ laws.0020.t: "Sponsorizzazione dell'Arte Religiosa"
+ laws.0020.desc: "Incoraggiati dalle nostre leggi sulla censura religiosa, il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] ha iniziato a sponsorizzare la creazione artistica in tutto il paese. In segno di unità tra [ROOT.GetCountry.GetLongName] e il suo [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], hanno donato un'opera direttamente alla collezione di [ROOT.GetCountry.GetFlavorRank].
+ laws.0020.a: "Grazie mille!"
+ 
+ laws.0021.t: "Collezioni Private Illegali"
+ laws.0021.desc: "Diverse famiglie della [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] sono state sorprese a sponsorizzare la creazione di opere d'arte illecite che violano chiaramente le ordinanze stabilite dalle nostre leggi sulla censura religiosa.\n\nIl [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] è infuriato e chiede che le collezioni vengano confiscate e successivamente distrutte. La [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], d'altro canto, chiede pietà, poiché le loro collezioni sono private e tenute lontane dagli occhi del pubblico. Si sono persino offerti di donare fondi al [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] per la creazione di opere d'arte ammissibili, al fine di placarli.
+ laws.0021.a: "Confiscare le loro collezioni."
+ laws.0021.b: "Mostrare pietà incondizionatamente."
+ laws.0021.c: "Mostrare pietà in cambio di fondi."
+ 
+ laws.0022.t: "Iconoclastia"
+ laws.0022.desc: "Alimentati dal fervore religioso, i membri del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] chiedono al [ROOT.GetCountry.GetFlavorRank] di bruciare l'opera d'arte nota come #italic [icono_target.GetName]# in una dimostrazione di pietà.\n\nNon c'è nulla di blasfemo nell'opera d'arte che stanno tentando di bruciare, tuttavia, e quindi abbiamo il diritto di rifiutare. Tuttavia, dimostrare il nostro impegno per la fede potrebbe essere più utile ai nostri obiettivi..."
+ laws.0022.a: "Bruciate, bruciate, bruciate!"
+ laws.0022.b: "Rifiutatevi di bruciare opere d'arte."
+ 
+ laws.0023.t: "Rogo di Libri"
+ laws.0023.desc: "Dopo che sono stati confermati i sospetti che libri eretici fossero conservati all'interno di una biblioteca a [loc_heretic_book_town.GetName], il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] ha avviato una processione che culminerà con l'incendio della biblioteca.\n\nLe loro azioni sono in linea con le nostre politiche di censura, ma la biblioteca contiene libri vitali per i nostri sforzi di ricerca, che verranno bruciati insieme al materiale eretico a meno che non poniamo fine a questo."
+ laws.0023.a: "Il rogo è per il bene superiore."
+ laws.0023.b: "Nessuna fiamma di torcia toccherà la nostra ricerca!"
+ 
+ laws.0024.t: "Statuine Religiose Illegali"
+ laws.0024.desc: "I commercianti del mercato di [loc_market.GetName] sono stati sorpresi a vendere piccole statuette in ceramica e argilla di natura religiosa. Queste statuette violano chiaramente le nostre politiche di censura religiosa, ma la loro distruzione sarebbe piuttosto costosa, dato che sono diventate piuttosto popolari in [loc_market.GetNameWithNoTooltip].\n\nIl [ROOT.GetCountry.GetFlavorRank] risentirebbe della perdita di questi beni, ma forse è questo il prezzo che dobbiamo pagare per mantenere la purezza della nostra fede?
+ laws.0024.a: "Distruggete le statuette!"
+ laws.0024.b: "Chiudete un occhio sul mercato delle statuette."
+ 
+ laws.0025.t: "Gli Eretici Chiedono una Negoziazione"
+ laws.0025.desc: "Una sedicente \"Società Sotterranea di Teologi\" esige che permettiamo la pubblicazione della loro teoria della creazione. Sostengono che il mondo è formaggio e che le divinità non sono altro che vermi che lavorano il formaggio. Non solo, ma i vermi stessi si generano da quel formaggio.\n\nCerto, anche solo pensare a simili pensieri sconvolgerebbe notevolmente il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], ma la nostra mancanza di censura religiosa significa tecnicamente che la decisione spetta al [ROOT.GetCountry.GetFlavorRank].
+ laws.0025.a: "Perché no? Lasciateli pubblicare!"
+ laws.0025.b: "Assurdo! Vietate questa teoria!"
+ 
+ laws.0026.t: "Missionari non Autorizzati"
+ laws.0026.desc: "Missionari autoproclamati del paese di [mis_origin.GetName] hanno recentemente attirato l'attenzione del nostro [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] per aver fatto troppi progressi nella conversione della nostra popolazione.\n\nNon abbiamo leggi sulla censura religiosa e, in quanto tali, i missionari hanno il diritto di fare ciò che vogliono, ma non intraprendere alcuna azione turberebbe il nostro [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')], che chiede l'incarcerazione diretta di questi \"falsi profeti\"."
+ laws.0026.a: "Rimandate indietro i missionari."
+ laws.0026.b: "Tollerare i missionari."
+ laws.0026.c: "Arrestare i missionari."
+ 
+ laws.0027.t: "Testi Obsoleti"
+ laws.0027.desc: "Il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] chiede il nostro aiuto, sostenendo che, in conformità con le nostre leggi sulla censura, dovremmo rimuovere tutti i testi religiosi obsoleti in circolazione.\n\nRecentemente, si è scoperto che decenni di piccole modifiche e deviazioni nelle versioni più recenti dei nostri testi sacri hanno portato a una divisione tra coloro che predicano la parola antica e quella nuova. Questa frattura è minima, ma l'idea stessa che i testi sacri si discostino l'uno dall'altro è rivoltante per il [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]. Pertanto, ci hanno chiesto di eliminare tutte le copie più vecchie, il che potrebbe portare a instabilità a causa della necessità di distruggere le vecchie e apprezzate copie dei templi locali."
+ laws.0027.a: "Nessuna deviazione è ammessa!"
+ laws.0027.b: "Lasciate che i vecchi libri vengano eliminati in modo naturale."
+ 
+ laws.0028.t: "Segnali Sbagliati"
+ laws.0028.desc: "Il [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] ci ha chiesto di intercedere in un matrimonio tra due famiglie della [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Il problema risiede nel fatto che la sposa è di una fede diversa da quella che il nostro [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] sostiene. I matrimoni della [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] tendono ad essere di pubblico interesse, quindi la festa successiva attirerebbe molta attenzione e manderebbe un messaggio inappropriato su come i nostri [ROOT.GetCountry.GetFlavorRank] la pensano sulle altre fedi.\n\nLe nostre leggi sulla censura religiosa non hanno lo scopo di intervenire in questo, non importa come questo danneggerebbe il nostro rapporto con la [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')], ma questa è una grande opportunità perche'il [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')] sia in debito con noi.
+ laws.0028.a: "Impedire il matrimonio per \"motivi morali\"."
+ laws.0028.b: "L'amore è libero! Inoltre, non vogliamo la [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] arrabbiata!"
+ 
+ laws.0029.t: "Sette Sponsorizzate dall'Estero"
+ laws.0029.desc: "Il nostro clero [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')], mentre svolgeva il suo consueto compito di censura religiosa, ha trovato e distrutto una piccola setta che, come è stato poi dimostrato, appartiene a un'entità straniera. Questa setta era sponsorizzata da un'altra nazione in cambio di informazioni, agendo come una rete di spionaggio. La sua distruzione ha danneggiato notevolmente la loro capacità di raccolta di informazioni."
+ laws.0029.a: "Continuate a sradicarli!"
+ 
+ laws.0030.t: "Distretto Religioso Fortificato"
+ laws.0030.desc: "Nell'insediamento di [random_town.GetName], le minoranze religiose locali hanno fortificato il loro distretto religioso per paura che le nostre leggi sulla censura possano portare a una rivolta. Permettere loro di rimanere rinchiusi nelle loro barricate sarà dannoso per la stabilità, ma queste fortificazioni improvvisate potrebbero rivelarsi molto utili se la località dovesse essere assediato."
+ laws.0030.a: "Abbattete le barricate."
+ 
+ laws.0030.b: "Permettete loro di rimanere."
+ laws.0040.title: "Una Nuova [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
+ laws.0040.desc: "Con [target_character.GetName] ora al potere, viene pianificato di spostare la [ROOT.GetCountry.GetGovernment.GetCourtTitle] in una località diversa, come è consuetudine all'interno [ROOT.GetCountry.Custom('IT_Della')][ROOT.GetCountry.GetName]. Le opzioni sono [target_location.GetName], [target_location2.GetName] e [target_location3.GetName]. Quale dovrebbe essere?"
+ laws.0040.a: "[target_location.GetNameWithNoTooltip] è la scelta migliore."
+ laws.0040.b: "[target_location2.GetNameWithNoTooltip] è una buona posizione."
+ laws.0040.c: "La sfavorita [target_location3.GetRank.GetNameWithNoTooltip] di [target_location3.GetNameWithNoTooltip] è la scelta migliore."
+ laws.0040.d: "Manteniamo [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip] come capitale."

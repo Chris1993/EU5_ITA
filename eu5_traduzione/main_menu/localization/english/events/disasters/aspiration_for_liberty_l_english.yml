@@ -1,25 +1,25 @@
 ﻿l_english:
-
-  #Events for the disaster
-  aspiration_for_liberty.1.title: "Aspiration for Liberty"
-  aspiration_for_liberty.1.desc: "The questionable rule of [target_character.GetName], the population's yearning for liberty, and the desire for the enactment of enlightened ideals have spurred a revolution that seems all but unavoidable. The people have united and taken up arms in an attempt to topple the [ROOT.GetCountry.GetFlavorRank], thereby initiating one of the bloodiest revolutions of our time."
-  aspiration_for_liberty.1.a: "Dire times are ahead of us."
-  pops_lose_satisfaction_based_on_literacy_tt: "[pops|e] belonging to the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] or [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] will lose [pop_satisfaction|e] depending on their [literacy|e]"
-
-  aspiration_for_liberty.2.title: "Order is Restored"
-  aspiration_for_liberty.2.desc.a: "The ire brought on by the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] grew increasingly under the unchecked authority of [target_character.GetName]. As taxes rose and personal freedoms dwindled, people demanded the restoration of the [ROOT.GetCountry.GetGovernment.GetParliament.GetName] to represent their interests. They see it as a safeguard against arbitrary rule, protecting their rights and property from overreach. Their political power has forced the hand of [target_character.GetShortNameWithNoTooltip], effectively reinstating the [ROOT.GetCountry.GetGovernment.GetParliament.GetName]."
-  aspiration_for_liberty.2.desc.b: "In response to revolts by the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] and [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], [target_character.GetName] clung fiercely to absolutism, determined to prevent any erosion of [target_character.GetHerHis] power.\n\nViewing [target_character.GetHerselfHimself] as divinely appointed, any concession to parliamentary power is a threat to [target_character.GetHerHis] authority and the stability of [target_character.GetHerHis] rule. By enforcing strict measures and crushing many rebellions, we have safeguarded the peace once more in our [ROOT.GetCountry.GetFlavorRank]."
-  aspiration_for_liberty.2.a: "The people have willed it."
-  aspiration_for_liberty.2.b: "There can be no dissent!"
-
-  aspiration_for_liberty.3.title: "Battles on Foreign Ground"
-  aspiration_for_liberty.3.desc: "Our prospects for financial success have been exceptionally bleak over the past few years. The relentless investments of [target_character.GetName] in costly wars on foreign soil have drained the nation's coffers, leaving little to support essential domestic needs. Combined with rampant governmental mismanagement, financial neglect, and escalating political instability, these actions have ravaged the economy, eroding public trust in the ruling powers.\n\nWe now teeter on the edge of bankruptcy, with rising unrest among citizens who increasingly question the priorities of [target_character.GetShortNameWithNoTooltip]. The situation grows dire as debts pile up, and the state struggles to maintain even basic functions amid the looming fiscal collapse."
-  aspiration_for_liberty.3.a: "The treasury is not even close to empty!"
-  aspiration_for_liberty.3.b: "Cut down on war expenditures."
-
-  aspiration_for_liberty.4.title: "Governmental Incompetence"
-  aspiration_for_liberty.4.desc: "The government's ineptitude in managing the country during our people's [ShowDisasterName('aspiration_for_liberty')] has led to widespread dissatisfaction, allowing fresh insurrections to arise across the country, such as the [target_rebel.GetName]. Public frustration has reached a boiling point, as many rally against leaders they perceive as corrupt and ineffective.\n\nThe demand for revolution grows louder each day, with people from all walks of life joining the movement. Determined to reclaim control over their future, they are prepared to fight for their demands at any cost, making clear that they will accept nothing less than total capitulation to their demands."
-  aspiration_for_liberty.4.a: "Nothing to be concerned about."
-  aspiration_for_liberty.4.b: "Grant the [target_rebel.GetNameWithNoTooltip] some concessions."
-  lose_10_control_in_affected_locations_tt: "[locations|e] that currently support the [target_rebel.GetNameWithNoTooltip] [rebellion|e] will lose [ShowNamedValue('control_mild_penalty')|+=2%] [control|e]"
-  every_supporter_pop_gains_5_satisfaction_tt: "Every [pop|e] that supports the [target_rebel.GetNameWithNoTooltip] [rebellion|e] will gain [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] [pop_satisfaction|e]"
+ 
+ #Events for the disaster
+ aspiration_for_liberty.1.title: "Aspirazione alla Libertà"
+ aspiration_for_liberty.1.desc: "Il governo discutibile di [target_character.GetName], il desiderio di libertà della popolazione e la volontà di attuare ideali illuminati hanno stimolato una rivoluzione che sembra ormai inevitabile. Il popolo si è unito e ha preso le armi nel tentativo di rovesciare il [ROOT.GetCountry.GetFlavorRank], dando così inizio a una delle rivoluzioni più sanguinose del nostro tempo."
+ aspiration_for_liberty.1.a: "Ci aspettano tempi terribili."
+ pops_lose_satisfaction_based_on_literacy_tt: "[pops|e] appartenenti all [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] o ai [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] perderanno [pop_satisfaction|e] in base alla loro [literacy|e]"
+ 
+ aspiration_for_liberty.2.title: "L'Ordine è Ristabilito"
+ aspiration_for_liberty.2.desc.a: "L'ira scatenata dalla [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] e dai [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] è cresciuta sempre più sotto l'autorità incontrollata di [target_character.GetName]. Con l'aumento delle tasse e la diminuzione delle libertà personali, le persone hanno chiesto il ripristino del [ROOT.GetCountry.GetGovernment.GetParliament.GetName] per rappresentare i loro interessi. Lo vedono come una salvaguardia contro il governo arbitrario, a protezione dei loro diritti e proprietà dall'eccesso di potere. La loro forza politica ha costretto [target_character.GetShortNameWithNoTooltip] a ripristinare effettivamente il [ROOT.GetCountry.GetGovernment.GetParliament.GetName]."
+ aspiration_for_liberty.2.desc.b: "In risposta alle rivolte della [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] e dei [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')], [target_character.GetName] si è aggrappato ferocemente all'assolutismo, determinato a prevenire qualsiasi erosione del suo governo. Imponendo misure rigorose e schiacciando molte ribellioni, abbiamo salvaguardato ancora una volta la pace nel nostro [ROOT.GetCountry.GetFlavorRank]."
+ aspiration_for_liberty.2.a: "Il popolo lo ha voluto."
+ aspiration_for_liberty.2.b: "Non ci può essere dissenso!"
+ 
+ aspiration_for_liberty.3.title: "Battaglie su Suolo Straniero"
+ aspiration_for_liberty.3.desc: "Le nostre prospettive di successo finanziario sono state eccezionalmente cupe negli ultimi anni. Gli implacabili investimenti di [target_character.GetName] in guerre costose su suolo straniero hanno prosciugato le casse della nazione, lasciando poco per sostenere le esigenze domestiche essenziali. Insieme alla dilagante cattiva gestione governativa, alla negligenza finanziaria e all'escalation dell'instabilità politica, queste azioni hanno devastato l'economia, erodendo la fiducia del pubblico nei poteri al governo.\n\nOra siamo sull'orlo della bancarotta, con crescenti disordini tra i cittadini che mettono sempre più in discussione le priorità di [target_character.GetShortNameWithNoTooltip]. La situazione si fa disperata mentre i debiti si accumulano e lo stato lotta per mantenere anche le funzioni di base in mezzo all'incombente collasso fiscale."
+ aspiration_for_liberty.3.a: "Il tesoro non è nemmeno vicino ad essere vuoto!"
+ aspiration_for_liberty.3.b: "Ridurre le spese di guerra."
+ 
+ aspiration_for_liberty.4.title: "Incompetenza Governativa"
+ aspiration_for_liberty.4.desc: "L'inettitudine del governo nel gestire il paese durante l'[ShowDisasterName('aspiration_for_liberty')] del nostro popolo ha portato a una diffusa insoddisfazione, consentendo il sorgere di nuove insurrezioni in tutto il paese, come il [target_rebel.GetName]. La frustrazione pubblica ha raggiunto il culmine, poiché molti si radunano contro leader che percepiscono come corrotti e inefficaci.\n\nLa richiesta di rivoluzione si fa più forte ogni giorno, con persone di ogni ceto sociale che si uniscono al movimento. Determinate a reclamare il controllo sul loro futuro, sono pronte a lottare per le loro richieste a qualsiasi costo, rendendo chiaro che non accetteranno nulla di meno della totale capitolazione alle loro richieste."
+ aspiration_for_liberty.4.a: "Niente di cui preoccuparsi."
+ aspiration_for_liberty.4.b: "Garantire alcune concessioni a [target_rebel.GetNameWithNoTooltip]."
+ lose_10_control_in_affected_locations_tt: "[locations|e] che attualmente supportano la [rebellion|e] [target_rebel.GetNameWithNoTooltip] perderanno [ShowNamedValue('control_mild_penalty')|+=2%] di [control|e]"
+ every_supporter_pop_gains_5_satisfaction_tt: "Ogni [pop|e] che supporta la [rebellion|e] [target_rebel.GetNameWithNoTooltip] guadagnerà [ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%] di [pop_satisfaction|e]"

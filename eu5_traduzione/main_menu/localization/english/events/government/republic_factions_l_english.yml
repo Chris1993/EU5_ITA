@@ -1,120 +1,119 @@
 ﻿l_english:
- republic_factions.1.title: "Guild Restrictions on [target_goods.GetNameWithNoTooltip]"
- republic_factions.1.desc: "The trade of [target_goods.GetName] in [target_location.GetName] has sparked conflict in [ROOT.GetCountry.GetName]. Merchants who want free reins to buy and sell these goods believe the guilds controlling its manufacture have grown too powerful. In their eyes, it is now nothing but a cartel causing harm to the economy.\n\nThe guild leaders, on the other hand, argue that their organization is making the production of [target_goods.GetNameWithNoTooltip] more efficient. Whichever side we come down on, those who oppose our policies are likely to suffer, or even sabotage their own activities to make a point."
- republic_factions.1.a: "We must work for statutes to weaken this cartel."
- republic_factions.1.a.tt: "Every [pop|e] in [target_location.GetName] loses [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]"
- republic_factions.1.b: "A strong guild is necessary to ensure quality."
+ republic_factions.1.title: "Restrizioni delle Gilde su [target_goods.GetNameWithNoTooltip]"
+ republic_factions.1.desc: "Il commercio di [target_goods.GetName] in [target_location.GetName] ha scatenato conflitti in [ROOT.GetCountry.GetName]. I mercanti che vogliono avere carta bianca per comprare e vendere questi beni credono che le gilde che ne controllano la produzione siano diventate troppo potenti. Ai loro occhi, ora non è altro che un cartello che danneggia l'economia.\n\nI leader delle gilde, d'altra parte, sostengono che la loro organizzazione stia rendendo la produzione di [target_goods.GetNameWithNoTooltip] più efficiente. Qualunque sia la nostra posizione, coloro che si oppongono alle nostre politiche rischiano di soffrire o addirittura sabotare le proprie attività per dimostrare la propria superiorità."
+ republic_factions.1.a: "Dobbiamo lavorare per ottenere degli statuti che indeboliscano questo cartello."
+ republic_factions.1.a.tt: "Ogni [pop|e] in [target_location.GetName] perde [ShowNamedValue('pop_satisfaction_weak_penalty')|+=2%] [pop_satisfaction|e]"
+ republic_factions.1.b: "Una gilda forte è necessaria per garantire la qualità."
 
- republic_factions.2.title: "Guilds Push for Mercantilist Reforms"
- republic_factions.2.desc: "Mercantilist economic theory has become fashionable among influential guild members lately. They are, of course, highly knowledgeable in these matters... and also, coincidentally, likely to benefit from the policies they are backing.\n\nOthers are not as likely to benefit. Powerful traders operating internationally claim that these theories constitute a dead end, and will fight tooth and nail to prevent the [ROOT.GetCountry.GetFlavorRank] from adopting them. With the support of the guilds, it may be possible to implement them, but not without political upheaval."
- republic_factions.2.a: "We cannot afford to explore dead ends."
- republic_factions.2.b: "Mercantilism is the future, whether traders know it or not."
-
- republic_factions.3.title: "Merchants Call for Increased Imports"
- republic_factions.3.desc: "The influence of a powerful guild has driven up prices on [target_goods.GetName] in [ROOT.GetCountry.GetName]. It has come to the point where traders are finding it cheaper to import goods from abroad to compete with local prices, something they claim is becoming more difficult due to the current [ROOT.GetCountry.GetAdjectiveWithNoTooltip] legislation on imports.\n\nRelaxing customs would give our merchants a chance to make beneficial agreements where [target_goods.GetNameWithNoTooltip] is produced, but the guilds, who are vehemently opposed to this, do serve their purpose as well."
- republic_factions.3.a: "Our concern must be efficient trade first and foremost."
- republic_factions.3.b: "We will make no concessions that may harm the guilds."
- republic_factions.3.c: "Radical changes are necessary."
- allowed_imports: "Allowed Imports"
-
- republic_factions.4.title: "Guild Leaders Rival [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]' Status"
- republic_factions.4.desc: "In [ROOT.GetCountry.GetName], the presence of guilds has bred a new sort of influence, and a new sort of influential people. Leading figures in the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] guilds are not only growing richer than many aristocrats, but they also wield power, all while lacking the familial ties that have defined the rulers of the [ROOT.GetCountry.GetFlavorRank] for a long time.\n\nPerhaps this sort of shift is inevitable, especially considering the nature of our [ROOT.GetCountry.GetFlavorRank]. Nevertheless, at this stage, the only thing that is certain is that the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [ROOT.GetCountry.GetNameWithNoTooltip] have an aversion to these ill-mannered new rich and would like to see them ousted from local political proceedings."
- republic_factions.4.a: "Money is money, new or old."
- republic_factions.4.b: "No matter how much they pay, rulership cannot be bought."
-
- republic_factions.5.title: "Secret Societies in Government"
- republic_factions.5.desc: "The full extent of a guild's activity is really only known to members. Since guilds exist in part to manage knowledge, this is inevitable, but also leads to allegations of conspiracies. Until now, we have paid little attention to these ideas, considering them paranoid delusions.\n\nHowever, there are whispers at [ROOT.GetCountry.GetGovernment.GetCourtTitle] about who may or may not be part of secret guilds within the government of [ROOT.GetCountry.GetName], and some among the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] are visibly concerned... so many, in fact, that their own side seems more like a conspiracy than the ones they accuse. Even so, there is no doubt that the aristocrats of [ROOT.GetCountry.GetNameWithNoTooltip] feel threatened by these possible secret societies the guilds have brought into existence."
- republic_factions.5.a: "Maybe these conspiracies can make politicians agree for once."
- republic_factions.5.a.tt: "Leave the possible secret guild influences unaddressed for now, which may have consequences later"
- republic_factions.5.b: "Fine. Let those known to be loyal investigate this."
-
- republic_factions.6.title: "Guild Before Country"
- republic_factions.6.desc: "When aristocrats warned us of the secret societies that had supposedly infiltrated [ROOT.GetCountry.GetAdjective] politics, we chose not to listen. They predicted that we might very well pay with our lives, when this conspiracy turned against us.\n\nNothing quite so dramatic has happened, but one of our close advisors, [target_advisor.GetName], has made some very dubious decisions lately, and eventually admitted these were services to a 'secret' society that [target_advisor.GetSheHe] is indeed part of. Other politicians are up in arms about this, and there is no avoiding a scandal at this stage."
- republic_factions.6.a: "Their disloyalty to [ROOT.GetCountry.GetNameWithNoTooltip] must be punished."
- republic_factions.6.b: "Try to defuse the situation."
- republic_factions.6.c: "A secret society? How can one join?"
-
- republic_factions.7.title: "International Guild Contacts"
- republic_factions.7.desc: "Some of our diplomatic envoys with strong connections to a domestic guild have been accused by some older ambassadors of brokering deals with a guild across the border. While our guilds admit to using our diplomats affiliated with them to establish contacts with foreign guilds while abroad, they deny accusations of compromising our political missions. On the other hand, they say they are open to the idea of attempting to use those connections abroad to our advantage.\n\nThe old guard of aristocratic diplomats find this practice highly dubious, but leveraging connections between guilds could give us an edge in clandestine operations."
- republic_factions.7.a: "We will see whose guild members show the most loyalty to their country."
- republic_factions.7.b: "Suspend their service until we have straightened things out."
-
- republic_factions.8.title: "Noble Legacy of [ROOT.GetCountry.GetNameWithNoTooltip]"
- republic_factions.8.desc: "Our [ROOT.GetCountry.GetGovernment.GetAdjective] nation has given up many of the old ideas about nobility and feudal rule, but sometimes, when they are of use to us, we are willing to reconsider them on a situational basis. Such a situation has arisen in [target_location.GetName], where the local [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] claim that land just across our border in [target_province.GetName] is in fact part of their family's rightful demesne.\n\nLocal merchants have petitioned against this claim, having just negotiated a major trade deal with [target_country.GetName]. For any [ROOT.GetCountry.GetFlavorRank], they argue, trade should be the first concern - the claims of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] lead only to war and misery."
- republic_factions.8.a: "War perhaps, but who said anything about misery?"
- republic_factions.8.b: "They are right. We should put these petty squabbles behind us."
-
- republic_factions.9.title: "Candidates Vie for Opportunities"
- republic_factions.9.desc: "As any [ROOT.GetCountry.GetFlavorRank], we strive to strike a balance between economic interests and tradition. Therefore, we choose our advisors accordingly, following such principles. Families who know this, patricians and aristocrats alike, try to plan ahead and get their representatives into positions of opportunity before they seek to gain a place at [ROOT.GetCountry.GetGovernment.GetCourtTitle] directly.\n\nA position offering such opportunities recently opened, and now different parties are pressuring us for it. There can be no pleasing everyone, and someone has to be appointed soon."
- republic_factions.9.a: "Someone experienced in military matters would be of use."
- republic_factions.9.b: "Commerce comes first in the [ROOT.GetCountry.GetLongNameWithNoTooltip]."
-
- republic_factions.10.title: "Trade between Rivals"
- republic_factions.10.desc: "We are open to business with everyone... as long as we can control it. What business we can and cannot control is open to debate, and as most questions open to debate in our [ROOT.GetCountry.GetFlavorRank], it has become subject to it. Merchants have started trading on friendly terms with our rival, [target_rival.GetName], claiming it is necessary despite political disagreements. The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] find this questionable and call for an immediate end to the exchanges."
- republic_factions.10.a: "We cannot afford to disrupt commerce."
- republic_factions.10.b: "We can afford to cut ties with these swine."
- enemy_allowed_trade: "Allowed Trade Between Rivals"
-
- republic_factions.11.title: "[target_country.GetNameWithNoTooltip] Open for Trade"
- republic_factions.11.desc: "Despite their open hatred of us and everything we stand for, the [target_country.GetLongName] have allowed their traders the opportunity to make deals with us. This has granted their merchants influence in our markets, but commerce goes both ways."
- republic_factions.11.a: "They should trust us with this more often."
+ republic_factions.2.title: "Le Gilde Spingono per le Riforme Mercantiliste"
+ republic_factions.2.desc: "Ultimamente la teoria economica mercantilista è diventata di moda tra i membri influenti delle gilde. Sono, ovviamente, molto competenti in materia... e anche, guarda caso, trarranno probabilmente beneficio dalle politiche che sostengono.\n\nAltri non hanno la stessa probabilità di trarne beneficio. I potenti mercanti che operano a livello internazionale sostengono che queste teorie costituiscano un vicolo cieco e combatteranno con le unghie e con i denti per impedire che [ROOT.GetCountry.GetFlavorRank] le adottino. Con il supporto delle gilde, potrebbe essere possibile implementarle, ma non senza sconvolgimenti politici."
+ republic_factions.2.a: "Non possiamo permetterci di esplorare vicoli ciechi."
+ republic_factions.2.b: "Il mercantilismo è il futuro, che i mercanti lo sappiano o no."
  
- republic_factions.12.title: "Offer from [target_character.GetNameWithNoTooltip]"
- republic_factions.12.desc: "The [target_estate.GetName] of [ROOT.GetCountry.GetName] have outmaneuvered their competitors in the political arena, wresting control over the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] government, but their power is far from uncontested.\n\n[target_character.GetName], valued by the [ROOT.GetCountry.GetFlavorRank] for [target_character.GetHerHis] loyalty and services to the country, has approached the [ROOT.GetCountry.GetGovernment.GetCourtTitle] with a solution to this problem. According to [target_character.GetHerHim], a shift in power now may undo everything the [target_estate.GetNameWithNoTooltip] have wisely worked towards. They trust in the wisdom of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and the [ROOT.GetCountry.GetGovernment.GetAdjective] government, but if an additional incentive is needed, they have funds for political donations..."
- republic_factions.12.a: "Is [target_character.GetSheHe] suggesting a bribe?"
- republic_factions.12.b: "The loyalty and generosity of the [target_estate.GetNameWithNoTooltip] is appreciated."
-
- republic_factions.13.title: "The Inner Circle"
- republic_factions.13.desc: "[target_ruler.GetName] has tried to maintain a relative neutrality to the guilds as [ROOT.GetCountry.GetGovernment.GetRulerTitle], especially since they have recently somewhat fallen out of favor in [ROOT.GetCountry.GetName]. [target_ruler.GetSheHe|U] is not the member of any guild, nor would it in the current political climate be appropriate for [target_ruler.GetHerHim] to be. Yet, that situation may change. The [ROOT.GetCountry.GetFlavorRank]'s most prominent guild has offered membership to [target_ruler.GetHimHerFormal], even promising to maintain secrecy regarding this as long as needed. Quite a bold suggestion, although refusing would still put us on bad terms with the guild."
- republic_factions.13.a: "The allegiance of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] is to the [ROOT.GetCountry.GetFlavorRank]."
- republic_factions.13.b: "[target_ruler.GetNameWithNoTooltip] can keep a secret if they can."
-
- republic_factions.14.title: "A Beneficial Transaction"
- republic_factions.14.desc: "In [ROOT.GetCountry.GetName], business and politics have been irreversibly intertwined since time immemorial. Sometimes, we may be faced with deals that benefit many parties but not the [ROOT.GetCountry.GetFlavorRank] itself. When [target_ruler.GetName] is one of those parties, the situation becomes all the more precarious.\n\nA good business agreement builds stronger relations with key merchants, which is something we could certainly use. We can avoid alienating these partners if we are willing to sacrifice some of our integrity as a representative of the [ROOT.GetCountry.GetFlavorRank]."
- republic_factions.14.a: "Integrity is worth more in the long run."
- republic_factions.14.b: "We cannot sacrifice personal interests."
-
- republic_factions.15.title: "Thicker Than Water"
- republic_factions.15.desc: "To many powerful people in [ROOT.GetCountry.GetName], contacts or wealth determine status, but the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] still value blood ties highly. Even though they are not the most powerful faction in our republic at this time, they still use the same methods to ensure loyalty.\n\nA recent request from some members of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] to gain favor in the [ROOT.GetCountry.GetGovernment.GetCourtTitle] is clearly such an attempt. This will force us to steer politics closer to their line and weaken the [ROOT.GetCountry.GetFlavorRank], but refusing will make it even more difficult to compel them to support our planned actions."
- republic_factions.15.a: "Decline as politely as possible."
- republic_factions.15.b: "We need to maintain close ties to them."
-
- republic_factions.16.title: "Guilds in Cooperation"
- republic_factions.16.desc: "Since the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] came to become the dominant power not only in [ROOT.GetCountry.GetAdjective] business, but also in politics, the guilds have increasingly seen the strength in cooperation. Organizations that may otherwise have seen each other as rivals are now operating efficiently together to maintain power in governing the nation. As a fortunate side effect of that, their control over the quality and trade of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] goods has grown less narrow and more broad and efficient."
- republic_factions.16.a: "If only they could be this reasonable when they are not as fortunate..."
-
- republic_factions.17.title: "Traders Look Abroad"
- republic_factions.17.desc: "Having wrested control over the [ROOT.GetCountry.GetLongName], our merchants are now looking to wrest control over trade worldwide. Their domination of political matters in [ROOT.GetCountry.GetNameWithNoTooltip] has given them less to worry about domestically and emboldened them to take risks that would be unthinkable if they had to worry about being overruled at home. Ultimately, this may benefit not just them, but the [ROOT.GetCountry.GetFlavorRank] itself."
- republic_factions.17.a: "Let them bring the wealth of the world to us."
-
- republic_factions.18.title: "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Put Differences Aside"
- republic_factions.18.desc: "Since [ROOT.GetCountry.GetName] began to serve the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], they have begun to serve the [ROOT.GetCountry.GetFlavorRank] in return. Once afraid that they were seen as a relic of old government forms, they have realized that they can maintain power as long as they are willing to work together. While this may put them at odds with other [ROOT.GetCountry.GetAdjectiveWithNoTooltip] political forces, it has served to put ambitions of overthrowing the [ROOT.GetCountry.GetFlavorRank] at rest and helped them organizing their efforts much more efficiently."
- republic_factions.18.a: "Our great [ROOT.GetCountry.GetFlavorRank] unites even the old families!"
-
- republic_factions.19.title: "Guilds Obstruct Trade"
- republic_factions.19.desc: "Guild leaders can be ruthless power brokers and do not take kindly to being opposed politically. Since the guilds have not had the favor of the government of [ROOT.GetCountry.GetName] for some time, some of them have started to use more intimidating methods to show their influence. Knowing that the [ROOT.GetCountry.GetFlavorRank] depends on trade, the guilds have begun to prevent free trade, knowingly harming the national economy and the affairs of their political opponents."
- republic_factions.19.a: "Do they think they will gain the country's favor this way?"
- republic_factions.19.b: "Give them some concessions."
-
- republic_factions.20.title: "Traders Refuse to Serve"
- republic_factions.20.desc: "Despite [ROOT.GetCountry.GetName]'s unquestionable devotion to trade, many of its most prominent traders are now claiming that the [ROOT.GetCountry.GetGovernment.GetCourtTitle] refuses to listen to them and are putting other interests ahead of those which have made our country rich. Some of the merchants we rely on for our international trade have threatened to cease working with the [ROOT.GetCountry.GetFlavorRank] altogether. Although we are sure to come to an agreement eventually, this will hamper our cooperation before it blows over."
- republic_factions.20.a: "What do they plan to accomplish with this?"
- uncooperative_trader: "Uncooperative Trader"
-
- republic_factions.21.title: "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Reject the [ROOT.GetCountry.GetFlavorRank]"
- republic_factions.21.desc: "In many ways, our [ROOT.GetCountry.GetFlavorRank] has been remarkably efficient in removing power from the aristocratic rulers who normally take it for granted. They accept that they cannot claim it as their right, as they could in many other nations. There are times when these old ideas of aristocratic glory reawaken, however, as the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] of [ROOT.GetCountry.GetName] feel like they cannot impact its politics in any relevant way but by the sword. Accordingly, the sword is what they are willing to take up, in open rebellion against the republic."
- republic_factions.21.a: "If they want power, teach them to fight with the pen instead!"
- republic_factions.21.b: "Try to reach some understanding with them."
-
- republic_factions.22.title: "The Family Act"
- republic_factions.22.desc: "The aristocrats of [ROOT.GetCountry.GetName] have been pushing for a legislation popularly referred to as the Family Act, an effort to prevent innocent minds being perverted by the twisted plays and novels spewed forth by 'libertine' authors of recent years. The main outrage behind the initiative for the Family Act is an obscene play, a family act traveling the country which satirizes the excesses of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Humiliated and revolted, the victims of its mockery are now demanding that the [ROOT.GetCountry.GetFlavorRank] prevents it from spreading further."
- republic_factions.22.a: "Interesting. What do they call an act like that?"
- republic_factions.22.b: "Liberty does not exist to serve obscenities!"
- republic_factions.22.c: "Perhaps we should rethink what we allow them to do."
-
- republic_factions.23.title: "Unrest in [ROOT.GetCountry.GetNameWithNoTooltip]"
- republic_factions.23.desc_burghers: "For some time now, the [ROOT.GetCountry.GetFlavorRank] has seen an increased control of the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] on the [ROOT.GetCountry.GetAdjective] political stage. Relying on a large number of apprentices, small shop owners and craftsmen, this faction has been able to confiscate much power within the government, and to monopolize offices in the administration.\n\nRather than risk lasting marginalization, the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have begun to take some actions to secure their power and wealth over the populace. This has quickly turned into oppression and less than happy common folk. Until now, the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] have disregarded the developing crisis, as poor people requesting loans to buy food seemed to be an opportunity for tidy profits. That is until they began to crowd the Main Plaza of [target_capital.GetName], at the foot of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s palace, going as far as slaughtering half a score guards that had ordered them to disperse."
- republic_factions.23.desc_nobles: "Using every means of pressure available, the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] of [ROOT.GetCountry.GetName] has managed to seize control of power in our [ROOT.GetCountry.GetFlavorRank]. The sons of powerful aristocratic families parade in the streets, as well as in the palaces of [target_capital.GetName]. At this point, their rivals could never hope to find a legal way to re-establish the influence that they have lost.\n\nHowever, there are other ways. Using their common hatred against the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] and their abuses, the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] are gathering the support of the common folk, and have already begun distributing bread and weapons to them. Soon, upset crowds rally around the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s palace, and a first charge by the urban militia caused great loss of blood and lives, before the mob could violently avenge itself, laying siege to the [ROOT.GetCountry.GetGovernment.GetAdjective] residence in the process."
- republic_factions.23.a: "We cannot allow the masses to engulf the [ROOT.GetCountry.GetFlavorRank] in anarchy."
- republic_factions.23.b: "Give in to their demands."
-
+ republic_factions.3.title: "I Mercanti Chiedono un Aumento delle Importazioni"
+ republic_factions.3.desc: "L'influenza di una potente gilda ha fatto salire i prezzi di [target_goods.GetName] in [ROOT.GetCountry.GetName]. Si è arrivati ​​al punto che i mercanti trovano più conveniente importare merci dall'estero per competere con i prezzi locali, cosa che, a loro dire, sta diventando sempre più difficile a causa dell'attuale legislazione sulle importazioni [ROOT.GetCountry.GetAdjectiveWithNoTooltip].\n\nAmmorbidire le dogane darebbe ai nostri mercanti la possibilità di stipulare accordi vantaggiosi nei luoghi di produzione di [target_goods.GetNameWithNoTooltip], ma le gilde, che si oppongono fermamente a questo, servono anche al loro scopo."
+ republic_factions.3.a: "La nostra preoccupazione deve essere innanzitutto un commercio efficiente."
+ republic_factions.3.b: "Non faremo alcuna concessione che possa danneggiare le gilde."
+ republic_factions.3.c: "Sono necessari cambiamenti radicali."
+ allowed_imports: "Importazioni Consentite"
+ 
+ republic_factions.4.title: "I Leader delle Gilde Rivaleggiano con la [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
+ republic_factions.4.desc: "In [ROOT.GetCountry.GetName], la presenza delle gilde ha generato un nuovo tipo di influenza e un nuovo tipo di personaggi influenti. Le figure di spicco delle gilde [ROOT.GetCountry.GetAdjectiveWithNoTooltip] non solo stanno diventando più ricche di molti aristocratici, ma detengono anche il potere, pur essendo prive dei legami familiari che hanno caratterizzato per lungo tempo i governanti del [ROOT.GetCountry.GetFlavorRank] .\n\nForse questo tipo di cambiamento è inevitabile, soprattutto considerando la natura del nostro [ROOT.GetCountry.GetFlavorRank]. Tuttavia, a questo punto, l'unica cosa certa è che la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [ROOT.GetCountry.GetNameWithNoTooltip] nutre avversione per questi nuovi ricchi maleducati e vorrebbe vederli estromessi dalle attività politiche locali.
+ republic_factions.4.a: "Il denaro è denaro, nuovo o vecchio."
+ republic_factions.4.b: "Non importa quanto paghino, il potere non si può comprare."
+ 
+ republic_factions.5.title: "Società Segrete nel Governo"
+ republic_factions.5.desc: "L'intera portata dell'attività di una gilda è nota solo ai suoi membri. Poiché le gilde esistono in parte per gestire la conoscenza, questo è inevitabile, ma porta anche ad accuse di cospirazione. Finora abbiamo prestato poca attenzione a queste idee, considerandole deliri paranoici.\n\nTuttavia, su [ROOT.GetCountry.GetGovernment.GetCourtTitle] circolano voci su chi possa o meno far parte di gilde segrete all'interno del governo di [ROOT.GetCountry.GetName], e alcuni membri tra la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] sono visibilmente preoccupati... così tanti, in effetti, che la loro stessa fazione sembra più una cospirazione di coloro che accusano. Ciononostante, non c'è dubbio che gli aristocratici di [ROOT.GetCountry.GetNameWithNoTooltip] si sentono minacciati da queste possibili società segrete che le gilde hanno creato."
+ republic_factions.5.a: "Forse queste cospirazioni possono far sì che i politici siano d'accordo per una volta."
+ republic_factions.5.a.tt: "Lasciamo per ora in sospeso le possibili influenze segrete della gilda, che potrebbero avere conseguenze in seguito"
+ republic_factions.5.b: "Bene. Lasciamo che chi è noto per la sua lealtà indaghi su questo."
+ 
+ republic_factions.6.title: "La Gilda Prima della Patria"
+ republic_factions.6.desc: "Quando gli aristocratici ci hanno messo in guardia dalle società segrete che si suppone si fossero infiltrate nella politica di [ROOT.GetCountry.GetAdjective], abbiamo scelto di non ascoltarli. Predicevano che avremmo potuto pagare con la vita, se questa cospirazione si fosse rivoltata contro di noi.\n\nNon è successo nulla di così drammatico, ma uno dei nostri più stretti consiglieri, [target_advisor.GetName], ha preso delle decisioni molto discutibili ultimamente, e alla fine ha ammesso che si trattava di servizi resi a una società "segreta" di cui [target_advisor.GetSheHe] fa effettivamente parte. Altri politici sono in rivolta per questo, e a questo punto non c'è modo di evitare uno scandalo."
+ republic_factions.6.a: "La sua slealtà verso [ROOT.GetCountry.GetNameWithNoTooltip] deve essere punita."
+ republic_factions.6.b: "Cercate di disinnescare la situazione."
+ republic_factions.6.c: "Una società segreta? Come si può entrare a farne parte?"
+ 
+ republic_factions.7.title: "Contatti con le Gilde Internazionali"
+ republic_factions.7.desc: "Alcuni dei nostri inviati diplomatici con forti legami con una gilda nazionale sono stati accusati da alcuni ambasciatori più anziani di aver mediato accordi con una gilda oltre confine. Mentre le nostre gilde ammettono di aver utilizzato i nostri diplomatici affiliati per stabilire contatti con gilde straniere mentre sono all'estero, negano le accuse di compromettere le nostre missioni politiche. D'altra parte, affermano di essere aperti all'idea di tentare di usare queste connessioni all'estero a nostro vantaggio. La vecchia guardia dei diplomatici aristocratici trova questa pratica altamente discutibile, ma sfruttare le connessioni tra le gilde potrebbe darci un vantaggio nelle operazioni clandestine."
+ republic_factions.7.a: "Vedremo quali membri della gilda mostreranno maggiore lealtà al proprio paese."
+ republic_factions.7.b: "Sospendete il loro servizio finché non avremo sistemato le cose."
+ 
+ republic_factions.8.title: "Nobile Eredità di [ROOT.GetCountry.GetNameWithNoTooltip]"
+ republic_factions.8.desc: "La nostra nazione [ROOT.GetCountry.GetGovernment.GetAdjective] ha rinunciato a molte delle vecchie idee sulla nobiltà e il governo feudale, ma a volte, quando ci sono utili, siamo disposti a riconsiderarle in base alla situazione. Una situazione del genere si è verificata in [target_location.GetName], dove la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] locale sostiene che la terra appena oltre il nostro confine in [target_province.GetName] faccia effettivamente parte del legittimo demanio della loro famiglia. I mercanti locali hanno presentato una petizione contro questa rivendicazione, avendo appena negoziato un importante accordo commerciale con [target_country.GetName]. Per qualsiasi [ROOT.GetCountry.GetFlavorRank], sostengono, il commercio dovrebbe essere la prima preoccupazione: le rivendicazioni della [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] portano solo a guerra e miseria.
+ republic_factions.8.a: "Guerra forse, ma chi ha parlato di miseria?"
+ republic_factions.8.b: "Hanno ragione. Dovremmo lasciarci alle spalle queste piccole liti."
+ 
+ republic_factions.9.title: "I Candidati si Contendono le Opportunità"
+ republic_factions.9.desc: "Come ogni [ROOT.GetCountry.GetFlavorRank], ci sforziamo di trovare un equilibrio tra interessi economici e tradizione. Pertanto, scegliamo i nostri consiglieri di conseguenza, seguendo tali principi. Le famiglie che lo sanno, patrizi e aristocratici allo stesso modo, cercano di pianificare in anticipo e di far sì che i loro rappresentanti occupino posizioni di opportunità prima di cercare di ottenere un posto direttamente in [ROOT.GetCountry.GetGovernment.GetCourtTitle].\n\nUna posizione che offre tali opportunità si è aperta di recente, e ora diversi partiti ci stanno facendo pressione per ottenerla. Non si può accontentare tutti, e qualcuno deve essere nominato al più presto."
+ republic_factions.9.a: "Qualcuno con esperienza in questioni militari sarebbe utile."
+ republic_factions.9.b: "Il commercio viene prima di tutto in [ROOT.GetCountry.GetLongNameWithNoTooltip]."
+ 
+ republic_factions.10.title: "Commercio tra Rivali"
+ republic_factions.10.desc: "Siamo aperti agli affari con tutti... purché possiamo controllarli. Quali affari possiamo e non possiamo controllare è oggetto di dibattito, e poiché la maggior parte delle questioni sono oggetto di dibattito nel nostro [ROOT.GetCountry.GetFlavorRank], è diventato oggetto di dibattito. I mercanti hanno iniziato a commerciare in termini amichevoli con il nostro rivale, [target_rival.GetName], sostenendo che è necessario nonostante i disaccordi politici. La [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] ritiene questo discutibile e chiede la fine immediata degli scambi."
+ republic_factions.10.a: "Non possiamo permetterci di interrompere il commercio."
+ republic_factions.10.b: "Possiamo permetterci di tagliare i ponti con questi porci."
+ enemy_allowed_trade: "Commercio Consentito tra Rivali"
+ 
+ republic_factions.11.title: "[target_country.GetNameWithNoTooltip] Aperto al Commercio"
+ republic_factions.11.desc: "Nonostante il loro aperto odio nei nostri confronti e per tutto ciò che rappresentiamo, la [target_country.GetLongName] ha concesso ai loro mercanti l'opportunità di fare affari con noi. Questo ha concesso ai suoi mercanti influenza sui nostri mercati, ma il commercio va in entrambe le direzioni."
+ republic_factions.11.a: "Dovrebbero fidarsi di noi più spesso."
+ 
+ republic_factions.12.title: "Offerta da [target_character.GetNameWithNoTooltip]"
+ republic_factions.12.desc: "I [target_estate.GetName] di [ROOT.GetCountry.GetName] hanno superato in astuzia i loro concorrenti nell'arena politica, strappando il controllo sul governo [ROOT.GetCountry.GetAdjectiveWithNoTooltip], ma il loro potere è tutt'altro che incontrastato.\n\n[target_character.GetName], apprezzato da [ROOT.GetCountry.GetFlavorRank] per la [target_character.GetHerHis] lealtà e i servizi resi al paese, si è rivolto a [ROOT.GetCountry.GetGovernment.GetCourtTitle] con una soluzione a questo problema. Secondo [target_character.GetHerHim], un cambio di potere immediato potrebbe vanificare tutto ciò per cui [target_estate.GetNameWithNoTooltip] ha saggiamente lavorato. Confidano nella saggezza del [ROOT.GetCountry.GetGovernment.GetCourtTitle] e del governo [ROOT.GetCountry.GetGovernment.GetAdjective], ma se serve un ulteriore incentivo, hanno fondi per donazioni politiche..."
+ republic_factions.12.a: "[target_character.GetSheHe] sta suggerendo una tangente?"
+ republic_factions.12.b: "La lealtà e la generosità del [target_estate.GetNameWithNoTooltip] sono apprezzate."
+ 
+ republic_factions.13.title: "Il Circolo Interno"
+ republic_factions.13.desc: "[target_ruler.GetName] ha cercato di mantenere una relativa neutralità nei confronti delle gilde come [ROOT.GetCountry.GetGovernment.GetRulerTitle], soprattutto perché di recente sono cadute in disgrazia in [ROOT.GetCountry.GetName]. [target_ruler.GetSheHe|U] non è membro di alcuna gilda, né sarebbe appropriato per [target_ruler.GetHerHim] esserlo nell'attuale clima politico. Tuttavia, la situazione potrebbe cambiare. La gilda più importante di [ROOT.GetCountry.GetFlavorRank] ha offerto  a [target_ruler.GetHimHerFormal] l'iscrizione, promettendo persino di mantenere il segreto sulla questione finché necessario. Un suggerimento piuttosto audace, anche se rifiutare ci metterebbe comunque in cattivi rapporti con la gilda."
+ republic_factions.13.a: "La fedeltà di [ROOT.GetCountry.GetGovernment.GetRulerTitle] è a [ROOT.GetCountry.GetFlavorRank]."
+ republic_factions.13.b: "[target_ruler.GetNameWithNoTooltip] sa mantenere un segreto, se ci riesce."
+ 
+ republic_factions.14.title: "Una Transazione Vantaggiosa"
+ republic_factions.14.desc: "In [ROOT.GetCountry.GetName], affari e politica sono irreversibilmente intrecciati da tempo immemorabile. A volte, potremmo trovarci di fronte ad accordi che avvantaggiano molte parti ma non il [ROOT.GetCountry.GetFlavorRank] stesso. Quando [target_ruler.GetName] è una di queste parti, la situazione diventa ancora più precaria. Un buon accordo commerciale costruisce relazioni più solide con i mercanti chiave, il che è sicuramente utile. Possiamo evitare di alienare questi partner se siamo disposti a sacrificare parte della nostra integrità come rappresentanti di [ROOT.GetCountry.GetFlavorRank]."
+ republic_factions.14.a: "L'integrità vale di più a lungo termine."
+ republic_factions.14.b: "Non possiamo sacrificare gli interessi personali."
+ 
+ republic_factions.15.title: "Più Denso dell'Acqua"
+ republic_factions.15.desc: "Per molte persone potenti di [ROOT.GetCountry.GetName], i contatti o la ricchezza determinano lo status, ma la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] attribuisce ancora grande importanza ai legami di sangue. Anche se al momento non sono la fazione più potente della nostra repubblica, usano comunque gli stessi metodi per assicurarsi la lealtà.\n\nUna recente richiesta da parte di alcuni membri della [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] per ottenere il favore del [ROOT.GetCountry.GetGovernment.GetCourtTitle] è chiaramente un tentativo di questo tipo. Questo ci costringerà a indirizzare la politica verso la loro linea e indebolirà il [ROOT.GetCountry.GetFlavorRank], ma rifiutare renderà ancora più difficile costringerli a sostenere le nostre azioni pianificate."
+ republic_factions.15.a: "Rifiuta il più educatamente possibile."
+ republic_factions.15.b: "Dobbiamo mantenere stretti legami con loro."
+ 
+ republic_factions.16.title: "Gilde in Cooperazione"
+ republic_factions.16.desc: "Da quando la [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] è diventa la potenza dominante non solo negli affari [ROOT.GetCountry.GetAdjective], ma anche in politica, le gilde hanno sempre più compreso la forza della cooperazione. Organizzazioni che altrimenti si sarebbero viste come rivali ora operano insieme in modo efficiente per mantenere il potere nel governo della nazione. Come fortunato effetto collaterale, il loro controllo sulla qualità e sul commercio dei beni [ROOT.GetCountry.GetAdjectiveWithNoTooltip] è diventato meno limitato e più ampio ed efficiente."
+ republic_factions.16.a: "Se solo potessero essere così ragionevoli quando non sono così fortunati..."
+ 
+ republic_factions.17.title: "I Mercanti Guardano all'Estero"
+ republic_factions.17.desc: "Avendo strappato il controllo su [ROOT.GetCountry.GetLongName], il nostro I mercanti ora cercano di strappare il controllo del commercio mondiale. Il loro dominio sulle questioni politiche in [ROOT.GetCountry.GetNameWithNoTooltip] ha dato loro meno di cui preoccuparsi a livello nazionale e li ha incoraggiati ad assumersi rischi che sarebbero impensabili se dovessero temere di essere scavalcati in patria. In definitiva, questo potrebbe avvantaggiare non solo loro, ma anche lo stesso [ROOT.GetCountry.GetFlavorRank]."
+ republic_factions.17.a: "Lasciate che ci portino la ricchezza del mondo."
+ 
+ republic_factions.18.title: "La [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] Mette da Parte le Differenze"
+ republic_factions.18.desc: "Da quando [ROOT.GetCountry.GetName] ha iniziato a servire la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], questa ha iniziato a servire a loro volta i [ROOT.GetCountry.GetFlavorRank]. Un tempo temeva di essere vista come una reliquia di vecchie forme di governo, ma si è resa conto che può mantenere il potere finché sono disposti a collaborare. Sebbene questo possa metterla in contrasto con altre forze politiche [ROOT.GetCountry.GetAdjectiveWithNoTooltip], ha contribuito a placare le ambizioni di rovesciare [ROOT.GetCountry.GetFlavorRank] e l'ha aiutata a organizzare i suoi sforzi in modo molto più efficiente."
+ republic_factions.18.a: "Il nostro grande [ROOT.GetCountry.GetFlavorRank] unisce anche le vecchie famiglie!"
+ 
+ republic_factions.19.title: "Le Gilde Ostacolano il Commercio"
+ republic_factions.19.desc: "I leader delle gilde possono essere spietati mediatori di potere e non prendono bene l'opposizione politica. Dato che le gilde non godono del favore del governo di [ROOT.GetCountry.GetName] da un po' di tempo, alcune di loro hanno iniziato a usare metodi più intimidatori per dimostrare la loro influenza. Sapendo che [ROOT.GetCountry.GetFlavorRank] dipende dal commercio, le gilde hanno iniziato a impedire il libero scambio, danneggiando consapevolmente l'economia nazionale e gli affari dei loro oppositori politici."
+ republic_factions.19.a: "Pensano di ottenere il favore del paese in questo modo?"
+ republic_factions.19.b: "Fate loro delle concessioni."
+ 
+ republic_factions.20.title: "I Mercanti si Rifiutano di Servire"
+ republic_factions.20.desc: "Nonostante l'indiscutibile dedizione di [ROOT.GetCountry.GetName] al commercio, molti dei suoi mercanti più importanti ora affermano che [ROOT.GetCountry.GetGovernment.GetCourtTitle] si rifiuta di ascoltarli e antepone altri interessi a quelli che hanno reso ricco il nostro paese. Alcuni dei mercanti su cui facciamo affidamento per il nostro commercio internazionale hanno minacciato di cessare del tutto la collaborazione con il [ROOT.GetCountry.GetFlavorRank]. Anche se siamo certi che prima o poi raggiungeremo un accordo, questo ostacolerà la nostra cooperazione prima che la situazione si esaurisca."
+ republic_factions.20.a: "Cosa intendono ottenere con questo?"
+ uncooperative_trader: "Mercante non Collaborativo"
+ 
+ republic_factions.21.title: "La [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] rifiuta il [ROOT.GetCountry.GetFlavorRank]"
+ republic_factions.21.desc: "Per molti versi, il nostro [ROOT.GetCountry.GetFlavorRank] è stato straordinariamente efficiente nel togliere il potere ai sovrani aristocratici che normalmente lo danno per scontato. Accettano di non poterlo rivendicare come un loro diritto, come potrebbero fare in molte altre nazioni. Ci sono momenti in cui queste vecchie idee di gloria aristocratica si risvegliano, tuttavia, quando la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] di [ROOT.GetCountry.GetName] sente di non poter influenzare la politica in alcun modo rilevante se non con la spada. Di conseguenza, la spada è ciò che è disposta a impugnare, in aperta ribellione contro la repubblica."
+ republic_factions.21.a: "Se vogliono il potere, insegnate loro a combattere con la penna!"
+ republic_factions.21.b: "Cercate di raggiungere un accordo con loro."
+ 
+ republic_factions.22.title: "La Family Act"
+ republic_factions.22.desc: "Gli aristocratici di [ROOT.GetCountry.GetName] hanno spinto per una legge comunemente nota come Family Act, un tentativo di impedire che menti innocenti vengano pervertite dalle opere teatrali e dai romanzi contorti sputati fuori dagli autori "libertini" degli ultimi anni. La principale indignazione dietro l'iniziativa del Family Act è un'opera teatrale oscena, un atto di famiglia che viaggia per il paese e satireggia gli eccessi della [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Umiliate e ribellate, le vittime di questa presa in giro ora chiedono che la [ROOT.GetCountry.GetFlavorRank] ne impedisca l'ulteriore diffusione."
+ republic_factions.22.a: "Interessante. Come chiamano un atto del genere?"
+ republic_factions.22.b: "La libertà non esiste per servire le oscenità!"
+ republic_factions.22.c: "Forse dovremmo riconsiderare ciò che permettiamo loro di fare."
+ 
+ republic_factions.23.title: "Disordini a [ROOT.GetCountry.GetNameWithNoTooltip]"
+ republic_factions.23.desc_burghers: "Da qualche tempo, [ROOT.GetCountry.GetFlavorRank] ha visto un crescente controllo della [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] sulla scena politica [ROOT.GetCountry.GetAdjective]. Facendo affidamento su un gran numero di apprendisti, piccoli mercanti e artigiani, questa fazione è riuscita a confiscare gran parte del potere all'interno del governo e a monopolizzare le cariche amministrative. Piuttosto che rischiare una duratura emarginazione, la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] ha iniziato a intraprendere alcune azioni per consolidare il proprio potere e la propria ricchezza sulla popolazione. Questo si è rapidamente trasformato in oppressione e in una gente comune poco felice. Finora, la [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] ha ignorato la crisi in atto, poiché i poveri che chiedevano prestiti per acquistare cibo sembravano un'opportunità per ottenere profitti consistenti. Questo finché non hanno iniziato ad affollare la Piazza Principale di [target_capital.GetName], ai piedi del palazzo del [ROOT.GetCountry.GetGovernment.GetRulerTitle], arrivando persino a massacrare una decina di guardie che avevano ordinato loro di disperdersi."
+ republic_factions.23.desc_nobles: "Usando ogni mezzo di pressione disponibile, la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] di [ROOT.GetCountry.GetName] è riuscita a prendere il controllo del potere nel nostro [ROOT.GetCountry.GetFlavorRank]. I figli di potenti famiglie aristocratiche sfilano per le strade, così come nei palazzi di [target_capital.GetName]. A questo punto, i loro rivali non potrebbero mai sperare di trovare un modo legale per ristabilire l'influenza che hanno perso.\n\nTuttavia, ci sono altri modi. Usando il loro odio comune contro la [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] ed i suoi abusi, la [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] sta raccogliendo il sostegno della gente comune e ha già iniziato a distribuire loro pane e armi. Presto, folle inferocite si radunano attorno al palazzo dei [ROOT.GetCountry.GetGovernment.GetRulerTitle], e una prima carica della milizia urbana causa grandi perdite di sangue e vite umane, prima che la folla possa vendicarsi violentemente, assediando la residenza dei [ROOT.GetCountry.GetGovernment.GetAdjective]."
+ republic_factions.23.a: "Non possiamo permettere alle masse di travolgere i [ROOT.GetCountry.GetFlavorRank] nell'anarchia."
+ republic_factions.23.b: "Cedete alle loro richieste."

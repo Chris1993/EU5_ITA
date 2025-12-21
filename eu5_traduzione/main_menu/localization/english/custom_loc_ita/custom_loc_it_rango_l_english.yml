@@ -1,0 +1,124 @@
+﻿l_english:
+
+#####RANGO E TITOLO
+# [target_character.Custom('IT_ART_TITOLO')]
+# |U -> Lettera maiuscola, es. [target_character.Custom('IT_ART_TITOLO')|U] Re: Il Re
+
+#[target_character.Custom('IT_DEL_TITOLO')] del Re
+
+#[target_character.Custom('IT_DAL_TITOLO')] dal Re
+
+#[target_character.Custom('IT_AL_TITOLO')] al Re
+
+
+###########################################################################################################
+
+
+#[GetCountry('JAP').Custom('IT_ART_RANGO')][GetCountry('JAP').GetFlavorRank]: Lo Shogunato
+
+#[target_character.Custom('IT_DAL_RANGO')] dal Regno
+
+#[target_character.Custom('IT_ART_RANGO')] Il Regno
+
+#[target_character.Custom('IT_DEL_RANGO')] del Regno
+
+#[target_character.Custom('IT_NEL_RANGO')] nel Regno
+
+#[target_character.Custom('IT_AL_RANGO')] al Regno
+
+#[target_character.Custom('IT_SUL_RANGO')] sul Regno
+
+###########################################################################################################
+
+#IT_ART_LOCATION 
+
+#[target_character.Custom('IT_ART_LOCATION')] Il/La/L' Borgo/Città/Insediamento Rurale
+
+#IT_SUL_LOCATION
+
+#[target_character.Custom('IT_SUL_LOCATION')] Sul/Sulla/Sull' Borgo/Città/Insediamento Rurale
+
+#IT_NEL_LOCATION
+
+#[target_character.Custom('IT_NEL_LOCATION')] Nel/Nella/Nell' Borgo/Città/Insediamento Rurale
+
+#IT_DEL_LOCATION
+
+#[target_character.Custom('IT_DEL_LOCATION')] Del/Della/Dell' Borgo/Città/Insediamento Rurale
+
+###########################################################################################################
+
+#IT_OA_RANGO
+
+#[target_character.Custom('IT_OA_RANGO')] nostro/a
+
+
+# ESEMPIO
+
+# [target_character.Custom('IT_ART_RANGO')]nostr[target_character.Custom('IT_OA_RANGO')] [ROOT.GetCountry.GetFlavorRank] Il nostro Regno/La nostra Contea 
+
+###########################################################################################################
+
+#IT_ART_TITOLO / IT_ART_RANGO 
+IT_ART_L: "l'"
+
+IT_ART_LA: "la "
+
+IT_ART_IL: "il "
+
+IT_ART_LO: "lo "
+
+
+#IT_DEL_TITOLO / IT_DEL_RANGO
+IT_ART_DELL: "dell'"
+
+IT_ART_DELLA: "della "
+
+IT_ART_DEL: "del "
+
+IT_ART_DELLO: "dello "
+
+
+#IT_DAL_TITOLO / IT_DAL_RANGO
+IT_ART_DALL: "dall'"
+
+IT_ART_DALLA: "dalla "
+
+IT_ART_DAL: "dal "
+
+IT_ART_DALLO: "dallo "
+
+
+#IT_AL_TITOLO / IT_AL_RANGO
+IT_ART_ALL: "all'"
+
+IT_ART_ALLA: "alla "
+
+IT_ART_AL: "al "
+
+IT_ART_ALLO: "allo "
+
+
+#IT_SUL_TITOLO / IT_SUL_RANGO
+IT_ART_SULL: "sull'"
+
+IT_ART_SULLA: "sulla "
+
+IT_ART_SUL: "sul "
+
+IT_ART_SULLO: "sullo "
+
+
+#IT_NEL_RANGO
+IT_ART_NELL: "nell'"
+
+IT_ART_NELLA: "nella "
+
+IT_ART_NEL: "nel "
+
+IT_ART_NELLO: "nello "
+
+#IT_OA_RANGO
+IT_RANGO_O: "o"
+
+IT_RANGO_A: "a"

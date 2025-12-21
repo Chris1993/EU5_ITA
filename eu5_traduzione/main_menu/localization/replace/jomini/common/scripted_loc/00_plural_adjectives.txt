@@ -1,0 +1,19 @@
+plural_adjective_MS = {
+    type = country
+    datacontext = "[?THIS.IT_ADJ_MS]"
+}
+
+plural_adjective_MP = {
+    type = country
+    datacontext = "[?THIS.IT_ADJ_MP]"
+}
+
+plural_adjective_FS = {
+    type = country
+    datacontext = "[?THIS.IT_ADJ_FS]"
+}
+
+plural_adjective_FP = {
+    type = country
+    datacontext = "[?THIS.IT_ADJ_FP]"
+}

@@ -1,65 +1,65 @@
 ﻿l_english:
- ENDGAME_GREATEST_RULERS: "Greatest Rulers of History"
+ ENDGAME_GREATEST_RULERS: "I Più Grandi Governanti della Storia"
  
- hs_mansa_musa: "Mansa Mūsā of Mali"
- hs_mansa_musa_desc: "Mansa Mūsā, the legendary ruler of Mali, is renowned for his immense wealth and generosity. His pilgrimage to Mecca in 1324 not only displayed the grandeur of his empire but also spread Mali's fame and fostered trade and scholarship across the Islamic world."
+ hs_mansa_musa: "Mansa Mūsā del Mali"
+ hs_mansa_musa_desc: "Mansa Mūsā, il leggendario sovrano del Mali, è rinomato per la sua immensa ricchezza e generosità. Il suo pellegrinaggio alla Mecca nel 1324 non solo mostrò la grandezza del suo impero, ma diffuse anche la fama del Mali e favorì il commercio e gli studi in tutto il mondo islamico."
  
- hs_peter_the_great: "Peter 'the Great' of Russia"
- hs_peter_the_great_desc: "Peter 'the Great', the visionary Tsar of Russia, transformed his nation into a formidable European power. Through sweeping reforms, military expansion, and the founding of St. Petersburg, he modernized Russia and left a lasting legacy of imperial ambition and Western influence."
+ hs_peter_the_great: "Pietro 'il Grande' di Russia"
+ hs_peter_the_great_desc: "Pietro 'il Grande', lo Zar visionario di Russia, trasformò la sua nazione in una formidabile potenza europea. Attraverso riforme radicali, espansione militare e la fondazione di San Pietroburgo, modernizzò la Russia e lasciò un'eredità duratura di ambizione imperiale e influenza occidentale."
+
+ hs_enrique_de_impotent: "Enrico IV di Castiglia"
+ hs_enrique_de_impotent_desc: "Enrico IV di Castiglia, noto come 'l'Impotente', lottò per affermare la sua autorità tra disordini nobiliari e questioni di legittimità. Il suo regno fu segnato da conflitti interni e intrighi politici, preparando il terreno per l'ascesa dei Re Cattolici."
  
- hs_enrique_de_impotent: "Enrique IV of Castile"
- hs_enrique_de_impotent_desc: "Enrique IV of Castile, known as 'The Impotent' struggled to assert his authority amidst noble unrest and questions of legitimacy. His reign was marked by internal conflicts and political intrigue, setting the stage for the rise of the Catholic Monarchs."
+ hs_jan_sobieski: "Giovanni Sobieski di Polonia"
+ hs_jan_sobieski_desc: "Giovanni Sobieski, il Leone di Lech, fu un brillante capo militare e Re di Polonia che salvaguardò l'Europa dall'espansione Ottomana. La sua decisiva vittoria nella Battaglia di Vienna nel 1683 cementò la sua eredità come difensore della Cristianità ed eroe della Confederazione Polacco-Lituana."
  
- hs_jan_sobieski: "Jan Sobieski of Poland"
- hs_jan_sobieski_desc: "Jan Sobieski, the Lion of Lech, was a brilliant military leader and King of Poland who safeguarded Europe from Ottoman expansion. His decisive victory at the Battle of Vienna in 1683 cemented his legacy as a defender of Christendom and a hero of the Polish-Lithuanian Commonwealth."
+ hs_napoleon: "Napoleone I di Francia"
+ hs_napoleon_desc: "Napoleone Bonaparte, il maestro tattico e Imperatore dei Francesi, rimodellò l'Europa attraverso il suo genio militare e le sue riforme radicali. La sua ambizione e le sue conquiste diffusero gli ideali rivoluzionari in tutto il continente, ma la sua caduta segnò la fine di un'era e la restaurazione delle monarchie."
  
- hs_napoleon: "Napoleon I of France"
- hs_napoleon_desc: "Napoleon Bonaparte, the master tactician and Emperor of the French, reshaped Europe through his military genius and sweeping reforms. His ambition and conquests spread revolutionary ideals across the continent, but his fall marked the end of an era and the restoration of monarchies."
+ hs_charles: "Carlo V del Sacro Romano Impero"
+ hs_charles_desc: "Carlo V, sovrano di un vasto impero su cui non tramontava mai il sole, cercò di unire la Cristianità sotto il suo regno. Le sue lotte contro il Protestantesimo, gli Ottomani e le potenze rivali definirono il suo governo, lasciando un'eredità di grandezza e al contempo delle sfide nel governare un impero frammentato."
  
- hs_charles: "Charles V of the Holy Roman Empire"
- hs_charles_desc: "Charles V, ruler of a vast empire where the sun never set, sought to unite Christendom under his reign. His struggles against Protestantism, the Ottomans, and rival powers defined his rule, leaving a legacy of both grandeur and the challenges of ruling a fragmented empire."
+ hs_fredrik_the_great: "Federico 'il Grande' di Prussia"
+ hs_fredrik_the_great_desc: "Federico 'il Grande', il Re illuminato di Prussia, trasformò la sua nazione in una potenza europea grazie al suo genio militare e alla riforma amministrativa. Le sue vittorie nella Guerra dei Sette Anni e il patrocinio delle arti gli valsero l'eredità di conquistatore e filosofo."
  
- hs_fredrik_the_great: "Frederick 'the Great' of Prussia"
- hs_fredrik_the_great_desc: "Frederick 'the Great', the Enlightened King of Prussia, transformed his nation into a European powerhouse through military brilliance and administrative reform. His victories in the Seven Years' War and patronage of the arts earned him a legacy as both a conqueror and a philosopher."
+ hs_gustavus_adolphus: "Gustavo Adolfo di Svezia"
+ hs_gustavus_adolphus_desc: "Gustavo Adolfo, il Leone del Nord, rivoluzionò la guerra e assicurò alla Svezia il suo posto come grande potenza durante la Guerra dei Trent'Anni. Le sue tattiche militari innovative e la sua leadership sul campo di battaglia hanno lasciato un'eredità duratura come uno dei più grandi generali della storia."
  
- hs_gustavus_adolphus: "Gustavus Adolphus of Sweden"
- hs_gustavus_adolphus_desc: "Gustavus Adolphus, the Lion of the North, revolutionized warfare and secured Sweden's place as a great power during the Thirty Years' War. His innovative military tactics and leadership on the battlefield left an enduring legacy as one of history's greatest generals."
+ hs_aurangzeb: "Aurangzēb dell'Impero Mughal"
+ hs_aurangzeb_desc: "Aurangzēb, l'ultimo grande Imperatore Mughal, espanse l'impero alla sua massima estensione territoriale attraverso campagne incessanti. La sua rigorosa adesione all'ortodossia islamica e la forte tassazione, tuttavia, seminarono divisioni che indebolirono l'impero e ne preannunciarono il declino."
  
- hs_aurangzeb: "Aurangzēb of the Mughal Empire"
- hs_aurangzeb_desc: "Aurangzēb, the last great Mughal Emperor, expanded the empire to its greatest territorial extent through relentless campaigns. His strict adherence to Islamic orthodoxy and heavy taxation, however, sowed divisions that weakened the empire and foreshadowed its decline."
+ hs_elizabeth_i: "Elisabetta I d'Inghilterra"
+ hs_elizabeth_i_desc: "Elisabetta I, la Regina Vergine, consolidò il potere inglese attraverso l'acume politico, i trionfi navali come la sconfitta dell'Invincibile Armada e il fiorire culturale durante il Rinascimento inglese. Il suo regno segnò l'ascesa dell'Inghilterra a potenza globale e un'era di stabilità e prosperità senza precedenti."
  
- hs_elizabeth_i: "Elizabeth I of England"
- hs_elizabeth_i_desc: "Elizabeth I, the Virgin Queen, solidified England's power through political acumen, naval triumphs like the defeat of the Spanish Armada, and cultural flourishing during the English Renaissance. Her reign marked the rise of England as a global power and an era of unparalleled stability and prosperity."
+ hs_tamerlane: "Tamerlano dell'Impero Timuride"
+ hs_tamerlane_desc: "Tamerlano, il temibile conquistatore dell'Asia Centrale, forgiò un vasto impero attraverso campagne militari incessanti e un genio tattico ineguagliabile. Sebbene il suo regno fu segnato dalla distruzione, patrocinò anche l'arte e l'architettura, lasciando un'eredità di devastazione e splendore culturale."
  
- hs_tamerlane: "Timur of the Timurid Empire"
- hs_tamerlane_desc: "Timur, the fearsome conqueror of Central Asia, forged a vast empire through relentless military campaigns and unmatched tactical brilliance. Though his reign was marked by destruction, he also patronized art and architecture, leaving a legacy of both devastation and cultural splendor."
+ hs_tokugawa: "Tokugawa Ieyasu del Giappone"
+ hs_tokugawa_desc: "Tokugawa Ieyasu, l'astuto unificatore del Giappone, stabilì lo Shogunato Tokugawa, portando pace e stabilità durature dopo secoli di conflitto. Le sue politiche di centralizzazione e isolamento plasmarono il destino del Giappone per oltre due secoli."
  
- hs_tokugawa: "Tokugawa Ieyasu of Japan"
- hs_tokugawa_desc: "Tokugawa Ieyasu, the shrewd unifier of Japan, established the Tokugawa Shogunate, bringing lasting peace and stability after centuries of conflict. His policies of centralization and isolation shaped Japan's destiny for over two centuries."
+ hs_suleyman: "Solimano I dell'Impero Ottomano"
+ hs_suleyman_desc: "Solimano I, il Magnifico, elevò l'Impero Ottomano al suo apogeo, unendo conquiste militari a un'eccezionale capacità amministrativa e al patrocinio culturale. Il suo regno segnò un'era di espansione territoriale, riforma legale e risultati artistici senza pari."
  
- hs_suleyman: "Süleyman I of the Ottoman Empire"
- hs_suleyman_desc: "Süleyman I, the Magnificent, elevated the Ottoman Empire to its zenith, blending military conquests with administrative brilliance and cultural patronage. His reign marked an era of unmatched territorial expansion, legal reform, and artistic achievement."
+ hs_pius_v: "Pio V dello Stato Pontificio"
+ hs_pius_v_desc: "Pio V, lo zelante Papa riformatore, fu una forza trainante della Controriforma, facendo rispettare i decreti del Concilio di Trento. Noto per aver scomunicato Elisabetta I e aver radunato la Lega Santa a Lepanto, il suo regno consolidò la posizione della Chiesa contro il Protestantesimo e l'espansione Ottomana."
  
- hs_pius_v: "Pius V of the Papal State"
- hs_pius_v_desc: "Pius V, the zealous reformer Pope, was a driving force behind the Counter-Reformation, enforcing the decrees of the Council of Trent. Known for excommunicating Elizabeth I and rallying the Holy League at Lepanto, his reign solidified the Church's stance against Protestantism and Ottoman expansion."
+ hs_willem_of_orange: "Guglielmo d'Orange"
+ hs_willem_of_orange_desc: "Guglielmo d'Orange, il Padre della Repubblica Olandese, guidò la lotta per l'indipendenza contro il dominio spagnolo durante la Guerra degli Ottant'Anni. La sua leadership e visione gettarono le basi per l'Età dell'Oro Olandese e l'ascesa di un'Olanda prospera e indipendente."
  
- hs_willem_of_orange: "Willem van Oranje"
- hs_willem_of_orange_desc: "Willem van Oranje, the Father of the Dutch Republic, led the fight for independence against Spanish rule during the Eighty Years' War. His leadership and vision laid the foundation for the Dutch Golden Age and the rise of a thriving, independent Netherlands."
+ hs_pachacuti: "Pachacuti degli Inca"
+ hs_pachacuti_desc: "Pachacuti, il visionario Sapa Inca, trasformò il Regno di Qusqu nel vasto Impero Inca attraverso la conquista e l'arte di governo. Rinomato per le sue innovazioni amministrative e l'architettura monumentale come Machu Picchu, il suo regno segnò l'età d'oro della civiltà Inca."
  
- hs_pachacuti: "Pachacuti of the Inca"
- hs_pachacuti_desc: "Pachacuti, the visionary Sapa Inca, transformed the Kingdom of Qusqu into the vast Inca Empire through conquest and statecraft. Renowned for his administrative innovations and monumental architecture like Machu Picchu, his reign marked the golden age of the Inca civilization."
+ hs_hiawatha: "Hiawatha degli Haudenosaunee"
+ hs_hiawatha_desc: "Hiawatha, il leggendario capo e diplomatico, è accreditato per aver unito le tribù Haudenosaunee nella Grande Lega della Pace. La sua visione di unità e governance creò una potente confederazione che prosperò sulla cooperazione e sulla forza reciproca."
  
- hs_hiawatha: "Hiawatha of the Haudenosaunee"
- hs_hiawatha_desc: "Hiawatha, the legendary leader and diplomat, is credited with uniting the Haudenosaunee tribes into the Great League of Peace. His vision of unity and governance created a powerful confederation that thrived on cooperation and mutual strength."
+ hs_charles_the_bold: "Carlo il Temerario di Borgogna"
+ hs_charles_the_bold_desc: "Carlo il Temerario, Duca di Borgogna, cercò di forgiare un potente regno tra la Francia e il Sacro Romano Impero attraverso l'ambizione e la guerra. La sua morte prematura a Nancy pose fine ai suoi sogni e segnò la caduta della Borgogna come potenza europea."
  
- hs_charles_the_bold: "Charles the Bold of Burgundy"
- hs_charles_the_bold_desc: "Charles the Bold, Duke of Burgundy, sought to forge a powerful kingdom between France and the Holy Roman Empire through ambition and warfare. His untimely death at Nancy ended his dreams and marked the fall of Burgundy as a European power."
+ tag_montezuma: "Montezuma II degli Aztechi"
+ tag_montezuma_desc: "Montezuma II, l'ultimo grande imperatore dell'Impero Azteco, presiedette il suo apogeo e la sua tragica caduta. Il suo regno terminò con l'arrivo degli Spagnoli, poiché il dissenso interno e le forze di Hernán Cortés portarono in ginocchio il possente impero."
  
- tag_montezuma: "Moctezuma II of the Aztecs"
- tag_montezuma_desc: "Moctezuma II, the last great emperor of the Aztec Empire, presided over its height and tragic downfall. His reign ended with the arrival of the Spanish, as internal dissent and Hernán Cortés' forces brought the mighty empire to its knees."
+ hs_christian_ii: "Cristiano II di Danimarca"
+ hs_christian_ii_desc: "Cristiano II di Danimarca, noto come 'il Tiranno', cercò di rafforzare l'autorità reale e unificare la Scandinavia sotto l'Unione di Kalmar. Le sue politiche controverse e il Massacro di Stoccolma alienarono i suoi sudditi, portando alla sua deposizione e all'esilio."
  
- hs_christian_ii: "Christian II of Denmark"
- hs_christian_ii_desc: "Christian II of Denmark, known as 'The Tyrant,' sought to strengthen royal authority and unify Scandinavia under the Kalmar Union. His controversial policies and the Stockholm Bloodbath alienated his subjects, leading to his eventual deposition and exile."
- 
- hs_may_stuart: "Mary of Scotland"
- hs_may_stuart_desc: "Mary, Queen of Scots, a monarch of beauty and tragedy, struggled to maintain her rule amidst political turmoil and religious conflict. Her tumultuous reign and exile ended in execution, leaving a legacy intertwined with intrigue and the fate of Scotland."
+ hs_may_stuart: "Maria di Scozia"
+ hs_may_stuart_desc: "Maria, Regina degli Scozzesi, una monarca di bellezza e tragedia, lottò per mantenere il suo dominio in mezzo al tumulto politico e al conflitto religioso. Il suo regno turbolento e il suo esilio si conclusero con l'esecuzione, lasciando un'eredità intrecciata con l'intrigo e il destino della Scozia."

@@ -1,0 +1,133 @@
+﻿IT_ART_O_A = {
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = "IT_ART_O"
+		trigger = { 
+			is_female = no
+		}
+	}
+	text = {
+		localization_key = "IT_ART_A"
+		trigger = { 
+			is_female = yes
+		}
+	}
+}
+
+IT_ART_IL_LA = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_IL_LA_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_IL_LA_female
+		trigger = { is_female = yes }
+	}
+}
+
+IT_ART_LO_LA = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_LO_LA_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_LO_LA_female
+		trigger = { is_female = yes }
+	}
+}
+
+
+IT_ART_NULL_A = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_A_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_A_female
+		trigger = { is_female = yes }
+	}
+}
+
+IT_ART_NULL_LA = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_LA_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_LA_female
+		trigger = { is_female = yes }
+	}
+}
+
+IT_ART_NULL_APOX = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_APOX_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_APOX_female
+		trigger = { is_female = yes }
+	}
+}
+
+IT_ART_O_A_OPP = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_O_A_OPP_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_O_A_OPP_female
+		trigger = { is_female = yes }
+	}
+}
+
+IT_ART_IL_LA_OPP = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_IL_LA_OPP_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_IL_LA_OPP_female
+		trigger = { is_female = yes }
+	}
+}
+
+IT_ART_NULL_A_OPP = { 
+	type = character
+	log_loc_errors = no
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_A_OPP_male
+		trigger = { is_female = no }
+	}
+	text = {
+		localization_key = CustomLoc_IT_ART_NULL_A_OPP_female
+		trigger = { is_female = yes }
+	}
+}
+IT_ART_GLI_LE = {
+	type = character
+	log_loc_errors = no
+	text = {
+		trigger = { is_female = no }
+		localization_key = "IT_ART_GLI"
+	}
+	text = {
+		trigger = { is_female = yes }
+		localization_key = "IT_ART_LE"
+	}
+}

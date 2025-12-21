@@ -1,27 +1,26 @@
 ﻿l_english:
- regency_estate_events.1.title: "Estate's Leadership Challenged"
- regency_estate_events.1.desc: "During the last few months, a faction in our realm has been gaining strength, and they believe thatthey should rule during the regency.\n\nTheir demands started as gossip; someone whispers that this or that person are not happy with the direction of the nation, another says that the leading faction is not as strong as this other, or that they are not as represented in the regency as they should and so on.\n\n[target_regent.GetName] is worried, for obvious reasons, and sees that [target_regent.GetHerHis] own faction's power has been weakened to the point of doubting that it can fight back. It is the moment to make a decision that will change our nation."
- regency_estate_events.1.a: "Accept a change of leadership."
- regency_estate_events.1.b: "Support the regent."
-
-
- regency_estate_events.3.title: "Tyrant Regent"
- regency_estate_events.3.desc: "Blood feuds are the kind of things that make realms collapse, but they are as old as the human being itself. Our [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle], [target_regent.GetName], thinks being in power is a golden opportunity to get rid of some political adversaries.\n\n[target_regent.GetSheHe|U] is using [target_regent.GetHerHis] influence as a regent to mercilessly attack any voice that speaks against [target_regent.GetHerHim] even when they do not, just because [target_regent.GetSheHe] can.\n\nOf course, the other factions are not especially happy with how things are being done, and might try to retaliate. We are at a crossroads where we have to decide what to do: should we intervene?"
- regency_estate_events.3.a: "We must trust in [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetShortNameWithNoTooltip]."
- regency_estate_events.3.b: "We must not abide tyranny."
-
-
- regency_estate_events.5.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] Causing Problems"
- regency_estate_events.5.desc: "It is said that [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] only care about money. As long as money is abundant, they are happy and will not cause many problems. At least, that is what we thought.\n\n[target_regent.GetName] and [target_regent.GetHerHis] faction have used their power to further advance some shady business while they have been in power. It would not be the first time we turn a blind eye to smuggling, but these illicit moves have irritated another nation and they might use this incident as an excuse to declare war on us and get some compensations. Unfortunately, they are not willing to negotiate."
- regency_estate_events.5.a: "We can only wait."
-
-
- regency_estate_events.6.title: "Intolerance Rises"
- regency_estate_events.6.desc: "Nobody will be surprised if it is said that every religious power will always try to perpetuate their power or assert their domination over the rest when they rule. And this is exactly the situation that the [ROOT.GetCountry.GetLongName] is facing.\n\nThe [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are using their power to remove the influence of other religions in our realm, and their power is too big to refuse. A timid protest is all we have been able to elevate. We will change this policy in the future, no doubt, but for now we will need to live with it."
- regency_estate_events.6.a: "One problem at a time."
-
-
- regency_estate_events.9.title: "Regent is a Good Influence"
- regency_estate_events.9.desc: "When good men and women are more devoted to the good of the nation than to their own interests, great things happen. For months, [target_regent.GetName] has taken a lot of time to share [target_regent.GetHerHis] wisdom to [target_heir.GetName], and both have enjoyed this time greatly.\n\nThe preparation to be a ruler is never easy, but [target_regent.GetShortNameWithNoTooltip] has done great work. Lessons about sciences, etiquette, history, and military tactiques have been going up and down the palace, following the regent and the heir wherever they went."
- regency_estate_events.9.a: "[target_heir.GetShortNameWithNoTooltip] has learnt so much!"
+ regency_estate_events.1.title: "La Leadership dello Stato è Messa alla Prova"
+ regency_estate_events.1.desc: "Negli ultimi mesi, una fazione nel nostro regno ha guadagnato forza e crede di dover governare durante la reggenza.\n\nLe loro richieste sono iniziate come pettegolezzi; qualcuno sussurra che questa o quella persona non è contenta della direzione presa dalla nazione, un altro dice che la fazione dominante non è forte quanto quest'altra, o che non è rappresentata nella reggenza come dovrebbe e così via.\n\n[target_regent.GetName] è preoccupato, per ovvie ragioni, e vede che il potere della [target_regent.GetHerHis] fazione è stato indebolito al punto da fargli dubitare di poter reagire. È il momento di prendere una decisione che cambierà la nostra nazione."
+ regency_estate_events.1.a: "Accettare un cambio di leadership."
+ regency_estate_events.1.b: "Sostieni il reggente."
  
+ 
+ regency_estate_events.3.title: "Reggente Tiranno"
+ regency_estate_events.3.desc: "Le faide di sangue sono il tipo di cose che fanno crollare i regni, ma sono vecchie quanto l'essere umano stesso. Il nostro [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle], [target_regent.GetName], pensa che essere al potere sia un'occasione d'oro per sbarazzarsi di alcuni avversari politici.\n\n[target_regent.GetSheHe|U] sta usando la [target_regent.GetHerHis] influenza come reggente per attaccare senza pietà qualsiasi voce che si esprima contro di [target_regent.GetHerHim] anche quando non lo fa, solo perché [target_regent.GetSheHe] può farlo.\n\nOvviamente, le altre fazioni non sono particolarmente contente di come stanno andando le cose e potrebbero tentare di vendicarsi. Siamo a un bivio in cui dobbiamo decidere cosa fare. Cosa fare: dovremmo intervenire?"
+ regency_estate_events.3.a: "Dobbiamo avere fiducia in [ROOT.GetCountry.GetGovernment.GetActiveRegent.GetShortNameWithNoTooltip]."
+ regency_estate_events.3.b: "Non dobbiamo tollerare la tirannia."
+ 
+ 
+ regency_estate_events.5.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('burghers_estate')] Causa Problemi"
+ regency_estate_events.5.desc: "Si dice che alla [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] interessi solo i soldi. Finché il denaro è abbondante, sono felici e non causeranno molti problemi. Almeno, questo è quello che pensavamo.\n\n[target_regent.GetName] e la [target_regent.GetHerHis] fazione hanno usato il loro potere per promuovere ulteriormente alcuni affari loschi mentre erano al potere. Non sarebbe la prima volta che chiudiamo un occhio sul contrabbando, ma queste mosse illecite hanno irritato un'altra nazione e potrebbero usare questo incidente come scusa per dichiararci guerra e ottenere dei risarcimenti. Sfortunatamente, non sono disposti a negoziare."
+ regency_estate_events.5.a: "Possiamo solo aspettare."
+ 
+ 
+ regency_estate_events.6.title: "L'Intolleranza Aumenta"
+ regency_estate_events.6.desc: "Nessuno si sorprenderebbe se si dicesse che ogni potere religioso cerca sempre di perpetuare il proprio potere o di affermare il proprio dominio sugli altri quando governa. E questa è esattamente la situazione che [ROOT.GetCountry.GetLongName] sta affrontando.\n\nIl [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] sta usando il suo potere per eliminare l'influenza delle altre religioni nel nostro regno, e il suo potere è troppo grande per opporsi. Una timida protesta è tutto ciò che siamo riusciti a ottenere. Cambieremo questa politica in futuro, senza dubbio, ma per ora dovremo conviverci."
+ regency_estate_events.6.a: "Un problema alla volta."
+ 
+ 
+ regency_estate_events.9.title: "Il Reggente è una Buona Influenza"
+ regency_estate_events.9.desc: "Quando uomini e donne buoni sono più devoti al bene della nazione che ai propri interessi, accadono grandi cose. Per mesi, [target_regent.GetName] ha dedicato molto tempo a condividere la sua saggezza con [target_heir.GetName], ed entrambi si sono divertiti molto. La preparazione per diventare un sovrano non è mai facile, ma [target_regent.GetShortNameWithNoTooltip] ha fatto un ottimo lavoro. Lezioni di scienze, galateo, storia e tattiche militari sono andate avanti e indietro per il palazzo, seguendo il reggente e l'erede ovunque andassero."
+ regency_estate_events.9.a: "[target_heir.GetShortNameWithNoTooltip] ha imparato così tanto!"

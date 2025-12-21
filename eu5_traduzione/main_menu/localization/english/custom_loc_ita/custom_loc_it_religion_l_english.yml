@@ -1,0 +1,1637 @@
+﻿l_english:
+
+###RELIGION 
+#[ROOT.GetReligion.GetName] -> [ROOT.Custom('IT_REL_MS')]
+
+###RELIGION GROUP 
+#[ROOT.GetReligion.GetName] -> [ROOT.Custom('IT_REL_GRO_MS')]
+
+###RELIGION 
+#[ROOT.Custom('IT_REL_MS')] Cattolico
+#[ROOT.Custom('IT_REL_MP')] Cattolici
+#[ROOT.Custom('IT_REL_FS')] Cattolica
+#[ROOT.Custom('IT_REL_FP')] Cattoliche
+
+ ###RELIGION GROUP 
+#[ROOT.Custom('IT_REL_GRO_MS')] Cristiano
+#[ROOT.Custom('IT_REL_GRO_MP')] Cristiani
+#[ROOT.Custom('IT_REL_GRO_FS')] Cristiana
+#[ROOT.Custom('IT_REL_GRO_FP')] Cristiane
+ 
+
+catholic_IT_REL_MS: "Cattolico"
+catholic_IT_REL_MP: "Cattolici"
+catholic_IT_REL_FS: "Cattolica"
+catholic_IT_REL_FP: "Cattoliche"
+
+lutheran_IT_REL_MS: "Luterano"
+lutheran_IT_REL_MP: "Luterani"
+lutheran_IT_REL_FS: "Luterana"
+lutheran_IT_REL_FP: "Luterane"
+
+calvinist_IT_REL_MS: "Calvinista"
+calvinist_IT_REL_MP: "Calvinisti"
+calvinist_IT_REL_FS: "Calvinista"
+calvinist_IT_REL_FP: "Calviniste"
+
+orthodox_IT_REL_MS: "Ortodossa"
+orthodox_IT_REL_MP: "Ortodossi"
+orthodox_IT_REL_FS: "Ortodossa"
+orthodox_IT_REL_FP: "Ortodosse"
+
+hindu_IT_REL_MS: "Indù"
+hindu_IT_REL_MP: "Indù"
+hindu_IT_REL_FS: "Indù"
+hindu_IT_REL_FP: "Indù"
+
+sapmi_shamanism_IT_REL_MS: "Sciamanista Sámi"
+sapmi_shamanism_IT_REL_MP: "Sciamanisti Sámi"
+sapmi_shamanism_IT_REL_FS: "Sciamanista Sámi"
+sapmi_shamanism_IT_REL_FP: "Sciamaniste Sámi"
+
+muinaisusko_IT_REL_MS: "Muinaisuska"
+muinaisusko_IT_REL_MP: "Muinaisuski"
+muinaisusko_IT_REL_FS: "Muinaisuska"
+muinaisusko_IT_REL_FP: "Muinaisuske"
+
+shia_IT_REL_MS: "Sciita"
+shia_IT_REL_MP: "Sciiti"
+shia_IT_REL_FS: "Sciita"
+shia_IT_REL_FP: "Sciite"
+
+ibadi_IT_REL_MS: "Ibadi"
+ibadi_IT_REL_MP: "Ibadi"
+ibadi_IT_REL_FS: "Ibadi"
+ibadi_IT_REL_FP: "Ibadi"
+
+sunni_IT_REL_MS: "Sunnita"
+sunni_IT_REL_MP: "Sunniti"
+sunni_IT_REL_FS: "Sunnita"
+sunni_IT_REL_FP: "Sunnite"
+
+druzism_IT_REL_MS: "Drusa"
+druzism_IT_REL_MP: "Drusi"
+druzism_IT_REL_FS: "Drusa"
+druzism_IT_REL_FP: "Druse"
+
+theravada_IT_REL_MS: "Theravāda"
+theravada_IT_REL_MP: "Theravādi"
+theravada_IT_REL_FS: "Theravāda"
+theravada_IT_REL_FP: "Theravāde"
+
+romuva_IT_REL_MS: "Romuva"
+romuva_IT_REL_MP: "Romuvi"
+romuva_IT_REL_FS: "Romuva"
+romuva_IT_REL_FP: "Romuve"
+
+mandeaism_IT_REL_MS: "Mandea"
+mandeaism_IT_REL_MP: "Mandei"
+mandeaism_IT_REL_FS: "Mandea"
+mandeaism_IT_REL_FP: "Mandee"
+
+yazidism_IT_REL_MS: "Yazida"
+yazidism_IT_REL_MP: "Yazidi"
+yazidism_IT_REL_FS: "Yazida"
+yazidism_IT_REL_FP: "Yazide"
+
+judaism_IT_REL_MS: "Ebraica"
+judaism_IT_REL_MP: "Ebraici"
+judaism_IT_REL_FS: "Ebraica"
+judaism_IT_REL_FP: "Ebraiche"
+
+samaritanism_IT_REL_MS: "Samaritana"
+samaritanism_IT_REL_MP: "Samaritani"
+samaritanism_IT_REL_FS: "Samaritana"
+samaritanism_IT_REL_FP: "Samaritane"
+
+miaphysite_IT_REL_MS: "Miafisita"
+miaphysite_IT_REL_MP: "Miafisiti"
+miaphysite_IT_REL_FS: "Miafisita"
+miaphysite_IT_REL_FP: "Miafisite"
+
+nestorianism_IT_REL_MS: "Nestoriana"
+nestorianism_IT_REL_MP: "Nestoriani"
+nestorianism_IT_REL_FS: "Nestoriana"
+nestorianism_IT_REL_FP: "Nestoriane"
+
+bogomilism_IT_REL_MS: "Bogomila"
+bogomilism_IT_REL_MP: "Bogomili"
+bogomilism_IT_REL_FS: "Bogomila"
+bogomilism_IT_REL_FP: "Bogomile"
+
+bosnian_church_IT_REL_MS: "Krstjani"
+bosnian_church_IT_REL_MP: "Krstjani"
+bosnian_church_IT_REL_FS: "Krstjani"
+bosnian_church_IT_REL_FP: "Krstjane"
+
+catharism_IT_REL_MS: "Catara"
+catharism_IT_REL_MP: "Catari"
+catharism_IT_REL_FS: "Catara"
+catharism_IT_REL_FP: "Catare"
+
+paulicianism_IT_REL_MS: "Paoliciana"
+paulicianism_IT_REL_MP: "Paoliciani"
+paulicianism_IT_REL_FS: "Paoliciana"
+paulicianism_IT_REL_FP: "Paoliciane"
+
+waldensian_IT_REL_MS: "Valdese"
+waldensian_IT_REL_MP: "Valdesi"
+waldensian_IT_REL_FS: "Valdese"
+waldensian_IT_REL_FP: "Valdese"
+
+anglican_IT_REL_MS: "Anglicana"
+anglican_IT_REL_MP: "Anglicani"
+anglican_IT_REL_FS: "Anglicana"
+anglican_IT_REL_FP: "Anglicane"
+
+lollardy_IT_REL_MS: "Lollarda"
+lollardy_IT_REL_MP: "Lollardi"
+lollardy_IT_REL_FS: "Lollarda"
+lollardy_IT_REL_FP: "Lollarde"
+
+strigolniki_IT_REL_MS: "Strigolniki"
+strigolniki_IT_REL_MP: "Strigolniki"
+strigolniki_IT_REL_FS: "Strigolniki"
+strigolniki_IT_REL_FP: "Strigolniki"
+
+hussite_IT_REL_MS: "Ussita"
+hussite_IT_REL_MP: "Ussiti"
+hussite_IT_REL_FS: "Ussita"
+hussite_IT_REL_FP: "Ussite"
+
+jain_IT_REL_MS: "Giainista"
+jain_IT_REL_MP: "Giainisti"
+jain_IT_REL_FS: "Giainista"
+jain_IT_REL_FP: "Giainiste"
+
+mahayana_IT_REL_MS: "Buddista Orientale"
+mahayana_IT_REL_MP: "Buddisti Orientali"
+mahayana_IT_REL_FS: "Buddista Orientale"
+mahayana_IT_REL_FP: "Buddiste Orientali"
+
+sammitiya_IT_REL_MS: "Saṃmitīya"
+sammitiya_IT_REL_MP: "Saṃmitīyi"
+sammitiya_IT_REL_FS: "Saṃmitīya"
+sammitiya_IT_REL_FP: "Saṃmitīya"
+
+tibetan_buddhism_IT_REL_MS: "Buddista Tibetano"
+tibetan_buddhism_IT_REL_MP: "Buddisti Tibetani"
+tibetan_buddhism_IT_REL_FS: "Buddista Tibetana"
+tibetan_buddhism_IT_REL_FP: "Buddiste Tibetane"
+
+bon_IT_REL_MS: "Bön"
+bon_IT_REL_MP: "Bön"
+bon_IT_REL_FS: "Bön"
+bon_IT_REL_FP: "Bön"
+
+sanjiao_IT_REL_MS: "Sānjiào"
+sanjiao_IT_REL_MP: "Sānjiài"
+sanjiao_IT_REL_FS: "Sānjiào"
+sanjiao_IT_REL_FP: "Sānjiào"
+
+nahuatl_IT_REL_MS: "Nahua"
+nahuatl_IT_REL_MP: "Nahua"
+nahuatl_IT_REL_FS: "Nahua"
+nahuatl_IT_REL_FP: "Nahua"
+
+mayan_IT_REL_MS: "Maya"
+mayan_IT_REL_MP: "Maya"
+mayan_IT_REL_FS: "Maya"
+mayan_IT_REL_FP: "Maya"
+
+norse_IT_REL_MS: "Norrena"
+norse_IT_REL_MP: "Norrena"
+norse_IT_REL_FS: "Norrena"
+norse_IT_REL_FP: "Norrena"
+
+shamanism_IT_REL_MS: "Sciamanista"
+shamanism_IT_REL_MP: "Sciamanisti"
+shamanism_IT_REL_FS: "Sciamanista"
+shamanism_IT_REL_FP: "Sciamanista"
+
+shinto_IT_REL_MS: "Shintō"
+shinto_IT_REL_MP: "Shinti"
+shinto_IT_REL_FS: "Shintō"
+shinto_IT_REL_FP: "Shintō"
+
+sikhism_IT_REL_MS: "Sikh"
+sikhism_IT_REL_MP: "Sikh"
+sikhism_IT_REL_FS: "Sikh"
+sikhism_IT_REL_FP: "Sikh"
+
+tengri_IT_REL_MS: "Tengrista"
+tengri_IT_REL_MP: "Tengrista"
+tengri_IT_REL_FS: "Tengrista"
+tengri_IT_REL_FP: "Tengrista"
+
+totemism_IT_REL_MS: "Totemista"
+totemism_IT_REL_MP: "Totemista"
+totemism_IT_REL_FS: "Totemista"
+totemism_IT_REL_FP: "Totemista"
+
+zoroastrian_IT_REL_MS: "Zoroastriana"
+zoroastrian_IT_REL_MP: "Zoroastriani"
+zoroastrian_IT_REL_FS: "Zoroastriana"
+zoroastrian_IT_REL_FP: "Zoroastriane"
+
+manichaeism_IT_REL_MS: "Manichea"
+manichaeism_IT_REL_MP: "Manichei"
+manichaeism_IT_REL_FS: "Manichea"
+manichaeism_IT_REL_FP: "Manichee"
+
+iroquoian_totemism_IT_REL_MS: "Orendista"
+iroquoian_totemism_IT_REL_MP: "Orendista"
+iroquoian_totemism_IT_REL_FS: "Orendista"
+iroquoian_totemism_IT_REL_FP: "Orendista"
+
+mississippian_ceremonial_IT_REL_MS: "Cerimoniale"
+mississippian_ceremonial_IT_REL_MP: "Cerimoniale"
+mississippian_ceremonial_IT_REL_FS: "Cerimoniale"
+mississippian_ceremonial_IT_REL_FP: "Cerimoniale"
+
+paiute_shamanism_IT_REL_MS: "Puhagimista"
+paiute_shamanism_IT_REL_MP: "Puhagimista"
+paiute_shamanism_IT_REL_FS: "Puhagimista"
+paiute_shamanism_IT_REL_FP: "Puhagimista"
+
+pomo_shamanism_IT_REL_MS: "Sciamanista Kuksu"
+pomo_shamanism_IT_REL_MP: "Sciamanista Kuksu"
+pomo_shamanism_IT_REL_FS: "Sciamanista Kuksu"
+pomo_shamanism_IT_REL_FP: "Sciamaniste Kuksu"
+
+salishan_totemism_IT_REL_MS: "Totemista Salishan"
+salishan_totemism_IT_REL_MP: "Totemista Salishan"
+salishan_totemism_IT_REL_FS: "Totemista Salishan"
+salishan_totemism_IT_REL_FP: "Totemiste Salishan"
+
+dene_totemism_IT_REL_MS: "Totemista Dene"
+dene_totemism_IT_REL_MP: "Totemista Dene"
+dene_totemism_IT_REL_FS: "Totemista Dene"
+dene_totemism_IT_REL_FP: "Totemiste Dene"
+
+dene_shamanism_IT_REL_MS: "Athabaskanista"
+dene_shamanism_IT_REL_MP: "Athabaskanista"
+dene_shamanism_IT_REL_FS: "Athabaskanista"
+dene_shamanism_IT_REL_FP: "Athabaskanista"
+
+yupik_shamanism_IT_REL_MS: "Sciamanista Yupik"
+yupik_shamanism_IT_REL_MP: "Sciamanista Yupik"
+yupik_shamanism_IT_REL_FS: "Sciamanista Yupik"
+yupik_shamanism_IT_REL_FP: "Sciamaniste Yupik"
+
+great_plains_shamanism_IT_REL_MS: "Wakanista"
+great_plains_shamanism_IT_REL_MP: "Wakanista"
+great_plains_shamanism_IT_REL_FS: "Wakanista"
+great_plains_shamanism_IT_REL_FP: "Wakanista"
+
+chukchi_shamanism_IT_REL_MS: "Sciamanista Ciukcio"
+chukchi_shamanism_IT_REL_MP: "Sciamanista Ciukcio"
+chukchi_shamanism_IT_REL_FS: "Sciamanista Ciukcio"
+chukchi_shamanism_IT_REL_FP: "Sciamanista Ciukcio"
+
+yukaghir_shamanism_IT_REL_MS: "Sciamanista Yukaghir"
+yukaghir_shamanism_IT_REL_MP: "Sciamanista Yukaghir"
+yukaghir_shamanism_IT_REL_FS: "Sciamanista Yukaghir"
+yukaghir_shamanism_IT_REL_FP: "Sciamanista Yukaghir"
+
+tungusic_shamanism_IT_REL_MS: "Sciamanista Tunguso"
+tungusic_shamanism_IT_REL_MP: "Sciamanista Tunguso"
+tungusic_shamanism_IT_REL_FS: "Sciamanista Tunguso"
+tungusic_shamanism_IT_REL_FP: "Sciamanista Tunguso"
+
+bimoism_IT_REL_MS: "Bimoista"
+bimoism_IT_REL_MP: "Bimoista"
+bimoism_IT_REL_FS: "Bimoista"
+bimoism_IT_REL_FP: "Bimoista"
+
+hmongism_IT_REL_MS: "Kev Dab Qhuas"
+hmongism_IT_REL_MP: "Kev Dab Qhuas"
+hmongism_IT_REL_FS: "Kev Dab Qhuas"
+hmongism_IT_REL_FP: "Kev Dab Qhuas"
+
+moism_IT_REL_MS: "Moista"
+moism_IT_REL_MP: "Moista"
+moism_IT_REL_FS: "Moista"
+moism_IT_REL_FP: "Moista"
+
+rmaism_IT_REL_MS: "Rmaista"
+rmaism_IT_REL_MP: "Rmaista"
+rmaism_IT_REL_FS: "Rmaista"
+rmaism_IT_REL_FP: "Rmaista"
+
+sanamahism_IT_REL_MS: "Sanamahista"
+sanamahism_IT_REL_MP: "Sanamahista"
+sanamahism_IT_REL_FS: "Sanamahista"
+sanamahism_IT_REL_FP: "Sanamahista"
+
+satsana_phi_IT_REL_MS: "Satsana Phi"
+satsana_phi_IT_REL_MP: "Satsana Phi"
+satsana_phi_IT_REL_FS: "Satsana Phi"
+satsana_phi_IT_REL_FP: "Satsana Phi"
+
+khabzeism_IT_REL_MS: "Khabzeista"
+khabzeism_IT_REL_MP: "Khabzeista"
+khabzeism_IT_REL_FS: "Khabzeista"
+khabzeism_IT_REL_FP: "Khabzeista"
+
+vainakh_paganism_IT_REL_MS: "Pagano Vainakh"
+vainakh_paganism_IT_REL_MP: "Pagani Vainakh"
+vainakh_paganism_IT_REL_FS: "Pagana Vainakh"
+vainakh_paganism_IT_REL_FP: "Pagane Vainakh"
+
+alan_paganism_IT_REL_MS: "Pagano Alan"
+alan_paganism_IT_REL_MP: "Pagani Alan"
+alan_paganism_IT_REL_FS: "Pagana Alan"
+alan_paganism_IT_REL_FP: "Pagane Alan"
+
+lezgin_paganism_IT_REL_MS: "Pagano Lezgino"
+lezgin_paganism_IT_REL_MP: "Pagani Lezgino"
+lezgin_paganism_IT_REL_FS: "Pagana Lezgino"
+lezgin_paganism_IT_REL_FP: "Pagane Lezgino"
+
+karachay_balkar_paganism_IT_REL_MS: "Pagano Karachay-Balkar"
+karachay_balkar_paganism_IT_REL_MP: "Pagani Karachay-Balkar"
+karachay_balkar_paganism_IT_REL_FS: "Pagana Karachay-Balkar"
+karachay_balkar_paganism_IT_REL_FP: "Pagane Karachay-Balkar"
+
+mari_paganism_IT_REL_MS: "Pagano Mari"
+mari_paganism_IT_REL_MP: "Pagani Mari"
+mari_paganism_IT_REL_FS: "Pagana Mari"
+mari_paganism_IT_REL_FP: "Pagane Mari"
+
+udmurt_paganism_IT_REL_MS: "Pagano Udmurto"
+udmurt_paganism_IT_REL_MP: "Pagani Udmurto"
+udmurt_paganism_IT_REL_FS: "Pagana Udmurto"
+udmurt_paganism_IT_REL_FP: "Pagane Udmurto"
+
+komi_paganism_IT_REL_MS: "Pagano Komi"
+komi_paganism_IT_REL_MP: "Pagani Komi"
+komi_paganism_IT_REL_FS: "Pagana Komi"
+komi_paganism_IT_REL_FP: "Pagane Komi"
+
+samoyedic_paganism_IT_REL_MS: "Sciamanista Samoiedo"
+samoyedic_paganism_IT_REL_MP: "Sciamanisti Samoiedo"
+samoyedic_paganism_IT_REL_FS: "Sciamanista Samoiedo"
+samoyedic_paganism_IT_REL_FP: "Sciamaniste Samoiedo"
+
+obian_paganism_IT_REL_MS: "Sciamanista Obiano"
+obian_paganism_IT_REL_MP: "Sciamanisti Obiano"
+obian_paganism_IT_REL_FS: "Sciamanista Obiano"
+obian_paganism_IT_REL_FP: "Sciamaniste Obiano"
+
+inti_IT_REL_MS: "Inti"
+inti_IT_REL_MP: "Inti"
+inti_IT_REL_FS: "Inti"
+inti_IT_REL_FP: "Inti"
+
+bantu_religion_IT_REL_MS: "Bantu"
+bantu_religion_IT_REL_MP: "Bantu"
+bantu_religion_IT_REL_FS: "Bantu"
+bantu_religion_IT_REL_FP: "Bantu"
+
+bori_religion_IT_REL_MS: "Bori"
+bori_religion_IT_REL_MP: "Bori"
+bori_religion_IT_REL_FS: "Bori"
+bori_religion_IT_REL_FP: "Bori"
+
+muonyjang_religion_IT_REL_MS: "Muonyjang"
+muonyjang_religion_IT_REL_MP: "Muonyjang"
+muonyjang_religion_IT_REL_FS: "Muonyjang"
+muonyjang_religion_IT_REL_FP: "Muonyjang"
+
+fomba_gasy_religion_IT_REL_MS: "Fomba Gasy"
+fomba_gasy_religion_IT_REL_MP: "Fomba Gasy"
+fomba_gasy_religion_IT_REL_FS: "Fomba Gasy"
+fomba_gasy_religion_IT_REL_FP: "Fomba Gasy"
+
+maasai_religion_IT_REL_MS: "Mwene Nyaga"
+maasai_religion_IT_REL_MP: "Mwene Nyaga"
+maasai_religion_IT_REL_FS: "Mwene Nyaga"
+maasai_religion_IT_REL_FP: "Mwene Nyaga"
+
+asis_religion_IT_REL_MS: "Asisiano"
+asis_religion_IT_REL_MP: "Asisiano"
+asis_religion_IT_REL_FS: "Asisiano"
+asis_religion_IT_REL_FP: "Asisiano"
+
+waaqeffanna_religion_IT_REL_MS: "Waaqi"
+waaqeffanna_religion_IT_REL_MP: "Waaqi"
+waaqeffanna_religion_IT_REL_FS: "Waaqi"
+waaqeffanna_religion_IT_REL_FP: "Waaqi"
+
+badimo_religion_IT_REL_MS: "Badimo"
+badimo_religion_IT_REL_MP: "Badimo"
+badimo_religion_IT_REL_FS: "Badimo"
+badimo_religion_IT_REL_FP: "Badimo"
+
+kaggen_religion_IT_REL_MS: "Kaggen"
+kaggen_religion_IT_REL_MP: "Kaggen"
+kaggen_religion_IT_REL_FS: "Kaggen"
+kaggen_religion_IT_REL_FP: "Kaggen"
+
+akuj_religion_IT_REL_MS: "Akuj"
+akuj_religion_IT_REL_MP: "Akuj"
+akuj_religion_IT_REL_FS: "Akuj"
+akuj_religion_IT_REL_FP: "Akuj"
+
+akan_religion_IT_REL_MS: "Akom"
+akan_religion_IT_REL_MP: "Akom"
+akan_religion_IT_REL_FS: "Akom"
+akan_religion_IT_REL_FP: "Akom"
+
+vodun_religion_IT_REL_MS: "Vodun"
+vodun_religion_IT_REL_MP: "Vodun"
+vodun_religion_IT_REL_FS: "Vodun"
+vodun_religion_IT_REL_FP: "Vodun"
+
+abwoi_religion_IT_REL_MS: "Abwoi"
+abwoi_religion_IT_REL_MP: "Abwoi"
+abwoi_religion_IT_REL_FS: "Abwoi"
+abwoi_religion_IT_REL_FP: "Abwoi"
+
+isese_religion_IT_REL_MS: "Isese"
+isese_religion_IT_REL_MP: "Isese"
+isese_religion_IT_REL_FS: "Isese"
+isese_religion_IT_REL_FP: "Isese"
+
+ijaw_religion_IT_REL_MS: "Ijaw"
+ijaw_religion_IT_REL_MP: "Ijaw"
+ijaw_religion_IT_REL_FS: "Ijaw"
+ijaw_religion_IT_REL_FP: "Ijaw"
+
+odinala_religion_IT_REL_MS: "Odinala"
+odinala_religion_IT_REL_MP: "Odinala"
+odinala_religion_IT_REL_FS: "Odinala"
+odinala_religion_IT_REL_FP: "Odinala"
+
+a_fat_roog_religion_IT_REL_MS: "a ƭat Roog"
+a_fat_roog_religion_IT_REL_MP: "a ƭat Roog"
+a_fat_roog_religion_IT_REL_FS: "a ƭat Roog"
+a_fat_roog_religion_IT_REL_FP: "a ƭat Roog"
+
+dogon_religion_IT_REL_MS: "Dogon"
+dogon_religion_IT_REL_MP: "Dogon"
+dogon_religion_IT_REL_FS: "Dogon"
+dogon_religion_IT_REL_FP: "Dogon"
+
+nyama_religion_IT_REL_MS: "Nyama"
+nyama_religion_IT_REL_MP: "Nyama"
+nyama_religion_IT_REL_FS: "Nyama"
+nyama_religion_IT_REL_FP: "Nyama"
+
+nyesoa_religion_IT_REL_MS: "Nyesoa"
+nyesoa_religion_IT_REL_MP: "Nyesoa"
+nyesoa_religion_IT_REL_FS: "Nyesoa"
+nyesoa_religion_IT_REL_FP: "Nyesoa"
+
+karama_religion_IT_REL_MS: "Karama"
+karama_religion_IT_REL_MP: "Karama"
+karama_religion_IT_REL_FS: "Karama"
+karama_religion_IT_REL_FP: "Karama"
+
+buyli_religion_IT_REL_MS: "Bughli"
+buyli_religion_IT_REL_MP: "Bughli"
+buyli_religion_IT_REL_FS: "Bughli"
+buyli_religion_IT_REL_FP: "Bughli"
+
+ebore_religion_IT_REL_MS: "Ebore"
+ebore_religion_IT_REL_MP: "Ebore"
+ebore_religion_IT_REL_FS: "Ebore"
+ebore_religion_IT_REL_FP: "Ebore"
+
+adamawa_religion_IT_REL_MS: "Adamawa"
+adamawa_religion_IT_REL_MP: "Adamawa"
+adamawa_religion_IT_REL_FS: "Adamawa"
+adamawa_religion_IT_REL_FP: "Adamawa"
+
+geno_religion_IT_REL_MS: "Geno"
+geno_religion_IT_REL_MP: "Geno"
+geno_religion_IT_REL_FS: "Geno"
+geno_religion_IT_REL_FP: "Geno"
+
+emit_religion_IT_REL_MS: "Emit"
+emit_religion_IT_REL_MP: "Emit"
+emit_religion_IT_REL_FS: "Emit"
+emit_religion_IT_REL_FP: "Emit"
+
+nhaala_religion_IT_REL_MS: "N'haala"
+nhaala_religion_IT_REL_MP: "N'haala"
+nhaala_religion_IT_REL_FS: "N'haala"
+nhaala_religion_IT_REL_FP: "N'haala"
+
+eso_religion_IT_REL_MS: "Eso"
+eso_religion_IT_REL_MP: "Eso"
+eso_religion_IT_REL_FS: "Eso"
+eso_religion_IT_REL_FP: "Eso"
+
+naa_wuni_religion_IT_REL_MS: "Naa-wuni"
+naa_wuni_religion_IT_REL_MP: "Naa-wuni"
+naa_wuni_religion_IT_REL_FS: "Naa-wuni"
+naa_wuni_religion_IT_REL_FP: "Naa-wuni"
+
+kuru_masaba_religion_IT_REL_MS: "Kuru Masaba"
+kuru_masaba_religion_IT_REL_MP: "Kuru Masaba"
+kuru_masaba_religion_IT_REL_FS: "Kuru Masaba"
+kuru_masaba_religion_IT_REL_FP: "Kuru Masaba"
+
+sao_religion_IT_REL_MS: "Sao"
+sao_religion_IT_REL_MP: "Sao"
+sao_religion_IT_REL_FS: "Sao"
+sao_religion_IT_REL_FP: "Sao"
+
+rogo_miki_religion_IT_REL_MS: "Rogo Miki"
+rogo_miki_religion_IT_REL_MP: "Rogo Miki"
+rogo_miki_religion_IT_REL_FS: "Rogo Miki"
+rogo_miki_religion_IT_REL_FP: "Rogo Miki"
+
+songhai_religion_IT_REL_MS: "Songhai"
+songhai_religion_IT_REL_MP: "Songhai"
+songhai_religion_IT_REL_FS: "Songhai"
+songhai_religion_IT_REL_FP: "Songhai"
+
+godala_religion_IT_REL_MS: "Godala"
+godala_religion_IT_REL_MP: "Godala"
+godala_religion_IT_REL_FS: "Godala"
+godala_religion_IT_REL_FP: "Godala"
+
+nyasaye_religion_IT_REL_MS: "Nyasaye"
+nyasaye_religion_IT_REL_MP: "Nyasaye"
+nyasaye_religion_IT_REL_FS: "Nyasaye"
+nyasaye_religion_IT_REL_FP: "Nyasaye"
+
+anna_religion_IT_REL_MS: "Anna"
+anna_religion_IT_REL_MP: "Anna"
+anna_religion_IT_REL_FS: "Anna"
+anna_religion_IT_REL_FP: "Anna"
+
+rebba_religion_IT_REL_MS: "Rebba"
+rebba_religion_IT_REL_MP: "Rebba"
+rebba_religion_IT_REL_FS: "Rebba"
+rebba_religion_IT_REL_FP: "Rebba"
+
+omo_religion_IT_REL_MS: "Omo"
+omo_religion_IT_REL_MP: "Omo"
+omo_religion_IT_REL_FS: "Omo"
+omo_religion_IT_REL_FP: "Omo"
+
+musala_religion_IT_REL_MS: "Musala"
+musala_religion_IT_REL_MP: "Musala"
+musala_religion_IT_REL_FS: "Musala"
+musala_religion_IT_REL_FP: "Musala"
+
+kalge_religion_IT_REL_MS: "Kalge"
+kalge_religion_IT_REL_MP: "Kalge"
+kalge_religion_IT_REL_FS: "Kalge"
+kalge_religion_IT_REL_FP: "Kalge"
+
+mbori_religion_IT_REL_MS: "Mbori"
+mbori_religion_IT_REL_MP: "Mbori"
+mbori_religion_IT_REL_FS: "Mbori"
+mbori_religion_IT_REL_FP: "Mbori"
+
+ka_niam_khasi_religion_IT_REL_MS: "Ka Niam Khasi"
+ka_niam_khasi_religion_IT_REL_MP: "Ka Niam Khasi"
+ka_niam_khasi_religion_IT_REL_FS: "Ka Niam Khasi"
+ka_niam_khasi_religion_IT_REL_FP: "Ka Niam Khasi"
+
+muong_religion_IT_REL_MS: "Muong"
+muong_religion_IT_REL_MP: "Muong"
+muong_religion_IT_REL_FS: "Muong"
+muong_religion_IT_REL_FP: "Muong"
+
+sarna_religion_IT_REL_MS: "Sarnaista"
+sarna_religion_IT_REL_MP: "Sarnaista"
+sarna_religion_IT_REL_FS: "Sarnaista"
+sarna_religion_IT_REL_FP: "Sarnaista"
+
+ainu_religion_IT_REL_MS: "Ainu"
+ainu_religion_IT_REL_MP: "Ainu"
+ainu_religion_IT_REL_FS: "Ainu"
+ainu_religion_IT_REL_FP: "Ainu"
+
+utaki_religion_IT_REL_MS: "Utaki"
+utaki_religion_IT_REL_MP: "Utaki"
+utaki_religion_IT_REL_FS: "Utaki"
+utaki_religion_IT_REL_FP: "Utaki"
+
+koyapunem_religion_IT_REL_MS: "Koyapunem"
+koyapunem_religion_IT_REL_MP: "Koyapunem"
+koyapunem_religion_IT_REL_FS: "Koyapunem"
+koyapunem_religion_IT_REL_FP: "Koyapunem"
+
+bathou_religion_IT_REL_MS: "Bathouista"
+bathou_religion_IT_REL_MP: "Bathouista"
+bathou_religion_IT_REL_FS: "Bathouista"
+bathou_religion_IT_REL_FP: "Bathouista"
+
+dongba_religion_IT_REL_MS: "Dongbaista"
+dongba_religion_IT_REL_MP: "Dongbaista"
+dongba_religion_IT_REL_FS: "Dongbaista"
+dongba_religion_IT_REL_FP: "Dongbaista"
+
+donyi_polo_religion_IT_REL_MS: "Donyi Polo"
+donyi_polo_religion_IT_REL_MP: "Donyi Polo"
+donyi_polo_religion_IT_REL_FS: "Donyi Polo"
+donyi_polo_religion_IT_REL_FP: "Donyi Polo"
+
+kirat_mundhum_religion_IT_REL_MS: "Kirat Mundhum"
+kirat_mundhum_religion_IT_REL_MP: "Kirat Mundhum"
+kirat_mundhum_religion_IT_REL_FS: "Kirat Mundhum"
+kirat_mundhum_religion_IT_REL_FP: "Kirat Mundhum"
+
+mizo_religion_IT_REL_MS: "Mizo"
+mizo_religion_IT_REL_MP: "Mizo"
+mizo_religion_IT_REL_FS: "Mizo"
+mizo_religion_IT_REL_FP: "Mizo"
+
+gosain_religion_IT_REL_MS: "Gosain"
+gosain_religion_IT_REL_MP: "Gosain"
+gosain_religion_IT_REL_FS: "Gosain"
+gosain_religion_IT_REL_FP: "Gosain"
+
+khond_religion_IT_REL_MS: "Khond"
+khond_religion_IT_REL_MP: "Khond"
+khond_religion_IT_REL_FS: "Khond"
+khond_religion_IT_REL_FP: "Khond"
+
+wu_religion_IT_REL_MS: "Wuista"
+wu_religion_IT_REL_MP: "Wuista"
+wu_religion_IT_REL_FS: "Wuista"
+wu_religion_IT_REL_FP: "Wuista"
+
+yao_religion_IT_REL_MS: "Yao"
+yao_religion_IT_REL_MP: "Yao"
+yao_religion_IT_REL_FS: "Yao"
+yao_religion_IT_REL_FP: "Yao"
+
+nuo_religion_IT_REL_MS: "Nuo"
+nuo_religion_IT_REL_MP: "Nuo"
+nuo_religion_IT_REL_FS: "Nuo"
+nuo_religion_IT_REL_FP: "Nuo"
+
+vedda_religion_IT_REL_MS: "Vedda"
+vedda_religion_IT_REL_MP: "Vedda"
+vedda_religion_IT_REL_FS: "Vedda"
+vedda_religion_IT_REL_FP: "Vedda"
+
+kam_religion_IT_REL_MS: "Kam"
+kam_religion_IT_REL_MP: "Kam"
+kam_religion_IT_REL_FS: "Kam"
+kam_religion_IT_REL_FP: "Kam"
+
+formosan_religion_IT_REL_MS: "Formosano"
+formosan_religion_IT_REL_MP: "Formosano"
+formosan_religion_IT_REL_FS: "Formosano"
+formosan_religion_IT_REL_FP: "Formosano"
+
+mulam_religion_IT_REL_MS: "Mulam"
+mulam_religion_IT_REL_MP: "Mulam"
+mulam_religion_IT_REL_FS: "Mulam"
+mulam_religion_IT_REL_FP: "Mulam"
+
+maonan_religion_IT_REL_MS: "Maonan"
+maonan_religion_IT_REL_MP: "Maonan"
+maonan_religion_IT_REL_FS: "Maonan"
+maonan_religion_IT_REL_FP: "Maonan"
+
+sui_religion_IT_REL_MS: "Sui"
+sui_religion_IT_REL_MP: "Sui"
+sui_religion_IT_REL_FS: "Sui"
+sui_religion_IT_REL_FP: "Sui"
+
+lisu_religion_IT_REL_MS: "Lisu"
+lisu_religion_IT_REL_MP: "Lisu"
+lisu_religion_IT_REL_FS: "Lisu"
+lisu_religion_IT_REL_FP: "Lisu"
+
+ngacang_religion_IT_REL_MS: "Ngac'ang"
+ngacang_religion_IT_REL_MP: "Ngac'ang"
+ngacang_religion_IT_REL_FS: "Ngac'ang"
+ngacang_religion_IT_REL_FP: "Ngac'ang"
+
+blang_religion_IT_REL_MS: "Blang"
+blang_religion_IT_REL_MP: "Blang"
+blang_religion_IT_REL_FS: "Blang"
+blang_religion_IT_REL_FP: "Blang"
+
+hani_religion_IT_REL_MS: "Hani"
+hani_religion_IT_REL_MP: "Hani"
+hani_religion_IT_REL_FS: "Hani"
+hani_religion_IT_REL_FP: "Hani"
+
+jino_religion_IT_REL_MS: "Jino"
+jino_religion_IT_REL_MP: "Jino"
+jino_religion_IT_REL_FS: "Jino"
+jino_religion_IT_REL_FP: "Jino"
+
+lahu_religion_IT_REL_MS: "Lahu"
+lahu_religion_IT_REL_MP: "Lahu"
+lahu_religion_IT_REL_FS: "Lahu"
+lahu_religion_IT_REL_FP: "Lahu"
+
+nu_religion_IT_REL_MS: "Nu"
+nu_religion_IT_REL_MP: "Nu"
+nu_religion_IT_REL_FS: "Nu"
+nu_religion_IT_REL_FP: "Nu"
+
+jingpo_religion_IT_REL_MS: "Jingpo"
+jingpo_religion_IT_REL_MP: "Jingpo"
+jingpo_religion_IT_REL_FS: "Jingpo"
+jingpo_religion_IT_REL_FP: "Jingpo"
+
+wa_religion_IT_REL_MS: "Wa"
+wa_religion_IT_REL_MP: "Wa"
+wa_religion_IT_REL_FS: "Wa"
+wa_religion_IT_REL_FP: "Wa"
+
+monpa_religion_IT_REL_MS: "Monpa"
+monpa_religion_IT_REL_MP: "Monpa"
+monpa_religion_IT_REL_FS: "Monpa"
+monpa_religion_IT_REL_FP: "Monpa"
+
+mishmi_religion_IT_REL_MS: "Mishmi"
+mishmi_religion_IT_REL_MP: "Mishmi"
+mishmi_religion_IT_REL_FS: "Mishmi"
+mishmi_religion_IT_REL_FP: "Mishmi"
+
+palaung_religion_IT_REL_MS: "Palaung"
+palaung_religion_IT_REL_MP: "Palaung"
+palaung_religion_IT_REL_FS: "Palaung"
+palaung_religion_IT_REL_FP: "Palaung"
+
+kundism_religion_IT_REL_MS: "Kundista"
+kundism_religion_IT_REL_MP: "Kundista"
+kundism_religion_IT_REL_FS: "Kundista"
+kundism_religion_IT_REL_FP: "Kundista"
+
+songsarek_religion_IT_REL_MS: "Songsarek"
+songsarek_religion_IT_REL_MP: "Songsarek"
+songsarek_religion_IT_REL_FS: "Songsarek"
+songsarek_religion_IT_REL_FP: "Songsarek"
+
+tiwa_religion_IT_REL_MS: "Tiwa"
+tiwa_religion_IT_REL_MP: "Tiwa"
+tiwa_religion_IT_REL_FS: "Tiwa"
+tiwa_religion_IT_REL_FP: "Tiwa"
+
+koch_religion_IT_REL_MS: "Koch"
+koch_religion_IT_REL_MP: "Koch"
+koch_religion_IT_REL_FS: "Koch"
+koch_religion_IT_REL_FP: "Koch"
+
+rabha_religion_IT_REL_MS: "Rabha"
+rabha_religion_IT_REL_MP: "Rabha"
+rabha_religion_IT_REL_FS: "Rabha"
+rabha_religion_IT_REL_FP: "Rabha"
+
+chutia_religion_IT_REL_MS: "Chutia"
+chutia_religion_IT_REL_MP: "Chutia"
+chutia_religion_IT_REL_FS: "Chutia"
+chutia_religion_IT_REL_FP: "Chutia"
+
+dimasa_religion_IT_REL_MS: "Dimasa"
+dimasa_religion_IT_REL_MP: "Dimasa"
+dimasa_religion_IT_REL_FS: "Dimasa"
+dimasa_religion_IT_REL_FP: "Dimasa"
+
+karbi_religion_IT_REL_MS: "Karbi"
+karbi_religion_IT_REL_MP: "Karbi"
+karbi_religion_IT_REL_FS: "Karbi"
+karbi_religion_IT_REL_FP: "Karbi"
+
+sora_religion_IT_REL_MS: "Sora"
+sora_religion_IT_REL_MP: "Sora"
+sora_religion_IT_REL_FS: "Sora"
+sora_religion_IT_REL_FP: "Sora"
+
+juang_religion_IT_REL_MS: "Juang"
+juang_religion_IT_REL_MP: "Juang"
+juang_religion_IT_REL_FS: "Juang"
+juang_religion_IT_REL_FP: "Juang"
+
+kharia_religion_IT_REL_MS: "Kharia"
+kharia_religion_IT_REL_MP: "Kharia"
+kharia_religion_IT_REL_FS: "Kharia"
+kharia_religion_IT_REL_FP: "Kharia"
+
+naga_religion_IT_REL_MS: "Naga"
+naga_religion_IT_REL_MP: "Naga"
+naga_religion_IT_REL_FS: "Naga"
+naga_religion_IT_REL_FP: "Naga"
+
+karen_religion_IT_REL_MS: "Karen"
+karen_religion_IT_REL_MP: "Karen"
+karen_religion_IT_REL_FS: "Karen"
+karen_religion_IT_REL_FP: "Karen"
+
+sedang_religion_IT_REL_MS: "Sedang"
+sedang_religion_IT_REL_MP: "Sedang"
+sedang_religion_IT_REL_FS: "Sedang"
+sedang_religion_IT_REL_FP: "Sedang"
+
+bahnar_religion_IT_REL_MS: "Bahnar"
+bahnar_religion_IT_REL_MP: "Bahnar"
+bahnar_religion_IT_REL_FS: "Bahnar"
+bahnar_religion_IT_REL_FP: "Bahnar"
+
+bru_religion_IT_REL_MS: "Bru"
+bru_religion_IT_REL_MP: "Bru"
+bru_religion_IT_REL_FS: "Bru"
+bru_religion_IT_REL_FP: "Bru"
+
+orang_asli_religion_IT_REL_MS: "Orang Asli"
+orang_asli_religion_IT_REL_MP: "Orang Asli"
+orang_asli_religion_IT_REL_FS: "Orang Asli"
+orang_asli_religion_IT_REL_FP: "Orang Asli"
+
+andamanese_religion_IT_REL_MS: "Andamanese"
+andamanese_religion_IT_REL_MP: "Andamanese"
+andamanese_religion_IT_REL_FS: "Andamanese"
+andamanese_religion_IT_REL_FP: "Andamanese"
+
+nicobarese_religion_IT_REL_MS: "Nicobarese"
+nicobarese_religion_IT_REL_MP: "Nicobarese"
+nicobarese_religion_IT_REL_FS: "Nicobarese"
+nicobarese_religion_IT_REL_FP: "Nicobarese"
+
+kaharingan_religion_IT_REL_MS: "Kaharingan"
+kaharingan_religion_IT_REL_MP: "Kaharingan"
+kaharingan_religion_IT_REL_FS: "Kaharingan"
+kaharingan_religion_IT_REL_FP: "Kaharingan"
+
+kan_khwan_religion_IT_REL_MS: "Kan Khwan"
+kan_khwan_religion_IT_REL_MP: "Kan Khwan"
+kan_khwan_religion_IT_REL_FS: "Kan Khwan"
+kan_khwan_religion_IT_REL_FP: "Kan Khwan"
+
+adat_puun_religion_IT_REL_MS: "Adat Pu'un"
+adat_puun_religion_IT_REL_MP: "Adat Pu'un"
+adat_puun_religion_IT_REL_FS: "Adat Pu'un"
+adat_puun_religion_IT_REL_FP: "Adat Pu'un"
+
+momolianism_religion_IT_REL_MS: "Momolianista"
+momolianism_religion_IT_REL_MP: "Momolianista"
+momolianism_religion_IT_REL_FS: "Momolianista"
+momolianism_religion_IT_REL_FP: "Momolianista"
+
+besavik_religion_IT_REL_MS: "Besavik"
+besavik_religion_IT_REL_MP: "Besavik"
+besavik_religion_IT_REL_FS: "Besavik"
+besavik_religion_IT_REL_FP: "Besavik"
+
+aluk_religion_IT_REL_MS: "Aluk"
+aluk_religion_IT_REL_MP: "Aluk"
+aluk_religion_IT_REL_FS: "Aluk"
+aluk_religion_IT_REL_FP: "Aluk"
+
+malesung_religion_IT_REL_MS: "Malesung"
+malesung_religion_IT_REL_MP: "Malesung"
+malesung_religion_IT_REL_FS: "Malesung"
+malesung_religion_IT_REL_FP: "Malesung"
+
+marapu_religion_IT_REL_MS: "Marapu"
+marapu_religion_IT_REL_MP: "Marapu"
+marapu_religion_IT_REL_FS: "Marapu"
+marapu_religion_IT_REL_FP: "Marapu"
+
+arat_sabulungan_religion_IT_REL_MS: "Arat Sabulungan"
+arat_sabulungan_religion_IT_REL_MP: "Arat Sabulungan"
+arat_sabulungan_religion_IT_REL_FS: "Arat Sabulungan"
+arat_sabulungan_religion_IT_REL_FP: "Arat Sabulungan"
+
+pengarap_asal_religion_IT_REL_MS: "Iban"
+pengarap_asal_religion_IT_REL_MP: "Iban"
+pengarap_asal_religion_IT_REL_FS: "Iban"
+pengarap_asal_religion_IT_REL_FP: "Iban"
+
+ipok_religion_IT_REL_MS: "Ipok"
+ipok_religion_IT_REL_MP: "Ipok"
+ipok_religion_IT_REL_FS: "Ipok"
+ipok_religion_IT_REL_FP: "Ipok"
+
+banunut_religion_IT_REL_MS: "Banunut"
+banunut_religion_IT_REL_MP: "Banunut"
+banunut_religion_IT_REL_FS: "Banunut"
+banunut_religion_IT_REL_FP: "Banunut"
+
+lamoa_religion_IT_REL_MS: "Lamoa"
+lamoa_religion_IT_REL_MP: "Lamoa"
+lamoa_religion_IT_REL_FS: "Lamoa"
+lamoa_religion_IT_REL_FP: "Lamoa"
+
+tolotang_religion_IT_REL_MS: "Tolotang"
+tolotang_religion_IT_REL_MP: "Tolotang"
+tolotang_religion_IT_REL_FS: "Tolotang"
+tolotang_religion_IT_REL_FP: "Tolotang"
+
+tolaki_religion_IT_REL_MS: "Tolaki"
+tolaki_religion_IT_REL_MP: "Tolaki"
+tolaki_religion_IT_REL_FS: "Tolaki"
+tolaki_religion_IT_REL_FP: "Tolaki"
+
+buton_religion_IT_REL_MS: "Buton"
+buton_religion_IT_REL_MP: "Buton"
+buton_religion_IT_REL_FS: "Buton"
+buton_religion_IT_REL_FP: "Buton"
+
+tomanuru_religion_IT_REL_MS: "Tomanuru"
+tomanuru_religion_IT_REL_MP: "Tomanuru"
+tomanuru_religion_IT_REL_FS: "Tomanuru"
+tomanuru_religion_IT_REL_FP: "Tomanuru"
+
+gorontalo_religion_IT_REL_MS: "Gorontalo"
+gorontalo_religion_IT_REL_MP: "Gorontalo"
+gorontalo_religion_IT_REL_FS: "Gorontalo"
+gorontalo_religion_IT_REL_FP: "Gorontalo"
+
+adat_musi_religion_IT_REL_MS: "Adat Musi"
+adat_musi_religion_IT_REL_MP: "Adat Musi"
+adat_musi_religion_IT_REL_FS: "Adat Musi"
+adat_musi_religion_IT_REL_FP: "Adat Musi"
+
+sangirese_religion_IT_REL_MS: "Sangirese"
+sangirese_religion_IT_REL_MP: "Sangirese"
+sangirese_religion_IT_REL_FS: "Sangirese"
+sangirese_religion_IT_REL_FP: "Sangirese"
+
+wetarese_religion_IT_REL_MS: "Wetarese"
+wetarese_religion_IT_REL_MP: "Wetarese"
+wetarese_religion_IT_REL_FS: "Wetarese"
+wetarese_religion_IT_REL_FP: "Wetarese"
+
+kirin_koda_religion_IT_REL_MS: "Kirin Koda"
+kirin_koda_religion_IT_REL_MP: "Kirin Koda"
+kirin_koda_religion_IT_REL_FS: "Kirin Koda"
+kirin_koda_religion_IT_REL_FP: "Kirin Koda"
+
+dua_nggae_religion_IT_REL_MS: "Du'a Ngga'e"
+dua_nggae_religion_IT_REL_MP: "Du'a Ngga'e"
+dua_nggae_religion_IT_REL_FS: "Du'a Ngga'e"
+dua_nggae_religion_IT_REL_FP: "Du'a Ngga'e"
+
+lamatuan_religion_IT_REL_MS: "Lamatuan"
+lamatuan_religion_IT_REL_MP: "Lamatuan"
+lamatuan_religion_IT_REL_FS: "Lamatuan"
+lamatuan_religion_IT_REL_FP: "Lamatuan"
+
+naurus_religion_IT_REL_MS: "Naurus"
+naurus_religion_IT_REL_MP: "Naurus"
+naurus_religion_IT_REL_FS: "Naurus"
+naurus_religion_IT_REL_FP: "Naurus"
+
+mitu_religion_IT_REL_MS: "Mitu"
+mitu_religion_IT_REL_MP: "Mitu"
+mitu_religion_IT_REL_FS: "Mitu"
+mitu_religion_IT_REL_FP: "Mitu"
+
+sula_religion_IT_REL_MS: "Sula"
+sula_religion_IT_REL_MP: "Sula"
+sula_religion_IT_REL_FS: "Sula"
+sula_religion_IT_REL_FP: "Sula"
+
+kolano_religion_IT_REL_MS: "Kolano"
+kolano_religion_IT_REL_MP: "Kolano"
+kolano_religion_IT_REL_FS: "Kolano"
+kolano_religion_IT_REL_FP: "Kolano"
+
+goma_religion_IT_REL_MS: "Goma"
+goma_religion_IT_REL_MP: "Goma"
+goma_religion_IT_REL_FS: "Goma"
+goma_religion_IT_REL_FP: "Goma"
+
+anitism_religion_IT_REL_MS: "Anitista"
+anitism_religion_IT_REL_MP: "Anitista"
+anitism_religion_IT_REL_FS: "Anitista"
+anitism_religion_IT_REL_FP: "Anitista"
+
+orang_laut_religion_IT_REL_MS: "Orang Laut"
+orang_laut_religion_IT_REL_MP: "Orang Laut"
+orang_laut_religion_IT_REL_FS: "Orang Laut"
+orang_laut_religion_IT_REL_FP: "Orang Laut"
+
+minangkabau_religion_IT_REL_MS: "Minangkabau"
+minangkabau_religion_IT_REL_MP: "Minangkabau"
+minangkabau_religion_IT_REL_FS: "Minangkabau"
+minangkabau_religion_IT_REL_FP: "Minangkabau"
+
+pelebegu_religion_IT_REL_MS: "Pelebegu"
+pelebegu_religion_IT_REL_MP: "Pelebegu"
+pelebegu_religion_IT_REL_FS: "Pelebegu"
+pelebegu_religion_IT_REL_FP: "Pelebegu"
+
+nyang_serai_religion_IT_REL_MS: "Nyang Serai"
+nyang_serai_religion_IT_REL_MP: "Nyang Serai"
+nyang_serai_religion_IT_REL_FS: "Nyang Serai"
+nyang_serai_religion_IT_REL_FP: "Nyang Serai"
+
+piil_pesenggiri_religion_IT_REL_MS: "Piil Pesenggiri"
+piil_pesenggiri_religion_IT_REL_MP: "Piil Pesenggiri"
+piil_pesenggiri_religion_IT_REL_FS: "Piil Pesenggiri"
+piil_pesenggiri_religion_IT_REL_FP: "Piil Pesenggiri"
+
+orang_rimba_religion_IT_REL_MS: "Orang Rimba"
+orang_rimba_religion_IT_REL_MP: "Orang Rimba"
+orang_rimba_religion_IT_REL_FS: "Orang Rimba"
+orang_rimba_religion_IT_REL_FP: "Orang Rimba"
+
+enggano_religion_IT_REL_MS: "Enggano"
+enggano_religion_IT_REL_MP: "Enggano"
+enggano_religion_IT_REL_FS: "Enggano"
+enggano_religion_IT_REL_FP: "Enggano"
+
+imunu_religion_IT_REL_MS: "Imunu"
+imunu_religion_IT_REL_MP: "Imunu"
+imunu_religion_IT_REL_FS: "Imunu"
+imunu_religion_IT_REL_FP: "Imunu"
+
+dreamtime_religion_IT_REL_MS: "Jukurrpa"
+dreamtime_religion_IT_REL_MP: "Jukurrpa"
+dreamtime_religion_IT_REL_FS: "Jukurrpa"
+dreamtime_religion_IT_REL_FP: "Jukurrpa"
+
+degar_religion_IT_REL_MS: "Degar"
+degar_religion_IT_REL_MP: "Degar"
+degar_religion_IT_REL_FS: "Degar"
+degar_religion_IT_REL_FP: "Degar"
+
+naylamp_religion_IT_REL_MS: "Naylamp"
+naylamp_religion_IT_REL_MP: "Naylamp"
+naylamp_religion_IT_REL_FS: "Naylamp"
+naylamp_religion_IT_REL_FP: "Naylamp"
+
+umina_religion_IT_REL_MS: "Umiña"
+umina_religion_IT_REL_MP: "Umiña"
+umina_religion_IT_REL_FS: "Umiña"
+umina_religion_IT_REL_FP: "Umiña"
+
+jama_religion_IT_REL_MS: "Jama"
+jama_religion_IT_REL_MP: "Jama"
+jama_religion_IT_REL_FS: "Jama"
+jama_religion_IT_REL_FP: "Jama"
+
+pi_religion_IT_REL_MS: "Pi"
+pi_religion_IT_REL_MP: "Pi"
+pi_religion_IT_REL_FS: "Pi"
+pi_religion_IT_REL_FP: "Pi"
+
+arutam_religion_IT_REL_MS: "Arútam"
+arutam_religion_IT_REL_MP: "Arútam"
+arutam_religion_IT_REL_FS: "Arútam"
+arutam_religion_IT_REL_FP: "Arútam"
+
+chango_religion_IT_REL_MS: "Chango"
+chango_religion_IT_REL_MP: "Chango"
+chango_religion_IT_REL_FS: "Chango"
+chango_religion_IT_REL_FP: "Chango"
+
+cebil_religion_IT_REL_MS: "Cebil"
+cebil_religion_IT_REL_MP: "Cebil"
+cebil_religion_IT_REL_FS: "Cebil"
+cebil_religion_IT_REL_FP: "Cebil"
+
+yastay_religion_IT_REL_MS: "Yastay"
+yastay_religion_IT_REL_MP: "Yastay"
+yastay_religion_IT_REL_FS: "Yastay"
+yastay_religion_IT_REL_FP: "Yastay"
+
+gos_religion_IT_REL_MS: "Gos"
+gos_religion_IT_REL_MP: "Gos"
+gos_religion_IT_REL_FS: "Gos"
+gos_religion_IT_REL_FP: "Gos"
+
+pava_religion_IT_REL_MS: "Pává"
+pava_religion_IT_REL_MP: "Pává"
+pava_religion_IT_REL_FS: "Pává"
+pava_religion_IT_REL_FP: "Pává"
+
+chanka_religion_IT_REL_MS: "Chanka"
+chanka_religion_IT_REL_MP: "Chanka"
+chanka_religion_IT_REL_FS: "Chanka"
+chanka_religion_IT_REL_FP: "Chanka"
+
+chincha_religion_IT_REL_MS: "Chincha"
+chincha_religion_IT_REL_MP: "Chincha"
+chincha_religion_IT_REL_FS: "Chincha"
+chincha_religion_IT_REL_FP: "Chincha"
+
+akinha_ekugu_religion_IT_REL_MS: "Akinhá Ekugu"
+akinha_ekugu_religion_IT_REL_MP: "Akinhá Ekugu"
+akinha_ekugu_religion_IT_REL_FS: "Akinhá Ekugu"
+akinha_ekugu_religion_IT_REL_FP: "Akinhá Ekugu"
+
+namandu_religion_IT_REL_MS: "Ñamandú"
+namandu_religion_IT_REL_MP: "Ñamandú"
+namandu_religion_IT_REL_FS: "Ñamandú"
+namandu_religion_IT_REL_FP: "Ñamandú"
+
+tunpa_religion_IT_REL_MS: "Tunpa"
+tunpa_religion_IT_REL_MP: "Tunpa"
+tunpa_religion_IT_REL_FS: "Tunpa"
+tunpa_religion_IT_REL_FP: "Tunpa"
+
+doi_wahire_religion_IT_REL_MS: "Doí Wahirê"
+doi_wahire_religion_IT_REL_MP: "Doí Wahirê"
+doi_wahire_religion_IT_REL_FS: "Doí Wahirê"
+doi_wahire_religion_IT_REL_FP: "Doí Wahirê"
+
+jurema_religion_IT_REL_MS: "Jurema"
+jurema_religion_IT_REL_MP: "Jurema"
+jurema_religion_IT_REL_FS: "Jurema"
+jurema_religion_IT_REL_FP: "Jurema"
+
+nallagdigua_religion_IT_REL_MS: "Nallagdigua"
+nallagdigua_religion_IT_REL_MP: "Nallagdigua"
+nallagdigua_religion_IT_REL_FS: "Nallagdigua"
+nallagdigua_religion_IT_REL_FP: "Nallagdigua"
+
+txapakura_religion_IT_REL_MS: "Txapakura"
+txapakura_religion_IT_REL_MP: "Txapakura"
+txapakura_religion_IT_REL_FS: "Txapakura"
+txapakura_religion_IT_REL_FP: "Txapakura"
+
+zemi_religion_IT_REL_MS: "Zemi"
+zemi_religion_IT_REL_MP: "Zemi"
+zemi_religion_IT_REL_FS: "Zemi"
+zemi_religion_IT_REL_FP: "Zemi"
+
+kenos_religion_IT_REL_MS: "Kénos"
+kenos_religion_IT_REL_MP: "Kénos"
+kenos_religion_IT_REL_FS: "Kénos"
+kenos_religion_IT_REL_FP: "Kénos"
+
+tain_feyentun_religion_IT_REL_MS: "Taiñ Feyentún"
+tain_feyentun_religion_IT_REL_MP: "Taiñ Feyentún"
+tain_feyentun_religion_IT_REL_FS: "Taiñ Feyentún"
+tain_feyentun_religion_IT_REL_FP: "Taiñ Feyentún"
+
+tokuah_religion_IT_REL_MS: "Tokuah"
+tokuah_religion_IT_REL_MP: "Tokuah"
+tokuah_religion_IT_REL_FS: "Tokuah"
+tokuah_religion_IT_REL_FP: "Tokuah"
+
+kilyikhama_religion_IT_REL_MS: "Kilyikhama"
+kilyikhama_religion_IT_REL_MP: "Kilyikhama"
+kilyikhama_religion_IT_REL_FS: "Kilyikhama"
+kilyikhama_religion_IT_REL_FP: "Kilyikhama"
+
+pabichu_religion_IT_REL_MS: "Pabichu"
+pabichu_religion_IT_REL_MP: "Pabichu"
+pabichu_religion_IT_REL_FS: "Pabichu"
+pabichu_religion_IT_REL_FP: "Pabichu"
+
+mororuma_religion_IT_REL_MS: "Mororuma"
+mororuma_religion_IT_REL_MP: "Mororuma"
+mororuma_religion_IT_REL_FS: "Mororuma"
+mororuma_religion_IT_REL_FP: "Mororuma"
+
+moksha_religion_IT_REL_MS: "Moksha"
+moksha_religion_IT_REL_MP: "Moksha"
+moksha_religion_IT_REL_FS: "Moksha"
+moksha_religion_IT_REL_FP: "Moksha"
+
+erzya_religion_IT_REL_MS: "Erzyano"
+erzya_religion_IT_REL_MP: "Erzyano"
+erzya_religion_IT_REL_FS: "Erzyano"
+erzya_religion_IT_REL_FP: "Erzyano"
+
+guanche_religion_IT_REL_MS: "Guanche"
+guanche_religion_IT_REL_MP: "Guanche"
+guanche_religion_IT_REL_FS: "Guanche"
+guanche_religion_IT_REL_FP: "Guanche"
+
+maleiwa_religion_IT_REL_MS: "Maleiwa"
+maleiwa_religion_IT_REL_MP: "Maleiwa"
+maleiwa_religion_IT_REL_FS: "Maleiwa"
+maleiwa_religion_IT_REL_FP: "Maleiwa"
+
+yopo_religion_IT_REL_MS: "Yopo"
+yopo_religion_IT_REL_MP: "Yopo"
+yopo_religion_IT_REL_FS: "Yopo"
+yopo_religion_IT_REL_FP: "Yopo"
+
+sinu_religion_IT_REL_MS: "Sinu"
+sinu_religion_IT_REL_MP: "Sinu"
+sinu_religion_IT_REL_FS: "Sinu"
+sinu_religion_IT_REL_FP: "Sinu"
+
+warao_religion_IT_REL_MS: "Warao"
+warao_religion_IT_REL_MP: "Warao"
+warao_religion_IT_REL_FS: "Warao"
+warao_religion_IT_REL_FP: "Warao"
+
+naoma_religion_IT_REL_MS: "Naoma"
+naoma_religion_IT_REL_MP: "Naoma"
+naoma_religion_IT_REL_FS: "Naoma"
+naoma_religion_IT_REL_FP: "Naoma"
+
+muisca_religion_IT_REL_MS: "Bozic Ie"
+muisca_religion_IT_REL_MP: "Bozic Ie"
+muisca_religion_IT_REL_FS: "Bozic Ie"
+muisca_religion_IT_REL_FP: "Bozic Ie"
+
+nacuco_religion_IT_REL_MS: "Nacuco"
+nacuco_religion_IT_REL_MP: "Nacuco"
+nacuco_religion_IT_REL_FS: "Nacuco"
+nacuco_religion_IT_REL_FP: "Nacuco"
+
+jai_religion_IT_REL_MS: "Jai"
+jai_religion_IT_REL_MP: "Jai"
+jai_religion_IT_REL_FS: "Jai"
+jai_religion_IT_REL_FP: "Jai"
+
+yage_religion_IT_REL_MS: "Yagé"
+yage_religion_IT_REL_MP: "Yagé"
+yage_religion_IT_REL_FS: "Yagé"
+yage_religion_IT_REL_FP: "Yagé"
+
+chichimecah_religion_IT_REL_MS: "Chīchīmēcah"
+chichimecah_religion_IT_REL_MP: "Chīchīmēcah"
+chichimecah_religion_IT_REL_FS: "Chīchīmēcah"
+chichimecah_religion_IT_REL_FP: "Chīchīmēcah"
+
+lenca_religion_IT_REL_MS: "Lenca"
+lenca_religion_IT_REL_MP: "Lenca"
+lenca_religion_IT_REL_FS: "Lenca"
+lenca_religion_IT_REL_FP: "Lenca"
+
+pech_religion_IT_REL_MS: "Mua Mua"
+pech_religion_IT_REL_MP: "Mua Mua"
+pech_religion_IT_REL_FS: "Mua Mua"
+pech_religion_IT_REL_FP: "Mua Mua"
+
+wan_aisa_religion_IT_REL_MS: "Wan Aisa"
+wan_aisa_religion_IT_REL_MP: "Wan Aisa"
+wan_aisa_religion_IT_REL_FS: "Wan Aisa"
+wan_aisa_religion_IT_REL_FP: "Wan Aisa"
+
+maleku_religion_IT_REL_MS: "Maleku"
+maleku_religion_IT_REL_MP: "Maleku"
+maleku_religion_IT_REL_FS: "Maleku"
+maleku_religion_IT_REL_FP: "Maleku"
+
+suwo_religion_IT_REL_MS: "Sũwõ'"
+suwo_religion_IT_REL_MP: "Sũwõ'"
+suwo_religion_IT_REL_FS: "Sũwõ'"
+suwo_religion_IT_REL_FP: "Sũwõ'"
+
+chibcha_religion_IT_REL_MS: "Chibchano"
+chibcha_religion_IT_REL_MP: "Chibchano"
+chibcha_religion_IT_REL_FS: "Chibchano"
+chibcha_religion_IT_REL_FP: "Chibchano"
+
+votian_religion_IT_REL_MS: "Votiano"
+votian_religion_IT_REL_MP: "Votiano"
+votian_religion_IT_REL_FS: "Votiano"
+votian_religion_IT_REL_FP: "Votiano"
+
+inuit_religion_IT_REL_MS: "Inuit"
+inuit_religion_IT_REL_MP: "Inuit"
+inuit_religion_IT_REL_FS: "Inuit"
+inuit_religion_IT_REL_FP: "Inuit"
+
+dene_religion_IT_REL_MS: "Dene"
+dene_religion_IT_REL_MP: "Dene"
+dene_religion_IT_REL_FS: "Dene"
+dene_religion_IT_REL_FP: "Dene"
+
+tapu_religion_IT_REL_MS: "Tapu"
+tapu_religion_IT_REL_MP: "Tapu"
+tapu_religion_IT_REL_FS: "Tapu"
+tapu_religion_IT_REL_FP: "Tapu"
+
+tokelauan_religion_IT_REL_MS: "Tokelauano"
+tokelauan_religion_IT_REL_MP: "Tokelauano"
+tokelauan_religion_IT_REL_FS: "Tokelauano"
+tokelauan_religion_IT_REL_FP: "Tokelauano"
+
+puntan_religion_IT_REL_MS: "Puntan"
+puntan_religion_IT_REL_MP: "Puntan"
+puntan_religion_IT_REL_FS: "Puntan"
+puntan_religion_IT_REL_FP: "Puntan"
+
+kajoor_ri_majel_religion_IT_REL_MS: "Kajoor Ri Majel"
+kajoor_ri_majel_religion_IT_REL_MP: "Kajoor Ri Majel"
+kajoor_ri_majel_religion_IT_REL_FS: "Kajoor Ri Majel"
+kajoor_ri_majel_religion_IT_REL_FP: "Kajoor Ri Majel"
+
+yanolop_religion_IT_REL_MS: "Yanolop"
+yanolop_religion_IT_REL_MP: "Yanolop"
+yanolop_religion_IT_REL_FS: "Yanolop"
+yanolop_religion_IT_REL_FP: "Yanolop"
+
+arosi_religion_IT_REL_MS: "Arosi"
+arosi_religion_IT_REL_MP: "Arosi"
+arosi_religion_IT_REL_FS: "Arosi"
+arosi_religion_IT_REL_FP: "Arosi"
+
+abu_religion_IT_REL_MS: "Kwaio"
+abu_religion_IT_REL_MP: "Kwaio"
+abu_religion_IT_REL_FS: "Kwaio"
+abu_religion_IT_REL_FP: "Kwaio"
+
+ghari_religion_IT_REL_MS: "Ghari"
+ghari_religion_IT_REL_MP: "Ghari"
+ghari_religion_IT_REL_FS: "Ghari"
+ghari_religion_IT_REL_FP: "Ghari"
+
+nduke_religion_IT_REL_MS: "Nduke"
+nduke_religion_IT_REL_MP: "Nduke"
+nduke_religion_IT_REL_FS: "Nduke"
+nduke_religion_IT_REL_FP: "Nduke"
+
+cheke_holo_religion_IT_REL_MS: "Cheke Holo"
+cheke_holo_religion_IT_REL_MP: "Cheke Holo"
+cheke_holo_religion_IT_REL_FS: "Cheke Holo"
+cheke_holo_religion_IT_REL_FP: "Cheke Holo"
+
+vaghua_religion_IT_REL_MS: "Vaghua"
+vaghua_religion_IT_REL_MP: "Vaghua"
+vaghua_religion_IT_REL_FS: "Vaghua"
+vaghua_religion_IT_REL_FP: "Vaghua"
+
+mu_ngava_religion_IT_REL_MS: "Mu Ngava"
+mu_ngava_religion_IT_REL_MP: "Mu Ngava"
+mu_ngava_religion_IT_REL_FS: "Mu Ngava"
+mu_ngava_religion_IT_REL_FP: "Mu Ngava"
+
+natugu_religion_IT_REL_MS: "Natugu"
+natugu_religion_IT_REL_MP: "Natugu"
+natugu_religion_IT_REL_FS: "Natugu"
+natugu_religion_IT_REL_FP: "Natugu"
+
+qat_religion_IT_REL_MS: "Qat"
+qat_religion_IT_REL_MP: "Qat"
+qat_religion_IT_REL_FS: "Qat"
+qat_religion_IT_REL_FP: "Qat"
+
+itaukei_religion_IT_REL_MS: "Itaukei"
+itaukei_religion_IT_REL_MP: "Itaukei"
+itaukei_religion_IT_REL_FS: "Itaukei"
+itaukei_religion_IT_REL_FP: "Itaukei"
+
+kanak_religion_IT_REL_MS: "Kanak"
+kanak_religion_IT_REL_MP: "Kanak"
+kanak_religion_IT_REL_FS: "Kanak"
+kanak_religion_IT_REL_FP: "Kanak"
+
+hellenism_religion_IT_REL_MS: "Ellenista"
+hellenism_religion_IT_REL_MP: "Ellenista"
+hellenism_religion_IT_REL_FS: "Ellenista"
+hellenism_religion_IT_REL_FP: "Ellenista"
+
+pericu_religion_IT_REL_MS: "Niparaya"
+pericu_religion_IT_REL_MP: "Niparaya"
+pericu_religion_IT_REL_FS: "Niparaya"
+pericu_religion_IT_REL_FP: "Niparaya"
+
+yuman_religion_IT_REL_MS: "Yuman"
+yuman_religion_IT_REL_MP: "Yuman"
+yuman_religion_IT_REL_FS: "Yuman"
+yuman_religion_IT_REL_FP: "Yuman"
+
+cahita_religion_IT_REL_MS: "Cáhita"
+cahita_religion_IT_REL_MP: "Cáhita"
+cahita_religion_IT_REL_FS: "Cáhita"
+cahita_religion_IT_REL_FP: "Cáhita"
+
+seri_religion_IT_REL_MS: "Comcaac"
+seri_religion_IT_REL_MP: "Comcaac"
+seri_religion_IT_REL_FS: "Comcaac"
+seri_religion_IT_REL_FP: "Comcaac"
+
+guasave_religion_IT_REL_MS: "Guasave"
+guasave_religion_IT_REL_MP: "Guasave"
+guasave_religion_IT_REL_FS: "Guasave"
+guasave_religion_IT_REL_FP: "Guasave"
+
+tepehuan_religion_IT_REL_MS: "Ódami"
+tepehuan_religion_IT_REL_MP: "Ódami"
+tepehuan_religion_IT_REL_FS: "Ódami"
+tepehuan_religion_IT_REL_FP: "Ódami"
+
+coahuilteco_religion_IT_REL_MS: "Coahuilteco"
+coahuilteco_religion_IT_REL_MP: "Coahuilteco"
+coahuilteco_religion_IT_REL_FS: "Coahuilteco"
+coahuilteco_religion_IT_REL_FP: "Coahuilteco"
+
+irritila_religion_IT_REL_MS: "Irritila"
+irritila_religion_IT_REL_MP: "Irritila"
+irritila_religion_IT_REL_FS: "Irritila"
+irritila_religion_IT_REL_FP: "Irritila"
+
+karankawa_religion_IT_REL_MS: "Karankawa"
+karankawa_religion_IT_REL_MP: "Karankawa"
+karankawa_religion_IT_REL_FS: "Karankawa"
+karankawa_religion_IT_REL_FP: "Karankawa"
+
+atakapa_religion_IT_REL_MS: "Atakapa"
+atakapa_religion_IT_REL_MP: "Atakapa"
+atakapa_religion_IT_REL_FS: "Atakapa"
+atakapa_religion_IT_REL_FP: "Atakapa"
+
+kachina_religion_IT_REL_MS: "Kachina"
+kachina_religion_IT_REL_MP: "Kachina"
+kachina_religion_IT_REL_FS: "Kachina"
+kachina_religion_IT_REL_FP: "Kachina"
+
+midewiwin_religion_IT_REL_MS: "Midew"
+midewiwin_religion_IT_REL_MP: "Midew"
+midewiwin_religion_IT_REL_FS: "Midew"
+midewiwin_religion_IT_REL_FP: "Midew"
+
+mesoamerican_IT_REL_MS: "Tonalista"
+mesoamerican_IT_REL_MP: "Tonalista"
+mesoamerican_IT_REL_FS: "Tonalista"
+mesoamerican_IT_REL_FP: "Tonalista"
+
+ngbandi_religion_IT_REL_MS: "Ngbandi"
+ngbandi_religion_IT_REL_MP: "Ngbandi"
+ngbandi_religion_IT_REL_FS: "Ngbandi"
+ngbandi_religion_IT_REL_FP: "Ngbandi"
+
+ori_religion_IT_REL_MS: "Ori"
+ori_religion_IT_REL_MP: "Ori"
+ori_religion_IT_REL_FS: "Ori"
+ori_religion_IT_REL_FP: "Ori"
+
+bua_religion_IT_REL_MS: "Bua"
+bua_religion_IT_REL_MP: "Bua"
+bua_religion_IT_REL_FS: "Bua"
+bua_religion_IT_REL_FP: "Bua"
+
+banda_religion_IT_REL_MS: "Banda"
+banda_religion_IT_REL_MP: "Banda"
+banda_religion_IT_REL_FS: "Banda"
+banda_religion_IT_REL_FP: "Banda"
+
+fang_religion_IT_REL_MS: "Mebege"
+fang_religion_IT_REL_MP: "Mebege"
+fang_religion_IT_REL_FS: "Mebege"
+fang_religion_IT_REL_FP: "Mebege"
+
+ajok_religion_IT_REL_MS: "Ajok"
+ajok_religion_IT_REL_MP: "Ajok"
+ajok_religion_IT_REL_FS: "Ajok"
+ajok_religion_IT_REL_FP: "Ajok"
+
+lugbara_religion_IT_REL_MS: "Adroa-Adro"
+lugbara_religion_IT_REL_MP: "Adroa-Adro"
+lugbara_religion_IT_REL_FS: "Adroa-Adro"
+lugbara_religion_IT_REL_FP: "Adroa-Adro"
+
+cwezi_religion_IT_REL_MS: "Cwezi"
+cwezi_religion_IT_REL_MP: "Cwezi"
+cwezi_religion_IT_REL_FS: "Cwezi"
+cwezi_religion_IT_REL_FP: "Cwezi"
+
+#RELIGION.GROUP
+
+folk_african_group_IT_REL_GRO_MS: "Religioni Popolari Africane"
+folk_african_group_IT_REL_GRO_MP: "Religioni Popolari Africane"
+folk_african_group_IT_REL_GRO_FS: "Religioni Popolari Africane"
+folk_african_group_IT_REL_GRO_FP: "Religioni Popolari Africane"
+
+folk_argentinian_group_IT_REL_GRO_MS: "Religioni Popolari Argentine"
+folk_argentinian_group_IT_REL_GRO_MP: "Religioni Popolari Argentine"
+folk_argentinian_group_IT_REL_GRO_FS: "Religioni Popolari Argentine"
+folk_argentinian_group_IT_REL_GRO_FP: "Religioni Popolari Argentine"
+
+folk_aridoamerica_group_IT_REL_GRO_MS: "Religioni Popolari Aridoamericane"
+folk_aridoamerica_group_IT_REL_GRO_MP: "Religioni Popolari Aridoamericane"
+folk_aridoamerica_group_IT_REL_GRO_FS: "Religioni Popolari Aridoamericane"
+folk_aridoamerica_group_IT_REL_GRO_FP: "Religioni Popolari Aridoamericane"
+
+folk_asian_group_IT_REL_GRO_MS: "Religioni Popolari Asiatiche"
+folk_asian_group_IT_REL_GRO_MP: "Religioni Popolari Asiatiche"
+folk_asian_group_IT_REL_GRO_FS: "Religioni Popolari Asiatiche"
+folk_asian_group_IT_REL_GRO_FP: "Religioni Popolari Asiatiche"
+
+folk_australian_group_IT_REL_GRO_MS: "Religioni Popolari Australiane"
+folk_australian_group_IT_REL_GRO_MP: "Religioni Popolari Australiane"
+folk_australian_group_IT_REL_GRO_FS: "Religioni Popolari Australiane"
+folk_australian_group_IT_REL_GRO_FP: "Religioni Popolari Australiane"
+
+folk_brazilian_group_IT_REL_GRO_MS: "Religioni Popolari Brasiliane"
+folk_brazilian_group_IT_REL_GRO_MP: "Religioni Popolari Brasiliane"
+folk_brazilian_group_IT_REL_GRO_FS: "Religioni Popolari Brasiliane"
+folk_brazilian_group_IT_REL_GRO_FP: "Religioni Popolari Brasiliane"
+
+folk_caribbean_group_IT_REL_GRO_MS: "Religioni Popolari Caraibiche"
+folk_caribbean_group_IT_REL_GRO_MP: "Religioni Popolari Caraibiche"
+folk_caribbean_group_IT_REL_GRO_FS: "Religioni Popolari Caraibiche"
+folk_caribbean_group_IT_REL_GRO_FP: "Religioni Popolari Caraibiche"
+
+folk_central_american_group_IT_REL_GRO_MS: "Religioni Popolari Centroamericane"
+folk_central_american_group_IT_REL_GRO_MP: "Religioni Popolari Centroamericane"
+folk_central_american_group_IT_REL_GRO_FS: "Religioni Popolari Centroamericane"
+folk_central_american_group_IT_REL_GRO_FP: "Religioni Popolari Centroamericane"
+
+tonal_group_IT_REL_GRO_MS: "Religioni Tonali"
+tonal_group_IT_REL_GRO_MP: "Religioni Tonali"
+tonal_group_IT_REL_GRO_FS: "Religioni Tonali"
+tonal_group_IT_REL_GRO_FP: "Religioni Tonali"
+
+folk_european_group_IT_REL_GRO_MS: "Religioni Popolari Europee"
+folk_european_group_IT_REL_GRO_MP: "Religioni Popolari Europee"
+folk_european_group_IT_REL_GRO_FS: "Religioni Popolari Europee"
+folk_european_group_IT_REL_GRO_FP: "Religioni Popolari Europee"
+
+folk_melanesian_group_IT_REL_GRO_MS: "Religioni Popolari Melanesiane"
+folk_melanesian_group_IT_REL_GRO_MP: "Religioni Popolari Melanesiane"
+folk_melanesian_group_IT_REL_GRO_FS: "Religioni Popolari Melanesiane"
+folk_melanesian_group_IT_REL_GRO_FP: "Religioni Popolari Melanesiane"
+
+folk_micronesian_group_IT_REL_GRO_MS: "Religioni Popolari Micronesiane"
+folk_micronesian_group_IT_REL_GRO_MP: "Religioni Popolari Micronesiane"
+folk_micronesian_group_IT_REL_GRO_FS: "Religioni Popolari Micronesiane"
+folk_micronesian_group_IT_REL_GRO_FP: "Religioni Popolari Micronesiane"
+
+folk_north_american_group_IT_REL_GRO_MS: "Religioni Popolari Nordamericane"
+folk_north_american_group_IT_REL_GRO_MP: "Religioni Popolari Nordamericane"
+folk_north_american_group_IT_REL_GRO_FS: "Religioni Popolari Nordamericane"
+folk_north_american_group_IT_REL_GRO_FP: "Religioni Popolari Nordamericane"
+
+folk_papuan_group_IT_REL_GRO_MS: "Religioni Popolari Papuane"
+folk_papuan_group_IT_REL_GRO_MP: "Religioni Popolari Papuane"
+folk_papuan_group_IT_REL_GRO_FS: "Religioni Popolari Papuane"
+folk_papuan_group_IT_REL_GRO_FP: "Religioni Popolari Papuane"
+
+folk_permic_group_IT_REL_GRO_MS: "Religioni Popolari Permiane"
+folk_permic_group_IT_REL_GRO_MP: "Religioni Popolari Permiane"
+folk_permic_group_IT_REL_GRO_FS: "Religioni Popolari Permiane"
+folk_permic_group_IT_REL_GRO_FP: "Religioni Popolari Permiane"
+
+folk_peruvian_group_IT_REL_GRO_MS: "Religioni Popolari Andine"
+folk_peruvian_group_IT_REL_GRO_MP: "Religioni Popolari Andine"
+folk_peruvian_group_IT_REL_GRO_FS: "Religioni Popolari Andine"
+folk_peruvian_group_IT_REL_GRO_FP: "Religioni Popolari Andine"
+
+folk_polynesian_group_IT_REL_GRO_MS: "Religioni Popolari Polinesiane"
+folk_polynesian_group_IT_REL_GRO_MP: "Religioni Popolari Polinesiane"
+folk_polynesian_group_IT_REL_GRO_FS: "Religioni Popolari Polinesiane"
+folk_polynesian_group_IT_REL_GRO_FP: "Religioni Popolari Polinesiane"
+
+folk_se_asian_group_IT_REL_GRO_MS: "Religioni Popolari del Sud-est Asiatico"
+folk_se_asian_group_IT_REL_GRO_MP: "Religioni Popolari del Sud-est Asiatico"
+folk_se_asian_group_IT_REL_GRO_FS: "Religioni Popolari del Sud-est Asiatico"
+folk_se_asian_group_IT_REL_GRO_FP: "Religioni Popolari del Sud-est Asiatico"
+
+folk_south_american_group_IT_REL_GRO_MS: "Religioni Popolari Sudamericane"
+folk_south_american_group_IT_REL_GRO_MP: "Religioni Popolari Sudamericane"
+folk_south_american_group_IT_REL_GRO_FS: "Religioni Popolari Sudamericane"
+folk_south_american_group_IT_REL_GRO_FP: "Religioni Popolari Sudamericane"
+
+christian_IT_REL_GRO_MS: "Cristiana"
+christian_IT_REL_GRO_MP: "Cristiani"
+christian_IT_REL_GRO_FS: "Cristiana"
+christian_IT_REL_GRO_FP: "Cristiane"
+
+muslim_IT_REL_GRO_MS: "Musulmana"
+muslim_IT_REL_GRO_MP: "Musulmani"
+muslim_IT_REL_GRO_FS: "Musulmana"
+muslim_IT_REL_GRO_FP: "Musulmane"
+
+buddhist_IT_REL_GRO_MS: "Buddista"
+buddhist_IT_REL_GRO_MP: "Buddisti"
+buddhist_IT_REL_GRO_FS: "Buddista"
+buddhist_IT_REL_GRO_FP: "Buddiste"
+
+dharmic_IT_REL_GRO_MS: "Dharmica"
+dharmic_IT_REL_GRO_MP: "Dharmici"
+dharmic_IT_REL_GRO_FS: "Dharmica"
+dharmic_IT_REL_GRO_FP: "Dharmiche"
+
+zoroastrian_group_IT_REL_GRO_MS: "Zoroastriana"
+zoroastrian_group_IT_REL_GRO_MP: "Zoroastriani"
+zoroastrian_group_IT_REL_GRO_FS: "Zoroastriana"
+zoroastrian_group_IT_REL_GRO_FP: "Zoroastriane"
+
+manichaean_group_IT_REL_GRO_MS: "Manichea"
+manichaean_group_IT_REL_GRO_MP: "Manichei"
+manichaean_group_IT_REL_GRO_FS: "Manichea"
+manichaean_group_IT_REL_GRO_FP: "Manichee"
+
+israelite_group_IT_REL_GRO_MS: "Israelita"
+israelite_group_IT_REL_GRO_MP: "Israeliti"
+israelite_group_IT_REL_GRO_FS: "Israelita"
+israelite_group_IT_REL_GRO_FP: "Israelite"
+
+druze_group_IT_REL_GRO_MS: "Drusa"
+druze_group_IT_REL_GRO_MP: "Drusi"
+druze_group_IT_REL_GRO_FS: "Drusa"
+druze_group_IT_REL_GRO_FP: "Druse"
+
+yazidi_group_IT_REL_GRO_MS: "Yazida"
+yazidi_group_IT_REL_GRO_MP: "Yazidi"
+yazidi_group_IT_REL_GRO_FS: "Yazida"
+yazidi_group_IT_REL_GRO_FP: "Yazide"
+
+mandean_group_IT_REL_GRO_MS: "Mandea"
+mandean_group_IT_REL_GRO_MP: "Mandei"
+mandean_group_IT_REL_GRO_FS: "Mandea"
+mandean_group_IT_REL_GRO_FP: "Mandee"
+
+vajrayana_IT_REL_GRO_MS: "Vajrayāna"
+vajrayana_IT_REL_GRO_MP: "Vajrayāna"
+vajrayana_IT_REL_GRO_FS: "Vajrayāna"
+vajrayana_IT_REL_GRO_FP: "Vajrayāna"

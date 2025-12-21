@@ -5,7 +5,7 @@
  # ordinal_numeral.english_language.000000002: "Second"
  # ordinal_numeral.english_language.000000003: "Third"
  #
- ordinal_numeral: "$NUM$."
+ ordinal_numeral: "$NUM$"
  #
  ordinal_numeral.english_language.1: "$NUM$ˢᵗ"
  ordinal_numeral.english_language.2: "$NUM$ⁿᵈ"
@@ -159,13 +159,22 @@
  ordinal_numeral.regnal.male.turkish_language: "$ROMAN$."
  ordinal_numeral.regnal.female.turkish_language: "$ROMAN$."
  #
- ordinal_numeral.regnal.male.german_language: "$ROMAN$."
- ordinal_numeral.regnal.female.german_language: "$ROMAN$."
+ ordinal_numeral.regnal.male.german_language: "$ROMAN$"
+ ordinal_numeral.regnal.female.german_language: "$ROMAN$"
+ #
+ ordinal_numeral.regnal.male.hungarian_language: "$ROMAN$."
+ ordinal_numeral.regnal.female.hungarian_language: "$ROMAN$."
+ #
+ ordinal_numeral.regnal.male.croatian_dialect: "$ROMAN$."
+ ordinal_numeral.regnal.female.croatian_dialect: "$ROMAN$."
+ #
+ ordinal_numeral.regnal.male.czechslovak_language: "$ROMAN$."
+ ordinal_numeral.regnal.female.czechslovak_language: "$ROMAN$."
  #
  ordinal_numeral.regnal.male.basque_language: "$ROMAN$.a"
  ordinal_numeral.regnal.female.basque_language: "$ROMAN$.a"
  #
- ordinal_numeral.regnal.male.danish_dialect: "$NUM$."
- ordinal_numeral.regnal.female.danish_dialect: "$NUM$."
+ ordinal_numeral.regnal.male.danish_dialect: "$NUM$"
+ ordinal_numeral.regnal.female.danish_dialect: "$NUM$"
  ordinal_numeral.regnal.male.icelandic_dialect: "$NUM$."
  ordinal_numeral.regnal.female.icelandic_dialect: "$NUM$."

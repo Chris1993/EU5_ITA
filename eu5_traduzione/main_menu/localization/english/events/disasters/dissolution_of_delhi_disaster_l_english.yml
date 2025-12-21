@@ -1,56 +1,55 @@
 ﻿l_english:
-
 #Events
-
-  dissolution_of_delhi.1.title: "The Dissolution of [GetCountry('DLH').GetNameWithNoTooltip]"
-  dissolution_of_delhi.1.desc: "Decades of solemn attempts to maintain the vast domain of our once-great [ROOT.GetCountry.GetFlavorRank] have produced no fruit. The constant scheming of our hostile neighbors, their incessant attempts at undermining our authority and undoing our prestigious conquests, have finally come to fruition. The people have lost faith in the guidance of [target_character.GetName], resulting in revolts, famines, and even open hostilities between settlements under our banner. The situation could not be more dire and our advisors are swiftly running out of suggestions for the many problems we are facing."
-  dissolution_of_delhi.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
-  all_estates_lose_20_loyalty_tt: "The [estate_satisfaction|e] of all our [estates|e] will be reduced by [ShowNamedValue('estate_satisfaction_extreme_penalty')|+=2%]"
-
-  dissolution_of_delhi.2.title: "Provincial Matters"
-  dissolution_of_delhi.2.desc: "The people of [target_location.GetName] have forgotten the air of authority and command that our banner used to inspire. Talks of autonomy and independence fill the air as the domain slowly slips away from our grasp. The payment of local taxes, the recruitment of levies, and the harvesting of goods are some of the most important aspects of owning [target_location.GetNameWithNoTooltip]. It has become clear that our administrators must receive instructions and assistance if they are to retain, at the very least nominally, control over these lands."
-  dissolution_of_delhi.2.a: "Allow the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] to administer [target_location.GetNameWithNoTooltip]."
-  dissolution_of_delhi.2.b: "Let the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] handle it."
-  dissolution_of_delhi.2.c: "If we cannot handle it ourselves, we do not deserve it!"
-
-  dissolution_of_delhi.3.title: "Whispers in the Court"
-  dissolution_of_delhi.3.desc: "For quite some time now, murmurs have usurped the attention of our highest advisors. Talks of some of our most prominent figures being displeased and disapproving of our recent administrative forays grow thicker. We would do well to investigate the matter and get to the bottom of it. According to our diplomatic delegate between the various estates and our court, at such an important crossroads of our rein, we must take good care not to anger any of them..."
-  dissolution_of_delhi.3.a: "Perhaps this gift would appease them?"
-  dissolution_of_delhi.3.b: "This is beneath us!"
-
-  dissolution_of_delhi.4.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')] Complaints"
-  dissolution_of_delhi.4.desc: "The [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] of [target_province.GetName] have come forth with a request. According to their messenger, their people suffer from poor quality sustenance and dietary shortages. He says that whilst the province does not suffer from a shortage of food, the available options are both subpar and uninspiring. Should we motivate ourselves to grant them some form of relief, perhaps we could win the favor of the locals?"
-  dissolution_of_delhi.4.a: "Arrange a transfer of various produce from [target_province2.GetNameWithNoTooltip]!"
-  dissolution_of_delhi.4.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
-  target_province_peasants_get_20_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] in [target_province.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]"
-  target_province_peasants_lose_10_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
-  target_province_nobles_lose_25_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [pops|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
-  target_province_nobles_gain_20_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [pops|e] in [target_province.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]"
-  target_province_peasants_lose_25_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
-
-  dissolution_of_delhi.5.title: "Abuse of Power"
-  dissolution_of_delhi.5.desc: "News has reached [ROOT.GetCountry.GetCapital.GetName] about the wheelings and dealings of [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] around [target_province.GetName]. It appears that they have dissolved the local assemblies and have come to establish their law in an attempt to overrule our central authority, as a response to our domain facing recent hardships. Our advisors support the idea of putting the local [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] to the sword, as a warning to any other provinces who wish to interfere in our way..."
-  dissolution_of_delhi.5.a: "Off with their heads!"
-  dissolution_of_delhi.5.b: "We need them."
-
-  dissolution_of_delhi.6.title: "Currency Loses Value"
-  dissolution_of_delhi.6.desc: "Trading within our [ROOT.GetCountry.GetFlavorRank] has always maintained a standard currency, unified and supported by the might of our army and banner. However, as our authority wanes and our prestige fades, so does the strength of our coin. The shortage of [ShowGoodsName('silver')], precious stones, and the necessary materials to craft official currency has led to shortages and general dismay among the public. Many settlements have resulted in using barter agreements and completely negating the rule of law that we have set up..."
-  dissolution_of_delhi.6.a: "Maintain the current situation."
-  dissolution_of_delhi.6.b: "Integrate these barter markets into our official administration!"
-  dissolution_of_delhi.6.c: "Reform the currency, you fools!"
-
-  dissolution_of_delhi.7.title: "Surviving the Aftermath"
-  dissolution_of_delhi.7.desc: "Our people are no strangers to adversity. Through years of hardships, the ebb and flow of our power, and the restoration of the once great people, we have stood the test of time, emerging victorious and stronger than ever. Those who once opposed us will soon feel the full wrath of the mighty [ROOT.GetCountry.GetAdjective] army and our name will once again shake the foundations of $india$."
-  dissolution_of_delhi.7.a: "We are reborn..."
-
-#Modifiers
-
-  STATIC_MODIFIER_NAME_dlh_restored_authority_modifier: "Restored Authority"
-  STATIC_MODIFIER_NAME_dlh_coinage_reforms_modifier: "Coinage Reforms"
-  STATIC_MODIFIER_NAME_allowed_provincial_barter_markets: "Allowed Provincial Barter Markets"
-
-
-#Tooltips
-
-  opposers_at_least_80_sop_tt: "Our opposition has at least #R 80%#! [share_of_power_gc|e] during the [ShowSituationName('fall_of_delhi')] [situation|e]"
-  opposers_at_least_95_sop_tt: "Our opposition has at least #R 95%#! [share_of_power_gc|e] during the [ShowSituationName('fall_of_delhi')] [situation|e]"
+ 
+ dissolution_of_delhi.1.title: "La Dissoluzione di [GetCountry('DLH').GetNameWithNoTooltip]"
+ dissolution_of_delhi.1.desc: "Decenni di solenni tentativi di mantenere il vasto dominio del nostro [ROOT.GetCountry.GetFlavorRank], un tempo grande, non hanno prodotto frutto. Le costanti macchinazioni dei nostri vicini ostili, i loro incessanti tentativi di minare la nostra autorità e annullare le nostre prestigiose conquiste, sono finalmente giunti a buon fine. Il popolo ha perso fiducia nella guida di [target_character.GetName], sfociando in rivolte, carestie e persino ostilità aperte tra gli insediamenti sotto la nostra bandiera. La situazione non potrebbe essere più disastrosa e i nostri consiglieri stanno rapidamente esaurendo i suggerimenti per i molti problemi che stiamo affrontando."
+ dissolution_of_delhi.1.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
+ all_estates_lose_20_loyalty_tt: "La [estate_satisfaction|e] di tutti i nostri [estates|e] sarà ridotta di [ShowNamedValue('estate_satisfaction_extreme_penalty')|+=2%]"
+ 
+ dissolution_of_delhi.2.title: "Questioni Provinciali"
+ dissolution_of_delhi.2.desc: "Il popolo di [target_location.GetName] ha dimenticato l'aria di autorità e comando che la nostra bandiera era solita ispirare. Discorsi di autonomia e indipendenza riempiono l'aria mentre il dominio scivola lentamente via dalla nostra presa. Il pagamento delle tasse locali, il reclutamento di milizie e la raccolta di merci sono alcuni degli aspetti più importanti del possesso di [target_location.GetNameWithNoTooltip]. È diventato chiaro che i nostri amministratori devono ricevere istruzioni e assistenza se vogliono mantenere, almeno nominalmente, il controllo su queste terre."
+ dissolution_of_delhi.2.a: "Permettere al [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] di amministrare [target_location.GetNameWithNoTooltip]."
+ dissolution_of_delhi.2.b: "Lasciare che sia il [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] a gestirla."
+ dissolution_of_delhi.2.c: "Se non riusciamo a gestirla da soli, non la meritiamo!"
+ 
+ dissolution_of_delhi.3.title: "Sussurri a Corte"
+ dissolution_of_delhi.3.desc: "Ormai da tempo, i mormorii hanno usurpato l'attenzione dei nostri più alti consiglieri. Crescono sempre più le voci secondo cui alcune delle nostre figure più importanti sono dispiaciute e disapprovano le nostre recenti incursioni amministrative. Faremo bene a indagare sulla questione e a venirne a capo. Secondo il nostro delegato diplomatico tra i vari ceti e la nostra corte, in un crocevia così importante del nostro regno, dobbiamo fare molta attenzione a non far arrabbiare nessuno di loro..."
+ dissolution_of_delhi.3.a: "Forse questo dono li placerebbe?"
+ dissolution_of_delhi.3.b: "Questo è al di sotto di noi!"
+ 
+ dissolution_of_delhi.4.title: "Lamentele del [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]"
+ dissolution_of_delhi.4.desc: "I [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] di [target_province.GetName] si sono fatti avanti con una richiesta. Secondo il loro messaggero, il loro popolo soffre di sostentamento di scarsa qualità e carenze dietetiche. Dice che, sebbene la provincia non soffra di una carenza di cibo, le opzioni disponibili sono sia scadenti che poco invitanti. Se ci motivassimo a concedere loro una qualche forma di sollievo, forse potremmo guadagnarci il favore degli abitanti locali?"
+ dissolution_of_delhi.4.a: "Organizzare un trasferimento di vari prodotti da [target_province2.GetNameWithNoTooltip]!"
+ dissolution_of_delhi.4.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
+ target_province_peasants_get_20_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] a [target_province.GetNameWithNoTooltip] guadagneranno [ShowNamedValue('pop_satisfaction_severe_bonus')|+=2%] [pop_satisfaction|e]"
+ target_province_peasants_lose_10_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] a [target_province.GetNameWithNoTooltip] perderanno [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
+ target_province_nobles_lose_25_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [pops|e] a [target_province.GetNameWithNoTooltip] perderanno [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ target_province_nobles_gain_20_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] [pops|e] a [target_province.GetNameWithNoTooltip] guadagneranno [ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%] [pop_satisfaction|e]"
+ target_province_peasants_lose_25_satisfaction_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] [pops|e] a [target_province.GetNameWithNoTooltip] perderanno [ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%] [pop_satisfaction|e]"
+ 
+ dissolution_of_delhi.5.title: "Abuso di Potere"
+ dissolution_of_delhi.5.desc: "Notizie sono giunte a [ROOT.GetCountry.GetCapital.GetName] riguardo agli intrighi e agli affari della [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] intorno a [target_province.GetName]. Sembra che abbiano sciolto le assemblee locali e abbiano stabilito la loro legge nel tentativo di scavalcare la nostra autorità centrale, in risposta alle recenti difficoltà che il nostro dominio sta affrontando. I nostri consiglieri sostengono l'idea di passare a fil di spada la [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] locale, come avvertimento a qualsiasi altra provincia che desideri interferire con il nostro modo di agire..."
+ dissolution_of_delhi.5.a: "Che siano ghigliottinati!"
+ dissolution_of_delhi.5.b: "Abbiamo bisogno di loro."
+ 
+ dissolution_of_delhi.6.title: "La Valuta Perde Valore"
+ dissolution_of_delhi.6.desc: "Il commercio all'interno del nostro [ROOT.GetCountry.GetFlavorRank] ha sempre mantenuto una valuta standard, unificata e supportata dalla forza del nostro esercito e della nostra bandiera. Tuttavia, man mano che la nostra autorità diminuisce e il nostro prestigio svanisce, così fa anche la forza della nostra moneta. La carenza di [ShowGoodsName('silver')], pietre preziose e dei materiali necessari per coniare la valuta ufficiale ha portato a carenze e a generale sconforto tra il pubblico. Molti insediamenti hanno optato per l'uso di accordi di baratto e hanno completamente negato lo stato di diritto che abbiamo istituito..."
+ dissolution_of_delhi.6.a: "Mantenere la situazione attuale."
+ dissolution_of_delhi.6.b: "Integrare questi mercati di baratto nella nostra amministrazione ufficiale!"
+ dissolution_of_delhi.6.c: "Riformare la valuta, stolti!"
+ 
+ dissolution_of_delhi.7.title: "Sopravvivere alle Conseguenze"
+ dissolution_of_delhi.7.desc: "Il nostro popolo non è estraneo alle avversità. Attraverso anni di difficoltà, l'alternarsi del nostro potere e il ripristino del popolo un tempo grande, abbiamo superato la prova del tempo, emergendo vittoriosi e più forti che mai. Coloro che un tempo si sono opposti a noi sentiranno presto tutta l'ira del potente esercito [ROOT.GetCountry.GetAdjective] e il nostro nome scuoterà ancora una volta le fondamenta dell'$india$."
+ dissolution_of_delhi.7.a: "Siamo rinati..."
+ 
+ #Modifiers
+ 
+ STATIC_MODIFIER_NAME_dlh_restored_authority_modifier: "Autorità Ripristinata"
+ STATIC_MODIFIER_NAME_dlh_coinage_reforms_modifier: "Riforme Monetarie"
+ STATIC_MODIFIER_NAME_allowed_provincial_barter_markets: "Mercati di Baratto Provinciali Permessi"
+ 
+ 
+ #Tooltips
+ 
+ opposers_at_least_80_sop_tt: "La nostra opposizione ha almeno #R 80%#! di [share_of_power_gc|e] durante la [situation|e] [ShowSituationName('fall_of_delhi')]"
+ opposers_at_least_95_sop_tt: "La nostra opposizione ha almeno #R 95%#! di [share_of_power_gc|e] durante la [situation|e] [ShowSituationName('fall_of_delhi')]"

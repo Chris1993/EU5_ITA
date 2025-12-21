@@ -1,24 +1,24 @@
 ﻿l_english:
- bubonic_plague: "Bubonic Plague"
- bubonic_plague_desc: "A great pestilence that sweeps through busy trade routes, sparing neither low nor high. Those infected suffer black swellings in the groin and armpits, terrible fever, and death. Some believe it is carried by the vermin that scurry in our streets and fields, spreading foul sickness from one poor soul to another."
+ bubonic_plague: "Peste Bubbonica"
+ bubonic_plague_desc: "Una grande pestilenza che dilaga lungo le rotte commerciali trafficate, senza risparmiare né umili né potenti. Gli infetti soffrono di bubboni neri all'inguine e alle ascelle, febbre terribile e infine morte. Alcuni credono sia trasmessa dai ratti che infestano le nostre strade e i nostri campi, diffondendo il morbo da un'anima sventurata all'altra."
 
  malaria: "Malaria"
- malaria_desc: "The ancient bane of humankind, Malaria, is an infectious disease transmitted from person to person by the bite of an infected mosquito. This illness produces chills, headaches, sweating, and a very intense fever that repeats every three to four days."
+ malaria_desc: "Antica piaga dell'umanità, la Malaria è una malattia infettiva trasmessa da persona a persona tramite la puntura di una zanzara infetta. Questa malattia provoca brividi, cefalee, sudorazione e una febbre molto intensa che si ripete ogni tre o quattro giorni."
 
- typhus: "Typhus"
- typhus_desc: "This deathly sickness creates on those stricken by it a great deal of fever, a big red rash that might extend over the entire body, and a confusion of the mind that might get worse, to the point of full-on delirium. Those poor souls that reach that point would develop gangrenous lesions and invariably die."
- local_typhus_impact_modifier: "Typhus location modifier"
+ typhus: "Tifo"
+ typhus_desc: "Questo morbo letale provoca in coloro che ne sono colpiti febbre alta, un esteso sfogo cutaneo rosso che può coprire l'intero corpo e uno stato confusionale che può peggiorare fino al delirio conclamato. Quelle povere anime che raggiungono tale stadio sviluppano lesioni gangrenose e muoiono inevitabilmente."
+ local_typhus_impact_modifier: "Modificatore località Tifo"
 
  influenza: "Influenza"
- influenza_desc: "Know by the common folk as the Flu, it is a widely spread sickness with usually mild symptoms like a runny nose or a fever in healthy individuals, but that might be extremely dangerous for those that are too young or too old or already weakened by injury or another malady."
- influenza_location_modifier: "Influenza location modifier"
+ influenza_desc: "Nota tra il popolo come 'l'influenza', è una malattia diffusa con sintomi solitamente lievi come naso che cola o febbre negli individui sani, ma che può essere estremamente pericolosa per i troppo giovani, i troppo anziani o coloro già indeboliti da ferite o altre infermità."
+ influenza_location_modifier: "Modificatore località Influenza"
+ 
+ measles: "Morbillo"
+ measles_desc: "Il Morbillo, noto anche come rosolia o 'vampirino', è un'epidemia che si diffonde con estrema rapidità da persona a persona, causando febbre, tosse, starnuti e un vistoso sfogo cutaneo piatto che finisce per coprire l'intero corpo. Colpisce con particolare ferocia i bambini, che rischiano seriamente la morte se cadono nei suoi artigli."
+ measles_location_modifier: "Modificatore località Morbillo"
 
- measles: "Measles"
- measles_desc: "Measles, also known as morbili, rubeola, and red measles, is a plague that spreads extremely fast from person to person, causing fever, coughs, sneezes, and a great flat rash that eventually covers the entire body. It preys most eagerly on children, who are at great risk of death if they fall on its claws."
- measles_location_modifier: "Measles location modifier"
-
- smallpox: "Smallpox"
- smallpox_desc: "Smallpox is a terrible disease that inflicts fever, vomiting and finally an enormous amount of liquid-filled blisters that cover the entire body of the unfortunate victim. The outbreaks of this plague are very deadly and those that survive are commonly blinded for life."
- smallpox_location_modifier: "Smallpox location modifier"
-
- great_pestilence_location_modifier: "Great Pestilence location modifier"
+ smallpox: "Vaiolo"
+ smallpox_desc: "Il Vaiolo è una malattia terribile che infligge febbre, vomito e infine un'enorme quantità di pustole piene di liquido che coprono l'intero corpo della sventurata vittima. Le epidemie di questa piaga sono molto letali e coloro che sopravvivono rimangono comunemente accecati a vita."
+ smallpox_location_modifier: "Modificatore località Vaiolo"
+ 
+ great_pestilence_location_modifier: "Modificatore località Grande Pestilenza"

@@ -1,0 +1,1309 @@
+﻿IT_ART_TITOLO = {
+    type = character
+    
+    # CASO 1: ZAR
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire
+			OR = {
+				has_reform = government_reform:tsardom
+				culture = { has_culture_group = culture_group:russian_group }
+			}	
+			}
+            
+        }
+        localization_key = "IT_ART_LO"
+    }
+	
+	# CASO 2: RE
+    text = {
+        trigger = {
+            any_ruling_countries = { country_rank = country_rank:rank_kingdom }
+        }
+        localization_key = "IT_ART_IL"
+    }
+	
+	# CASO 3: EARL
+	text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			NOR = { 
+			country_rank = country_rank:rank_kingdom 
+			country_rank = country_rank:rank_empire 
+				}
+			has_reform = government_reform:irish_earldom_reform	
+			}
+            
+        }
+        localization_key = "IT_ART_L"
+    }
+	
+	# CASO 4: JARL
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			OR = {
+				court_language ?= language:scandinavian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:scandinavian_language
+					}
+				}	
+			}
+            
+        }
+        localization_key = "IT_ART_LO"
+    }
+	
+	# CASO 5: SHOGUN
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			has_reform = government_reform:shogunate
+			}
+        }
+        localization_key = "IT_ART_LO"
+    }
+	
+	# CASO 6: IMPERATORE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire 
+			NOR = { 
+			TAG = CHI
+			has_reform = government_reform:shogunate			
+				}
+			}
+        }
+        localization_key = "IT_ART_L"
+    }
+	
+	# CASO 7: LEADER HRE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { is_leader_of_international_organization = international_organization:hre }
+        }
+        localization_key = "IT_ART_L"
+    }
+	
+	# CASO 8: MEMBRO ELETTORE HRE (Elettore)
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			is_elector = yes 
+			NOT = { government_type = government_type:theocracy }
+			}
+        }
+        localization_key = "IT_ART_L"
+    }
+	
+	# CASO 9: OTTOMANI (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_duchy 
+			OR = {
+			TAG = TUR
+			TAG = AYD
+				}
+			}
+        }
+        localization_key = "IT_ART_L"
+    }
+
+    # CASO 10: REGINA / DUCHESSA (Femminile)
+    text = {
+        trigger = {
+            is_female = yes
+        }
+        localization_key = "IT_ART_LA"
+    }
+
+    # CASO 11: FALLBACK GENERICO (Il Duca, Il Conte)
+    text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_IL"
+    }
+}
+
+IT_DEL_TITOLO = {
+    type = character
+    
+    # CASO 1: ZAR
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire
+			OR = {
+				has_reform = government_reform:tsardom
+				culture = { has_culture_group = culture_group:russian_group }
+			}	
+			}
+            
+        }
+        localization_key = "IT_ART_DELLO"
+    }
+	
+	# CASO 2: RE
+    text = {
+        trigger = {
+            any_ruling_countries = { country_rank = country_rank:rank_kingdom }
+        }
+        localization_key = "IT_ART_DEL"
+    }
+	
+	# CASO 3: EARL
+	text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			NOR = { 
+			country_rank = country_rank:rank_kingdom 
+			country_rank = country_rank:rank_empire 
+				}
+			has_reform = government_reform:irish_earldom_reform	
+			}
+            
+        }
+        localization_key = "IT_ART_DELL"
+    }
+	
+	# CASO 4: JARL
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			OR = {
+				court_language ?= language:scandinavian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:scandinavian_language
+					}
+				}	
+			}
+            
+        }
+        localization_key = "IT_ART_DELLO"
+    }
+	
+	# CASO 5: SHOGUN
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			has_reform = government_reform:shogunate
+			}
+        }
+        localization_key = "IT_ART_DELLO"
+    }
+	
+	# CASO 6: IMPERATORE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire 
+			NOR = { 
+			TAG = CHI
+			has_reform = government_reform:shogunate			
+				}
+			}
+        }
+        localization_key = "IT_ART_DELL"
+    }
+	
+	# CASO 7: LEADER HRE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { is_leader_of_international_organization = international_organization:hre }
+        }
+        localization_key = "IT_ART_DELL"
+    }
+	
+	# CASO 8: MEMBRO ELETTORE HRE (Elettore)
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			is_elector = yes 
+			NOT = { government_type = government_type:theocracy }
+			}
+        }
+        localization_key = "IT_ART_DELL"
+    }
+	
+	# CASO 9: OTTOMANI (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_duchy 
+			OR = {
+			TAG = TUR
+			TAG = AYD
+				}
+			}
+        }
+        localization_key = "IT_ART_DELL"
+    }
+
+    # CASO 10: REGINA / DUCHESSA (Femminile)
+    text = {
+        trigger = {
+            is_female = yes
+        }
+        localization_key = "IT_ART_DELLA"
+    }
+
+    # CASO 11: FALLBACK GENERICO (Il Duca, Il Conte)
+    text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_DEL"
+    }
+}
+
+IT_DAL_TITOLO = {
+    type = character
+    
+    # CASO 1: ZAR
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire
+			OR = {
+				has_reform = government_reform:tsardom
+				culture = { has_culture_group = culture_group:russian_group }
+			}	
+			}
+            
+        }
+        localization_key = "IT_ART_DALLO"
+    }
+	
+	# CASO 2: RE
+    text = {
+        trigger = {
+            any_ruling_countries = { country_rank = country_rank:rank_kingdom }
+        }
+        localization_key = "IT_ART_DAL"
+    }
+	
+	# CASO 3: EARL
+	text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			NOR = { 
+			country_rank = country_rank:rank_kingdom 
+			country_rank = country_rank:rank_empire 
+				}
+			has_reform = government_reform:irish_earldom_reform	
+			}
+            
+        }
+        localization_key = "IT_ART_DALL"
+    }
+	
+	# CASO 4: JARL
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			OR = {
+				court_language ?= language:scandinavian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:scandinavian_language
+					}
+				}	
+			}
+            
+        }
+        localization_key = "IT_ART_DALLO"
+    }
+	
+	# CASO 5: SHOGUN
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			has_reform = government_reform:shogunate
+			}
+        }
+        localization_key = "IT_ART_DALLO"
+    }
+	
+	# CASO 6: IMPERATORE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire 
+			NOR = { 
+			TAG = CHI
+			has_reform = government_reform:shogunate			
+				}
+			}
+        }
+        localization_key = "IT_ART_DALL"
+    }
+	
+	# CASO 7: LEADER HRE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { is_leader_of_international_organization = international_organization:hre }
+        }
+        localization_key = "IT_ART_DALL"
+    }
+	
+	# CASO 8: MEMBRO ELETTORE HRE (Elettore)
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			is_elector = yes 
+			NOT = { government_type = government_type:theocracy }
+			}
+        }
+        localization_key = "IT_ART_DALL"
+    }
+	
+	# CASO 9: OTTOMANI (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_duchy 
+			OR = {
+			TAG = TUR
+			TAG = AYD
+				}
+			}
+        }
+        localization_key = "IT_ART_DALL"
+    }
+
+    # CASO 10: REGINA / DUCHESSA (Femminile)
+    text = {
+        trigger = {
+            is_female = yes
+        }
+        localization_key = "IT_ART_DALLA"
+    }
+
+    # CASO 11: FALLBACK GENERICO (Il Duca, Il Conte)
+    text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_DAL"
+    }
+}
+
+IT_AL_TITOLO = {
+    type = character
+    
+    # CASO 1: ZAR
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire
+			OR = {
+				has_reform = government_reform:tsardom
+				culture = { has_culture_group = culture_group:russian_group }
+			}	
+			}
+            
+        }
+        localization_key = "IT_ART_ALLO"
+    }
+	
+	# CASO 2: RE
+    text = {
+        trigger = {
+            any_ruling_countries = { country_rank = country_rank:rank_kingdom }
+        }
+        localization_key = "IT_ART_AL"
+    }
+	
+	# CASO 3: EARL
+	text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			NOR = { 
+			country_rank = country_rank:rank_kingdom 
+			country_rank = country_rank:rank_empire 
+				}
+			has_reform = government_reform:irish_earldom_reform	
+			}
+            
+        }
+        localization_key = "IT_ART_ALL"
+    }
+	
+	# CASO 4: JARL
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			OR = {
+				court_language ?= language:scandinavian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:scandinavian_language
+					}
+				}	
+			}
+            
+        }
+        localization_key = "IT_ART_ALLO"
+    }
+	
+	# CASO 5: SHOGUN
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			has_reform = government_reform:shogunate
+			}
+        }
+        localization_key = "IT_ART_ALLO"
+    }
+	
+	# CASO 6: IMPERATORE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire 
+			NOR = { 
+			TAG = CHI
+			has_reform = government_reform:shogunate			
+				}
+			}
+        }
+        localization_key = "IT_ART_ALL"
+    }
+	
+	# CASO 7: LEADER HRE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { is_leader_of_international_organization = international_organization:hre }
+        }
+        localization_key = "IT_ART_ALL"
+    }
+	
+	# CASO 8: MEMBRO ELETTORE HRE (Elettore)
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			is_elector = yes 
+			NOT = { government_type = government_type:theocracy }
+			}
+        }
+        localization_key = "IT_ART_ALL"
+    }
+	
+	# CASO 9: OTTOMANI (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_duchy 
+			OR = {
+			TAG = TUR
+			TAG = AYD
+				}
+			}
+        }
+        localization_key = "IT_ART_ALL"
+    }
+
+    # CASO 10: REGINA / DUCHESSA (Femminile)
+    text = {
+        trigger = {
+            is_female = yes
+        }
+        localization_key = "IT_ART_ALLA"
+    }
+
+    # CASO 11: FALLBACK GENERICO (Il Duca, Il Conte)
+    text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_AL"
+    }
+}
+
+IT_SUL_TITOLO = {
+    type = character
+    
+    # CASO 1: ZAR
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire
+			OR = {
+				has_reform = government_reform:tsardom
+				culture = { has_culture_group = culture_group:russian_group }
+			}	
+			}
+            
+        }
+        localization_key = "IT_ART_SULLO"
+    }
+	
+	# CASO 2: RE
+    text = {
+        trigger = {
+            any_ruling_countries = { country_rank = country_rank:rank_kingdom }
+        }
+        localization_key = "IT_ART_SUL"
+    }
+	
+	# CASO 3: EARL
+	text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			NOR = { 
+			country_rank = country_rank:rank_kingdom 
+			country_rank = country_rank:rank_empire 
+				}
+			has_reform = government_reform:irish_earldom_reform	
+			}
+            
+        }
+        localization_key = "IT_ART_SULL"
+    }
+	
+	# CASO 4: JARL
+	text = {
+        trigger = {
+			is_female = no
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_county
+			OR = {
+				court_language ?= language:scandinavian_language
+				AND = {
+					exists = culture
+					exists = culture.language
+					culture.language = language:scandinavian_language
+					}
+				}	
+			}
+            
+        }
+        localization_key = "IT_ART_SULLO"
+    }
+	
+	# CASO 5: SHOGUN
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			has_reform = government_reform:shogunate
+			}
+        }
+        localization_key = "IT_ART_SULLO"
+    }
+	
+	# CASO 6: IMPERATORE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_empire 
+			NOR = { 
+			TAG = CHI
+			has_reform = government_reform:shogunate			
+				}
+			}
+        }
+        localization_key = "IT_ART_SULL"
+    }
+	
+	# CASO 7: LEADER HRE (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { is_leader_of_international_organization = international_organization:hre }
+        }
+        localization_key = "IT_ART_SULL"
+    }
+	
+	# CASO 8: MEMBRO ELETTORE HRE (Elettore)
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			is_elector = yes 
+			NOT = { government_type = government_type:theocracy }
+			}
+        }
+        localization_key = "IT_ART_SULL"
+    }
+	
+	# CASO 9: OTTOMANI (Inizia per vocale -> L')
+    text = {
+        trigger = {
+            any_ruling_countries = { 
+			country_rank = country_rank:rank_duchy 
+			OR = {
+			TAG = TUR
+			TAG = AYD
+				}
+			}
+        }
+        localization_key = "IT_ART_SULL"
+    }
+
+    # CASO 10: REGINA / DUCHESSA (Femminile)
+    text = {
+        trigger = {
+            is_female = yes
+        }
+        localization_key = "IT_ART_SULLA"
+    }
+
+    # CASO 11: FALLBACK GENERICO (Il Duca, Il Conte)
+    text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_SUL"
+    }
+}
+
+########################################################
+
+IT_ART_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_ART_L"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_ART_L"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_ART_IL"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_ART_LA"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_ART_LA"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_ART_LA"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_ART_LO"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_ART_LA"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_ART_L"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_IL"
+    }
+}
+
+IT_DEL_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_ART_DELL"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_ART_DELL"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_ART_DEL"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_ART_DELLA"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_ART_DELLA"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_ART_DELLA"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_ART_DELLO"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_ART_DELLA"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_ART_DELL"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_DEL"
+    }
+}
+
+IT_DAL_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_ART_DALL"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_ART_DALL"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_ART_DAL"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_ART_DALLA"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_ART_DALLA"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_ART_DALLA"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_ART_DALLO"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_ART_DALLA"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_ART_DALL"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_DAL"
+    }
+}
+
+IT_AL_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_ART_ALL"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_ART_ALL"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_ART_AL"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_ART_ALLA"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_ART_ALLA"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_ART_ALLA"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_ART_ALLO"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_ART_ALLA"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_ART_ALL"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_AL"
+    }
+}
+
+IT_SUL_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_ART_SULL"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_ART_SULL"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_ART_SUL"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_ART_SULLA"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_ART_SULLA"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_ART_SULLA"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_ART_SULLO"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_ART_SULLA"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_ART_SULL"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_SUL"
+    }
+}
+
+IT_NEL_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_ART_NELL"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_ART_NELL"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_ART_NEL"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_ART_NELLA"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_ART_NELLA"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_ART_NELLA"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_ART_NELLO"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_ART_NELLA"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_ART_NELL"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_ART_NEL"
+    }
+}
+
+IT_OA_RANGO = {
+	type = country
+	
+	text = {
+		trigger = { 
+		is_elector = yes 
+		NOT = { government_type = government_type:theocracy }
+		}
+		localization_key = "IT_RANGO_O"
+	}
+	
+	text = {
+		trigger = {
+		country_rank = country_rank:rank_county	
+		has_reform = government_reform:irish_earldom_reform
+		}
+		localization_key = "IT_RANGO_O"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_county
+		government_type = government_type:theocracy
+		religion.group = religion_group:christian	
+		}
+		localization_key = "IT_RANGO_O"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_county }
+		localization_key = "IT_RANGO_A"
+	}
+	
+	text = {
+		trigger = { government_type = government_type:republic }
+		localization_key = "IT_RANGO_A"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_kingdom 
+		OR = {
+			TAG = CAS
+			TAG = ARA
+			}
+		}
+		localization_key = "IT_RANGO_A"
+	}
+	
+	text = {
+		trigger = { has_reform = government_reform:shogunate }
+		localization_key = "IT_RANGO_O"
+	}
+	
+	text = {
+		trigger = { 
+		country_rank = country_rank:rank_empire
+		is_leader_of_international_organization = international_organization:middle_kingdom	
+		}
+		localization_key = "IT_RANGO_A"
+	}
+	
+	text = {
+		trigger = { country_rank = country_rank:rank_empire }
+		localization_key = "IT_RANGO_O"
+	}
+	
+	text = {
+        trigger = { 
+            always = yes 
+        }
+        localization_key = "IT_RANGO_O"
+    }
+}
+
+##############################################################################################
+
+IT_ART_LOCATION = {
+	type = location 
+	log_loc_errors = no
+		text = {
+			trigger = {
+				 location_rank = location_rank:town 
+			}
+			localization_key = "IT_ART_IL"	# Il Borgo
+		}
+		
+		text = {
+			trigger = {
+				 location_rank = location_rank:city 
+			}
+			localization_key = "IT_ART_LA"	# La Città
+		}
+		text = {
+			trigger = {
+				 location_rank = location_rank:rural_settlement 
+			}
+			localization_key = "IT_ART_L"	# L'Insediamento Rurale
+		}
+}
+
+IT_SUL_LOCATION = {
+	type = location 
+	log_loc_errors = no
+		text = {
+			trigger = {
+				 location_rank = location_rank:town 
+			}
+			localization_key = "IT_ART_SUL"	# Sul Borgo
+		}
+		
+		text = {
+			trigger = {
+				 location_rank = location_rank:city 
+			}
+			localization_key = "IT_ART_SULLA"	# Sulla Città
+		}
+		text = {
+			trigger = {
+				 location_rank = location_rank:rural_settlement 
+			}
+			localization_key = "IT_ART_SULL"	# Sull'Insediamento Rurale
+		}
+}
+
+IT_NEL_LOCATION = {
+	type = location 
+	log_loc_errors = no
+		text = {
+			trigger = {
+				 location_rank = location_rank:town 
+			}
+			localization_key = "IT_ART_NEL"	# Nel Borgo
+		}
+		
+		text = {
+			trigger = {
+				 location_rank = location_rank:city 
+			}
+			localization_key = "IT_ART_NELLA"	# Nella Città
+		}
+		text = {
+			trigger = {
+				 location_rank = location_rank:rural_settlement 
+			}
+			localization_key = "IT_ART_NELL"	# Nell'Insediamento Rurale
+		}
+}
+
+IT_DEL_LOCATION = {
+	type = location 
+	log_loc_errors = no
+		text = {
+			trigger = {
+				 location_rank = location_rank:town 
+			}
+			localization_key = "IT_ART_DEL"	# Del Borgo
+		}
+		
+		text = {
+			trigger = {
+				 location_rank = location_rank:city 
+			}
+			localization_key = "IT_ART_DELLA"	# Della Città
+		}
+		text = {
+			trigger = {
+				 location_rank = location_rank:rural_settlement 
+			}
+			localization_key = "IT_ART_DELL"	# Dell'Insediamento Rurale
+		}
+}

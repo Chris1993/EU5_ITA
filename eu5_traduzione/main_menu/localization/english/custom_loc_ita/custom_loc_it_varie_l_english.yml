@@ -1,0 +1,43 @@
+﻿l_english:
+
+###POP
+ #[POP_TYPE.Custom('IT_POP_I')]
+ #[POP_TYPE.Custom('IT_POP_DEI')]
+ #[POP_TYPE.Custom('IT_POP_AI')]
+ #[POP_TYPE.Custom('IT_POP_DAI')]
+ 
+nobles_IT_POP_I: "i " 
+clergy_IT_POP_I: "i " 
+burghers_IT_POP_I: "i " 
+laborers_IT_POP_I: "i "
+soldiers_IT_POP_I: "i " 
+peasants_IT_POP_I: "i " 
+slaves_IT_POP_I: "i " 
+tribesmen_IT_POP_I: "i "
+
+nobles_IT_POP_DEI: "della " 
+clergy_IT_POP_DEI: "del " 
+burghers_IT_POP_DEI: "della " 
+laborers_IT_POP_DEI: "dei "
+soldiers_IT_POP_DEI: "dei " 
+peasants_IT_POP_DEI: "dei " 
+slaves_IT_POP_DEI: "degli " 
+tribesmen_IT_POP_DEI: "degli "   
+
+nobles_IT_POP_AI: "ai " 
+clergy_IT_POP_AI: "ai " 
+burghers_IT_POP_AI: "ai " 
+laborers_IT_POP_AI: "ai "
+soldiers_IT_POP_AI: "ai " 
+peasants_IT_POP_AI: "ai " 
+slaves_IT_POP_AI: "ai " 
+tribesmen_IT_POP_AI: "ai "  
+
+nobles_IT_POP_DAI: "dai " 
+clergy_IT_POP_DAI: "dai " 
+burghers_IT_POP_DAI: "dai " 
+laborers_IT_POP_DAI: "dai "
+soldiers_IT_POP_DAI: "dai " 
+peasants_IT_POP_DAI: "dai " 
+slaves_IT_POP_DAI: "dai " 
+tribesmen_IT_POP_DAI: "dai "  

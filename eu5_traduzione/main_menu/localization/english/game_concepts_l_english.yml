@@ -18,6 +18,9 @@
  game_concept_character_modifier: "Modificatore del Personaggio"
  game_concept_character_modifiers: "Modificatori del Personaggio"
  game_concept_character_modifier_desc: "Un [modifier|e] che si applica al [character|e]. I tipi di modificatore che dovrebbero essere rivolti al [country|e] sono attivi solo se il personaggio è il [ruler|e] di quel Paese."
+ game_concept_dynasty_modifier: "Modificatore della Dinastia"
+ game_concept_dynasty_modifiers: "Modificatori della Dinastia"
+ game_concept_dynasty_modifier_desc: "Un [modifier|e] che si applica alla [dynasty|e]. I tipi di modificatori che dovrebbero avere come bersaglio il [character|e] sono attivi su ogni membro vivente della dinastia, tuttavia i [country_modifiers|e] vengono applicati solo se il personaggio è il [ruler|e] di quel paese."
  game_concept_international_organization_modifier: "Modificatore Organizzazione Internazionale"
  game_concept_international_organization_modifiers: "Modificatori dell'Organizzazione Internazionale"
  game_concept_international_organization_modifier_desc: "Un [modifier|e] che si applica a una [international_organization|e]."
@@ -69,7 +72,7 @@
  game_concept_society_of_pops_desc: "Un $game_concept_society_of_pops$ è un [country|e] che esiste in virtù dei suoi [pops|e], e non ha bisogno di [own|e] intere [locations|e]."
 
  game_concept_diplomacy: "Diplomazia"
- game_concept_diplomacy_desc: "La diplomazia è un'interazione tra due [countries|e] all'interno del [diplomatic_range|e] l'uno dell'altro.\nÈ promossa dai [diplomats|e].\n\nCopre tutto, da [alliances|e], [treaties|e], [subjects|e], e [overlords|e] e governa [war|e] e [peace|e].\nUn alto [prestige|e] facilita la diplomazia, mentre un alto [antagonism|e] la rende più difficile."
+ game_concept_diplomacy_desc: "La diplomazia è un'interazione tra due [countries|e] all'interno della [diplomatic_range|e] l'uno dell'altro.\nÈ promossa dai [diplomats|e].\n\nCopre tutto, da [alliances|e], [treaties|e], [subjects|e], e [overlords|e] e governa [war|e] e [peace|e].\nUn alto [prestige|e] facilita la diplomazia, mentre un alto [antagonism|e] la rende più difficile."
 
  game_concept_war_enthusiasm: "Entusiasmo per la Guerra"
  game_concept_war_enthusiasm_desc: "Questo descrive la volontà di un [country|e] a proseguire una [war|e]."
@@ -105,8 +108,8 @@
  game_concept_roads: "Strade"
  game_concept_road_desc: "Una strada è un collegamento costruito tra due [locations|e]. Queste rendono più facile per un [country|e] esercitare [control|e] sul proprio territorio, rendono il [trade|e] più agevole e permettono alle [armies|e] di marciare più velocemente."
 
- game_concept_employment_system: "Sistema di Occupazione"
- game_concept_employment_systems: "Sistemi di Occupazione"
+ game_concept_employment_system: "Sistema Occupazionale"
+ game_concept_employment_systems: "Sistemi Occupazionale"
  game_concept_employment_system_desc: "Questo descrive come le [locations|e] riempiono i loro [buildings|e] con i lavoratori."
 
  game_concept_subject_military_stance: "Atteggiamento Militare"
@@ -120,14 +123,14 @@
 
  game_concept_province: "Provincia"
  game_concept_provinces: "Province"
- game_concept_province_desc: "Una provincia è un gruppo di [locations|e] [owned|e] dallo stesso [country|e]. La provincia condivide e distribuisce [food|e] tra le sue località, e le [army_levies|e] e le [navy_levies|e] vengono reclutati dall'intera provincia nel suo complesso. Diverse [cabinet_actions|e] si rivolgono a una provincia."
+ game_concept_province_desc: "Una provincia è un gruppo di [locations|e] [owned|e] dello stesso [country|e]. La provincia condivide e distribuisce [food|e] tra le sue località, e gli [army_levies|e] e le [navy_levies|e] vengono reclutati dall'intera provincia nel suo complesso. Diverse [cabinet_actions|e] riguardano una provincia."
  game_concept_province_definition: "Definizione di Provincia"
  game_concept_province_definition_desc: "Una Definizione di Provincia è un gruppo predeterminato di [locations|e] che determina il modo in cui le [provinces|e] vengono create nel corso del gioco.\n\nLe [areas_with_icon|e] sono divise in Definizioni di Provincia, che a loro volta contengono [locations_with_icon|e]. Tutte le [locations] nella stessa Definizione di Provincia che sono [owned|e] dallo stesso [country_with_icon|e] apparterranno alla stessa [province|e].\n\nSe più [countries] [owns] [locations] nella stessa Definizione di Provincia, ci saranno altrettante [provinces] diverse, ognuno con la propria [province_capital_with_icon|e] e [food_stockpile_with_icon|e]."
- game_concept_province_capital: "Provincia Capitale"
- game_concept_province_capital_desc: "La Provincia Capitale è la [location|e] designata a rappresenta il cuore simbolico della sua [province|e]. La [location] più popolata o sviluppata in una [province] sarà automaticamente selezionata come Provincia Capitale. Quando questa [location] viene [occupied|e] durante una [war|e], le altre [locations] della [province] cadono automaticamente nelle mani dell'invasore entro un breve periodo di tempo.\n\nLa Provincia Capitale determina anche il [market|e] da cui l'intera [province|e] compra e vende [food|e]."
+ game_concept_province_capital: "Capitale di Provincia"
+ game_concept_province_capital_desc: "La Capitale di Provincia è la [location|e] designata a rappresenta il cuore simbolico della sua [province|e]. La [location] più popolata o sviluppata in una [province] sarà automaticamente selezionata come Capitale di Provincia. Quando questa [location] viene [occupied|e] durante una [war|e], le altre [locations] della [province] cadono automaticamente nelle mani dell'invasore entro un breve periodo di tempo.\n\nLa Capitale di Provincia determina anche il [market|e] da cui l'intera [province|e] compra e vende [food|e]."
  game_concept_location: "Località"
  game_concept_locations: "Località"
- game_concept_location_desc: "La più piccola unità di terreno e parte di una [province|e]. Le sue caratteristiche di base sono definite da [topography|e], [vegetation|e] e [climate|e]. Può anche contenere un [river|e].\n\nOgni Località ha un [raw_material|e] che può essere raccolto dai [pops|e] che vi abitano. [buildings|e] possono essere costruiti nelle Località e possono essere presenti anche Pop [employ|e]. La maggior parte delle Località sono di tipo [rural|e], ma possono anche ottenere lo status di [town_or_city|e].\n\nOgni Località può essere [owned|e] e [controlled|e] dai [countries|e] e le [armies|e] possono spostarsi tra diverse Località per conquistarle quando è in corso una [war|e]."
+ game_concept_location_desc: "La più piccola unità di terreno e parte di una [province|e]. Le sue caratteristiche di base sono definite da [topography|e], [vegetation|e] e [climate|e]. Può anche contenere un [river|e].\n\nOgni Località ha una [raw_material|e] che può essere raccolta dai [pops|e] che vi abitano. Gli [buildings|e] possono essere costruiti nelle Località e possono essere presenti anche Pop [employ|e]. La maggior parte delle Località sono di tipo [rural|e], ma possono anche ottenere lo status di [town_or_city|e].\n\nOgni Località può essere [owned|e] e [controlled|e] dai [countries|e] e gli [armies|e] possono spostarsi tra diverse Località per conquistarle quando è in corso una [war|e]."
  game_concept_lake: "Lago"
  game_concept_lakes: "Laghi"
  game_concept_lake_desc: "I laghi rappresentano specchi d'acqua interni senza alcun contatto con il mare aperto, se non attraverso eventuali fiumi, per cui nessuna [ships|e] è in grado di navigare in essi."
@@ -164,7 +167,7 @@
  game_concept_men_i: "@army_strength!"
  game_concept_manpower: "Riserve"
  game_concept_manpower_i: "@manpower!"
- game_concept_manpower_desc: "Le Riserve rappresentano il limite di mascalzoni e furfanti che un [country|e] può sostenere nel suo [army|e].\n\nLe Riserve vengono utilizzati per l'addestramento e il mantenimento di [regiments|e] professionisti, che di solito sono più efficaci degli [army_levies|e].\n\nLa velocità di acquisizione di Riserve può essere aumentata costruendo determinati [buildings|e] o ricercando alcuni [advances|e]."
+ game_concept_manpower_desc: "Le Riserve rappresentano il limite di mascalzoni e furfanti che un [country|e] può sostenere nel suo [army|e].\n\nLe Riserve vengono utilizzate per l'addestramento e il mantenimento di [regiments|e] professionisti, che di solito sono più efficaci dell'[army_levies|e].\n\nLa velocità di acquisizione di Riserve può essere aumentata costruendo determinati [buildings|e] o ricercando alcuni [advances|e]."
 
  game_concept_sailors: "Marinai"
  game_concept_sailors_i: "@sailors!"
@@ -250,7 +253,7 @@
  game_concept_primary_culture: "Cultura Primaria"
  game_concept_primary_culture_short: "Primaria"
  game_concept_primary_cultures: "Culture Primarie"
- game_concept_primary_culture_desc: "Questa è la [culture|e] a cui un [country|E] è considerato appartenere. Un [pops|e] di un'altra cultura può venire [assimilated|e] ad essa quando le circostanze sono giuste.\n\nLa [common_language|e] di ogni [country] è determinata dal [language] della sua Cultura Primaria.\n\nI [pops] appartenenti alla $game_concept_primary_culture$ di un [country] vedranno la loro [pop_satisfaction_with_icon|e] aumentare del [GetDefine('NPop','PRIMARY_CULTURE_SATISFACTION')|%G]."
+ game_concept_primary_culture_desc: "Questa è la [culture|e] a cui un [country|E] è considerato appartenere. Un [pops|e] di un'altra cultura può venire [assimilated|e] ad essa quando le circostanze sono giuste.\n\nLa [common_language|e] di ogni [country] è determinata dalla [language] della sua Cultura Primaria.\n\nIl [pops] appartenente alla $game_concept_primary_culture$ di un [country] vedrà la sua [pop_satisfaction_with_icon|e] aumentare del [GetDefine('NPop','PRIMARY_CULTURE_SATISFACTION')|%G]."
 
  game_concept_primary_or_accepted_culture: "Cultura Primaria o Accettata"
  game_concept_primary_or_accepted_culture_desc: "Si tratta di una [culture|e] che è un [primary_culture_short|e] o un [accepted_culture|e] in un [country|E]."
@@ -411,7 +414,7 @@
  game_concept_regular_regiment_desc: "I Reggimenti Regolari vengono reclutati manualmente da un [country|e] utilizzando più comunemente [manpower|e] e [gold|e]. Questi formano gli [armies|e] permanenti e sono piuttosto limitati in termini numerici fino a quando non si ottengono [advances|e] di [ages|e] successive."
 
  game_concept_regular_ship: "Nave Regolare"
- game_concept_regular_ships: "Navi regolari"
+ game_concept_regular_ships: "Navi Regolari"
  game_concept_regular_ship_desc: "Le Navi Regolari vengono reclutate manualmente da un [country|e] utilizzando [sailors|e] e [gold|e]. Queste formano le [navies|e] permanenti e sono piuttosto limitate in termini numerici fino a quando non si ottengono [advances|e] di [ages|e] successive."
 
  game_concept_regiment: "Reggimento"
@@ -518,7 +521,7 @@
 
  game_concept_ability: "Abilità"
  game_concept_abilities: "Abilità"
- game_concept_ability_desc: "Le abilità rappresentano le diverse attitudini di ogni [character|e]. I valori di ciascuna di esse vanno da 0 a 100. I bambini appena nati partono da 0 e aumentano gradualmente le loro Abilità man mano che crescono.\n\nCi sono tre tipi di Abilità:\n - [adm_short|e]\n - [dip_short|e]\n - [mil_short|e]\n\nSommate insieme, costituiscono l'[total_ability|e] del [character]."
+ game_concept_ability_desc: "Le abilità rappresentano le diverse attitudini di ogni [character|e]. I valori di ciascuna di esse vanno da 0 a 100. I bambini appena nati iniziano da 0 e aumentano gradualmente le loro Abilità man mano che crescono.\n\nCi sono tre tipi di Abilità:\n - [adm_short|e]\n - [dip_short|e]\n - [mil_short|e]\n\nSommate insieme, costituiscono l'[total_ability|e] del [character]."
 
  game_concept_liturgical_language: "Lingua Liturgica"
  game_concept_liturgical_languages: "Lingue Liturgiche"
@@ -537,8 +540,8 @@
  game_concept_court_language: "Lingua della Corte"
  game_concept_court_language_desc: "La [language_with_icon|e] di governo in un [country_with_icon|e].\n\nAlcune lingue possono influenzare la [estate_satisfaction|e] di diversi [estates|e]:\n$BULLET$ La [ShowEstateTypeName('nobles_estate')] preferisce un alto [language_power_with_icon|e].\n$BULLET$ Il [ShowEstateTypeName('clergy_estate')] preferisce la [liturgical_language_with_icon|e].\n$BULLET$ I [ShowEstateTypeName('peasants_estate')] preferisce la [common_language_with_icon|e].\n$BULLET$ Utilizzare la [market_language_with_icon|e] della nostra [capital] aumenterà l'[trade_efficiency|e].\n\nLa Lingua della Corte riceve un aumento del suo [language_power] relativamente al [political_power|e] totale dei [pops|e] appartenenti alla [primary_culture|e] del Paese.\n\nÈ sempre possibile cambiare la Lingua della Corte con la [common_language] o la [liturgical_language], con quella di una [great_power|e] nel nostro [religion_group|e], o con quella del nostro [overlord|e]."
 
- game_concept_estates_enrichment: "Arricchimento degli Stati"
- game_concept_estate_enrichment: "Arricchimento dello Stato"
+ game_concept_estates_enrichment: "Arricchimento dei Ceti"
+ game_concept_estate_enrichment: "Arricchimento del Ceto"
  game_concept_estates_enrichment_desc: "Questo è quanto uno [estate|e] può trattenere ogni mese dalle sue entrate fiscali."
 
  game_concept_political_power: "Potere Politico"
@@ -656,7 +659,7 @@
  game_concept_disease_outbreak: "Epidemia"
  game_concept_disease_outbreaks: "Epidemie"
  game_concept_outbreak: "Epidemia"
- game_concept_disease_outbreak_desc: "Quando una [disease|e] scoppia in una determinato [location|e], può diffondersi da lì in poi con vari mezzi... e può o meno mietere vittime lungo il percorso."
+ game_concept_disease_outbreak_desc: "Quando una [disease|e] scoppia in una determinata [location|e], può diffondersi da lì in poi con vari mezzi... e può o meno mietere vittime lungo il percorso."
 
  game_concept_holy_site: "Luogo Sacro"
  game_concept_holy_sites: "Luoghi Sacri"
@@ -670,7 +673,7 @@
  game_concept_holy_site_type_list_title: "Elenco dei Tipi di Luoghi Sacri"
  game_concept_holy_site_type_desc: "$game_concept_holy_site_type_upper_desc$\n[ShowDatabase('holy_site_type')]"
 
- game_concept_holy_site_importance: "$game_concept_holy_site$ $game_concept_holy_site_importance_short$"
+ game_concept_holy_site_importance: "$game_concept_holy_site_importance_short$ del $game_concept_holy_site$"
  game_concept_holy_site_importance_short: "Importanza"
  game_concept_holy_site_importance_desc: "L' $game_concept_holy_site_importance_short$ di un [holy_site|e] determina i bonus che si applicano alla sua [location|e] o [owner|e]."
 
@@ -713,7 +716,7 @@
  game_concept_promoted: "Promosso"
  game_concept_promotes: "Promuove"
  game_concept_promotion: "Promozione"
- game_concept_promote_desc: "I [pops|e] verranno [Concept('promote', 'Promossi')|e] dai [ShowPopTypeName('peasants')] quando ci sono posizioni disponibili nella loro [location|e]. I Pop devono avere almeno una [tolerated_culture|e] per essere promossi."
+ game_concept_promote_desc: "I [pops|e] verranno [Concept('promote', 'Promossi')|e] dai [ShowPopTypeName('peasants')] quando ci sono posizioni disponibili nella loro [location|e]. I Pop devono appartenere almeno ad una [tolerated_culture|e] per essere promossi."
 
 
  game_concept_demoted: "Declassare"
@@ -724,7 +727,7 @@
 
  game_concept_pop_type: "Classe sociale"
  game_concept_pop_types: "Classi sociali"
- game_concept_pop_type_upper_desc: "Ogni [pop|e] è definito come appartenente a una delle classi sociali dal basso."
+ game_concept_pop_type_upper_desc: "Ogni [pop|e] è definito come appartenente a una delle Classi Sociali riportate sotto."
  game_concept_pop_type_list_title: "Elenco delle classi sociali"
  game_concept_pop_type_desc: "$game_concept_pop_type_upper_desc$\n[ShowDatabase('pop_type')]"
 
@@ -757,7 +760,7 @@
  game_concept_power_projection_desc: "I [countries|e] con una $game_concept_power_projection$ più alta possono sfruttare le nazioni che ne hanno meno. Se è più alta di quella di un'altra nazione, sarà possibile costruire un [ShowBuildingTypeName('trade_office')], [ShowBuildingTypeName('slave_center')], [ShowBuildingTypeName('missionary_building')], o altri edifici specifici nelle loro [locations|e]. Più alta è la $game_concept_power_projection$, più velocemente un [colonial_charters|e] potrà prendere il controllo delle località. Avere una $game_concept_power_projection$ più alta rispetto a un altro Paese riduce anche il costo in [stability|e] per dichiarare [war|e] a loro, così come la [war_exhaustion|e]."
 
  game_concept_proximity: "Prossimità"
- game_concept_proximity_desc: "La prossimità è la vicinanza di una [location|e] alla [capital|e] del suo [owner|e]. Creare un percorso mediante [roads|e] o [maritime_presence|e] lungo una località [coastal|e] aumenta la prossimità.\n\nLa prossimità ha un impatto diretto sul [control|e] che un [country|e] esercitare su una [location]."
+ game_concept_proximity_desc: "La prossimità è la vicinanza di una [location|e] alla [capital|e] del suo [owner|e], e determina il livello di [control_with_icon|e] che le [locations] possono avere.La [proximity] inizia al nella [capital] di ogni [country|e], e salta alle [locations] vicine, conferendo loro [proximity]. Ad ogni salto successivo di perde una certa percentuale di [proximity], a seconda del terreno e delle infrastrutture presenti nella [location]. La [proximity] che si perde passando da una [location] all'altra è chiamata Costo di Prossimità.\n\nIl Costo di Prossimità tra le [locations] varia notevolmente a seconda della [topography_with_icon|e] e della [vegetation_with_icon|e]. Sulla terraferma, può essere ridotto costruendo [roads_with_icon|e], aumentando lo [development_with_icon|e], e con il [societal_value_with_icon|e] [ShowSocietyDirectionName('land')]. In mare, può essere ridotto dalla [harbor_capacity_with_icon|e], dalla [maritime_presence_with_icon|e] e dal [societal_value] [ShowSocietyDirectionName('naval')].""
 
  game_concept_output: "Produzione"
  game_concept_produce: "Produce"
@@ -785,6 +788,9 @@
  game_concept_supported_building_levels: "Livelli dell'Edificio Supportati"
  game_concept_supported_building_levels_desc: "Ogni [location|e] ha un limite flessibile sul numero di livelli di un [building|e] che può contenere. Il superamento di tale limite comporta prezzi di costruzione progressivamente più elevati.\n\nIl numero di $game_concept_supported_building_levels$ dipende principalmente dal [location_rank|e] e dallo [development|e] della [location].\n\nGli [buildings] senza lavoratori non contano ai fini del limite di livello dell'edificio."
 
+ game_concept_building_maintenance: "Mantenimento Edifici"
+ game_concept_building_maintenance_desc: "[buildings] che non producono [goods|e] comportano un costo di mantenimento per il loro [owner]. Il costo dipende dal prezzo di [market|e] dei [goods] tilizzati dall'edificio ed è influenzato dal [crown_power|e] del proprietario."
+ 
  game_concept_employ: "Impiegati"
  game_concept_employed: "Impiegato"
  game_concept_employment: "Impiego"
@@ -799,14 +805,14 @@
 
  game_concept_foreign: "Estero"
  game_concept_foreign_desc: "Questo è una [location|e] che non è di proprietà del [country|e] che si sta controllando."
- game_concept_estate: "Stato"
- game_concept_estates: "Stati"
- game_concept_estate_type: "Tipo di Stato"
- game_concept_estate_types: "Tipi di Stati"
- game_concept_estate_desc: "Gruppi di interesse speciali all'interno di un [country_with_icon|e], gli Stati hanno un [estate_power_with_icon|e] che rappresentano la loro forza politica all'interno del governo, [estate_satisfaction_with_icon|e] che rappresentano il livello di soddisfazione dei loro bisogni e un [estate_opinions|e] su altri Paesi.\n\nGli Stati possono anche avere [estate_privileges_with_icon|e], che sono diritti speciali che aumentano il loro potere e possono essere concessi o revocati dal governo. A loro volta, gli [estates] forniscono [taxes_with_icon|e], [army_levies_with_icon|e] e [navy_levies_with_icon|e] al loro [country].\n\nGli Stati riscuotono la [tax_base_with_icon|e] dalle [locations_with_icon|e], così come una parte dei profitti del [trade|e], e utilizzano questa ricchezza per costruire [buildings_with_icon|e] e pagare i [pop_needs_with_icon|e]. Se la loro [estate_satisfaction] è bassa, costruiranno solo edifici di proprietà per sostenere il proprio [estate_power].\n\nOgni [character_with_icon|e] appartiene a uno degli Stati e aumenta il suo potere quando viene nominato nel [cabinet_with_icon|e], o quando comanda [armies|e] e [navies|e]. Alcune [heir_selections|e] limitano gli [heirs|e] a specifici Stati."
- game_concept_estate_opinion: "Opinione dello Stato"
- game_concept_estate_opinions: "Opinioni dello Stato"
- game_concept_estate_opinion_desc: "Gli Stati di un [country|e] avranno opinioni sugli altri Paesi, cioè su chi mostrarsi [hostile|e] e con chi fare amicizia, il tutto per favorire le proprie esigenze."
+ game_concept_estate: "Ceto"
+ game_concept_estates: "Ceti"
+ game_concept_estate_type: "Tipo di Ceto"
+ game_concept_estate_types: "Tipi di Ceti"
+ game_concept_estate_desc: "Gruppi di interesse speciali all'interno di un [country_with_icon|e], i Ceti hanno un [estate_power_with_icon|e] che rappresentano la loro forza politica all'interno del governo, [estate_satisfaction_with_icon|e] che rappresentano il livello di soddisfazione dei loro bisogni e un [estate_opinions|e] su altri Paesi.\n\nGli Stati possono anche avere [estate_privileges_with_icon|e], che sono diritti speciali che aumentano il loro potere e possono essere concessi o revocati dal governo. A loro volta, gli [estates] forniscono [taxes_with_icon|e], [army_levies_with_icon|e] e [navy_levies_with_icon|e] al loro [country].\n\nGli Stati riscuotono la [tax_base_with_icon|e] dalle [locations_with_icon|e], così come una parte dei profitti del [trade|e], e utilizzano questa ricchezza per costruire [buildings_with_icon|e] e pagare i [pop_needs_with_icon|e]. Se la loro [estate_satisfaction] è bassa, costruiranno solo edifici di proprietà per sostenere il proprio [estate_power].\n\nOgni [character_with_icon|e] appartiene a uno degli Stati e aumenta il suo potere quando viene nominato nel [cabinet_with_icon|e], o quando comanda [armies|e] e [navies|e]. Alcune [heir_selections|e] limitano gli [heirs|e] a specifici Stati."
+ game_concept_estate_opinion: "Opinione del Ceto"
+ game_concept_estate_opinions: "Opinioni del Ceto"
+ game_concept_estate_opinion_desc: "I Ceti di un [country|e] avranno opinioni sugli altri Paesi, cioè su chi mostrarsi [hostile|e] e con chi fare amicizia, il tutto per favorire le proprie esigenze."
 
 
  ### FOOD ###
@@ -835,7 +841,7 @@
  game_concept_subsistence_agriculture_desc: "[rgo_pops|e] che non sono impiegati nelle [rgo|e] o in un [building|e] lavorano nell'$game_concept_subsistence_agriculture$. Genereranno cibo in quantità minore rispetto a una $game_concept_resource_gathering_operations$ che lavora [food_raw_materials|e], spesso appena sufficiente per soddisfare i propri bisogni. Si presume che tutta la popolazione [unemployed|e] faccia questa forma più semplice di raccolta di [food|e], anche se la [location|e] ha una [raw_material|e] che non è direttamente collegata al [food|e]."
 
  game_concept_starvation: "Inedia"
- game_concept_starving: "Morire di Fame"
+ game_concept_starving: "Affamata"
  game_concept_starving_desc: "Quando una [province|e] non ha più [food|e] nel [provincial_food|e], i [pops|e] moriranno di fame.\n\nQuesto dà il seguente effetto:\n[ShowModifierEffect('province_starving')]"
 
  game_concept_food_raw_material: "Materia Prima Alimentare"
@@ -843,13 +849,13 @@
  game_concept_food_raw_material_desc: "Oltre ad essere scambiati e utilizzati come gli altri [goods|e], alcune [raw_materials|e] producono anche [food|e]. Vengono prodotte nelle [rgo|e], e costituiscono una fonte molto più efficiente di $game_concept_food$ rispetto all'[subsistence_agriculture|e].\n\nIl $game_concept_food$ viene anche spostato tra [markets|e] quando le $game_concept_food_raw_materials$ vengono scambiate."
  game_concept_food_raw_material_list_title: "Elenco delle $game_concept_food_raw_materials$"
 
- game_concept_selling_food: "Vendere Cibo"
- game_concept_sell_food: "Vendere cibo"
+ game_concept_selling_food: "Vendita di Cibo"
+ game_concept_sell_food: "Vendita di cibo"
  game_concept_sell_food_short: "Vendere"
  game_concept_selling_food_desc: "Quando una [province|e] ha un'eccedenza di [food|e] e non può più immagazzinarla, la venderà al suo [market|e] locale. Questo è possibile solo se la provincia non è sotto [siege|e].\n\nUna [province] può acquistare ogni mese in una volta solo una quantità di [food|e] pari alla capacità totale delle [food_stockpile|e] della [province]."
 
- game_concept_buying_food: "Acquistare Cibo"
- game_concept_buy_food: "Acquistare cibo"
+ game_concept_buying_food: "Acquisto di Cibo"
+ game_concept_buy_food: "Acquisto di cibo"
  game_concept_buy_food_short: "Acquistare"
  game_concept_buying_food_desc: "Quando una [province|e] ha una quantità bassa di [food|e], ne acquisterà altro dal suo [market|e] locale. Questo è possibile solo se la provincia non è sotto [siege|e].\n\nUna [province] può acquistare ogni mese in una volta solo una quantità di [food|e] pari alla capacità totale delle [food_stockpile|e] della [province]."
 
@@ -871,7 +877,7 @@
  game_concept_loan_desc: "Un prestito è l'importo di [gold|e] che è stato prestato da un [lender|e] e che dovrà essere rimborsato con un [interest|e] mensile. Un prestito può essere utile quando il [country|e] ha bisogno di [gold|e] immediatamente. L'assunzione di un prestito aumenterà il [debt|e] del [country]."
 
  game_concept_loan_capacity: "Capacità di Prestito"
- game_concept_loan_capacity_desc: "Si tratta della quantità di denaro che un [country|e] può [lend|e] sulla base delle sue risorse interne. Gli [estates|e] possono investire in questo, e guadagnerà tutto l'[interest|e] che un [country|e] paga da questi prestiti. Anche alcuni [buildings|e], [advances|e] o [government_reforms|e] possono avere un impatto su questo aspetto."
+ game_concept_loan_capacity_desc: "Si tratta della quantità di denaro che un [country|e] può [lend|e] sulla base delle sue risorse interne. Gli [estates|e] possono investire in questo settore, e guadagneranno tutto l'[interest|e] che un [country|e] paga da questi prestiti. Anche alcuni [buildings|e], [advances|e] o [government_reforms|e] possono avere un impatto su questo aspetto."
 
  game_concept_interest: "Interesse"
  game_concept_interest_desc: "Si tratta di una commissione che ogni [loan|e] ha, che viene pagata ogni mese al [lender|e]."
@@ -882,9 +888,9 @@
  game_concept_lender_desc: "Si tratta di una banca che presta [gold|e] per guadagnarci sopra un [interest|e], oppure di un altro [country|e] che effettua il prestito."
  game_concept_borrower: "Debitore"
  game_concept_borrower_desc: "Si tratta di un [country|e] che ha un debito in [gold|e] e deve pagare un [interest|e] su di esso, di solito a un altro [country|e] o a un [estate|e]."
-adm_concept: "[adm|e]"
-dip_concept: "[dip|e]"
-mil_concept: "[mil|e]"
+ adm_concept: "[adm|e]"
+ dip_concept: "[dip|e]"
+ mil_concept: "[mil|e]"
  game_concept_adm: "Abilità Amministrativa"
  game_concept_adm_short: "Amministrativa"
  game_concept_adm_i: "@adm!"
@@ -896,10 +902,10 @@ mil_concept: "[mil|e]"
  game_concept_mil: "Abilità Militare"
  game_concept_mil_short: "Militare"
  game_concept_mil_i: "@mil!"
- game_concept_mil_desc: "Questa [ability|e] rappresenta la capacità di un [character|e] di comprendere gli aspetti militari della vita, di capire le tattiche e di fare scelte difficili."
+ game_concept_mil_desc: "Questa [ability|e] rappresenta la capacità di un [character|e] di comprendere gli aspetti militari, di capire le tattiche e di fare scelte difficili."
  game_concept_inflation: "Inflazione"
  game_concept_inflation_i: "@inflation!"
- game_concept_inflation_desc: "L'inflazione rappresenta l'aumento di tutti i prezzi nel gioco. Aumenta [minting|e] più oro per aumentare le [income|e], ed è possibile ridurla con un'[cabinet_action|e]."
+ game_concept_inflation_desc: "L'inflazione rappresenta l'aumento di tutti i prezzi nel gioco. Aumenta con la [minting|e] per aumentare le [income|e], e può ridurla con un'[cabinet_action|e]."
  game_concept_stability: "Stabilità"
  game_concept_stability_i: "@stability!"
  game_concept_stability_desc: "La stabilità è una misura della pace interna di un [country|e]. Se è negativa, rappresenta il tumulto, mentre se è positiva, la tranquillità. Nel tempo, la stabilità tenderà verso lo #Y 0#!, a meno che altri fattori non la influenzino. Avviare [wars|e] è una delle azioni che riducono la stabilità di un Paese."
@@ -915,7 +921,7 @@ mil_concept: "[mil|e]"
  game_concept_retreat: "Ritirata"
  game_concept_retreats: "Ritira"
  game_concept_retreating: "Ritirarsi"
- game_concept_retreat_desc: "Un [army|e] o una [navy|e] può essere costretto a ritirarsi dopo aver perso una battaglia, perché il suo [morale|e] diventa troppo basso, o perché decide volontariamente la [retreat|e]. Mentre si ritira, non potrà combattere di nuovo, né ricevere nuovi ordini, finché non avrà raggiunto la sua destinazione."
+ game_concept_retreat_desc: "Un [army|e] o una [navy|e] può essere costretto a ritirarsi dopo aver perso una battaglia, perché il suo [morale|e] diventa troppo basso, oppure potrebbe decidere volontariamente di [retreat|e]. Mentre si ritira, non potrà combattere di nuovo, né ricevere nuovi ordini, finché non avrà raggiunto la sua destinazione."
  game_concept_army_tradition: "Tradizione dell'Esercito"
  game_concept_army_tradition_i: "@army_tradition!"
  game_concept_army_tradition_desc: "Questa rappresenta l'esperienza accumulata di un [country|e] da [armies|e], [battles|e] e [sieges|e]."
@@ -930,13 +936,13 @@ mil_concept: "[mil|e]"
  game_concept_recruitment_method_desc: "Possiamo decidere se vogliamo dedicare più tempo all'addestramento delle nostre truppe per aumentare la loro [experience|e], o se vogliamo che il [regiment|e] sia pronto più velocemente, ma con una [maximum_strength|e] inferiore."
  game_concept_age: "Età"
  game_concept_ages: "Età"
- game_concept_age_upper_desc: "Il gioco è suddiviso in più Età, di solito una per secolo. Ogni Età ha le sue regole e le sue meccaniche, e ognuna ha il suo albero delle [advances|e] che può essere percorso."
+ game_concept_age_upper_desc: "Il gioco è suddiviso in più Età, di solito una per secolo. Ogni Età ha le sue regole e le sue meccaniche, e ognuna ha il suo albero dei [advances|e] che può essere percorso."
  game_concept_age_lower_desc: "All'inizio di ogni Età, si seleziona un focus tra [Concept('adm_short', 'Amministrativo')|e], [Concept('dip_short', 'Diplomatico')|e][dip_short] o [Concept('mil_short', 'Militare')|e], che influisce sul modo in cui l'albero dei progressi del [country|e] sarà strutturato per quell'Età."
  game_concept_age_list_title: "Elenco delle Età"
  game_concept_age_desc: "$game_concept_age_upper_desc$\n\n[ShowDatabase('age')]\n\n$game_concept_age_lower_desc$"
  game_concept_institution: "Istituzione"
  game_concept_institutions: "Istituzioni"
- game_concept_institution_desc: "Ogni [age|e] ha tre diverse Istituzioni che appariranno in una [location|e] adattA della mappa. Si diffonderanno poi sulla mappa e, man mano che i [countries|e] le [Concept('embrace', 'adottano')|e], si sbloccheranno nuovi [advances|e] per quell'Età.\n\nSe ci si accorge che un'istituzione non si diffonde abbastanza rapidamente per un [country], è possibile cercare di [ShowCabinetActionName('study_institutions')]."
+ game_concept_institution_desc: "Ogni [age|e] ha tre diverse Istituzioni che appariranno in una [location|e] adatta della mappa. Si diffonderanno poi sulla mappa e, man mano che i [countries|e] le [Concept('embrace', 'adottano')|e], si sbloccheranno nuovi [advances|e] per quell'Età.\n\nSe ci si accorge che un'istituzione non si diffonde abbastanza rapidamente per un [country], è possibile cercare di [ShowCabinetActionName('study_institutions')]."
  game_concept_embrace: "Adottare"
  game_concept_embraced: "Adottata"
  game_concept_embrace_desc: "Un [country|e] può adottare un'[institution|e] quando abbastanza [population|e] in quel [country|e] vive in [locations|e] in cui si è diffusa completamente. Ciò significa che il Paese ha compreso appieno l'[institution] e può [Concept('research', 'ricercare')|e] [advances|e] che dipendono da essa."
@@ -962,11 +968,11 @@ mil_concept: "[mil|e]"
  game_concept_artillery_barrage_desc: "Se questo è superiore al livello del [fort|e] durante un [siege|e], può dare un bonus all'attaccante!"
 
 
- game_concept_estate_privilege: "Privilegio dello Stato"
- game_concept_estate_privileges: "Privilegi dello Stato"
+ game_concept_estate_privilege: "Privilegio del Ceto"
+ game_concept_estate_privileges: "Privilegi del Ceto"
  game_concept_privileges: "Privilegi"
  game_concept_privilege: "Privilegio"
- game_concept_estate_privilege_desc: "Il [ruler|e] può talvolta concedere alcuni privilegi a determinati gruppi di persone. Potrebbe trattarsi di agevolazioni fiscali, monopoli o altri diritti che conferiscono un vantaggio a quel particolare [estate|e]. In genere, questi privilegi comportano un costo per la Corona, che si tratti di potere dello [estate] o di altri costi."
+ game_concept_estate_privilege_desc: "Il [ruler|e] può talvolta concedere alcuni privilegi a determinati gruppi di persone. Potrebbe trattarsi di agevolazioni fiscali, monopoli o altri diritti che conferiscono un vantaggio a quel particolare [estate|e]. In genere, questi privilegi comportano un costo per la Corona, che si tratti di potere del [estate] o di altri costi."
  game_concept_supply_depot: "Deposito di Rifornimenti"
  game_concept_supply_depots: "Depositi di Rifornimento"
  game_concept_supply_depot_desc: "Gli [armies|e] possono creare dei Depositi di Rifornimento nelle [locations|e] [Concept('hostile', 'Ostili')|e], dove possono depositare e immagazzinare [food|e]. Gli eserciti [Concept('friendly', 'Amici')|e] possono poi attingere a tali rifornimenti fino a #V 2#! [locations] di distanza."
@@ -1003,7 +1009,7 @@ mil_concept: "[mil|e]"
 
  game_concept_cabinet_action: "Azione del Gabinetto"
  game_concept_cabinet_actions: "Azioni del Gabinetto"
- game_concept_cabinet_action_desc: "Un membro del [cabinet|e] può essere assegnato ad una $game_concept_cabinet_action$. Queste azioni vengono eseguite fino a quando non sono terminate, oppure fino a quando non si decide di cambiarle. \nQueste sono le diverse azioni disponibili: \n\n#T $game_concept_adm_short$ $game_concept_actions$#!\n[ShowCabinetTypeDatabase('adm')] \n\n#T $game_concept_diplomatic_actions$#!\n[ShowCabinetTypeDatabase('dip')] \n\n#T $game_concept_mil_short$ $game_concept_actions$#!\n[ShowCabinetTypeDatabase('mil')] "
+ game_concept_cabinet_action_desc: "Un membro del [cabinet|e] può essere assegnato ad una $game_concept_cabinet_action$. Queste azioni vengono eseguite fino a quando non sono terminate, oppure fino a quando non si decide di cambiarle. \nQueste sono le diverse azioni disponibili: \n\n#T $game_concept_actions$ Amministrative#!\n[ShowCabinetTypeDatabase('adm')] \n\n#T $game_concept_diplomatic_actions$#!\n[ShowCabinetTypeDatabase('dip')] \n\n#T $game_concept_actions$ Militari#!\n[ShowCabinetTypeDatabase('mil')] "
  game_concept_cabinet_seat: "Seggio di Gabinetto"
  game_concept_cabinet_seats: "Seggi di Gabinetto"
  game_concept_cabinet_seats_desc: "Questo definisce il numero di [cabinet_members|e] che un [country|e] può impiegare contemporaneamente nel suo [cabinet|e]. Alcuni [advances|e] possono aumentare il numero di $game_concept_cabinet_seats$ disponibili."
@@ -1032,7 +1038,7 @@ mil_concept: "[mil|e]"
 
  game_concept_work_of_art: "Opera d'Arte"
  game_concept_works_of_art: "Opere d'Arte"
- game_concept_work_of_art_desc: "Un'opera d'arte è qualcosa che un [artist|e] ha creato. Quando l'arte viene creata, aumenterà direttamente l'[cultural_influence|e] della [primary_culture|e] del [country|E] in cui l'artista sta lavorando. L'arte è presente in una [location|e], ma può essere distrutta o catturata se quel luogo viene [occupied|e] da qualsiasi [enemy|e].\nAvere arte nel proprio [country] giova al [prestige|e] e alla [cultural_tradition|e]."
+ game_concept_work_of_art_desc: "Un'opera d'arte è qualcosa che un [artist|e] ha creato. Quando l'arte viene creata, aumenterà direttamente l'[cultural_influence|e] della [primary_culture|e] del [country|E] in cui l'artista sta lavorando. L'arte è presente in una [location|e], ma può essere distrutta o catturata se quella località viene [occupied|e] da qualsiasi [enemy|e].\nAvere arte nel proprio [country] giova al [prestige|e] e alla [cultural_tradition|e]."
  game_concept_work_of_art_list_title: "Tipi di Opere d'Arte"
  game_concept_art_quality: "Qualità dell'Arte"
  game_concept_art_quality_desc: "La qualità dell'[works_of_art|e] influisce sulla quantità di [prestige|e] e [cultural_tradition|e] che può fornire.\n\nUn'$game_concept_work_of_art$ può avere i seguenti livelli di qualità, dal più basso al più alto:\n$BULLET_WITH_TAB$ $art_quality_bad$\n$BULLET_WITH_TAB$ $art_quality_below_average$\n$BULLET_WITH_TAB$ $art_quality_average$\n$BULLET_WITH_TAB$ $art_quality_above_average$\n$BULLET_WITH_TAB$ $art_quality_good$\n$BULLET_WITH_TAB$ $art_quality_very_good$\n$BULLET_WITH_TAB$ $art_quality_great$\n$BULLET_WITH_TAB$ $art_quality_best$"
@@ -1053,7 +1059,7 @@ mil_concept: "[mil|e]"
  game_concept_tribal_cohesion_desc: "La Coesione Tribale misura quanto sono allineati i membri della [ShowGovernmentTypeName('tribe')] in termini di [religion|e] e [culture|e]. A livelli bassi, la gestione della [ShowGovernmentTypeNameWithNoTooltip('tribe')] sarà complicata, con ognuno che vorrà portare avanti le proprie attività. Questo livello deve essere mantenuto alto affinché la gestione della [ShowGovernmentTypeNameWithNoTooltip('tribe')] si svolga senza problemi."
  game_concept_government_power: "Potere del Governo"
  game_concept_government_power_i: "@government_power!"
- game_concept_government_power_desc: "Questo è il termine generico che indica la misura del funzionamento del [government|e]. Ne esistono diversi tipi: [legitimacy|e] [republican_tradition|e] , [devotion|e], [horde_unity|e] e [tribal_cohesion|e]."
+ game_concept_government_power_desc: "Questo è il termine generico che indica la misura del funzionamento del [government|e]. Ne esistono diversi tipi: [legitimacy|e], [republican_tradition|e], [devotion|e], [horde_unity|e] e [tribal_cohesion|e]."
  game_concept_policy: "Politica"
  game_concept_policies: "Politiche"
  game_concept_policy_desc: "Ogni [law|e] ha una o più Politiche tra cui scegliere. Queste determinano il modo in cui la legge viene gestita in un [country|e]."
@@ -1083,6 +1089,9 @@ mil_concept: "[mil|e]"
  game_concept_opinion_i: "@opinion!"
  game_concept_opinion_desc: "Si tratta di quanto un [country|e] piace o non piace a un altro [country]. La differenza tra [trust|e] e opinione è che un'alta opinione impedirà al [country] di essere ostile, ma è necessaria la fiducia per poter lavorare insieme."
 
+ game_concept_bias: "Pregiudizio"
+ game_concept_bias_desc: "Un pregiudizio è un certo atteggiamento che un [country|e] può avere nei confronti di un altro. È suddiviso in tre categorie: l'[opinion|e], la [trust|e] e l'[antagonism|e]. Le [country_interactions|e], gli [events|e] e il contesto storico hanno solitamente un impatto su uno dei tre aspetti diplomatici."
+ 
  game_concept_rival: "Rivale"
  game_concept_rivals: "Rivali"
  game_concept_rivals_tooltip: "[rivals|e]"
@@ -1117,9 +1126,9 @@ mil_concept: "[mil|e]"
  game_concept_personal_union: "Unione Personale"
  game_concept_personal_unions: "Unioni Personali"
  game_concept_union_desc: "Un'unione è un tipo di [treaty|e] che si verifica quando due o più [countries|e] sono arrivati a possedere lo stesso [ruler|e] a seguito di un [royal_marriages|e]. Questa funziona come un'[alliance|e] difensiva, in quanto si aiuteranno a vicenda automaticamente se vengono attaccati, ma delle [laws|e] possono essere aggiunte per cambiare il funzionamento dell'unione. Il membro più importante dell'unione si chiama $game_concept_senior_partner$, mentre il resto dei Paesi di un'unione sono $game_concept_junior_partners$."
- game_concept_union_integration_level: "Livello di Integrazione dell'Unione"
- game_concept_union_integration_level_short: "Livello di Integrazione"
- game_concept_union_integration_level_member: "Livello di Integrazione dei Membri"
+ game_concept_union_integration_level: "Livello d'Integrazione dell'Unione"
+ game_concept_union_integration_level_short: "Livello d'Integrazione"
+ game_concept_union_integration_level_member: "Livello d'Integrazione dei Membri"
  game_concept_union_integration_level_desc: "Il $game_concept_union_integration_level$ descrive la centralizzazione di un'[personal_union|e] attraverso [laws|e] e [policies|e]. Ogni [member|e] presente quando viene implementata una politica di centralizzazione ottiene un aumento del suo livello. Con la politica di centralizzazione finale, tutti i $game_concept_junior_partners$ che hanno lo stesso livello di $game_concept_union$ vengono unificati da parte del $game_concept_senior_partner$.\n\nI membri che si uniscono successivamente all'$game_concept_union$ devono recuperare i loro progressi per essere integrati tramite il [parliament|e]."
  game_concept_ally: "Alleato"
  game_concept_allies: "Alleati"
@@ -1134,7 +1143,7 @@ mil_concept: "[mil|e]"
  game_concept_war_leaders: "Leader di Guerra"
  game_concept_war_leader_desc: "Il $game_concept_war_leader$ è uno dei due [countries|e] che guidano il rispettivo schieramento in una [war|e]. Discuteranno i potenziali esiti del conflitto decidendo sui [peace_treaties|e]."
  game_concept_call_to_arms: "Chiamata alle Armi"
- game_concept_call_to_arms_desc: "Una chiamata alle armi è un'[diplomatic_action|e] che può essere fatta durante una [war|e] a tutti gli [allies|e] e agli altri [countries|e] che hanno giurato di partecipare ai conflitti militari.\n\nI Paesi che sono i [Concept('defender', 'Difensori')|e] chiameranno automaticamente i loro alleati in guerra, mentre i Paesi che sono [Concept('attacker', 'Attaccanti')|e] devono chiamarli manualmente ed è più difficile per loro convincerli ad unirsi."
+ game_concept_call_to_arms_desc: "Una chiamata alle armi è un'[diplomatic_action|e] che può essere fatta durante una [war|e] a tutti gli [allies|e] e agli altri [countries|e] che hanno giurato di partecipare ai conflitti militari.\n\nI Paesi che sono i [Concept('war_defender', 'Difensori')|e] chiameranno automaticamente i loro alleati in guerra, mentre i Paesi che sono [Concept('war_attacker', 'Attaccanti')|e] devono chiamarli manualmente ed è più difficile per loro convincerli ad unirsi."
  game_concept_treaty: "Trattato"
  game_concept_treaties: "Trattati"
  game_concept_treaty_desc: "Un Trattato è uno stato diplomatico firmato tra due o più [countries|e]. Possono avere una durata limitata nel tempo, o fino a nuovo avviso.\nI trattati includono [alliances|e], [military_access|e], [truce|e], e molti altri che possono essere creati tramite [diplomacy|e]."
@@ -1160,18 +1169,18 @@ mil_concept: "[mil|e]"
 
 
 
- game_concept_estate_satisfaction: "Soddisfazione dello Stato"
+ game_concept_estate_satisfaction: "Soddisfazione del Ceto"
  game_concept_estate_satisfaction_short: "Soddisfazione"
  game_concept_estate_satisfaction_desc: "Questo è il grado di soddisfazione dello [estate|e] per il modo in cui viene governato attualmente il [country|e]. Se è alto, il Paese otterrà dei bonus, ma se è basso, darà delle penalità, e se è particolarmente basso, non sarà possibile reclutare [army_levies|e] e [navy_levies|e] da quello [estate].\n\nQuesto ha anche un impatto diretto sulla [pop_satisfaction|e] che appartengono a quell'[estate]."
- game_concept_estate_power: "Potere dello Stato"
- game_concept_estate_power_desc: "Questo è il potere che un [estate|e] ha in un [country|e]. Dipende molto dalla dimensione della [population|e] dei [pop_types|e] che appartengono allo [estate], e da quali [estate_privileges|e] sono stato loro assegnati.\n\nAlcuni [pop_types|e] come i [ShowPopTypeName('nobles')] ricevono molto più Potere dello Stato per [pop|e] di quanto non avvenga con gli [ShowPopTypeName('slaves')].\n\n$BULLET_WITH_TAB$Il potere totale degli [estates] riduce il [crown_power|e] del [country].\n$BULLET_WITH_TAB$La [tax_base|e] di una [location|e] è distribuita in base alle dimensioni, al Potere dello Stato e al [pop_type] per ogni Pop presente."
+ game_concept_estate_power: "Potere del Ceto"
+ game_concept_estate_power_desc: "Questo è il potere che un [estate|e] ha in un [country|e]. Dipende molto dalla dimensione della [population|e] delle [pop_types|e] che appartengono allo [estate], e da quali [estate_privileges|e] sono stati loro assegnati.\n\nAlcuni [pop_types|e] come i [ShowPopTypeName('nobles')] ricevono molto più Potere dello Stato per [pop|e] di quanto non avvenga con gli [ShowPopTypeName('slaves')].\n\n$BULLET_WITH_TAB$Il potere totale degli [estates] riduce il [crown_power|e] del [country].\n$BULLET_WITH_TAB$La [tax_base|e] di una [location|e] è distribuita in base alle dimensioni, al Potere dello Stato e al [pop_type] per ogni Pop presente."
  game_concept_crown_power: "Potere della Corona"
  game_concept_crown_power_desc: "Questo è il potere che la corona ha in un [country|e]. Più grande è, più potente ed efficiente diventa il [country]. Se sono state date troppi [estate_privileges|e] agli [estates|e], questa può essere così bassa che il Paese viene penalizzato.\n\nCi sono [advances|e] attraverso l'[ages|e] che aumentano il [crown_power|e], soprattutto quando si entra nell'[ShowAgeName('age_5_absolutism')]."
- game_concept_estate_tax_base: "Base Fiscale dello Stato"
+ game_concept_estate_tax_base: "Base Fiscale del Ceto"
  game_concept_estate_tax_base_desc: "Ogni [estate|e] guadagna [gold|e] pari a una frazione della [tax_base|e] in ogni [location|e], sulla base dal suo [estate_power|e] lì rispetto agli altri [estates]. Questo viene poi ridotto dall'[estate_enrichment|e]."
  game_concept_civil_war: "Guerra Civile"
  game_concept_civil_wars: "Guerre Civili"
- game_concept_civil_war_desc: "Una guerra civile è un tipo speciale di [war|e] in cui un [country|e] è in [war] non con un altro [country] ma con una parte di se stesso. Si differenzia dalle normali [wars] anche in quanto non c'è un'[occupation|e] di [locations|e], ma invece c'è uno scambio di [controller|e] immediatamente dopo un [siege|e]."
+ game_concept_civil_war_desc: "Una guerra civile è un tipo speciale di [war|e] in cui un [country|e] è in [war] non con un altro [country] ma con una parte di se stesso. Si differenzia dalle normali [wars] anche in quanto non c'è un'[occupation|e] di [locations|e], ma invece c'è uno scambio del [controller|e] immediatamente dopo un [siege|e]."
  game_concept_war_goal: "Obiettivo di Guerra"
  game_concept_war_goals: "Obiettivi di Guerra"
  game_concept_war_goal_desc: "Un obiettivo di guerra è l'obiettivo stabilito per una determinata [war|e], e dipenderà dal tipo di [casus_belli|e] utilizzato. Il raggiungimento dell'obiettivo di guerra garantirà un considerevole [war_score|e]."
@@ -1193,6 +1202,16 @@ mil_concept: "[mil|e]"
  game_concept_offensive_wars: "Guerre Offensive"
  game_concept_defensive_wars: "Guerre Difensive"
  game_concept_war_desc: "Una guerra si verifica quando un [country|e] utilizza un [diplomat|e] su un altro Paese per iniziare un conflitto. I Paesi che sono [allies|e] con una delle due parti possono essere coinvolti nella guerra.\n\nDurante una guerra, [armies|e] e [navies|e] di ciascun schieramento che si incontrano si [Concept('battle', 'combatteranno')|e]. Gli [armies] potranno [Concept('siege', 'assediare')|e] le [locations|e] [enemies|e], mentre le [navies|e] possono effettuare un [blockade|e] dei [ports|e].\n\nUna guerra continua fino a quando non viene firmato un [peace_treaty|e] e la [peace|e] regna di nuovo tra i [countries] coinvolti. "
+
+ 
+ game_concept_war_attacker: "Attaccante"
+ game_concept_war_attackers: "Attaccanti"
+ game_concept_war_attacker_desc: "In una [war_with_icon|e], l'Attaccante è la parte il cui leader ha iniziato il conflitto e ha scelto il [casus_belli_with_icon|e].\n\nPer guadagnare [war_score_with_icon|e], il lato Attaccante deve raggiungere l'[war_goal_with_icon|e]."
+
+ game_concept_war_defender: "Difensore"
+ game_concept_war_defenders: "Difensori"
+ game_concept_war_defender_desc: "In una [war_with_icon|e], il Difensore è la parte al cui leader è stata dichiarata guerra. Il lato Difensore chiamerà automaticamente i propri [allies_with_icon|e] nella [war].\n\nPer guadagnare [war_score_with_icon|e], il lato Difensore deve imperire all'[war_attacker|e] di raggiungere l'[war_goal_with_icon|e]."
+
  game_concept_peace: "Pace"
  game_concept_peace_desc: "La pace è lo stato in cui IL [country|e] non è in [war|e]."
  game_concept_white_peace: "Pace Bianca"
@@ -1245,7 +1264,7 @@ mil_concept: "[mil|e]"
  game_concept_market: "Mercato"
  game_concept_markets: "Mercati"
  game_concept_market_desc: "Un Mercato è il luogo in cui i [goods|e] vengono acquistati e venduti.\nHa sede in un [market_center|e], ma include altre sedi in base al loro [market_access|e] e al [protectionism|e].\nTutte queste sedi acquisteranno e venderanno esclusivamente alle [stockpile|e] di questo Mercato.\n\nI [markets] sono colorate in base alla loro rilevanza:\n\n$BULLET$ #G [market] Verde#!: Possiedi località in questo [market], e quindi devi preoccuparti dei sui [pop_needs|e].\n\n$BULLET$ #E [market] Blu#!: Non possiedi [locations|e], ma hai [merchant_capacity|e], e quindi puoi [Concept('trade', 'Commerciare')|e] con esso.\n\n$BULLET$ #L [market] Marrone#!: Non possiedi nessuna [location|e] ne hai [merchant_capacity|e].\n\n$BULLET$ [market] Grigio: [markets] che sono fuori dal [trade_range|e] e quindi non puoi interagire con essi."
-SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se si dispone di [merchant_capacity|e] in qualsiasi [market|e]."
+ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se si dispone di [merchant_capacity|e] in qualsiasi [market|e]."
  game_concept_protectionism: "Protezione del Mercato"
  game_concept_trade_protection: "Protezione del mercato"
  game_concept_protectionism_desc: "$MODIFIER_TYPE_DESC_local_trade_protection_factor$\n\nLa Protezione del Mercato aumenta soprattutto con il [control|e] della [location]."
@@ -1291,11 +1310,11 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_hegemony_desc: "L'egemonia viene stabilita in diversi campi, dove la [great_power|e] con il livello più alto in ogni campo sarà proclamata egemone, guadagnando bonus vantaggiosi.\n[ShowDatabase('hegemony')]"
  game_concept_tier: "Livello"
  game_concept_tiers: "Livelli"
- game_concept_tier_desc: "È legato ad un [formable_country|e]. Ogni [country|e] appartiene ad un Livello da I a IV, a seconda di quanto siano difficili i requisiti di formazione. La cosa principale è che i [countries] possono formare solo Paesi dello stesso Livello o superiore a quello attuale."
+ game_concept_tier_desc: "È legato ad un [formable_country|e]. Ogni [country|e] appartiene ad un Livello da I a IV, a seconda di quanto siano difficili i requisiti di formazione. La cosa principale è che i [countries] possono formare solo paesi di Livello superiore a quello attuale."
 
  game_concept_country_rank: "Rango del Paese"
  game_concept_country_ranks: "Ranghi del Paese"
- game_concept_country_rank_upper_desc: "La $game_concept_country_rank$ rappresenta il rispetto che un [country] ispira tra i suoi pari. Dipenderà principalmente dalle dimensioni e dalla potenza di un $game_concept_country$, anche se la tradizione da sola è spesso sufficiente per ottenere il rispetto, per cui una volta acquisito un rango non può mai essere perso.\n\nOgni $game_concept_country_rank$ permette di ottenere maggiori capacità diplomatiche, con i ranghi più alti che sbloccano nuovi mezzi per influenzare altri $game_concept_countries$ attraverso la [diplomacy|e]."
+ game_concept_country_rank_upper_desc: "Il $game_concept_country_rank$ rappresenta il rispetto che un [country] ispira tra i suoi pari. Dipenderà principalmente dalle dimensioni e dalla potenza di un $game_concept_country$, anche se la tradizione da sola è spesso sufficiente per ottenere il rispetto, per cui una volta acquisito un rango non può mai essere perso.\n\nOgni $game_concept_country_rank$ permette di ottenere maggiori capacità diplomatiche, con i ranghi più alti che sbloccano nuovi mezzi per influenzare altri $game_concept_countries$ attraverso la [diplomacy|e]."
  game_concept_country_rank_list_title: "Elenco dei Ranghi dei Paesi"
  game_concept_country_rank_desc: "$game_concept_country_rank_upper_desc$\n[ShowDatabaseWithIcon('country_rank')]"
  game_concept_country_type: "Tipo di Paese"
@@ -1330,16 +1349,19 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_relation_types: "Tipi di Relazione"
  game_concept_relation_type_desc: "Si tratta di relazioni che possiamo instaurare con un [country|e]. Questo avviene attraverso la [diplomacy|e] o interagendo con un [subject|e].\n\nGli esempi includono [ShowRelationTypeName('embargo_nation')], [ShowRelationTypeName('sound_toll_exemption')] o [ShowRelationTypeName('scutage')]."
  game_concept_army_levy: "Esercito di Leva"
- game_concept_army_levies: "Esercito di Leva"
+ game_concept_army_levies: "Eserciti di Leva"
  game_concept_army_levy_desc: "Un Esercito di Leva è un [regiment|e] che è stato reclutato direttamente dai [pops|e]. Quando l'unità viene reclutata, i [pops] vengono ridotti, e quando l'unità viene sciolta, gli eventuali sopravvissuti tornano ai [pops]. Queste persone sono meno addestrate di un [army|e] regolare reclutato dalle [manpower|e], e non possono rinforzarsi.\nUn [regiment|e] di leva ha anche il seguente effetto:\n[ShowModifierEffect('is_army_levy')]"
  game_concept_navy_levy: "Leva Navale"
  game_concept_navy_levies: "Leve Navali"
- game_concept_navy_levy_desc: "Una leva navale è una [ship|e] da trasporto che è stato requisita direttamente dai [pops|e]. Quando l'unità viene reclutata, i [pops] proprietari della nave e il loro equipaggio vengono prelevati dai [pops] nella [locations|e], e quando l'unità viene sciolta, i sopravvissuti tornano ai [pops]. Queste navi sono generalmente più fragili di una [navy|e] reclutata da [sailors|e], e dovrebbero essere protette da navi armate con cannoni.\nUna [ship|e] di leva ha anche il seguente effetto:\n[ShowModifierEffect('is_navy_levy')]"
+ game_concept_navy_levy_desc: "Una leva navale è una [ship|e] da trasporto che è stata requisita direttamente dai [pops|e]. Quando l'unità viene reclutata, i [pops] proprietari della nave e il loro equipaggio vengono prelevati dai [pops] nella [locations|e], e quando l'unità viene sciolta, i sopravvissuti tornano ai [pops]. Queste navi sono generalmente più fragili di una [navy|e] composta da [sailors|e], e dovrebbero essere protette da navi armate con cannoni.\nUna [ship|e] di leva ha anche il seguente effetto:\n[ShowModifierEffect('is_navy_levy')]"
 
  game_concept_levy: "Leva"
  game_concept_levies: "Leve"
  game_concept_levy_desc: "Una leva è un'unità militare che un [pop|e] crea quando viene chiamata alle armi. Si tratta di un [army_levy|e] o di una [navy_levy|e]."
 
+ game_concept_levy_combat_efficiency: "Efficienza di Combattimento della Leva"
+ game_concept_levy_combat_efficiency_desc: "Questo influisce sull'efficacia di un [regiment|e] di [levies|e] in [combat|e] rispetto a un reggimento [regular|e]."
+ 
  game_concept_weather_system: "Sistema Meteorologico"
  game_concept_weather_systems: "Sistemi Meteorologici"
  game_concept_weather_system_desc: "Si tratta di modelli meteorologici che possono portare venti forti, pioggia, neve e tempeste di sabbia sulle [locations|e] in tutto il mondo, provocando occasionalmente una vera e propria catastrofe."
@@ -1363,7 +1385,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_prisoners: "Prigionieri"
  game_concept_prisoner_desc: "I prigionieri sono [regiments|e] nemici che sono stati catturati dopo una battaglia. Possono essere corrotti per diventare [mercenaries|e] che combattono per i loro rapitori, riscattati o semplicemente eliminati... umanamente o meno."
 
- game_concept_privateer_maintenance: "Mantenimento Corsaro"
+ game_concept_privateer_maintenance: "Spese Navi Corsare"
  game_concept_privateer_maintenance_desc: "Sebbene i [privateers|e] possano arricchirsi da soli, devono comunque essere supportati da un [country|e] quando si tratta di [sailors|e]."
 
  game_concept_privateer_durability: "Resistenza Corsara"
@@ -1441,7 +1463,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_hostile_desc: "Un [country|e] nemico è quello che vuole farci del male, come [rebels|e], [pirates|e] o un Paese con cui siamo in [war|e]."
  game_concept_regency: "Reggenza"
  game_concept_regencies: "Reggenze"
- game_concept_regency_desc: "Una Reggenza si verifica quando un [government|e] non ha un [ruler|e] legittimo, ed è invece guidato da un [regent|e].\n\nDi solito ciò avviene quando la [heir_selection|e] non produce un [heir|e] valido, o quando l'[heir] è un semplice [child|e].\n\nIn una [ShowGovernmentTypeName('monarchy')], il [consort|e] può diventare il [regent], ma altrimenti è un [character|e] associato allo [estate|e] più potente, o anche al [overlord|e].\n\nLa Reggenza persiste fino a quando non viene ripristinato un [ruler] adeguato."
+ game_concept_regency_desc: "Una Reggenza si verifica quando un [government|e] non ha un [ruler|e] legittimo, ed è invece guidato da un [regent|e].\n\nDi solito ciò avviene quando la [heir_selection|e] non produce un [heir|e] valido, o quando l'[heir] è un semplice [child|e].\n\nIn una [ShowGovernmentTypeName('monarchy')], il [consort|e] può diventare il [regent], così come un [character|e] associato al [estate|e] più potente, o anche al [overlord|e].\n\nLa Reggenza persiste fino a quando non viene ripristinato un [ruler] adeguato."
 
 
 
@@ -1457,7 +1479,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_disaster_desc: "Un disastro è un incidente importante e dirompente che colpisce un singolo [country|e], e potrebbe durare o rimanere attivo per un lungo periodo di tempo, fino a quando il Paese non riesce a superarlo.\n\nAlcuni dei disastri più importanti includono [ShowDisasterName('ambrosian_republic_disaster')] e [ShowDisasterName('dissolution_of_delhi')]."
 
  game_concept_tax_efficiency: "Efficienza Fiscale"
- game_concept_tax_efficiency_desc: "Si tratta dell'efficienza del nostro [country|e] nel riscuotere le [taxes|e]. Se è positiva, può effettivamente aumentare la quantità di [Concept('tax', 'Tasse')|e] che i Paesi possono ottenere dai loro [estates|e]."
+ game_concept_tax_efficiency_desc: "Si tratta dell'efficienza del nostro [country|e] nel riscuotere le [taxes|e]. Influisce sulla quantità di [Concept('tax', 'Tasse')|e] che arrivano al [treasury|e] quando si tassano i [estates|e]."
 
  game_concept_trade_efficiency: "Efficienza Commerciale"
  game_concept_trade_efficiency_desc: "Questa modifica la redditività del [trade|e], influenzando direttamente il prezzo di vendita dei [goods|e] nel [market|e] bersaglio."
@@ -1504,7 +1526,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_bankruptcy: "Bancarotta"
  game_concept_bankrupt_desc: "Un [country|e] che sceglie di andare in bancarotta cancellerà tutti i suoi [debt|e]. Tuttavia, questo comporterà un periodo di 5 anni di pesanti [modifiers|e].\nUn [country] può anche essere forzato al fallimento se esaurisce il denaro e non è in grado di prendere altri [loans|e]."
 
- game_concept_formable_country: "Paese Formidabile"
+ game_concept_formable_country: "Paese Formabile"
  game_concept_formable: "Formabile"
  game_concept_formables: "Formabili"
  game_concept_formable_country_formed: "Formato"
@@ -1512,7 +1534,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_formable_country_formation: "Formazione"
  game_concept_formable_forming: "Formazione"
  game_concept_formable_countries: "Paesi Formabili"
- game_concept_formable_country_desc: "Un Paese Formabile è una nuova identità nazionale che può essere formata (o riformata) da un [country|e] che soddisfa determinate condizioni.\n\nQueste condizioni possono includere il controllo di una certa percentuale di [locations|e] in una [region|e], o avere una [primary_culture|e] specifica.\n\nÈ possibile formare un Paese Formabile solo se ha un [tier|e] uguale o superiore al nostro [tier] attuale.\n\nIn genere, rappresentano unioni storiche, o addirittura ambizioni leggendarie. Al momento della formazione, il vecchio [country] cambierà il suo nome, la sua bandiera e i suoi colori in quelli del Paese Formato."
+ game_concept_formable_country_desc: "Un Paese Formabile è una nuova identità nazionale che può essere formata (o riformata) da un [country|e] che soddisfa determinate condizioni.\n\nQueste condizioni possono includere il controllo di una certa percentuale di [locations|e] in una [region|e], o avere una [primary_culture|e] specifica.\n\nÈ possibile formare un Paese Formabile solo se ha un [tier|e] superiore al nostro [tier] attuale.\n\nIn genere, rappresentano unioni storiche, o addirittura ambizioni leggendarie. Al momento della formazione, il vecchio [country] cambierà il suo nome, la sua bandiera e i suoi colori in quelli del Paese Formato."
 
  game_concept_revolter: "Rivoltoso"
  game_concept_revolt: "Rivolta"
@@ -1585,16 +1607,16 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
 
  game_concept_trait: "Tratto"
  game_concept_traits: "Tratti"
- game_concept_trait_upper_desc: "I $game_concept_traits$ definiscono la personalità e il comportamento dei [character|e] in varie circostanze. Si possono guadagnare diversi tipi di $game_concept_traits$ mentre si adempie a [roles|e] specifici, ma un $game_concept_character$ utilizzerà solo quei $game_concept_traits$ rilevanti per il suo $game_concept_role$ corrente."
+ game_concept_trait_upper_desc: "I $game_concept_traits$ definiscono la personalità e il comportamento del [character|e] in varie circostanze. Si possono guadagnare diversi tipi di $game_concept_traits$ mentre si adempie a [roles|e] specifici, ma un $game_concept_character$ utilizzerà solo quei $game_concept_traits$ rilevanti per il suo $game_concept_role$ corrente."
  game_concept_trait_desc: "$game_concept_trait_upper_desc$"
  game_concept_ruler_trait: "Tratto del Governante"
  game_concept_ruler_traits: "Tratti del Governante"
  game_concept_ruler_trait_desc: "Un $game_concept_ruler_trait$ è un tipo di [trait|e] che è attivo solo quando un [character|e] è il [ruler|e] o il [regent|e].\n\nUn $game_concept_character$ può guadagnare fino a tre $game_concept_ruler_traits$ mentre governa un [country|e]."
  game_concept_general_trait: "Tratto del Generale"
- game_concept_general_traits: "Tratti del Generali"
+ game_concept_general_traits: "Tratti del Generale"
  game_concept_general_trait_desc: "Un $game_concept_general_trait$ è un tipo di [trait|e] che è attivo solo quando un [character|e] è un [general|e].\n\nUn $game_concept_character$ può guadagnare fino a un $game_concept_general_trait$ mentre combatte [battles|e] terrestri."
  game_concept_admiral_trait: "Tratto dell'Ammiraglio"
- game_concept_admiral_traits: "Tratti dell'ammiraglio"
+ game_concept_admiral_traits: "Tratti dell'Ammiraglio"
  game_concept_admiral_trait_desc: "Un $game_concept_admiral_trait$ è un tipo di [trait|e] che è attivo solo quando un [character|e] è un [admiral|e].\n\nUn $game_concept_character$ può guadagnare fino a un $game_concept_admiral_trait$ mentre combatte [battles|e] navali."
  game_concept_explorer_trait: "Tratto dell'Esploratore"
  game_concept_explorer_traits: "Tratti dell'Esploratore"
@@ -1613,14 +1635,14 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_fortifications: "Fortificazioni"
  game_concept_fort: "Forte"
  game_concept_forts: "Forti"
- game_concept_fortification_desc: "Si tratta di [buildings|e] difensivi progettati per proteggere le [locations|e] possedute dal [country|e]  contro gli [armies|e] del [enemy|e]. Una [location] con un forte non può essere [sieged|e] istantaneamente, ma richiede un [siege] prolungato. Determinati [advances|e] permettono di costruire forti più efficaci, con ogni livello che aumenta la difficoltà dell'[siege] necessario per [Concept('occupy', 'occuparli')|e].\n\nI forti hanno una [zone_of_control|e] sulle [locations] adiacenti.\n\nHanno anche un costo di [fort_maintenance_with_icon|e] che incide direttamente sul [treasury] del Paese, e dipende dai prezzi dei [goods] nel loro [market|e]. Tutti i [countries] hanno un [fort_limit] riguardo al numero che possono mantenere in modo efficiente, e il superamento di questo limite aumenta considerevolmente il [fort_maintenance]."
+ game_concept_fortification_desc: "Si tratta di [buildings|e] difensivi progettati per proteggere le [locations|e] possedute dal [country|e]  contro gli [armies|e] del [Concept('enemy', 'Nemico in Guerra')|e]. Una [location] con un Forte non può essere [sieged|e] istantaneamente, ma richiede un [siege] prolungato. Determinati [advances|e] permettono di costruire forti più efficaci, aumentando il loro livello di fortificazione e di conseguenza la difficoltà dell'[siege] necessario per [Concept('occupy', 'occuparli')|e].\n\nI forti hanno una [zone_of_control|e] sulle [locations] adiacenti.\n\nHanno anche un costo di [fort_maintenance_with_icon|e] che incide direttamente sul [treasury] del Paese, e dipende dai prezzi dei [goods] nel loro [market|e]. Tutti i [countries] hanno un [fort_limit] riguardo al numero che possono mantenere in modo efficiente, e il superamento di questo limite aumenta considerevolmente il loro [Concept('fort_maintenance', 'Mantenimento')|e]."
 
  game_concept_fort_limit: "Limite dei Forti"
- game_concept_fort_limit_desc: "Il $game_concept_fort_limit$ di un [country_with_icon|e] rappresenta la sua capacità di mantenere le sue [fortifications_with_icon|e] senza sovraccaricare l'amministrazione. Un [country] può superare il suo Limite dei Forti, ma così facendo incorrerà in costi per la [fort_maintenance_with_icon|e] progressivamente più elevati.\n\nIl $game_concept_fort_limit$ aumenta principalmente con il numero di [locations_with_icon|e] possedute, ma anche con il [country_rank_with_icon|e] e il numero di [locations] con il [location_rank|e] [ShowLocationRankName('city')]. Anche il [societal_value_with_icon|e] [ShowSocietyDirectionName('defensive')] e alcuni [advances_with_icon|e] possono aumentarlo."
+ game_concept_fort_limit_desc: "Il $game_concept_fort_limit$ di un [country_with_icon|e] rappresenta la sua capacità di mantenere le sue [fortifications_with_icon|e] senza sovraccaricare l'amministrazione. Un [country] può superare il suo Limite dei Forti, ma così facendo incorrerà in costi per il [fort_maintenance_with_icon|e] progressivamente più elevati.\n\nIl $game_concept_fort_limit$ aumenta principalmente con il numero di [locations_with_icon|e] possedute, ma anche con il [country_rank_with_icon|e] e il numero di [locations] con il [location_rank|e] [ShowLocationRankName('city')]. Anche il [societal_value_with_icon|e] [ShowSocietyDirectionName('defensive')] e alcuni [advances_with_icon|e] possono aumentarlo."
 
  game_concept_zone_of_control: "Zona di Controllo"
  game_concept_zones_of_control: "Zone di Controllo"
- game_concept_zone_of_control_desc: "Rappresenta la capacità difensiva di una [fortification|e] di bloccare il movimento degli [armies|e] del [enemy|e] verso le [locations|e] adiacenti. Un [army] invasore che si trova in una [location] [Concept('enemy', 'nemica')] adiacente a un [fort] [enemy] dovrà prima [Concept('siege', 'assediare')] il [fort] prima di potersi muovere verso qualsiasi altra [location] adiacente quel [fort]."
+ game_concept_zone_of_control_desc: "Rappresenta la capacità difensiva di una [fortification|e] di bloccare il movimento degli [armies|e] [Concept('enemy', 'Nemici')|e] verso le [locations|e] adiacenti. Un [army] invasore che si trova in una [location] [Concept('enemy', 'nemica')] adiacente a un [fort], dovrà prima [Concept('siege', 'assediarlo')|e] e poi si potrà muovere verso qualsiasi altra [location] adiacente a quel [fort]."
 
  game_concept_role: "Ruolo"
  game_concept_roles: "Ruoli"
@@ -1649,9 +1671,9 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_merchants: "Mercanti"
  game_concept_merchant_desc: "I Mercanti sono una corporazione fedele al [country|e] che è presente in un [market|e] e possono utilizzare il loro [merchant_power|e] e la [merchant_capacity|e] per il [trade|e] di [goods|e] con un altro [market|e] nella speranza di ottenere un profitto."
  game_concept_merchant_power: "Vantaggio Commerciale"
- game_concept_merchant_power_desc: "Il $game_concept_merchant_power$ di un [countries|e] in un [market|e] determina chi sarà in grado di soddisfare per primo le proprie [exports|e].\n\nSe c'è una [supply|e] limitata di [goods|e] in un $game_concept_market$, questi vengono distribuiti in base al $game_concept_merchant_power$ che ogni [country|e] ha in quel $game_concept_market$."
+ game_concept_merchant_power_desc: "Il $game_concept_merchant_power$ di un [country|e] in un [market|e] determina chi sarà in grado di soddisfare per primo le proprie [exports|e].\n\nSe c'è una [supply|e] limitata di [goods|e] in un $game_concept_market$, questi vengono distribuiti in base al $game_concept_merchant_power$ che ogni [country|e] ha in quel $game_concept_market$."
  game_concept_merchant_capacity: "Capacità Commerciale"
- game_concept_merchant_capacity_desc: "Rappresenta quanto un [country|e] può [export|e] e/o [import|e] da un [market|e].\n\nOgni [trade|e] creato da questo [market] utilizza [merchant_capacity] a seconda della distanza dall'altro [market] e del volume di [goods|e] [Concept('trade', 'scambiati')|e]."
+ game_concept_merchant_capacity_desc: "Rappresenta quanto un [country|e] può [Concept('export', 'Esportare')|e] e/o [Concept('import', 'Importare')|e] da un [market|e].\n\nOgni [trade|e] creato da questo [market] utilizza [merchant_capacity] a seconda della distanza dall'altro [market] e del volume di [goods|e] [Concept('trade', 'scambiati')|e]."
 
  game_concept_merchant_maintenance: "Mantenimento delle Rotte Commerciali"
  game_concept_merchant_maintenance_desc: "Rappresenta il costo per stabilire [trades|e] tra i [markets|e]. Il commercio non è gratuito, poiché le navi, i carri e le carovane devono essere mantenuti e i mercanti stessi devono essere pagati.\n\nIl Mantenimento delle Rotte aumenta con la distanza ed è influenzato dalla presenza di [sound_tolls|e]."
@@ -1664,14 +1686,14 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_subject_loyalty_desc: "Ogni [subject|e] ha una Fedeltà dello Stato Cliente verso il proprio [overlord|e]. Variando da 0 a 100, quando scende al di sotto di 50, lo [subject] diventa un [disloyal_subject|e].\n\nIl suo valore è direttamente influenzato dal [liberty_desire|e] e può essere ulteriormente diminuito con l'[cabinet_action|e] [ShowCabinetActionName('sow_disloyalty')]. "
 
  game_concept_subject_type: "Tipo di Stato Cliente"
- game_concept_subject_types: "Tipi di Stati Cliente"
+ game_concept_subject_types: "Tipi di Stati Clienti"
  game_concept_subject_type_desc: "Ogni [subject|e] appartiene ad un Tipo di Stato Cliente, che essenzialmente delinea le regole che deve seguire per quanto riguarda aspetti come [war|e] e [heir_selection|e].\n\nI Tipi di Stato Cliente dettano anche la [subject_taxation|e] e il [great_power_score|e] che ogni [subject] deve cedere al suo [overlord|e]."
 
  game_concept_subject: "Stato Cliente"
  game_concept_subjects: "Stati Clienti"
  game_concept_subjugate: "Soggiogare"
  game_concept_subjugated: "Soggiogato"
- game_concept_subject_desc: "Uno Stato Cliente è qualsiasi [country|e] subordinato a un [overlord|E].\n\nIn genere ha limitazioni alla sua [diplomacy|e] in cambio di protezione in una [war|e].\n\nGli Stati Clienti possono anche subire una [subject_taxation|e] e avere una certa percentuale del loro [great_power_score|e] prelevato dal loro [overlord]. Inoltre, uno Stato Cliente non può diventare una [great_power|e]. Le regole esatte dipendono dal [subject_type|e].\n\nGli Stati Clienti hanno un livello di [subject_loyalty|e] verso il loro [overlord], e un [liberty_desire|e] - entrambi indicano il loro attuale livello di subordinazione, per esempio se sono [loyal_subjects_short|e] o [disloyal_subjects_short|e].\n\nQualsiasi Stato Cliente può essere a sua volta [overlord] di altri [countries], permettendo lunghe catene di relazioni Stato Cliente-[overlord].\n\nAlcuni Stati Clienti sono [non_sovereign_subjects|e]."
+ game_concept_subject_desc: "Uno Stato Cliente è qualsiasi [country|e] subordinato a un [overlord|E].\n\nIn genere ha limitazioni alla sua [diplomacy|e] in cambio di protezione in una [war|e].\n\nGli Stati Clienti possono anche subire una [Concept('subject_taxation', 'Tassazione')|e] e avere una certa percentuale del loro [great_power_score|e] prelevato dal loro [overlord]. Inoltre, uno Stato Cliente non può diventare una [great_power|e]. Le regole esatte dipendono dal [subject_type|e].\n\nGli Stati Clienti hanno un livello di [Concept('subject_loyalty', 'Fedeltà')|e] verso il loro [overlord], e un [liberty_desire|e] - entrambi indicano il loro attuale livello di subordinazione, per esempio se sono [Concept('loyal_subjects_short', 'Leali')|e] o [Concept('disloyal_subjects_short', 'Sleali')|e].\n\nQualsiasi Stato Cliente può essere a sua volta [overlord] di altri [countries], permettendo lunghe catene di relazioni Stato Cliente-[overlord].\n\nAlcuni Stati Clienti sono [non_sovereign_subjects|e]."
 
  game_concept_non_sovereign_subject: "Stato Cliente non Sovrano"
  game_concept_non_sovereign_subjects: "Stati Clienti non Sovrani"
@@ -1680,7 +1702,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_overlord: "Signore"
  game_concept_overlords: "Signori"
  game_concept_direct_overlord: "Signore Diretto"
- game_concept_overlord_desc: "Un Signore è un [country|e] che ha un numero qualsiasi di [subjects|E] come suoi subordinati.\n\nIn cambio della protezione di ogni [subject] in [wars|e], riceve tipicamente [Concept('subject_taxation', 'Tasse dallo Stato Cliente')|e] ed esige una certa percentuale del [great_power_score|e]. Le regole esatte dipendono dal [subject_type|e].\n\nQualsiasi Signore può essere a sua volta il [subject] di altri [countries], consentendo lunghe catene di relazioni [subject]- Signore."
+ game_concept_overlord_desc: "Un Signore è un [country|e] che ha un numero qualsiasi di [subjects|E] come suoi subordinati.\n\nIn cambio della protezione di ogni [subject] in [war|e], riceve tipicamente [Concept('subject_taxation', 'Tasse dallo Stato Cliente')|e] ed esige una certa percentuale del [great_power_score|e]. Le regole esatte dipendono dal [subject_type|e].\n\nQualsiasi Signore può essere a sua volta lo [subject] di altri [countries], consentendo lunghe catene di relazioni [subject]- Signore."
 
  game_concept_liberty_desire: "Desiderio di Libertà"
  game_concept_liberty_desire_desc: "Il Desiderio di Libertà rappresenta la spinta attuale di uno [subject|e] verso l'indipendenza dal suo [overlord|e], e influisce sulla [subject_loyalty|e].\n\nIl suo valore va da -100 a +100, ma ha uno decadimento mensile verso 0.\n\nIl valore è anche utilizzato come valuta in alcune Interazioni con lo Stato Cliente."
@@ -1843,11 +1865,13 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_food_storage_per_strength: "Riserve di Cibo"
  game_concept_food_storage_per_strength_desc: "Questa è la quantità di [food|e] che un [regiment|e] o una [ship|e] può portare con sé."
  game_concept_food_capacity: "Capacità Alimentare"
+ game_concept_food_capacity_desc: "Questo è a quantità di [food|e] un'[unit|e] può portare con sé mentre si sposta."
  game_concept_food_capacity_per_strength: "Capacità Alimentare"
- game_concept_food_capacity_desc: "Questa è la quantità di [food|e] che un [unit|e] può portare con sé mentre si muove."
+ game_concept_food_capacity_per_strength_desc: "$game_concept_food_capacity_desc$"
  game_concept_food_consumption: "Consumo di Cibo"
- game_concept_food_consumption_per_strength: "Consumo di Cibo"
  game_concept_food_consumption_desc: "Questa è la quantità di [food|e] che un [regiment|e] consumerà ogni mese."
+ game_concept_food_consumption_per_strength: "Consumo di Cibo"
+ game_concept_food_consumption_per_strength_desc: "$game_concept_food_consumption_desc$"
  game_concept_food_access: "Accesso al Cibo"
  game_concept_food_access_desc: "L'accesso al cibo permette agli [armies|e] e alle [navies|e] di raccogliere [food|e] dalle [locations|e] di altri [countries|e]."
  game_concept_hull_size: "Dimensioni dello Scafo"
@@ -1894,13 +1918,13 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
 
  game_concept_phase: "Fase"
  game_concept_phases: "Fasi"
- game_concept_phase_desc: "Ci sono due fasi di [combat|e], a partire dall' iniziale [bombard_phase|e] di 5 ore (se qualche [regiment|e] è in grado di [bombard|e]), seguita dalla [combat_phase|e]."
+ game_concept_phase_desc: "Ci sono due Fasi di [combat|e], a partire dall' iniziale [bombard_phase|e] di [GetDefine('NCombat','BOMBARD_HOURS')|W] ore (se qualche [regiment|e] è in grado di [bombard|e]), seguita dalla [combat_phase|e]."
 
  game_concept_combat_phase: "Fase di Combattimento"
  game_concept_combat_phase_desc: "La Fase di Combattimento è la [phase|e] principale del [combat|e] che si svolge dopo la [bombard_phase|e] iniziale. I [regiments|e] o le [ships|e] tenteranno di [engage|e] le controparti del [enemy|e]."
 
  game_concept_bombard_phase: "Fase di Bombardamento"
- game_concept_bombard_phase_desc: "La Fase di Bombardamento è la [phase|e] di apertura del [combat|e] che avviene prima della [combat_phase|e] principale. Viene utilizzata esclusivamente dai [regiments|e] che possono [bombard|e], ad esempio dall'[ShowUnitCategoryName('army_artillery')].\n\nOgni ora della Fase di Bombardamento, i [regiments] hanno la possibilità di [bombard] infliggendo il loro [combat_power|e] come danno a un [regiment] nemico nella stessa [section|e]."
+ game_concept_bombard_phase_desc: "La Fase di Bombardamento è la [phase|e] di apertura del [combat|e] che avviene prima della [combat_phase|e] principale. Dura [GetDefine('NCombat','BOMBARD_HOURS')|W] ore e viene utilizzata esclusivamente dai [regiments|e] che possono [bombard|e], ad esempio dall'[ShowUnitCategoryName('army_artillery')].\n\nOgni ora della Fase di Bombardamento, i [regiments] hanno la possibilità di [bombard] infliggendo il loro [combat_power|e] come danno a un [regiment] nemico nella stessa [section|e]."
 
  game_concept_bombard: "Bombardare"
  game_concept_bombarding: "Bombardamento"
@@ -2018,7 +2042,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
 
  game_concept_child_education: "Istruzione dei Bambini"
  game_concept_education: "Istruzione"
- game_concept_child_education_desc: "I [children|e] possono ricevere un'istruzione dall'età di #Y 3#! anni. Questo determinerà il miglioramento delle loro [abilities|e] nel tempo.\n\nOgni mese un [child] ha una possibilità del [GetDefine('NCharacter','MONTHLY_STAT_INCREASE_CHANCE_FOR_CHILD')|Y] di aumentare le sue [abilities] secondo la sua istruzione."
+ game_concept_child_education_desc: "I [children|e] possono ricevere un'istruzione dall'età di #Y 3#! anni. Questo determinerà il miglioramento delle loro [abilities|e] nel tempo.\n\nOgni mese un [child] ha una possibilità del [GetDefine('NCharacter','MONTHLY_STAT_INCREASE_CHANCE_FOR_CHILD')|%Y] di aumentare le sue [abilities] in base alla sua istruzione."
 
  game_concept_exploration: "Esplorazione"
  game_concept_explorations: "Esplorazioni"
@@ -2093,7 +2117,7 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_navy_maintenance: "Mantenimento della Flotta"
  game_concept_navy_maintenance_desc: "È bello avere una flotta grandiosa e lucente di [ships|e] pronta a salpare. Queste navi, però, non si mantengono da sole: occorre spendere [gold|e] per mantenerle al meglio. Il Mantenimento della Flotta è un modo per misurare quante risorse sono dirottate per mantenere le navi in buone condizioni.\n\nCon un basso mantenimento, il [morale|e] soffrirà, e le navi saranno meno efficaci, sia in combattimento che per aumentare la [maritime_presence|e]."
 
- game_concept_fort_maintenance: "Manutenzione del Forte"
+ game_concept_fort_maintenance: "Mantenimento dei Forti"
  game_concept_fort_maintenance_desc: "I [forts|e] sono utili per respingere gli [armies|e] invasori, ma necessitano di [gold|e] per la manutenzione e per assicurarsi che siano in grado di svolgere il loro lavoro. La Manutenzione dei Forti è una misura di quante risorse un [country|e] sta dirottando per garantire che i suoi [forts|e] siano in buone condizioni. Più risorse vengono spese, più efficaci saranno i forti."
 
  game_concept_cultural_maintenance: "Investire nella Cultura"
@@ -2106,10 +2130,10 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
  game_concept_mercenary_income: "Reddito dai Mercenari"
  game_concept_mercenary_income_desc: "Rappresenta i [gold|e] che otteniamo concedendo le nostre [armies|e] o [navies|e] come [mercenaries|e] ad altri [countries|e]."
 
- game_concept_mercenary_expense: "Reclutamento dei Mercenari"
+ game_concept_mercenary_expense: "Spese per Mercenari"
  game_concept_mercenary_expense_desc: "Questo è il costo per il reclutamento di [mercenaries|e] che combattono per noi."
 
- game_concept_subsidy_expense: "Sovvenzioni degli Edifici"
+ game_concept_subsidy_expense: "Sovvenzioni Edifici"
  game_concept_subsidy_expense_desc: "Alcuni [buildings|e] possono non essere redditizi, ma si potrebbe aver bisogno dei [goods|e] che producono per altre ragioni. A questi edifici può essere assegnata una [subsidy|e]."
 
  game_concept_subsidy: "Sovvenzione"
@@ -2133,12 +2157,16 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
 
  game_concept_sound_toll: "Pedaggio dello Stretto"
  game_concept_sound_tolls: "Pedaggi dello Stretto"
- game_concept_sound_toll_desc: "Ci sono alcuni stretti nel mondo in cui il controllore può esigere una tassa per i [trades|e] che lo attraversano. Per esempio:\n$BULLET_WITH_TAB$[ShowLocationName('oresund')]\n$BULLET_WITH_TAB$[ShowLocationName('gulf_izmit')]"
+ game_concept_sound_toll_desc: "Ci sono alcuni stretti nel mondo in cui il controllore può esigere una tassa per i [trades|e] che lo attraversano. Per esempio:\n$BULLET_WITH_TAB$[ShowLocationName('oresund')]\n$BULLET_WITH_TAB$[ShowLocationName('gulf_izmit')]\n\nOgni Pedaggio è collegato a una specifica [location|e] terrestre che devi possedere per poter controllare lo stretto, e le [income|e] generate dal pedaggio vengono calcolate in base al tuo [control|e] in quella [location]."
 
- game_concept_great_power_score: "$game_concept_great_power_score_short$ della Grande Potenza"
+ game_concept_great_power_score: "$game_concept_great_power_score_short$ di Grande Potenza"
  game_concept_great_power_score_short: "Punteggio"
- game_concept_great_power_score_desc: "Il Punteggio della Grande Potenza è la misura indiscutibile di quale [country|e] sia il migliore. I $game_concept_countries$ con il punteggio più alto sono le [great_powers|e]. Il numero totale di Grandi Potenze varia a seconda del Punteggio della Grande Potenza in cima alla classifica comparato alle altre.\n\nI $game_concept_countries$ guadagnano $game_concept_great_power_score_short$ avendo più [population|e], [prestige|e], aumentando il [country_rank|e] e da varie altre fonti.\n\nGli [subjects|e] perdono anche una certa percentuale del loro Punteggio a favore del loro [overlord|e], a seconda del [subject_type|e]."
+ game_concept_great_power_score_desc: "Il Punteggio di Grande Potenza è la misura indiscutibile di quale [country|e] sia il migliore. I $game_concept_countries$ con il punteggio più alto sono le [great_powers|e]. Il numero totale di Grandi Potenze varia a seconda del Punteggio della Grande Potenza in cima alla classifica comparato alle altre.\n\nI $game_concept_countries$ guadagnano $game_concept_great_power_score_short$ avendo più [population|e], [prestige|e], aumentando il [country_rank|e] e da varie altre fonti.\n\nGli [subjects|e] perdono anche una certa percentuale del loro Punteggio a favore del loro [overlord|e], a seconda del [subject_type|e]."
 
+ game_concept_great_power_rank: "$game_concept_great_power_rank_short$ di Grande Potenza"
+ game_concept_great_power_rank_short: "Rango"
+ game_concept_great_power_rank_desc: "Il Rango di Grande Potenza mostra la posizione attuale di un [country|e] nella corsa alla vittoria finale. Il Rango è determinato dalla somma del [great_power_score|e]."
+ 
  game_concept_event: "Evento"
  game_concept_events: "Eventi"
  game_concept_event_desc: "Gli eventi sono situazioni che accadono a un [country|e] nel corso del gioco se si verificano le condizioni necessarie. Di solito hanno un [effect|e] allegato e raccontano un pezzo di narrazione ingame.\nAlcuni [countries] hanno accesso a [dynamic_historical_events|e]."
@@ -2281,14 +2309,14 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
 
  game_concept_parliament_agenda: "Agenda Parlamentare"
  game_concept_parliament_agenda_short: "Agenda"
- game_concept_parliament_agendas: "Agende Parlamentare"
+ game_concept_parliament_agendas: "Agende Parlamentari"
  game_concept_parliament_agendas_short: "Agende"
  game_concept_parliament_agenda_desc: "Qualsiasi [estate|e] potrebbe avere un'$game_concept_parliament_agenda$ da risolvere prima di impegnarsi e dare il proprio sostegno. Questo potrebbe essere costoso per un [country|e], in quanto il sostegno fornito si basa sul [estate_power|e].\n\nNel contesto delle [international_organizations|e], sono i [members|e] di una [special_status|e] a presentare invece la loro $game_concept_parliament_agenda$. Accettare tali richieste può comportare il loro sostegno garantito sotto forma di [special_status_power|e]."
 
- game_concept_parliament_issue: "Questione Parlamentare"
- game_concept_parliament_issue_short: "Questione"
- game_concept_parliament_issues: "Questioni Parlamentari"
- game_concept_parliament_issues_short: "Questioni"
+ game_concept_parliament_issue: "Proposta Parlamentare"
+ game_concept_parliament_issue_short: "Proposta"
+ game_concept_parliament_issues: "Proposte Parlamentari"
+ game_concept_parliament_issues_short: "Proposte"
  game_concept_parliament_issue_desc: "Si tratta di un aspetto che è stato dibattuto per un po' di tempo e che dovrà essere risolto in [parliament|e] dagli [estates|e] o il [country|e] diventerà più debole.\n\nPer le [international_organizations|e], questi dibattiti devono essere negoziati con i potenti [members|e] con un [special_status|e]."
  game_concept_parliament_support: "Supporto Parlamentare"
  game_concept_parliament_support_short: "Supporto"
@@ -2373,6 +2401,3 @@ SUBTAB_TRADING_TT_TEXT: "In questa Scheda è possibile gestire i  [trades|e] se 
 
  game_concept_share_of_power_gc: "Quota di Potere"
  game_concept_share_of_power_gc_desc: "Questa è la misura della forza di un particolare schieramento avversario durante la [situation|e] [ShowSituationName('fall_of_delhi')]. [GetCountry('DLH').GetName] può aumentarla attraverso i seguenti mezzi:\n- Azioni delle Situazione\n- [events|e]\n- Trattati Speciali di Pace\n- Supporto Diplomatico da parte di altri [countries|e]\n\nGli avversari possono aumentare la loro attraverso guerre offensive e vittorie contro [GetCountry('DLH').GetNameWithNoTooltip]."
-
-
-

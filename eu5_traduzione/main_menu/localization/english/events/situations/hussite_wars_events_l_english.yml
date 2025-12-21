@@ -1,55 +1,57 @@
 ﻿l_english:
- hussite_wars: "Hussite Wars"
- hussite_wars_desc: "A series of conflicts between the followers of [ShowReligionName('hussite')] and [ShowReligionName('catholic')], it quickly escalated into a full-blown war for the very identity of the country itself."
- recognized_hussites_tt: "We have emerged victorious out of the #Y Hussite Wars#!"
- has_not_had_this_situation_before_tt: "This [situation|e] has not occurred before"
- DEFENDERS_CATHOLICISM: "Defensive [alliance|e] against $BOH$"
- DEFENDERS_HUSSITISM: "Defensive [alliance|e] against $PAP$"
-
- hussite_wars.1.title: "[jan_zelivsky_scope.GetNameWithNoTooltip]'s Congregation"
- HUSSITE_WARS_SIDE_BOHEMIA: "The [THIS.GetLocation.GetOwner.GetLongName|Y] is supporting the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!"
- HUSSITE_WARS_SIDE_POPE: "The [THIS.GetLocation.GetOwner.GetLongName|Y] opposes the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!"
- pope_hw_tt: "This is the [GetCountry('PAP').GetGovernment.GetRulerTitle], hellbent on destroying [ShowReligionName('hussite')]!"
- boh_hw_tt: "This is the [GetCountry('BOH').GetLongName], defenders of [ShowReligionName('hussite')]!"
-
- convert_heretics_hw_action: "Force Conversions"
- convert_heretics_hw_action_desc: "The external pressure upon us from heretic foes cannot go unanswered! We must defend our [ShowReligionAdjective('hussite')] traditions and faith by enforcing strict discipline and practices across our [actor.GetFlavorRank]."
+ hussite_wars: "Guerre Hussite"
+ hussite_wars_desc: "Una serie di conflitti tra i seguaci di [religion|e] [ShowReligionName('hussite')] e [religion|e] [ShowReligionName('catholic')], degenerata rapidamente in una vera e propria guerra per l'identità stessa del Paese."
+ recognized_hussites_tt: "Siamo emersi vittoriosi dalle #Y Guerre Hussite#!"
+ has_not_had_this_situation_before_tt: "Questa [situation|e] non si è verificata prima"
+ DEFENDERS_CATHOLIciSM: "[alliance|e] Difensiva contro $BOH$"
+ DEFENDERS_HUSSITISM: "[alliance|e] Difensiva contro $PAP$"
+ bohemia_and_pope_at_war_with_both_being_leaders_tt: "[GetCountry('BOH').GetName] e [GetCountry('PAP').GetName] sono in guerra tra loro e ogni [country|e] è il [war_leader|e] della rispettiva fazione"
  
- demand_donation_key: "Times of war and clashes await our people, as we strive to claim our place and defend our borders. To that end, we will demand a donation from the most affluent members of"
- demand_noble_donations_hw_action: "Demand Noble Donations"
- demand_noble_donations_hw_action_desc: "$demand_donation_key$ the nobility."
+ hussite_wars.1.title: "La Congregazione di [jan_zelivsky_scope.GetNameWithNoTooltip]"
+ HUSSITE_WARS_SIDE_BOHEMIA: "[THIS.GetLocation.GetOwner.GetLongName|Y] sta supportando il [GetCountry('BOH').GetLongName] nelle [ShowSituationName('hussite_wars')]!"
+ HUSSITE_WARS_SIDE_POPE: "[THIS.GetLocation.GetOwner.GetLongName|Y] si oppone al [GetCountry('BOH').GetLongName] nelle [ShowSituationName('hussite_wars')]!"
+ pope_hw_tt: "Questo è il [GetCountry('PAP').GetGovernment.GetRulerTitle], intenzionato a distruggere la [religion|e] [ShowReligionName('hussite')]!"
+ boh_hw_tt: "Questo è il [GetCountry('BOH').GetLongName], difensore della [religion|e] [ShowReligionName('hussite')]!"
  
- demand_clergy_donations_hw_action: "Demand Clerical Donations"
- demand_clergy_donations_hw_action_desc: "$demand_donation_key$ the clergy."
-
- demand_burgher_donations_hw_action: "Demand Merchant Donations"
- demand_burgher_donations_hw_action_desc: "$demand_donation_key$ the burghers."
-
- prepare_defenses_hw_action: "Prepare the Defenses"
- prepare_defenses_hw_action_desc: "The hordes of [ShowReligionName('catholic')] will soon ravage our lands in their mad quest for religious dominance. It would be wise for us to ensure each province is protected by sturdy defenses."
-
- align_with_moderates_help_hw_action: "Align with the Moderates"
- align_with_moderates_help_hw_action_desc: "The way of diplomacy and tolerance will surely attract a more sympathetic view towards our cause, even from countries that bend the knee to [ShowReligionName('catholic')]."
-
- align_with_radicals_help_hw_action: "Align with the Radicals"
- align_with_radicals_help_hw_action_desc: "We are alone against a sea of heretics, their jaws gnawing hungrily at the edges of our territory. The people must brace themselves and adopt a policy of no tolerance and zealotry towards our enemies."
-
- join_the_papal_side_hw_action: "Side with the [GetCountry('PAP').GetLongNameWithNoTooltip]"
- join_the_papal_side_hw_action_desc: "It is our duty to join the [GetCountry('PAP').GetLongName] in their struggle to wipe out heresy from the face of [ShowContinentName('europe')]!"
-
- join_the_hussite_side_hw_action: "Side with the [GetCountry('BOH').GetLongNameWithNoTooltip]"
- join_the_hussite_side_hw_action_desc: "We should not stand idly as the [GetCountry('PAP').GetLongName] perpetrate heinous brutalities against the less fortunate. We must therefore defend the [GetCountry('BOH').GetLongName] and put a stop to unreasonable [GetCountry('PAP').GetAdjectiveWithNoTooltip] crusades!"
-
- hw_province_gains_hw_heretic_conversions_modifier_tt: "The designated [province|e] will gain [ShowModifier('hw_heretic_conversions_modifier')] for #Y 10#! years"
- prepare_defenses_hw_action_tt: "Every [location|e] in the designated [province|e] will gain [ShowModifier('hw_prepared_defenses_modifier')] for #Y 15#! years and if possible a [ShowBuildingTypeName('castle')] will be constructed in the [province_capital|e] for #G -90%#! of the base cost"
- countries_less_likely_to_join_against_us_tt: "Our neighbor [countries|e] will be #G less likely#! to join the war against us while [ShowModifier('promoted_moderates_modifier')] remains active"
- countries_more_likely_to_join_against_us_tt: "Our neighbor [countries|e] will be #R more likely#! to join the war against us while [ShowModifier('promoted_radicals_modifier')] remains active"
- catholic_victory_tt: "[ShowReligionAdjectiveWithNoTooltip('catholic')] Victory"
- hussite_victory_tt: "[ShowReligionAdjectiveWithNoTooltip('hussite')] Victory"
- reignite_the_fires_of_crusade_tt: "Relations between the [GetCountry('BOH').GetLongNameWithNoTooltip] and the [ShowReligionAdjectiveWithNoTooltip('catholic')] [countries|e] will worsen and many may join our cause in due time"
- income_depends_on_estate_power_tt: "The [gold|e] gained will largely depend on the [estate_power|e] of this [estate|e]"
-
-
+ convert_heretics_hw_action: "Imporre Conversioni"
+ convert_heretics_hw_action_desc: "La pressione esterna su di noi da parte dei nemici eretici non può restare senza risposta! Dobbiamo difendere le nostre tradizioni e la fede [ShowReligionAdjective('hussite')] imponendo disciplina e pratiche rigorose in tutto il nostro [actor.GetFlavorRank]."
+ 
+ demand_donation_key: "Tempi di guerra e scontri attendono il nostro popolo, mentre ci sforziamo di rivendicare il nostro posto e difendere i nostri confini. A tal fine, chiederemo una donazione ai membri più abbienti"
+ demand_noble_donations_hw_action: "Richiedere Donazioni Nobiliari"
+ demand_noble_donations_hw_action_desc: "$demand_donation_key$ della nobiltà."
+ 
+ demand_clergy_donations_hw_action: "Richiedere Donazioni Clericali"
+ demand_clergy_donations_hw_action_desc: "$demand_donation_key$ del clero."
+ 
+ demand_burgher_donations_hw_action: "Richiedere Donazioni Mercantili"
+ demand_burgher_donations_hw_action_desc: "$demand_donation_key$ della borghesia."
+ 
+ prepare_defenses_hw_action: "Preparare le Difese"
+ prepare_defenses_hw_action_desc: "Le orde di [religion|e] [ShowReligionName('catholic')] presto devasteranno le nostre terre nella loro folle ricerca del dominio religioso. Sarebbe saggio per noi assicurarci che ogni provincia sia protetta da solide difese."
+ 
+ align_with_moderates_help_hw_action: "Allinearsi con i Moderati"
+ align_with_moderates_help_hw_action_desc: "La via della diplomazia e della tolleranza attirerà sicuramente una visione più simpatetica verso la nostra causa, anche da parte dei Paesi che si inchinano alla [religion|e] [ShowReligionName('catholic')]."
+ 
+ align_with_radicals_help_hw_action: "Allinearsi con i Radicali"
+ align_with_radicals_help_hw_action_desc: "Siamo soli contro un mare di eretici, le loro fauci che mordono affamate i margini del nostro territorio. Il popolo deve prepararsi e adottare una politica di non tolleranza e fanatismo verso i nostri nemici."
+ 
+ join_the_papal_side_hw_action: "Schierarsi con il [GetCountry('PAP').GetLongNameWithNoTooltip]"
+ join_the_papal_side_hw_action_desc: "È nostro dovere unirci al [GetCountry('PAP').GetLongName] nella loro lotta per spazzare via l'eresia dalla faccia dell'[ShowContinentName('europe')]!"
+ 
+ join_the_hussite_side_hw_action: "Schierarsi con la [GetCountry('BOH').GetLongNameWithNoTooltip]"
+ join_the_hussite_side_hw_action_desc: "Non dovremmo restare inerti mentre il [GetCountry('PAP').GetLongName] perpetra efferate brutalità contro i meno fortunati. Dobbiamo quindi difendere il [GetCountry('BOH').GetLongName] e porre fine alle irragionevoli crociate [GetCountry('PAP').GetAdjectiveWithNoTooltip]!"
+ 
+ hw_province_gains_hw_heretic_conversions_modifier_tt: "La [province|e] designata otterrà [ShowModifier('hw_heretic_conversions_modifier')] per #Y 10#! anni"
+ prepare_defenses_hw_action_tt: "Ogni [location|e] nella [province|e] designata otterrà [ShowModifier('hw_prepared_defenses_modifier')] per #Y 15#! anni e, se possibile, un [ShowBuildingTypeName('castle')] sarà costruito nel [province_capital|e] per il #G -90%#! del costo base"
+ countries_less_likely_to_join_against_us_tt: "I nostri [countries|e] vicini saranno #G meno propensi#! a unirsi alla guerra contro di noi mentre [ShowModifier('promoted_moderates_modifier')] rimane attivo"
+ countries_more_likely_to_join_against_us_tt: "I nostri [countries|e] vicini saranno #R più propensi#! a unirsi alla guerra contro di noi mentre [ShowModifier('promoted_radicals_modifier')] rimane attivo"
+ catholic_victory_tt: "Vittoria [ShowReligionAdjectiveWithNoTooltip('catholic')]"
+ hussite_victory_tt: "Vittoria [ShowReligionAdjectiveWithNoTooltip('hussite')]"
+ reignite_the_fires_of_crusade_tt: "Le relazioni tra il [GetCountry('BOH').GetLongNameWithNoTooltip] e i [countries|e] [ShowReligionAdjectiveWithNoTooltip('catholic')] peggioreranno e molti potrebbero unirsi alla nostra causa a tempo debito"
+ income_depends_on_estate_power_tt: "L'[gold|e] guadagnato dipenderà in gran parte dal [estate_power|e] di questo [estate|e]"
+ 
+ join_current_war_against_papal_states_tt: "Ci uniremo alla [war|e] in corso del [GetCountry('BOH').GetLongName] contro il [GetCountry('PAP').GetLongName]"
+ join_current_war_against_bohemia_tt: "Ci uniremo alla [war|e] in corso del [GetCountry('PAP').GetLongName] contro il [GetCountry('BOH').GetLongName]"
 
 
 
@@ -59,68 +61,68 @@
 #########
 
 
- hussite_wars.1.desc: "Angered crowds led by [jan_zelivsky_scope.GetName] have flooded the streets of [target_boh_capital_scope.GetName], petitioning for expanded rights and the absolution of several [ShowReligionAdjective('hussite')] prisoners by the city's council. Unfortunately, the judge and his entourage have declined the demands of the protesters, leading to erupting violence in a vicious cycle of reforms being stalled and mob uprisings. Perhaps it is time we break the cycle..."
- hussite_wars.1.a: "Death to the [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]!"
- hussite_wars.1.b: "We cannot afford to break [ShowReligionNameWithNoTooltip('catholic')]..."
- hussite_wars.1.c: "It's time we take up the sword against the traitors in our midst!"
- end_hussite_wars_situation_tt: "This will prevent the [ShowSituationName('hussite_wars')] [situation|e]"
- catholics_upset_tt: "Relations between us and countries that follow the [ShowReligionAdjective('catholic')] faith will worsen severely"
- pap_gets_hussite_wars.2_tt: "The event '#Y Hussite Protests in [target_boh_capital_scope.GetNameWithNoTooltip]#!' happens for the [target_pope_country.GetName]"
- boh_every_neighboring_country_tt: "Every non-allied [country|e] bordering us or any of our [subjects|e] will lose [ShowBiasValue('violated_congress_of_visegrad_modifier')|-=0] [opinion|e] towards us"
- hussite_rebellion_tooltip: "Every [pop|e] that follows [ShowReligionName('hussite')] will muster their strength and support the [hussite_rebel_scope.GetName]"
+ hussite_wars.1.desc: "Folle inferocite guidate da [jan_zelivsky_scope.GetName] hanno invaso le strade di [target_boh_capital_scope.GetName], chiedendo maggiori diritti e l'assoluzione di diversi prigionieri [ShowReligionAdjective('hussite')] da parte del consiglio cittadino. Sfortunatamente, il giudice e il suo entourage hanno respinto le richieste dei manifestanti, portando a violenze esplosive in un circolo vizioso di riforme bloccate e rivolte della folla. Forse è tempo di spezzare il ciclo..."
+ hussite_wars.1.a: "Morte al [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]!"
+ hussite_wars.1.b: "Non possiamo permetterci di rompere con il [ShowReligionNameWithNoTooltip('catholic')]..."
+ hussite_wars.1.c: "È tempo di impugnare la spada contro i traditori in mezzo a noi!"
+ end_hussite_wars_situation_tt: "Questo impedirà la [ShowSituationName('hussite_wars')] [situation|e]"
+ catholics_upset_tt: "Le relazioni tra noi e i Paesi che seguono la fede [ShowReligionAdjective('catholic')] peggioreranno gravemente"
+ pap_gets_hussite_wars.2_tt: "L'evento '#Y Proteste Hussite in [target_boh_capital_scope.GetNameWithNoTooltip]#!' accade per il [target_pope_country.GetName]"
+ boh_every_neighboring_country_tt: "Ogni [country|e] non alleato confinante con noi o con uno qualsiasi dei nostri [subjects|e] perderà [ShowBiasValue('violated_congress_of_visegrad_modifier')|-=0] [opinion|e] nei nostri confronti"
+ hussite_rebellion_tooltip: "Ogni [pop|e] che segue [ShowReligionName('hussite')] radunerà le proprie forze e sosterrà i [hussite_rebel_scope.GetName]"
  
- hussite_wars.2.title: "[ShowReligionAdjectiveWithNoTooltip('hussite')] Protests in [target_boh_capital_scope.GetNameWithNoTooltip]"
- hussite_wars.2.desc: "Word has arrived from the [target_country.GetLongName] that riots have gripped the entire domain! Disgruntled followers of [ShowReligionName('hussite')] have taken to the streets, defenestrating their officials and demanding justice and recognition on behalf of the Holy See.\n\nLeft unchecked, the situation may spiral out of control and cause ripples across the entire [ShowReligionAdjective('catholic')] world, we cannot afford to show weakness as the world watches..."
- hussite_wars.2.a: "We will cleanse their heresy!"
- hussite_wars.2.b: "Let us recognize their movement..."
- every_neighbor_of_bohemia_gets_hussite_wars.3_tt: "The event '#Y A Pious Call to Arms#!' happens for every [ShowReligionAdjective('catholic')] non-allied neighboring country of [target_country.GetName]"
- hussite_wars.6_happens_for_catholic_champion_scope_tt: "The event '#Y The Sword of [ShowReligionName('catholic')]#!' happens for [catholic_champion_scope.GetName]"
- hussite_supremacy_tt: "The Hussites will emerge victorious in the [ShowSituationName('hussite_wars')] [situation|e]"
-
- hussite_wars.3.title: "A Pious Call to Arms"
- hussite_wars.3.desc: "In a bid to eradicate heresy, the [GetCountry('PAP').GetGovernment.GetRulerTitle] has taken up arms against the people of [target_country.GetName]. He demands we do our [ShowReligionAdjective('catholic')] duty and take up arms against this vile heresy. Whatever we may decide, we must be wary not to make powerful enemies in a fruitless pursuit of pious glory."
- hussite_wars.3.a: "To arms!"
- hussite_wars.3.b: "Let us not rush into action."
-
- hussite_wars.4.title: "Peace in [target_capital.GetNameWithNoTooltip]"
- hussite_wars.4.a.desc: "Our struggle to receive equal treatment and recognition from the [ShowReligionAdjective('catholic')] authorities has come to fruition. The defense of our people and faith has been successful and we now claim our seat at the European table as equals."
- hussite_wars.4.b.desc: "The taste of defeat sits bitterly on our lips, as we were forced to recognize the supreme authority of the [ShowReligionAdjective('catholic')] Church. We had a dream that we knew was just but in the face of corruption and evil we faltered, alas it was not meant to be..."
- hussite_wars.4.a: "Our true faith is victorious!"
- hussite_wars.4.b: "All is fair, in faith and war..."
-
- hussite_wars.5.title: "The One-Eyed [target_character.GetLastNameWithNoTooltip]"
- hussite_wars.5.desc: "One of our most prominent leaders in the battlefield, [target_character.GetName] has a history of serving our people during these trying times. Word around the camps notes of [target_character.GetHerHim] losing an eye to a rival soldier's arrow. According to eye-witness accounts, instead of retreating or surrendering, [target_character.GetSheHe] simply removed the arrow and continued fighting.\n\nDespite the injuries, [target_character.GetSheHe] became a formidable commander and now wishes to be promoted and lead more troops to grand victories. Should we wish to strike a fearsome blow against our foes, we must seriously consider heralding [target_character.GetHerHim] as a national hero, an emblem of our resistance against [ShowReligionName('catholic')]."
- hussite_wars.5.a: "A great hero in our hour of need."
- hussite_wars.5.historical_info: "Also known as Jan Žižka z Trocnova a Kalicha, he was a prominent military leader in the 15th century, heralded as one of the most prominent figures of the Hussite movement. He led the Hussites to numerous victories using innovative military tactics, including the use of war wagons for mobile defense. His strategic brilliance and charismatic leadership were key to their successes against multiple crusades launched by the Catholic Church."
+ hussite_wars.2.title: "Proteste [ShowReligionAdjectiveWithNoTooltip('hussite')] in [target_boh_capital_scope.GetNameWithNoTooltip]"
+ hussite_wars.2.desc: "È giunta voce dal [target_country.GetLongName] che rivolte hanno attanagliato l'intero dominio! I seguaci scontenti di [ShowReligionName('hussite')] sono scesi in piazza, defenestrando i loro funzionari e chiedendo giustizia e riconoscimento per conto della Santa Sede.\n\nLasciata incontrollata, la situazione potrebbe sfuggire al controllo e causare ripercussioni in tutto il mondo [ShowReligionAdjective('catholic')], non possiamo permetterci di mostrare debolezza mentre il mondo osserva..."
+ hussite_wars.2.a: "Purificheremo la loro eresia!"
+ hussite_wars.2.b: "Riconosciamo il loro movimento..."
+ every_neighbor_of_bohemia_gets_hussite_wars.3_tt: "L'evento '#Y Una Pia Chiamata alle Armi#!' accade per ogni [country|e] [ShowReligionAdjective('catholic')] non alleato confinante con [target_country.GetName]"
+ hussite_wars.6_happens_for_catholic_champion_scope_tt: "L'evento '#Y La Spada di [ShowReligionName('catholic')]#!' accade per [catholic_champion_scope.GetName]"
+ hussite_supremacy_tt: "Gli Hussiti emergeranno vittoriosi nella [ShowSituationName('hussite_wars')] [situation|e]"
  
- hussite_wars.6.title: "The Sword of [ShowReligionNameWithNoTooltip('catholic')]"
- hussite_wars.6.desc: "In dire times, when our faith is threatened by external heretics, it falls upon our shoulders to carry the burden of a renewed crusade against those who wish to harm our pious people.\n\nAs such, the head of the [ShowReligionName('catholic')] himself has requested we take up the banners of zealous and just war in their struggle against the [GetCountry('BOH').GetLongName]."
- hussite_wars.6.a: "We will eradicate these heretics!"
- hussite_wars.6.b: "We are not papal lapdogs!"
-
- hussite_wars.7.title: "The Plight of the [ShowReligionAdjectiveWithNoTooltip('hussite')] Faithful"
- hussite_wars.7.desc: "A battered messenger has made his way into our court. He brings word of the [GetCountry('PAP').GetName]'s vile crusade against [GetCountry('BOH').GetName]. Tales of brutality, scorched earth, and relentless fighting have flooded the streets as soldiers and peasants clash alike.\n\nThe messenger sings the praise of the bond our two nations hold, that of brothers, as he requests we come to the aid of his bloodied people. [GetCountry('BOH').GetNameWithNoTooltip] calls for aid!"
- hussite_wars.7.a: "And [GetCountry('POL').GetNameWithNoTooltip] will answer. Muster the horsemen!"
- hussite_wars.7.b: "This is unwise..."
- teutons_hussite_wars_tt: "The event '#Y A Pious Call to Arms#!' happens for the [GetCountry('TEU').GetLongName]"
-
- hussite_wars.8.title: "A Common Enemy"
- hussite_wars.8.desc: "Our countrymen are in despair. With the heretic armies battering down our gates, many of the old bitter rivalries between prominent figures have been set aside as we unite against the greed and shortsightedness of our foes. The strength of our resolve and our piety will ensure that we will overcome this treacherous obstacle, vanquish those who wish to harm our people and our faith while emerging victorious and regaining our old splendor and due respect."
- hussite_wars.8.a: "Fight on, sons and daughters of [GetCountry('BOH').GetNameWithNoTooltip]!"
- boh_clergy_donation_tt: "This donation by the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] will aim to uplift the spirits of our people"
- hussite_wars.8.b: "We will intensify the spread of our teachings against [ShowReligionNameWithNoTooltip('catholic')]."
- hussite_wars.8.c: "Turn to the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] during these trying times..."
-
- hussite_wars.9.title: "Renewed Crusade Against [ShowReligionNameWithNoTooltip('hussite')]"
- hussite_wars.9.desc: "The scourge known as [ShowReligionName('hussite')] is an affront to our venerable and pious world, a dangerous blight threatening the unity of faith and the divine order. Their heretical teachings sow discord and defile the sacred doctrines upheld by [ShowReligionName('catholic')] for generations. Such defiance cannot be tolerated. It is our sacred duty to rally the armies of [ShowReligionNameWithNoTooltip('catholic')] without delay, marching forth with unwavering resolve to extinguish this heresy before it festers further. By eradicating their influence, we shall preserve the purity of our beliefs and restore divine harmony to the lands under our holy care."
- hussite_wars.9.a: "To war!"
- hussite_wars.9.b: "We can bide our time, for now."
- explain_situation_peace_treaty_tt: "During this [war|e], we can eradicate [ShowReligionName('hussite')] through the [ShowPeaceTreatyTypeName('force_convert')] and [ShowPeaceTreatyTypeName('supress_hussite_faith')] [peace_treaties|e] and bring an end to the [ShowSituationName('hussite_wars')]"
-
- hussite_wars.10.title: "The [ShowSituationNameWithNoTooltip('hussite_wars')]"
- hussite_wars.10.desc: "The rise of [ShowReligionName('hussite')] has pushed [target_bohemia.GetName] to become a pariah of the [ShowReligionAdjective('catholic')] world, as it teeters on the brink. The execution of [GetCharacter('boh_jan_hus').GetName] has not quelled dissent, it has emboldened it. Heretical preachers now rally [GetCountry('BOH').GetGovernment.GetEstateName('peasants')] and [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')] alike, calling for a new Church free from the authority of [target_location1.GetName].\n\nThe [GetCountry('BOH').GetFlavorRank] spirals into unrest as [target_location2.GetName] burns with reformist zeal. For the members of the [GetUniqueInternationalOrganization('hre').GetName], this is no mere rebellion. It is a heresy with armies, a revolt with purpose. If [target_bohemia.GetNameWithNoTooltip] prevails, the infection may spread beyond its borders, threatening the very unity of [ShowReligionGroupName('christian')]."
- hussite_wars.10.a: "To arms, men of faith!"
- hussite_wars.10.historical_info: "The Hussite Wars (1419-1434) were a series of religious and civil conflicts in Bohemia sparked by the execution of Jan Hus, a Czech reformer who criticized the Catholic Church. His followers, known as Hussites, demanded reforms including communion for all and a national Church independent of Rome. The wars pitted radical Hussite factions against Catholic loyalists and crusading armies sent by the Holy Roman Emperor and the Pope. Despite being outnumbered, the Hussites used innovative tactics and internal unity to repeatedly defeat their enemies, forcing the Church to eventually negotiate and grant limited concessions."
-
+ hussite_wars.3.title: "Una Pia Chiamata alle Armi"
+ hussite_wars.3.desc: "Nel tentativo di sradicare l'eresia, il [GetCountry('PAP').GetGovernment.GetRulerTitle] ha preso le armi contro il popolo di [target_country.GetName]. ci chiede di adempiere al nostro dovere [ShowReligionAdjective('catholic')] e prendere le armi contro questa vile eresia. Qualunque cosa decidiamo, dobbiamo stare attenti a non farci potenti nemici in una inutile ricerca di gloria pia."
+ hussite_wars.3.a: "Alle armi!"
+ hussite_wars.3.b: "Non affrettiamoci ad agire."
+ 
+ hussite_wars.4.title: "Pace in [target_capital.GetNameWithNoTooltip]"
+ hussite_wars.4.a.desc: "La nostra lotta per ricevere pari trattamento e riconoscimento dalle autorità [ShowReligionAdjective('catholic')] è giunta a buon fine. La difesa del nostro popolo e della nostra fede ha avuto successo e ora rivendichiamo il nostro posto al tavolo Europeo come pari."
+ hussite_wars.4.b.desc: "Il sapore della sconfitta siede amaramente sulle nostre labbra, poiché siamo stati costretti a riconoscere l'autorità suprema della Chiesa [ShowReligionAdjective('catholic')]. Avevamo un sogno che sapevamo essere giusto, ma di fronte alla corruzione e al male abbiamo vacillato, ahimè non doveva essere..."
+ hussite_wars.4.a: "La nostra vera fede è vittoriosa!"
+ hussite_wars.4.b: "Tutto è lecito, in fede e in guerra..."
+ 
+ hussite_wars.5.title: "Il [target_character.GetLastNameWithNoTooltip] Guercio"
+ hussite_wars.5.desc: "Uno dei nostri leader più importanti sul campo di battaglia, [target_character.GetName] ha una storia di servizio al nostro popolo durante questi tempi difficili. Si dice in giro per gli accampamenti che [target_character.GetSheHe] abbia perso un occhio a causa di una freccia di un soldato rivale. Secondo i resoconti dei testimoni oculari, invece di ritirarsi o arrendersi, [target_character.GetSheHe] ha semplicemente rimosso la freccia e ha continuato a combattere.\n\nNonostante le ferite, [target_character.GetSheHe] è diventato un comandante formidabile e ora desidera essere promosso e guidare più truppe verso grandi vittorie. Se desideriamo sferrare un colpo temibile contro i nostri nemici, dobbiamo considerare seriamente di acclamarlo come un eroe nazionale, un emblema della nostra resistenza contro il [ShowReligionName('catholic')]."
+ hussite_wars.5.historical_info: "Noto anche come Jan Žižka z Trocnova a Kalicha, fu un eminente leader militare nel XV secolo, acclamato come una delle figure più importanti del movimento Hussita. Guidò gli Hussiti a numerose vittorie utilizzando tattiche militari innovative, incluso l'uso di carri da guerra per la difesa mobile. La sua brillantezza strategica e la sua leadership carismatica furono fondamentali per i loro successi contro le molteplici crociate lanciate dalla Chiesa Cattolica."
+ 
+ 
+ hussite_wars.6.title: "La Spada del [ShowReligionNameWithNoTooltip('catholic')]"
+ hussite_wars.6.desc: "In tempi difficili, quando la nostra fede è minacciata da eretici esterni, spetta alle nostre spalle portare il peso di una rinnovata crociata contro coloro che desiderano danneggiare il nostro popolo pio.\n\nPer questo, il capo del [ShowReligionName('catholic')] stesso ha richiesto che prendiamo gli stendardi della guerra zelante e giusta nella loro lotta contro il [GetCountry('BOH').GetLongName]."
+ hussite_wars.6.a: "Sradicheremo questi eretici!"
+ hussite_wars.6.b: "Non siamo cagnolini papali!"
+ 
+ hussite_wars.7.title: "La Piaga dei Fedeli [ShowReligionAdjectiveWithNoTooltip('hussite')]"
+ hussite_wars.7.desc: "Un messaggero malconcio è riuscito a raggiungere la nostra corte. Porta notizie della vile crociata del [GetCountry('PAP').GetName] contro [GetCountry('BOH').GetName]. Racconti di brutalità, terra bruciata e combattimenti incessanti hanno inondato le strade mentre soldati e contadini si scontrano allo stesso modo.\n\nIl messaggero canta le lodi del legame che le nostre due nazioni condividono, quello di fratelli, mentre chiede che veniamo in aiuto del suo popolo insanguinato. [GetCountry('BOH').GetNameWithNoTooltip] chiede aiuto!"
+ hussite_wars.7.a: "E [GetCountry('POL').GetNameWithNoTooltip] risponderà. Radunare i cavalieri!"
+ hussite_wars.7.b: "Questo è poco saggio..."
+ teutons_hussite_wars_tt: "L'evento '#Y Una Pia Chiamata alle Armi#!' accade per il [GetCountry('TEU').GetLongName]"
+ 
+ hussite_wars.8.title: "Un Nemico Comune"
+ hussite_wars.8.desc: "I nostri compatrioti sono nella disperazione. Con gli eserciti eretici che abbattono i nostri cancelli, molte delle vecchie amare rivalità tra figure di spicco sono state messe da parte mentre ci uniamo contro l'avidità e la miopia dei nostri nemici. La forza della nostra risolutezza e la nostra pietà assicureranno che supereremo questo ostacolo infido, sconfiggeremo coloro che desiderano danneggiare il nostro popolo e la nostra fede, emergendo vittoriosi e riconquistando il nostro antico splendore e il dovuto rispetto."
+ hussite_wars.8.a: "Combattete, figli e figlie di [GetCountry('BOH').GetNameWithNoTooltip]!"
+ boh_clergy_donation_tt: "Questa donazione del [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] mirerà a sollevare lo spirito del nostro popolo"
+ hussite_wars.8.b: "Intensificheremo la diffusione dei nostri insegnamenti contro il [ShowReligionNameWithNoTooltip('catholic')]."
+ hussite_wars.8.c: "Rivolgersi alla [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] durante questi tempi difficili..."
+ 
+ hussite_wars.9.title: "Rinnovata Crociata Contro il [ShowReligionNameWithNoTooltip('hussite')]"
+ hussite_wars.9.desc: "Il flagello noto come [ShowReligionName('hussite')] è un affronto al nostro mondo venerabile e pio, una piaga pericolosa che minaccia l'unità della fede e l'ordine divino. I loro insegnamenti eretici seminano discordia e profanano le sacre dottrine sostenute dal [ShowReligionName('catholic')] per generazioni. Tale sfida non può essere tollerata. È nostro sacro dovere radunare gli eserciti del [ShowReligionNameWithNoTooltip('catholic')] senza indugio, marciando con incrollabile risolutezza per estinguere questa eresia prima che si infetti ulteriormente. Sradicando la loro influenza, preserveremo la purezza delle nostre credenze e ripristineremo l'armonia divina nelle terre sotto la nostra santa cura."
+ hussite_wars.9.a: "In guerra!"
+ hussite_wars.9.b: "Possiamo aspettare il nostro momento, per ora."
+ explain_situation_peace_treaty_tt: "Durante questa [war|e], possiamo sradicare [ShowReligionName('hussite')] tramite i [peace_treaties|e] [ShowPeaceTreatyTypeName('force_convert')] e [ShowPeaceTreatyTypeName('supress_hussite_faith')] e porre fine alle [ShowSituationName('hussite_wars')]"
+ 
+ hussite_wars.10.title: "Le [ShowSituationNameWithNoTooltip('hussite_wars')]"
+ hussite_wars.10.desc: "L'ascesa del [ShowReligionName('hussite')] ha spinto [target_bohemia.GetName] a diventare un paria del mondo [ShowReligionAdjective('catholic')], mentre vacilla sull'orlo del baratro. L'esecuzione di [GetCharacter('boh_jan_hus').GetName] non ha placato il dissenso, lo ha incoraggiato. I predicatori eretici ora radunano sia il [GetCountry('BOH').GetGovernment.GetEstateName('peasants_estate')] che il [GetCountry('BOH').GetGovernment.GetEstateName('nobles_estate')], chiedendo una nuova Chiesa libera dall'autorità di [target_location1.GetName].\n\nIl [GetCountry('BOH').GetFlavorRank] sprofonda nei disordini mentre [target_location2.GetName] brucia di zelo riformista. Per i membri del [GetUniqueInternationalOrganization('hre').GetName], questa non è una semplice ribellione. È un'eresia con eserciti, una rivolta con uno scopo. Se [target_bohemia.GetNameWithNoTooltip] prevale, l'infezione potrebbe diffonderSi oltre i suoi confini, minacciando l'unità stessa del [ShowReligionGroupName('christian')]."
+ hussite_wars.10.a: "Alle armi, uomini di fede!"
+ hussite_wars.10.historical_info: "Le Guerre Hussite (1419-1434) furono una serie di conflitti religiosi e civili in Boemia innescati dall'esecuzione di Jan Hus, un riformatore Ceco che criticò la Chiesa Cattolica. I suoi seguaci, noti come Hussiti, chiesero riforme tra cui la comunione per tutti e una Chiesa nazionale indipendente da Roma. Le guerre opposero fazioni Hussite radicali a lealisti Cattolici e eserciti crociati inviati dall'Imperatore del Sacro Romano Impero e dal Papa. Nonostante fossero in inferiorità numerica, gli Hussiti usarono tattiche innovative e unità interna per sconfiggere ripetutamente i loro nemici, costringendo la Chiesa a negoziare e concedere alla fine limitate concessioni."
+ 
  #Rebels
- hussite_rebellion: "Hussite Rebellion"
+ hussite_rebellion: "Ribellione Hussita"

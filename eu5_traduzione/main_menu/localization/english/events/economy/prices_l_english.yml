@@ -1,120 +1,118 @@
 ﻿l_english:
- prices.1.title: "The Triangle Trade"
- prices.1.desc: "When European nations started to colonize North and South America, they created large plantations for the production of Cotton, Tobacco & Sugar. First they tried to use the local population as slaves, but they quickly died out where that was tried. Slaves were then imported from Africa, which created a triangular trade system. Europe sold textiles, rum & manufactured goods to Africa, Africa sold slaves to America, and America sold cotton, sugar and tobacco to Europe."
- prices.1.a: "This will increase the demand for Slaves."
- triangle_trade_africa: "The Triangle Trade"
- triangle_trade_america: "The Triangle Trade"
- triangle_trade_europe: "The Triangle Trade"
- 
- prices.2.title: "European Traders in China"
- prices.2.desc: "With a sizeable contingent of European Traders in China, the demand for Chinese porcelain has skyrocketed. The Chinese porcelain is demanded by all in Europe, and the Chinese only accept silver or gold as payment."
- prices.2.a: "This will increase the demand for Porcelain."
- porcelain_from_china: "Chinese Porcelain in Europe"
- 
- prices.3.title: "Porcelain in Meissen"
- prices.3.desc: "Our inventors have spent some time studying samples of porcelain that our traders have brought back from China. They claim to have discovered the secrets of its production. The samples that they have presented to [ROOT.GetCountry.GetGovernment.GetRuler.GetName] are certainly very fine, and will bring in considerable wealth if they can be produced in large amounts. They now request our investment to set up a porcelain manufactory which will, they say, allow them to capture the German market for chinaware."
- prices.3.a: "Porcelain shall be our path to riches."
- STATIC_MODIFIER_NAME_johan_friedrich_bottger: "The Methods of Johan Friedrich Bottger"
- 
- prices.4.title: "Protestantism Entrenched"
- prices.4.desc: "With Protestantism taking over in more and more Catholic countries, there are fewer people who observe Lent. Without the 40 days when any proper Catholic cannot eat meat and is forced to eat fish, the demand for fish is plummeting."
- prices.4.a: "This will decrease the demand for Fish."
- lutheran_dont_eat_fish: "Lutherans Do not Eat Fish"
- 
- prices.5.title: "Coffee Boom"
- prices.5.desc: "Originally a drink largely associated with the Muslim world, coffee has become more and more commonplace even among the Christians in Europe. In an increasingly interconnected world acquiring anything, including coffee is no longer quite as hard as it once was. As a result, coffeehouses are increasingly being established in Europe and the exotic beans are in increasing demand."
- prices.5.a: "This will increase the price of coffee."
- coffee_boom_happened: "Coffee Boom"
- 
- prices.6.title: "Cotton Imports"
- prices.6.desc: "During the Renaissance, Indian cotton fabrics had become increasingly popular in Europe. Eventually, the [ROOT.GetCountry.GetAdjective] wool industry came under intense pressure and demanded a ban on cotton imports."
- prices.6.a: "We will not restrict free trade."
- prices.6.b: "Ban the Cotton Imports!"
- STATIC_MODIFIER_NAME_cotton_imports_banned: "Cotton Imports Banned"
- 
- prices.7.title: "Of Tea and Sugar"
- prices.7.desc: "Originally a Chinese beverage, tea quickly became the new [ROOT.GetCountry.GetAdjectiveWithNoTooltip] national drink after its introduction in [ROOT.GetCountry.GetName]. Mixed with sugar, it is consumed by the rich, the poor and even [ROOT.GetCountry.GetGovernment.GetRuler.GetName]."
- prices.7.a: "This will increase the demand for tea and sugar."
- tea_and_sugar_for_britain: "Teatime needs!"
- 
- prices.8.title: "Spice Trade"
- prices.8.desc: "The discovery of the East Indian Trade Route has ushered in the age of the Spice Trade. With new trade routes available, controlling the flow of spices like pepper or cinnamon has become more important than ever."
- prices.8.a: "This will increase the price of spices."
- spice_trade: "Spice Trade"
- 
- prices.10.title: "Eruption of Huaynaputina"
- prices.10.desc: "In February 1600, the Peruvian volcano known as Huaynaputina erupted in a massive explosion. The effects of the eruption were felt all across the world, where famine killed millions and trade of grain and wine collapsed."
- prices.10.a: "This will be bad for the entire world"
- STATIC_MODIFIER_NAME_eruption_of_huaynaputina: "Eruption of Huaynaputina"
- STATIC_MODIFIER_DESC_eruption_of_huaynaputina: "The largest recorded volcanic eruption in South America caused a global volcanic winter."
- 
- prices.11.title: "Coldest period of the Little Ice Age"
- prices.11.desc: "The winters have been getting longer and colder for as long as anyone can remember. As ice and snow once again creep further south this winter crops are becoming ruined, wine is spoiled and the fish have begun migrating to warmer waters."
+ prices.1.title: "Il Commercio Triangolare"
+ prices.1.desc: "Quando le nazioni europee iniziarono a colonizzare il Nord e il Sud America, crearono grandi piantagioni per la produzione di cotone, tabacco e zucchero. Inizialmente cercarono di usare la popolazione locale come schiavi, ma questa si estinse rapidamente nei luoghi in cui ci provarono. Gli schiavi furono poi importati dall'Africa, creando un sistema commerciale triangolare. L'Europa vendeva tessuti, rum e manufatti all'Africa, l'Africa vendeva schiavi all'America e l'America vendeva cotone, zucchero e tabacco all'Europa."
+ prices.1.a: "Questo aumenterà la domanda di schiavi."
+ triangle_trade_africa: "Il Commercio Triangolare"
+ triangle_trade_america: "Il Commercio Triangolare"
+ triangle_trade_europe: "Il Commercio Triangolare"
+
+ prices.2.title: "Mercanti Europei in Cina"
+ prices.2.desc: "Con un contingente considerevole di Mercanti Europei in Cina, la domanda di porcellana cinese è salita alle stelle. La porcellana cinese è richiesta da tutta Europa e i cinesi accettano solo argento o oro come pagamento."
+ prices.2.a: "Questo aumenterà la domanda di porcellana."
+ porcelain_from_china: "Porcellana cinese in Europa"
+
+ prices.3.title: "Porcellana di Meissen"
+ prices.3.desc: "I nostri inventori hanno dedicato del tempo allo studio di campioni di porcellana che i nostri mercanti hanno riportato dalla Cina. Affermano di aver scoperto i segreti della sua produzione. I campioni che hanno presentato a [ROOT.GetCountry.GetGovernment.GetRuler.GetName] sono certamente molto pregiati e porteranno una notevole ricchezza se potranno essere prodotti in grandi quantità. Ora chiedono il nostro investimento per creare una manifattura di porcellana che, a loro dire, permetterà loro di conquistare il mercato tedesco delle porcellane."
+ prices.3.a: "La porcellana sarà la nostra via verso la ricchezza."
+ STATIC_MODIFIER_NAME_johan_friedrich_bottger: "I metodi di Johan Friedrich Bottger"
+
+ prices.4.title: "Il Protestantesimo Radicato"
+ prices.4.desc: "Con il protestantesimo che prende il sopravvento in sempre più paesi cattolici, sono sempre meno le persone che osservano la Quaresima. Senza i 40 giorni in cui un vero cattolico non può mangiare carne ed è costretto a mangiare pesce, la domanda di pesce sta crollando."
+ prices.4.a: "Questo diminuirà la domanda di pesce."
+ lutheran_dont_eat_fish: "I Luterani non Mangiano Pesce"
+
+ prices.5.title: "Boom del Caffè"
+ prices.5.desc: "Originariamente una bevanda ampiamente associata al mondo musulmano, il caffè è diventato sempre più comune anche tra i cristiani in Europa. In un mondo sempre più interconnesso, acquistare qualsiasi cosa, incluso il caffè, non è più così difficile come un tempo. Di conseguenza, le caffetterie si stanno affermando sempre più in Europa e i chicchi esotici sono sempre più richiesti."
+ prices.5.a: "Questo aumenterà il prezzo del caffè."
+ coffee_boom_happened: "Boom del Caffè"
+
+ prices.6.title: "Importazioni di Cotone"
+ prices.6.desc: "Durante il Rinascimento, i tessuti di cotone indiano erano diventati sempre più popolari in Europa. Alla fine, l'industria della lana [ROOT.GetCountry.GetAdjective] subì forti pressioni e chiese il divieto delle importazioni di cotone."
+ prices.6.a: "Non limiteremo il libero scambio."
+ prices.6.b: "Vietate le importazioni di cotone!"
+ STATIC_MODIFIER_NAME_cotton_imports_banned: "Importazioni di cotone vietate"
+
+ prices.7.title: "Di Tè e Zucchero"
+ prices.7.desc: "Originariamente una bevanda Cinese, il tè è diventato rapidamente la nuova bevanda nazionale [ROOT.GetCountry.GetAdjectiveWithNoTooltip] dopo la sua introduzione in [ROOT.GetCountry.GetName]. Mescolato con zucchero, è consumato da ricchi, poveri e persino da [ROOT.GetCountry.GetGovernment.GetRuler.GetName]."
+ prices.7.a: "Questo aumenterà la domanda di tè e zucchero."
+ tea_and_sugar_for_britain: "Bisogno dell'Ora del Tè!"
+
+ prices.8.title: "Commercio delle Spezie"
+ prices.8.desc: "La scoperta della Rotta Commerciale delle Indie Orientali ha inaugurato l'era del Commercio delle Spezie. Con nuove rotte commerciali disponibili, controllare il flusso di spezie come il pepe o la cannella è diventato più importante che mai."
+ prices.8.a: "Questo aumenterà il prezzo delle spezie."
+ spice_trade: "Commercio delle Spezie"
+
+ prices.10.title: "Eruzione del Huaynaputina"
+ prices.10.desc: "Nel febbraio del 1600, il vulcano peruviano noto come Huaynaputina eruttò con una massiccia esplosione. Gli effetti dell'eruzione si fecero sentire in tutto il mondo, dove la carestia uccise milioni di persone e il commercio di grano e vino crollò."
+ prices.10.a: "Questo sarà un male per il mondo intero"
+ STATIC_MODIFIER_NAME_eruption_of_huaynaputina: "Eruzione di Huaynaputina"
+ STATIC_MODIFIER_DESC_eruption_of_huaynaputina: "La più grande eruzione vulcanica mai registrata in Sud America ha causato un inverno vulcanico globale."
+
+ prices.11.title: "Il periodo più freddo della Piccola Era Glaciale"
+ prices.11.desc: "Gli inverni sono diventati più lunghi e freddi da tempo immemore. Con il ghiaccio e la neve che si spostano ancora una volta più a sud, quest'inverno i raccolti si stanno rovinando, il vino si sta deteriorando e i pesci hanno iniziato a migrare verso acque più calde."
  prices.11.a: "Brrrr."
- STATIC_MODIFIER_NAME_the_little_ice_age: "The Little Ice Age"
- 
- prices.15.title: "Grand Banks Fisheries"
- prices.15.desc: "Our explorers report that over the Grand Banks of Newfoundland they have found waters teaming with thousands upon thousands of fishes just waiting to be caught! Fishing expeditions are headed to these waters in greater and greater numbers and markets are awash with an unimaginable supply of Fish."
+ STATIC_MODIFIER_NAME_the_little_ice_age: "La Piccola Era Glaciale"
+
+ prices.15.title: "La pesca nei Grandi Banchi"
+ prices.15.desc: "I nostri esploratori riferiscono di aver trovato acque brulicanti di migliaia e migliaia di pesci sui Grandi Banchi di Terranova, in attesa di essere catturati! Le spedizioni di pesca si dirigono verso queste acque in numero sempre maggiore e i mercati sono inondati da una quantità inimmaginabile di Pesce."
  prices.15.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- grand_bank_fisheries: "Grand Bank Fisheries"
- 
- prices.16.title: "Calicoes & Other Cotton Cloths"
- prices.16.desc: "The steady supply of Indian cottons has begun to result in some big changes in European cloth consumption. Muslins, calicoes and other cotton cloths are being sold at higher and higher prices in the European markets."
+ grand_bank_fisheries: "Pesca nei Grandi Banchi"
+
+ prices.16.title: "Calicò e altri Tessuti di Cotone"
+ prices.16.desc: "La fornitura costante di cotone indiano ha iniziato a determinare grandi cambiamenti nel consumo di tessuti in Europa. Mussole, calicò e altri tessuti di cotone vengono venduti a prezzi sempre più alti sui mercati europei."
  prices.16.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- calicoes: "Calicoes"
- 
- prices.18.title: "Felt Hats"
- prices.18.desc: "Beaver fur is an excellent material for hat-making. It keeps warmth and can hold its shape well even in rough weather and over long times. Rising demand for felt hats along with the complicated process involved in making them has led to the growth of a healthy hatmaking sector in our economy."
+ calicoes: "Calicò"
+
+ prices.18.title: "Cappelli di Feltro"
+ prices.18.desc: "La pelliccia di castoro è un materiale eccellente per la produzione di cappelli. Mantiene il calore e mantiene bene la forma anche in condizioni meteorologiche avverse e per lunghi periodi. La crescente domanda di cappelli di feltro, insieme al complicato processo di produzione, ha portato alla crescita di un fiorente settore della produzione di cappelli nella nostra economia."
  prices.18.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- felt_hats: "Felt Hats"
- 
- prices.19.title: "Permanent Navies"
- prices.19.desc: "Permanent navies have gone from being exceptional cases to becoming the norm. The institutions devoted to the control of these new navies are beginning to take a much more active part in the procurement of supplies for the construction, rationing and upkeep of their ships."
+ felt_hats: "Cappelli di Feltro"
+
+ prices.19.title: "Navi Permanenti"
+ prices.19.desc: "Le marine militari permanenti sono passate dall'essere casi eccezionali alla norma. Le istituzioni deputate al controllo di queste nuove marine militari stanno iniziando a svolgere un ruolo molto più attivo nell'approvvigionamento di materiali per la costruzione, il razionamento e la manutenzione delle loro navi."
  prices.19.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- professional_navies: "Professional Navies"
- 
- prices.20.title: "Bronze Cannons"
- prices.20.desc: "The bronze cannon has made its entrance on the battlefield and is here to stay. The materials needed to feed the growing cannon-making industries have led to an explosion in the demand for copper over the last few years and prices have risen as a result."
+ professional_navies: "Marinai Professionisti"
+
+ prices.20.title: "Cannoni di Bronzo"
+ prices.20.desc: "Il cannone di bronzo ha fatto il suo ingresso sul campo di battaglia ed è qui per restarci. I materiali necessari per alimentare la crescente industria manifatturiera di cannoni hanno portato a un'esplosione della domanda di rame negli ultimi anni, con conseguente aumento dei prezzi."
  prices.20.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- bronze_cannons: "Bronze Cannons"
- 
- prices.21.title: "Japanese Tea Culture"
- prices.21.desc: "Tea drinking is far from a new element in Japanese culture. The continued development of the Japanese Tea Ceremony during the 16th century, however, has led to the drink now becoming commonplace throughout Japanese society."
+ bronze_cannons: "Cannoni di Bronzo"
+
+ prices.21.title: "Cultura del Tè Giapponese"
+ prices.21.desc: "Il consumo di tè è tutt'altro che una novità nella cultura giapponese. Il continuo sviluppo della cerimonia del tè giapponese durante il XVI secolo, tuttavia, ha portato la bevanda a diventare un'abitudine diffusa in tutta la società giapponese."
  prices.21.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- japanese_tea_ceremonies: "Tea Ceremonies"
- 
- prices.22.title: "Decline of the Spice Trade"
- prices.22.desc: "With an increasing amount of competitors in the spice market the availability of the once extremely rare spices of the east have increased drastically in the west. While some have tried to stabilize the Spice prices by burning what they produce or imposing stricter rules for its export it now seems clear that the profitability of the business has taken a permanent downturn."
+ japanese_tea_ceremonies: "Cerimonie del tè"
+
+ prices.22.title: "Declino del Commercio delle Spezie"
+ prices.22.desc: "Con l'aumento della concorrenza nel mercato delle spezie, la disponibilità di spezie orientali, un tempo estremamente rare, è aumentata drasticamente in Occidente. Mentre alcuni hanno cercato di stabilizzare i prezzi delle spezie bruciando ciò che producono o imponendo regole più severe per la loro esportazione, ora sembra chiaro che la redditività del settore ha subito un calo permanente."
  prices.22.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- decline_of_spices: "Decline of Spices"
-  
- prices.23.title: "Changing Patterns of Consumption"
- prices.23.desc: "Sugar was once a rare luxury that had to be imported from the Maghreb or the Middle East. As the world has opened up and the purchasing power of our urban class has increased, sugar may still be considered a luxury, but quite an affordable one."
+ decline_of_spices: "Declino delle Spezie"
+
+ prices.23.title: "Modifica dei Modelli di Consumo"
+ prices.23.desc: "Un tempo lo zucchero era un lusso raro che doveva essere importato dal Maghreb o dal Medio Oriente. Con l'apertura del mondo e l'aumento del potere d'acquisto della nostra classe urbana, lo zucchero può ancora essere considerato un lusso, ma piuttosto accessibile."
  prices.23.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- popularization_of_sugar: "Popularization of Sugar"
- 
- prices.24.title: "Popularization of Silk Fabrics"
- prices.24.desc: "For centuries, [ShowGoodsName('silk')] has been a symbol of wealth and refinement, coveted by elites across [ShowContinentName('asia')], the [ShowRegionName('middle_east')], and [ShowContinentName('europe')]. Its allure played a crucial role in shaping trade routes and global exploration, especially during the [ShowAgeName('age_3_discovery')]. Now, thanks to improvements in production and trade, both raw silk and woven fabrics are becoming more accessible than ever before. This newfound availability has sparked a surge in demand across many new markets, where [ShowGoodsNameWithNoTooltip('silk')] is rapidly shifting from a luxury good to a fashionable commodity among the growing urban middle classes."
+ popularization_of_sugar: "Diffusione dello Zucchero"
+
+ prices.24.title: "Diffusione dei Tessuti di Seta"
+ prices.24.desc: "Per secoli, la seta [ShowGoodsName('silk')] è stata un simbolo di ricchezza e raffinatezza, ambita dalle élite dell'[ShowContinentName('asia')], dell'[ShowSubContinentName('middle_east')] e dell'[ShowContinentName('europe')]. Il suo fascino ha giocato un ruolo cruciale nel plasmare le rotte commerciali e l'esplorazione globale, soprattutto durante la [ShowAgeName('age_3_discovery')]. Ora, grazie ai miglioramenti nella produzione e nel commercio, sia la seta grezza che i tessuti stanno diventando più accessibili che mai. Questa nuova disponibilità ha innescato un'impennata della domanda in molti nuovi mercati, dove la seta sta rapidamente passando da bene di lusso a merce di tendenza tra le classi medie urbane in crescita."
  prices.24.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- popularization_of_silk: "Popularization of Silk"
+ popularization_of_silk: "Diffusione della Seta"
 
- prices.27.title: "Declining Elephant Populations in South East Asia"
- prices.27.desc: "After many years of slow declining the Elephant population of South East Asia is now at an all time low. The demand for Elephants and Ivory products in both South East Asia and China has, however, never faltered and as a result the price of elephants and their ivory is rising."
+ prices.27.title: "Diminuzione della Popolazione di Elefanti nel Sud-Est Asiatico"
+ prices.27.desc: "Dopo molti anni di lento declino, la popolazione di elefanti nel Sud-est asiatico ha raggiunto il minimo storico. La domanda di elefanti e prodotti in avorio sia nel Sud-est asiatico che in Cina, tuttavia, non ha mai vacillato e di conseguenza il prezzo degli elefanti e del loro avorio è in aumento."
  prices.27.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- 
- prices.28.title: "Development of Ironworking"
- prices.28.desc: "Various advances in the field of ironworking have meant that the iron cannon is now both more efficient and reliable than the old bronze cannons. As iron products are also increasingly replacing copper in other fields, such as for mealtime utensils, the price of copper has been dropping while the demand for Iron is on the rise."
- prices.28.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- iron_cannons: "Iron Cannons"
- 
- 
- prices.29.title: "Hot Chocolate"
- prices.29.desc: "The use of Cocoa to create a hot beverage is a custom inherited from the American natives. While the new drink caught on quickly in some parts of European society it has taken some time, and large amounts of sugar, before it reached a larger acceptance. With that out of the way, however, the demand for chocolate is now steadily increasing in the old world."
- prices.29.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- hot_chocolate: "Hot Chocolate"
-  
- prices.30.title: "Growing Popularity of Tobacco"
- prices.30.desc: "Originally marketed as a medicinal plant Tobacco has come to be increasingly popular in both the Christian and Muslim world for its recreational purposes. From Paris to Bengal the habit has grown to such an extent that the tobacco business is becoming quite lucrative."
- prices.30.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
- popularization_of_tobacco: "Popularization of Tobacco"
 
+ prices.28.title: "Sviluppo della Lavorazione del Ferro"
+ prices.28.desc: "Vari progressi nel campo della lavorazione del ferro hanno fatto sì che il cannone in ferro sia ora più efficiente e affidabile dei vecchi cannoni in bronzo. Poiché anche i prodotti in ferro sono sempre più rappresentativi l'uso del rame in altri campi, come per gli utensili da cucina, ha causato un calo del prezzo del rame, mentre la domanda di ferro è in aumento.
+ prices.28.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
+ iron_cannons: "Cannoni di Ferro"
+
+ prices.29.title: "Cioccolata Calda"
+ prices.29.desc: "L'uso del cacao per creare una bevanda calda è un'usanza ereditata dai nativi americani. Sebbene la nuova bevanda abbia preso rapidamente piede in alcune parti della società europea, ci è voluto del tempo, e grandi quantità di zucchero, prima che raggiungesse una maggiore accettazione. Fatta questa premessa, tuttavia, la domanda di cioccolato è ora in costante aumento nel Vecchio Mondo."
+ prices.29.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
+ hot_chocolate: "Cioccolata Calda"
+
+ prices.30.title: "Crescente Popolarità del Tabacco"
+ prices.30.desc: "Originariamente commercializzato come pianta curativa, il tabacco è diventato sempre più popolare sia nel mondo cristiano che in quello musulmano per i suoi scopi ricreativi. Da Parigi al Bengala, l'abitudine è cresciuta a tal punto che il commercio del tabacco sta diventando piuttosto redditizio."
+ prices.30.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
+ popularization_of_tobacco: "Divulgazione del Tabacco"

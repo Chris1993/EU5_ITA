@@ -112,9 +112,9 @@
  game_concept_employment_systems: "Sistemi Occupazionale"
  game_concept_employment_system_desc: "Questo descrive come le [locations|e] riempiono i loro [buildings|e] con i lavoratori."
 
- game_concept_subject_military_stance: "Atteggiamento Militare"
- game_concept_subject_military_stances: "Atteggiamenti Militari"
- game_concept_subject_military_stance_desc: "Questo descrive come gli [subjects|e] decidono cosa fare per il proprio [overlords|e] in tempo di [war|e]."
+ game_concept_subject_military_stance: "Approccio Militare"
+ game_concept_subject_military_stances: "Approccii Militari"
+ game_concept_subject_military_stance_desc: "Questo descrive come gli [subjects|e] decidono cosa fare per i proprii [overlords|e] in tempo di [war|e]."
 
  game_concept_location_size: "Dimensione Località"
  game_concept_location_size_desc: "Le dimensioni fisiche di una [location|e]. Non tutte hanno le stesse dimensioni."

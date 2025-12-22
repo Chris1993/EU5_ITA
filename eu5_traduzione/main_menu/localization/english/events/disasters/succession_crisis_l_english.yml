@@ -63,7 +63,7 @@
  succession_crisis.11.desc: "Mentre la [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] affila i suoi pugnali e la [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] predica l'ordine divino, la [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] adottano un approccio più pragmatico. Vedendo la crisi come una minaccia per il commercio e la prosperità, propongono una soluzione.\n\nSecondo i loro membri più influenti e ribelli, potrebbero essere facilmente placati a cambiare schieramento. In cambio, chiedono nuovi privilegi, stabilendo una forte base di sostegno nella [ROOT.GetCountry.GetGovernment.GetCourtTitle] di [target_character1.GetName]. Un'offerta allettante, ma che potrebbe indebolire l'autorità centrale a lungo termine"
  succession_crisis.11.a: "Cederemo."
  succession_crisis.11.b: "Dimenticano qual è il loro posto!"
- succession_crisis.11.tt: "Tra la [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')] ci sono molti $shared_conditional_support_key$"
+ succession_crisis_11_tt: "Tra la [SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')] ci sono molti $shared_conditional_support_key$"
  
  succession_crisis.100.title: "Fine della Crisi di Successione"
  succession_crisis.100.desc.a: "La lotta [ROOT.GetCountry.Custom('IT_In')][ROOT.GetCountry.GetLongName] è finita solo perché si scateni una guerra civile intensificata. Madri, bambini e innocenti riempiono le strade con urla di terrore mentre il fuoco e il metallo prendono il sopravvento sull'intero dominio..."

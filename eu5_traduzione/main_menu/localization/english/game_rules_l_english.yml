@@ -24,11 +24,11 @@
  setting_ai_very_hard_difficulty_desc: "Questa è l'impostazione più difficile per giocare, l'IA riceverà bonus sostanziali e sarà più aggressiva."
 
  rule_ahistorical_formable_countries: "Paesi Formabili"
- setting_no_ahistorical_formable_countries: "Solo Storiche"
+ setting_no_ahistorical_formable_countries: "Solo Storici"
  setting_no_ahistorical_formable_countries_desc: "Solo i paesi che sono stati [Concept('formable_country_formed', 'Formati')|e] storicamente possono essere formati in gioco."
  setting_allow_plausible_ahistorical_formable_countries: "Consenti Plausibili"
- setting_allow_plausible_ahistorical_formable_countries_desc: "Consente la [formable_country_formation|e] di paesi aistoriche la cui creazione sarebbe stata storicamente plausibile."
- setting_allow_ahistorical_formable_countries: "Consenti Aistoriche"
+ setting_allow_plausible_ahistorical_formable_countries_desc: "Consente la [formable_country_formation|e] di paesi non storici la cui creazione sarebbe stata storicamente plausibile."
+ setting_allow_ahistorical_formable_countries: "Consenti Non Storici"
  setting_allow_ahistorical_formable_countries_desc: "Tutti i paesi possono essere [Concept('formable_country_formed', 'Formati')|e], inclusi quelli non storici che potrebbero rompere l'immersione."
 
  rule_historical_ai: "IA Storica"
@@ -66,15 +66,15 @@
  setting_all_countries_explore_desc: "Tutte i [countries|e] nel mondo che possono permetterselo tenteranno di [explore|e]."
  
  rule_ai_religious_conversion_rule: "Conversione Religiosa IA"
- setting_only_within_religion_group: "Solo all'interno del Gruppo Religione"
- setting_only_within_religion_group_desc: "[countries|e] convertiranno la [religion|e] solo in altre religioni appartenenti allo stesso [religion_group|e]."
+ setting_only_within_religion_group: "Solo all'Interno del Gruppo Religione"
+ setting_only_within_religion_group_desc: "I [countries|e] convertiranno la [religion|e] solo in altre religioni appartenenti allo stesso [religion_group|e]."
  setting_free_conversion: "Qualsiasi Religione"
- setting_free_conversion_desc: "[countries|e] si convertiranno a qualsiasi religione possibile se ciò stabilizzerà il loro regno, anche se ciò comportasse l'abbandono del loro gruppo religioso."
+ setting_free_conversion_desc: "I [countries|e] si convertiranno a qualsiasi religione possibile se ciò stabilizzerà il loro regno, anche se ciò comportasse l'abbandono del loro gruppo religioso."
 
  rule_culture_conversions_rule: "Conversioni Culturali"
- setting_dynamic_culture: "Regole dinamiche"
+ setting_dynamic_culture: "Regole Dinamiche"
  setting_dynamic_culture_desc: "I paesi possono convertire la [culture|e] se vengono soddisfatti criteri visibili."
- setting_culture_group_only: "Solo all'interno del Gruppo Culturale"
+ setting_culture_group_only: "Solo all'Interno del Gruppo Culturale"
  setting_culture_group_only_desc: "I paesi possono convertire la [culture|e] solo in altre culture appartenenti allo stesso [culture_group|e]."
  setting_culture_present_in_country: "Presente nel Paese"
  setting_culture_present_in_country_desc: "I paesi possono convertire la [culture|e] in qualsiasi cultura presente nel paese."
@@ -82,9 +82,9 @@
  setting_any_culture_desc: "I paesi possono convertire la [culture|e] in qualsiasi cultura senza restrizioni."
 
  rule_religion_conversions_rule: "Conversioni Religiose"
- setting_dynamic_religion: "Regole dinamiche"
+ setting_dynamic_religion: "Regole Dinamiche"
  setting_dynamic_religion_desc: "I paesi possono convertire la [religion|e] se vengono soddisfatti criteri visibili."
- setting_religion_group_only: "Solo all'interno del Gruppo Religioso"
+ setting_religion_group_only: "Solo all'Interno del Gruppo Religioso"
  setting_religion_group_only_desc: "I paesi possono convertire la [religion|e] solo in altre religioni appartenenti allo stesso [religion_group|e]."
  setting_religion_present_in_country: "Presente nel Paese"
  setting_religion_present_in_country_desc: "I paesi possono convertire la [religion|e] in qualsiasi religione presente nel paese."
@@ -121,7 +121,7 @@
 
  rule_black_death_origin_rule: "Origine Morte Nera"
  setting_black_death_origin_historical: "Asia Centrale"
- setting_black_death_origin_historical_desc: "La [disease|e] [ShowDiseaseName('bubonic_plague')] e la [situation|e] [ShowSituationName('black_death')] emergeranno da una [location|e] casuale in qualsiasi [areas|e] del [ShowAreaName('desht_kipchak_area')], [ShowAreaName('astrakhan_area')] o [ShowAreaName('lower_yik_area')]."
+ setting_black_death_origin_historical_desc: "La [disease|e] [ShowDiseaseName('bubonic_plague')] e la [situation|e] [ShowSituationName('black_death')] emergeranno da una [location|e] casuale in qualsiasi [area|e] del [ShowAreaName('desht_kipchak_area')], [ShowAreaName('astrakhan_area')] o [ShowAreaName('lower_yik_area')]."
  setting_black_death_origin_random: "Casuale"
  setting_black_death_origin_random_desc: "La [disease|e] [ShowDiseaseName('bubonic_plague')] e la [situation|e] [ShowSituationName('black_death')] emergeranno da una [location|e] casuale in qualsiasi parte dell'[ShowContinentName('asia')], [ShowContinentName('europe')] o [ShowSubContinentName('north_africa')]."
 

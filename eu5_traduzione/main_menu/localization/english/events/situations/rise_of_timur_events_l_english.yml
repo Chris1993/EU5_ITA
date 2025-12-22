@@ -57,7 +57,7 @@
 
  rise_of_timur.12.title: "Le Ricchezze della $china$"
  rise_of_timur.12.desc: "La $china$ è stata il centro del mondo in [ShowContinentName('asia')] fin dall'antichità. Cadde sotto il potere del grande $genghis_khan_name$ e del suo discendente [GetCharacter('kublai_khan').GetName], ma sembra che stia di nuovo attraversando un periodo di lotte. I discendenti di $genghis_khan_name$ non estendono più il loro territorio su tutta la $china$, e come tale è aperta alla conquista da parte di un nuovo grande conquistatore sotto la nostra bandiera."
- ise_of_timur.12.a: "La $china$ cadrà sotto il nostro controllo."
+ rise_of_timur.12.a: "La $china$ cadrà sotto il nostro controllo."
 
  rise_of_timur.13.title: "La nostra eredità"
  rise_of_timur.13.desc: "L'ascesa di [target_character.GetName] da semplice generale a sovrano di [ROOT.GetCountry.GetLongName] ha portato alla innegabile e susseguente espansione di [ROOT.GetCountry.GetFlavorRank]. Tuttavia, alcuni potrebbero mettere in dubbio la validità delle sue rivendicazioni come sovrano legittimo al di là della pura potenza militare. [target_character.GetSheHe|U] non potrebbe rivendicare il titolo di $rank_empire_muslim_ruler_male$, ma ci sono invece altri modi con i quali può rivendicare l'origine della sua autorità."

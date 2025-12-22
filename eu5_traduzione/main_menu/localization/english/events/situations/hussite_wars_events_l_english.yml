@@ -3,7 +3,7 @@
  hussite_wars_desc: "Una serie di conflitti tra i seguaci di [religion|e] [ShowReligionName('hussite')] e [religion|e] [ShowReligionName('catholic')], degenerata rapidamente in una vera e propria guerra per l'identità stessa del Paese."
  recognized_hussites_tt: "Siamo emersi vittoriosi dalle #Y Guerre Hussite#!"
  has_not_had_this_situation_before_tt: "Questa [situation|e] non si è verificata prima"
- DEFENDERS_CATHOLIciSM: "[alliance|e] Difensiva contro $BOH$"
+ DEFENDERS_CATHOLICISM: "[alliance|e] Difensiva contro $BOH$"
  DEFENDERS_HUSSITISM: "[alliance|e] Difensiva contro $PAP$"
  bohemia_and_pope_at_war_with_both_being_leaders_tt: "[GetCountry('BOH').GetName] e [GetCountry('PAP').GetName] sono in guerra tra loro e ogni [country|e] è il [war_leader|e] della rispettiva fazione"
  
@@ -92,6 +92,7 @@
  
  hussite_wars.5.title: "Il [target_character.GetLastNameWithNoTooltip] Guercio"
  hussite_wars.5.desc: "Uno dei nostri leader più importanti sul campo di battaglia, [target_character.GetName] ha una storia di servizio al nostro popolo durante questi tempi difficili. Si dice in giro per gli accampamenti che [target_character.GetSheHe] abbia perso un occhio a causa di una freccia di un soldato rivale. Secondo i resoconti dei testimoni oculari, invece di ritirarsi o arrendersi, [target_character.GetSheHe] ha semplicemente rimosso la freccia e ha continuato a combattere.\n\nNonostante le ferite, [target_character.GetSheHe] è diventato un comandante formidabile e ora desidera essere promosso e guidare più truppe verso grandi vittorie. Se desideriamo sferrare un colpo temibile contro i nostri nemici, dobbiamo considerare seriamente di acclamarlo come un eroe nazionale, un emblema della nostra resistenza contro il [ShowReligionName('catholic')]."
+ hussite_wars.5.a: "Un grande eroe nel momento del bisogno."
  hussite_wars.5.historical_info: "Noto anche come Jan Žižka z Trocnova a Kalicha, fu un eminente leader militare nel XV secolo, acclamato come una delle figure più importanti del movimento Hussita. Guidò gli Hussiti a numerose vittorie utilizzando tattiche militari innovative, incluso l'uso di carri da guerra per la difesa mobile. La sua brillantezza strategica e la sua leadership carismatica furono fondamentali per i loro successi contro le molteplici crociate lanciate dalla Chiesa Cattolica."
  
  

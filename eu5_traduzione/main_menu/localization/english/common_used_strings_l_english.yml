@@ -38,9 +38,9 @@
  common_string_ok_italian: "#italic Va bene.#!"
 
 #Neutral Response
- common_string_leave_them_be: "Lasciali stare."
- common_string_let_it_slide: "Lascia correre."
- common_string_let_them_revolt: "Lasciali rivoltare."
+ common_string_leave_them_be: "Lasciateli stare."
+ common_string_let_it_slide: "Lasciamo correre."
+ common_string_let_them_revolt: "Lasciate che si rivoltino."
  common_string_the_end_is_nigh: "La fine è vicina."
  common_string_what_can_we_do: "Cosa possiamo fare?"
 
@@ -49,7 +49,7 @@
  common_string_curses: "Maledizione!"
  common_string_damn: "Dannazione!"
  common_string_this_is_not_good: "Questo non va bene."
- common_string_unfortunate: "Sfortunato."
+ common_string_unfortunate: "Peccato."
  common_string_what_a_disaster: "Che disastro!"
  common_string_negative_german: "#italic Verdammt!#!"
  common_string_negative_german_2: "#italic Verflucht!#!"
@@ -68,7 +68,7 @@
 
 #Nothing We Can Do Response
  common_string_nothing_we_can_do: "Non c'è nulla che possiamo fare."
- common_string_nothing_we_can_do_about_it: "TNon c'è nulla che possiamo fare a riguardo."
+ common_string_nothing_we_can_do_about_it: "Non c'è nulla che possiamo fare a riguardo."
  common_string_alas_nothing_we_can_do: "Ahimè, non c'è nulla che possiamo fare."
  common_string_alas_nothing_we_can_do_about_it: "Ahimè, non c'è nulla che possiamo fare a riguardo."
 
@@ -91,8 +91,8 @@
 
 #Other
  common_string_aum: "Oṃ."
- common_string_let_them_fend_for_themselves: "Lasciali arrangiarsi da soli."
- common_string_rein_them_in: "Tienili a freno."
+ common_string_let_them_fend_for_themselves: "Lasciateli arrangiarsi da soli."
+ common_string_rein_them_in: "Teneteli a freno."
  common_string_we_shall_do_something: "Faremo qualcosa!"
  common_string_quran: "Qur'ān"
  common_string_shaikh_al_islam: "Šayḵ al-Islām"

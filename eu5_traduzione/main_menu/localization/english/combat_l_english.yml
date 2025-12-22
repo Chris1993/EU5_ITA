@@ -1,9 +1,9 @@
 ﻿l_english:
  #
- BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe saranno corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per una tariffa di $COST$."
- THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe saranno corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per una tariffa di $COST$."
- PAST_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe sono state corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per una tariffa di $COST$."
- PAST_THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe sono state corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per una tariffa di $COST$."
+ BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe saranno corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per un pagamento di $COST$."
+ THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe saranno corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per un pagamento di $COST$."
+ PAST_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe sono state corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per un pagamento di $COST$."
+ PAST_THIRD_BECOME_MERCENARIES_FOR_COUNTRY_EFFECT: "$NUM$ truppe sono state corrotte per unirsi a $COUNTRY$ come [mercenaries|e] per un pagamento di $COST$."
  #
  RANSOM_PRISONER_EFFECT: "$NUM$ truppe saranno riscattate e restituite ai loro proprietari per $COST$."
  THIRD_RANSOM_PRISONER_EFFECT: "$NUM$ truppe saranno riscattate e restituite ai loro proprietari per $COST$."

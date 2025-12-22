@@ -83,6 +83,7 @@
  VOTE_NUM_BREAKDOWN_TITLE: "Voti sulla Risoluzione\n$VOTE$ ha $VOTE_NUM|0V$ voto/i da:"
  VOTE_NUM_BREAKDOWN_ENTRY: "$VOTER$: #TOOLTIP:$BREAKDOWN_TAG$ $VOTE_NUM|0L$#!"
  RESOLUTION_PREDICTED_VOTE_OUTCOME: "Attualmente, il voto vincente previsto è [ResolutionGlue.GetHighestVote.GetVoteObject.GetName], con un totale di [ResolutionGlue.GetVoteNumWithBreakdown(ResolutionGlue.GetHighestVote)] voti."
+ RESOLUTION_PREDICTED_VOTE_OUTCOME_NONE: "Al momento non ci sono risultati definitivi, poiché non è stata ancora espressa alcuna preferenza."
  LOCATION_HAS_CARDINAL: "[THIS.GetLocation.GetName] è la sede di un [cardinal|e]."
  CANNOT_REMOVE_LOCATION_NOT_OWNED: "[LOCATION.GetName] non fa parte di [INTERNATIONAL_ORGANIZATION.GetName]"
  CANNOT_ADD_LOCATION_ALREADY_OWNED: "[LOCATION.GetName] fa già parte di [INTERNATIONAL_ORGANIZATION.GetName]"
@@ -426,8 +427,8 @@
  CATHOLIC_CHURCH_CURIA_AND_CARDINAL: "[MemberTypeItem.GetMembersAmount] #L [Localize('game_concept_curia')]#! e [GetDataModelSize(InternationalOrganizationsView.GetInternationalOrganization.GetReligion.GetCardinals)] #L [Localize('game_concept_cardinals')]#!"
  CATHOLIC_CHURCH_CURIA_MEMBER: "[Country.Custom('IT_La')|U][Country.GetName] fa parte della [curia|e] e possiede [GetDataModelSize(Country.GetCardinals)] [cardinal_s|e]"
  CURIA_BREAKDOWN_TOOLTIP: "#T [Localize('game_concept_curia')] nella [InternationalOrganization.GetNameWithNoTooltip]#!\nLa [InternationalOrganization.GetName] ha i seguenti membri della [curia|e]:\n[member|e]: [cardinals|e]"
- CURIA_BREAKDOWN_TOOLTIP_ENTRY: "[COUNTRY.Custom('IT_ART_RANGO')]@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y]: #TOOLTIP:$BREAKDOWN_TAG$ $NUMBER|L$#!"
- CURIA_HEADER: "Seggi dei [cardinals|e] [COUNTRY.Custom('IT_NEL_RANGO')]@[COUNTRY.GetFlag]! [COUNTRY.GetLongName|Y] :"
+ CURIA_BREAKDOWN_TOOLTIP_ENTRY: "[COUNTRY.Custom('IT_ART_RANGO')][COUNTRY.GetLongName|Y] @[COUNTRY.GetFlag]!: #TOOLTIP:$BREAKDOWN_TAG$ $NUMBER|L$#!"
+ CURIA_HEADER: "Seggi dei [cardinals|e] [COUNTRY.Custom('IT_NEL_RANGO')][COUNTRY.GetLongName|Y] @[COUNTRY.GetFlag]!:"
  CURIA_ENTRY: "[LOCATION.GetName]"
 
  #IO Parliaments
@@ -720,6 +721,7 @@
  shugo_daimyo: "Shugo $daimyo$"
  shugo_daimyo_plural: "$shugo_daimyo$"
  shugo_daimyo_desc: "Un clan incaricato del governo di una provincia. Può acquisire abbastanza potere e influenza da sfidare l'autorità dello $JAPANESE_SHOGUNATE_LEADER_MALE$."
+ same_side_in_nanbokucho_tt: "Sosteniamo lo stesso schieramento nella [ShowSituationName('nanbokuchou')]"
 
  #HRE Resolutions
  hre_election: "Elezione Imperiale"

@@ -993,6 +993,8 @@
  #
  negotiate_succession_law: "Negozia la Legge di Successione"
  negotiate_succession_law_desc: "La loro legge sulla successione è instabile e porterà alla fine dell'unione. La classe dirigente deve essere convinta ad adottare le nostre leggi per garantire una successione sicura."
+ negotiate_succession_law_at: "[SCOPE.sCountry('recipient').Custom('IT_La')|U][SCOPE.sCountry('recipient').GetName] ha una [succession_law|e] diversa da [SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName] ed è in grado di modificarla"
+ negotiate_succession_law_ct: "[SCOPE.sCountry('recipient').Custom('IT_La')|U][SCOPE.sCountry('recipient').GetName] NON ha una [policy|e] compatibile con la [ShowLawName('heir_religion_law')] che consentirebbe a un [heir|e] [SCOPE.sCountry('actor').GetReligion.Custom('IT_REL_MS')] di essere eleggibile ed è in grado di modificare le proprie leggi"
  negotiate_succession_law_tt: "Cambia la [heir_selection|e] del [country|e] bersaglio in [SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName]"
  negotiate_succession_law_bt: "Modifica anche la [ShowLawName('heir_religion_law')] del paese bersaglio in [SCOPE.sCountry('actor').GetGovernment.GetImplementedPolicyForLawFromKey('heir_religion_law').GetName] se la loro politica NON è bloccata"
  negotiate_succession_law_dt: "@trigger_no! #Y [SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName] non può essere applicata [SCOPE.sCountry('recipient').Custom('IT_Alla')][SCOPE.sCountry('recipient').GetName]#!"

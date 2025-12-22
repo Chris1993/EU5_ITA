@@ -81,7 +81,7 @@
  sengoku.17.a: "$sengoku.14.a$"
 
  sengoku.18.title: "[target_country.GetNameWithNoTooltip] Rifiuta la Nostra Petizione"
- engoku.18.desc: "[target_country.GetLongName] ha ricevuto la nostra petizione per ospitare [target_character.GetName] nel nostro [ROOT.GetCountry.GetFlavorRank] e l'ha interpretata come uno stratagemma da parte nostra per ottenere un vantaggio su di loro. Purtroppo, i nostri sinceri tentativi di promuovere relazioni più strette e fiducia tra i nostri clan sembrano aver causato più danni che benefici."
+ sengoku.18.desc: "[target_country.GetLongName] ha ricevuto la nostra petizione per ospitare [target_character.GetName] nel nostro [ROOT.GetCountry.GetFlavorRank] e l'ha interpretata come uno stratagemma da parte nostra per ottenere un vantaggio su di loro. Purtroppo, i nostri sinceri tentativi di promuovere relazioni più strette e fiducia tra i nostri clan sembrano aver causato più danni che benefici."
  sengoku.18.a: "$sengoku.15.a$"
 
  sengoku.19.title: "Convocazione del [actor.GetGovernment.GetCourtTitle] [actor.GetGovernment.GetAdjective]"

@@ -305,8 +305,8 @@
  LOYALTY_DUE_TO_OVERLORD: "Lealtà dello Stato Cliente dai fattori attuali in $NAME$:\n"
  IS_CURRENTLY_DISLOYAL: "@warning_icon! Lealtà al di sotto di $VAL|0$, rendendolo uno [disloyal_subject|e])"
  IS_CURRENTLY_LOYAL: "@trigger_yes! Lealtà almeno a $VAL|0$, rendendolo uno [loyal_subject|e]"
- SubjectTypeDetail_DESC: "[subject_icon] È un [Country.GetSubjectTypeLabel] @[Country.GetDiplomacy.GetOverlord.GetFlag]! [Country.GetDiplomacy.GetOverlord.Custom('IT_DEL_RANGO')][Country.GetDiplomacy.GetOverlord.GetLongName].\n[loyal_subject_icon] È uno [loyal_subject|e] con una [subject_loyalty|e] di #G [Country.GetDiplomacy.GetSubjectLoyalty|2%/]#!"
- SubjectTypeDetail_DESC_NOT: "[subject_icon] È un [Country.GetSubjectTypeLabel] @[Country.GetDiplomacy.GetOverlord.GetFlag]! [Country.GetDiplomacy.GetOverlord.Custom('IT_DEL_RANGO')][Country.GetDiplomacy.GetOverlord.GetLongName].\n[disloyal_subject_icon] È un [disloyal_subject|e] con una [subject_loyalty|e] di #R [Country.GetDiplomacy.GetSubjectLoyalty|2%/]#!"
+ SubjectTypeDetail_DESC: "[subject_icon] È un [Country.GetSubjectTypeLabel] [Country.GetDiplomacy.GetOverlord.Custom('IT_DEL_RANGO')][Country.GetDiplomacy.GetOverlord.GetLongName] @[Country.GetDiplomacy.GetOverlord.GetFlag]!.\n[loyal_subject_icon] È uno [loyal_subject|e] con una [subject_loyalty|e] di #G [Country.GetDiplomacy.GetSubjectLoyalty|2%/]#!"
+ SubjectTypeDetail_DESC_NOT: "[subject_icon] È un [Country.GetSubjectTypeLabel] [Country.GetDiplomacy.GetOverlord.Custom('IT_DEL_RANGO')][Country.GetDiplomacy.GetOverlord.GetLongName] @[Country.GetDiplomacy.GetOverlord.GetFlag]!.\n[disloyal_subject_icon] È un [disloyal_subject|e] con una [subject_loyalty|e] di #R [Country.GetDiplomacy.GetSubjectLoyalty|2%/]#!"
  AIREASON_MILITARYACCESS: "Vogliono che venga loro concesso l'accesso militare."
  AIREASON_WAR: "Vogliono provocare una [war|e]."
  nation_rank_0: "Orda Migrante"
@@ -1108,8 +1108,8 @@
  PEACE_TREATY_CEDE_PROVINCE: "[PROVINCE.GetCountry.GetFlagIcon] [province|e][PROVINCE.GetDefinition.GetName] [TARGET_COUNTRY.Custom('IT_Alla')][TARGET_COUNTRY.GetNameWithFlag]"
  PEACE_TREATY_CEDE_PROVINCE_short: "@[PROVINCE.GetCountry.GetFlag]! [Localize('game_concept_province')][PROVINCE.GetDefinition.GetNameWithNoTooltip]"
 
- PEACE_TREATY_CEDE_AREA: "La Parte [COUNTRY.GetFlagIcon] [COUNTRY.Custom('IT_ADJ_FP')] di [AREA.GetName] [TARGET_COUNTRY.Custom('IT_Alla')][TARGET_COUNTRY.GetNameWithFlag]"
- PEACE_TREATY_CEDE_AREA_short: "@[COUNTRY.GetFlag]! [AREA.GetNameWithNoTooltip] [TARGET_COUNTRY.Custom('IT_Alla')][TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+ PEACE_TREATY_CEDE_AREA: "La Parte [COUNTRY.Custom('IT_ADJ_FP')] [COUNTRY.GetFlagIcon] di [AREA.GetName] [TARGET_COUNTRY.Custom('IT_Alla')][TARGET_COUNTRY.GetNameWithFlag]"
+ PEACE_TREATY_CEDE_AREA_short: "[AREA.GetNameWithNoTooltip] @[COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('IT_Alla')][TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
 
  PEACE_TREATY_CEDE_CITY: "[LOCATION.GetName] [TARGET_COUNTRY.Custom('IT_Alla')][TARGET_COUNTRY.GetNameWithFlag]"
  PEACE_TREATY_CEDE_CITY_short: "[LOCATION.GetNameWithNoTooltip]"
@@ -1121,8 +1121,8 @@
  PEACE_TREATY_CANCEL: "Rilascia [COUNTRY.Custom('IT_La')][COUNTRY.GetNameWithFlag] [COUNTRY.GetDiplomacy.GetOverlord.Custom('IT_Dalla')][COUNTRY.GetDiplomacy.GetOverlord.GetNameWithNoTooltip] e bloccare qualsiasi altra relazione per #Y $MONTHS$#! mesi"
  PEACE_TREATY_CANCEL_short: "Rilascia [COUNTRY.Custom('IT_La')][COUNTRY.GetNameWithFlagWithNoTooltip] [COUNTRY.GetDiplomacy.GetOverlord.Custom('IT_Dalla')][COUNTRY.GetDiplomacy.GetOverlord.GetNameWithNoTooltip]"
 
- PEACE_TREATY_SUBJECT_OF: "[TARGET_COUNTRY.Custom('IT_La')|U][TARGET_COUNTRY.GetFlagIcon][TARGET_COUNTRY.GetName] diventa [SUBJECT_TYPE.GetName] [COUNTRY.Custom('IT_Della')][COUNTRY.GetNameWithFlag]"
- PEACE_TREATY_SUBJECT_OF_short: "@[TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.Custom('IT_La')][TARGET_COUNTRY.GetNameWithNoTooltip] diventa [SUBJECT_TYPE.GetNameWithNoTooltip]"
+ PEACE_TREATY_SUBJECT_OF: "[TARGET_COUNTRY.Custom('IT_La')|U][TARGET_COUNTRY.GetName] [TARGET_COUNTRY.GetFlagIcon] diventa [SUBJECT_TYPE.GetName] [COUNTRY.Custom('IT_Della')][COUNTRY.GetNameWithFlag]"
+ PEACE_TREATY_SUBJECT_OF_short: "[TARGET_COUNTRY.Custom('IT_La')][TARGET_COUNTRY.GetNameWithNoTooltip] @[TARGET_COUNTRY.GetFlag]! diventa [SUBJECT_TYPE.GetNameWithNoTooltip]"
 
  PEACE_TREATY_ROYAL_MARRIAGE: "Un [royal_marriage|e] tra [CHARACTER.GetName] e [TARGET_CHARACTER.GetName] sigillerà il legame tra [TARGET_COUNTRY.GetLongNameWithFlag] e [COUNTRY.GetLongNameWithFlag]."
  PEACE_TREATY_ROYAL_MARRIAGE_short: "[Localize('game_concept_royal_marriage')] tra [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip] e [COUNTRY.GetNameWithFlagWithNoTooltip]."
@@ -2555,8 +2555,8 @@
  NOT_GREAT_POWER_BANNER: "Questo paese non è una [great_power|e]"
  SELECT_ACTIONS: "Apri Tutte le Azioni Diplomatiche"
  DIPLOMATIC_REPUTATION: "Reputazione Diplomatica"
- VOTED_ENTRY: "$EFFECT_LIST_BULLET$@[COUNTRY.Custom('IT_La')|U][COUNTRY.GetFlag]! [COUNTRY.GetName|Y] ha votato per @[TARGET_COUNTRY.Custom('IT_La')][TARGET_COUNTRY.GetFlag]! [TARGET_COUNTRY.GetName] con #TOOLTIP:$BREAKDOWN_TAG$ $AMOUNT|L0$#! voto/i"
- NOT_VOTED_ENTRY: "$EFFECT_LIST_BULLET$@[COUNTRY.Custom('IT_La')][COUNTRY.GetFlag]! [COUNTRY.GetName|Y] ha $AMOUNT|0$ voto/i non ancora utilizzati"
+ VOTED_ENTRY: "$EFFECT_LIST_BULLET$[COUNTRY.Custom('IT_La')|U][COUNTRY.GetName|Y] @[COUNTRY.GetFlag]! ha votato per [TARGET_COUNTRY.Custom('IT_La')][TARGET_COUNTRY.GetName] @[TARGET_COUNTRY.GetFlag]! con #TOOLTIP:$BREAKDOWN_TAG$ $AMOUNT|L0$#! voto/i"
+ NOT_VOTED_ENTRY: "$EFFECT_LIST_BULLET$[COUNTRY.Custom('IT_La')][COUNTRY.GetName|Y] @[COUNTRY.GetFlag]! ha $AMOUNT|0$ voto/i non ancora utilizzati"
  VOTED_ENTRY_BREAKDOWN_FORMAT: "$KEY$: $VALUE|0$"
  ONE_VOTE_PER_COUNTRY: "Ogni paese ha un voto."
  TRUST_MODIFIER: "[trust|e]: $VALUE|-=%Y$"

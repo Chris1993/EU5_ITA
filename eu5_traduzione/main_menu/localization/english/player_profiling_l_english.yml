@@ -2,7 +2,7 @@
  PLAYER_PROFILING_WELCOME_HEADER: "Benvenuti in #italic Europa Universalis V#!!"
  PLAYER_PROFILING_WELCOME: "#italic Europa Universalis V#! è un gioco di strategia storica approfondito sul destino delle nazioni durante il tardo Medioevo e l'inizio dell'età moderna, mentre competono per il potere globale attraverso guerre, diplomazia, colonizzazione e cambiamenti sociali ed economici.\n\nSe sei nuovo su #italic Europa Universalis#! e il suo funzionamento, ti consigliamo di selezionare uno dei #W $PLAYER_PROFILING_BT$#!.\n\nOppure, se sei già un leader mondiale esperto e desideri saltare il Tutorial, clicca l'opzione #W $PLAYER_PROFILING_START_NEW_GAME_BT$#!."
  PLAYER_PROFILING_PLAY: "Gioca"
- PLAYER_PROFILING_COUNTRY_DESC: "Country Focus"
+ PLAYER_PROFILING_COUNTRY_DESC: "Focus del Paese"
 
  PLAYER_PROFILING_BT: "Paesi Raccomandati"
  PLAYER_PROFILING_BT_2: "Gioca con un Paese Raccomandato"
@@ -56,7 +56,7 @@
  PLAYER_SKIP_PLAYTHROUGH: "Non iniziare il Walkthrough di Apprendimento all'avvio del gioco."
  PLAYER_RUN_PLAYTHROUGHT: "Inizia il Walkthrough di Apprendimento"
  PLAYER_RUN_PLAYTHROUGHT_MP: "Il Walkthrough di Apprendimento non è disponibile in multigiocatore."
- PLAYER_RUN_PLAYTHROUGHT_DESC: "Il Walkthrough dura pochi minuti e presenterà le meccaniche di base di #italic Europa Universalis V#!.\n\nIl Walkthrough può essere saltato in qualsiasi momento e può essere avviato qui in qualsiasi momento." #MOD OLD
+ PLAYER_RUN_PLAYTHROUGHT_DESC: "Il Walkthrough dura pochi minuti e presenterà le meccaniche di base di #italic Europa Universalis V#!.\n\nIl Walkthrough può essere saltato in qualsiasi momento e può essere avviato qui in qualsiasi momento." 
  PLAYER_STOP_PLAYTHROUGHT: "Esci"
  PLAYER_STOP_PLAYTHROUGHT_TITLE: "Esci dal Walkthrough"
  PLAYER_STOP_PLAYTHROUGHT_DESC: "Uscendo dal Walkthrough perderai i tuoi progressi attuali.\n\nNota: è possibile riavviare questo Walkthrough in qualsiasi momento dall'@agenda! #high Agenda#!."
@@ -74,7 +74,7 @@
  NAP_scenario_desc: "Nato dalle ambizioni di potenti dinastie che cercavano di dominare le terre dell'Italia meridionale, #W Napoli#! è ora governato da Re Roberto d'Angiò, un monarca saggio e giusto, noto per la sua sagacia e il suo acuto giudizio. La sua popolazione numerosa e in crescita fornisce una solida base per una rapida espansione interna, basata sulla ricchezza agricola, che potrebbe sostenere gli sforzi di Re Roberto per rendere Napoli l'egemone d'Italia."
  
  #Military
- TUR_scenario_desc: "Gli #W Ottomani#! stanno consolidando la loro posizione come uno dei più potenti #italic Beyliks#!, i signori della guerra turchi, in ascesa, desiderosi di conquistare territori vitali lungo la costa del Bosforo e gli altipiani anatolici. Ci sono state alcune recenti conquiste lungo il confine con Bisanzio, che rimane il principale nemico da sconfiggere per l'Occidente. Ottenere il dominio sui vicini #italic Beyliks#! aumenterebbe notevolmente le risorse necessarie per le vittorie future."
+ TUR_scenario_desc: "Gli #W Ottomani#! stanno consolidando la loro posizione come uno dei più potenti #italic Beilicati#!, i signori della guerra turchi, in ascesa, desiderosi di conquistare territori vitali lungo la costa del Bosforo e gli altipiani anatolici. Ci sono state alcune recenti conquiste lungo il confine con Bisanzio, che rimane il principale nemico da sconfiggere per l'Occidente. Ottenere il dominio sui #italic Beilicati#! vicini aumenterebbe notevolmente le risorse necessarie per le vittorie future."
  CAS_scenario_desc: "Re Alfonso XI, 'il Vendicatore', governa la #W Castiglia#! senza molta opposizione interna dopo aver stabilito il suo dominio sulla nobiltà del regno. Ora può rivolgere la sua attenzione a sud, dove l'Emirato di Granada sopravvive come l'ultima roccaforte islamica in Iberia. Il suo potente alleato, il Sultanato del Marocco, mantiene una posizione strategica nella penisola incentrata su Algeciras e Ronda, che gli consente di intervenire attraverso lo Stretto di Gibilterra."
  
  #Deprecated

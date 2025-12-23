@@ -1761,7 +1761,7 @@
  game_concept_rite_power_i: "@rite_power!"
  game_concept_rite_power_desc: "Questo è un valore della capacità di un [country|e] che è il [international_organization_leader_short|e] del suo [autocephalous_patriarchate|e] di modificare la sua [religion|e] attraverso la selezione di varie [laws|e]."
 
- game_concept_papal_bull: "Bolla Ppapale"
+ game_concept_papal_bull: "Bolla Papale"
  game_concept_papal_bulls: "Bolle Papali"
  game_concept_papal_bull_desc: "Una Bolla Papale è un editto internazionale, promulgato con i [gold|e], che riguarda tutti i [countries|e] di [religion|e] [ShowReligionAdjective('catholic')]. Mentre solo alcune Bolle Papali hanno [effects|e] e una [law|e] promulgata, tutte le Bolle Papali hanno [modifiers|e] per i Paesi che scalano la loro efficacia in base all'[papal_authority|e]."
  game_concept_papal_authority: "Autorità Papale"
